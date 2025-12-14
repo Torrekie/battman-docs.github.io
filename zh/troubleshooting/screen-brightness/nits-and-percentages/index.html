@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nit 与百分比 - Battman User Manual</title>
+    <link href="../../../../stylesheets/apple-theme.css" rel="stylesheet">
+    
+    <script>var base_url = "../../../..";</script>
+    
+  </head>
+  <body class="bm-body">
+    <header class="bm-header bm-squircle">
+      <div class="bm-header-left">
+        <div class="bm-logo">⚡</div>
+        <div class="bm-title-block">
+          <div class="bm-site-name">Battman 用户手册</div>
+          <div class="bm-page-title">Nit 与百分比</div>
+        </div>
+      </div>
+      <div class="bm-header-right">
+        <button id="bm-nav-toggle" class="bm-toggle bm-nav-toggle" type="button">菜单</button>
+        <button id="bm-theme-toggle" class="bm-toggle" type="button">主题</button>
+        <select id="bm-lang-select" class="bm-select" aria-label="语言">
+          <option value="en">English</option>
+          <option value="zh">简体中文</option>
+        </select>
+        
+        <form class="bm-search" action="../../../../search.html">
+          <input id="mkdocs-search-query" type="search" name="q" placeholder="搜索" />
+        </form>
+        
+      </div>
+    </header>
+
+    <div id="bm-nav-overlay" class="bm-nav-overlay"></div>
+
+    <main class="bm-main">
+      <aside class="bm-sidebar bm-squircle">
+        <nav class="bm-nav">
+          <ul class="bm-nav-list">
+              <li class="bm-nav-item">
+              
+                <a href="../../../" class="bm-nav-link">首页</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">安装</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../installation/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../installation/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">数据</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../metrics/battery-info/" class="bm-nav-link">电池信息</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../metrics/hardware-temperature/" class="bm-nav-link">硬件温度</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../metrics/brightness/" class="bm-nav-link">亮度</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">控制</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../controls/charging-managements/" class="bm-nav-link">充电管理</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../controls/charging-limits/" class="bm-nav-link">充电限制</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../controls/thermal-tunes/" class="bm-nav-link">温控调校</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item bm-nav-item--active">
+              
+                <div class="bm-nav-section">故障排除</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">电池信息</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../battery-info/warning-conditions/" class="bm-nav-link">警告条件</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../battery-info/flags/" class="bm-nav-link">标示位</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../battery-info/not-charging-reason/" class="bm-nav-link">未充电原因</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../battery-info/family-keys/" class="bm-nav-link">类型代码</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">温控</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../thermals/unknown-screen-temperature/" class="bm-nav-link">「未知」屏幕温度</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../thermals/thermal-notification-levels/" class="bm-nav-link">温控通知等级</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item bm-nav-item--active">
+              
+                <div class="bm-nav-section">屏幕与亮度</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item bm-nav-item--active">
+              
+                <a href="./" class="bm-nav-link bm-nav-link--active">Nit 与百分比</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../brightness-backends/" class="bm-nav-link">亮度后端</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">设置</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../preferences/preferred-languages/" class="bm-nav-link">首选语言</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../preferences/wiping-data/" class="bm-nav-link">清除数据</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <a href="../../../uninstallation/" class="bm-nav-link">卸载</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">参与贡献</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../contributing/locales/" class="bm-nav-link">本地化</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../contributing/codes/" class="bm-nav-link">代码</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">更新</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../updating/ios/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../updating/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+          </ul>
+        </nav>
+      </aside>
+
+      <article class="bm-content bm-squircle">
+        <h1 id="nits">尼特（nits）与百分比<a class="headerlink" href="#nits" title="Permanent link">&para;</a></h1>
+<p>Battman 会同时以<strong>百分比</strong>与尽可能接近的<strong>尼特（nits）</strong>显示屏幕亮度。</p>
+<h2 id="_1">两者为何不同<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<ul>
+<li>系统亮度滑块在物理亮度上并非线性，同一百分比在不同面板上对应的尼特值可能不同。</li>
+<li>实际亮度受机型、HDR 状态以及是否触发阳光增强模式等因素影响。</li>
+<li>自动亮度、夜览（Night Shift）、原彩显示（True Tone）等功能会改变实际观感亮度。</li>
+</ul>
+<h2 id="battman">在 Battman 中<a class="headerlink" href="#battman" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>亮度</strong>指标页展示当前百分比以及已知的硬件亮度限制信息。</li>
+</ul>
+      </article>
+
+      
+      <aside class="bm-toc bm-squircle">
+        <div class="bm-toc-title">本页内容</div>
+        <ul class="bm-toc-list">
+          
+          <li class="bm-toc-item">
+            <a href="#nits">尼特（nits）与百分比</a>
+            
+            <ul class="bm-toc-sublist">
+              
+              <li class="bm-toc-subitem"><a href="#_1">两者为何不同</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#battman">在 Battman 中</a></li>
+              
+            </ul>
+            
+          </li>
+          
+        </ul>
+      </aside>
+      
+    </main>
+
+    <footer class="bm-footer">
+      <div class="bm-footer-inner">
+        <span>© Battman 用户手册</span>
+      </div>
+    </footer>
+    <script src="../../../../javascripts/apple-theme.js"></script>
+    <script src="../../../../search/main.js"></script>
+  </body>
+</html>

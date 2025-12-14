@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wiping Data - Battman User Manual</title>
+    <link href="../../stylesheets/apple-theme.css" rel="stylesheet">
+    
+    <script>var base_url = "../..";</script>
+    
+  </head>
+  <body class="bm-body">
+    <header class="bm-header bm-squircle">
+      <div class="bm-header-left">
+        <div class="bm-logo">⚡</div>
+        <div class="bm-title-block">
+          <div class="bm-site-name">Battman User Manual</div>
+          <div class="bm-page-title">Wiping Data</div>
+        </div>
+      </div>
+      <div class="bm-header-right">
+        <button id="bm-nav-toggle" class="bm-toggle bm-nav-toggle" type="button">Menu</button>
+        <button id="bm-theme-toggle" class="bm-toggle" type="button">Theme</button>
+        <select id="bm-lang-select" class="bm-select" aria-label="Language">
+          <option value="en">English</option>
+          <option value="zh">简体中文</option>
+        </select>
+        
+        <form class="bm-search" action="../../search.html">
+          <input id="mkdocs-search-query" type="search" name="q" placeholder="Search" />
+        </form>
+        
+      </div>
+    </header>
+
+    <div id="bm-nav-overlay" class="bm-nav-overlay"></div>
+
+    <main class="bm-main">
+      <aside class="bm-sidebar bm-squircle">
+        <nav class="bm-nav">
+          <ul class="bm-nav-list">
+              <li class="bm-nav-item">
+              
+                <a href="../.." class="bm-nav-link">Home</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Installation</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../installation/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../installation/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Metrics</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../metrics/battery-info/" class="bm-nav-link">Battery Info</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../metrics/hardware-temperature/" class="bm-nav-link">Hardware Temperature</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../metrics/brightness/" class="bm-nav-link">Brightness</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Controls</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../controls/charging-managements/" class="bm-nav-link">Charging Managements</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../controls/charging-limits/" class="bm-nav-link">Charging Limits</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../controls/thermal-tunes/" class="bm-nav-link">Thermal Tunes</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Troubleshooting</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Battery Info</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/battery-info/warning-conditions/" class="bm-nav-link">Warning Conditions</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/battery-info/flags/" class="bm-nav-link">Flags</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/battery-info/not-charging-reason/" class="bm-nav-link">Not Charging Reason</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/battery-info/family-keys/" class="bm-nav-link">Family Codes</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Thermals</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/thermals/unknown-screen-temperature/" class="bm-nav-link">'Unknown' Screen Temperature</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/thermals/thermal-notification-levels/" class="bm-nav-link">Thermal Notification Levels</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Screen & Brightness</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/screen-brightness/nits-and-percentages/" class="bm-nav-link">Nits & Percentages</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/screen-brightness/brightness-backends/" class="bm-nav-link">Brightness Backends</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item bm-nav-item--active">
+              
+                <div class="bm-nav-section">Preferences</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../preferred-languages/" class="bm-nav-link">Preferred Languages</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item bm-nav-item--active">
+              
+                <a href="./" class="bm-nav-link bm-nav-link--active">Wiping Data</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <a href="../../uninstallation/" class="bm-nav-link">Uninstallation</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Contributing</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../contributing/locales/" class="bm-nav-link">Locales</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../contributing/codes/" class="bm-nav-link">Codes</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Updating</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../updating/ios/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../updating/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+          </ul>
+        </nav>
+      </aside>
+
+      <article class="bm-content bm-squircle">
+        <h1 id="wiping-data">Wiping Data<a class="headerlink" href="#wiping-data" title="Permanent link">&para;</a></h1>
+<p>This page explains how to clear Battman’s local data and settings.</p>
+<h2 id="what-data-means-here">What "data" means here<a class="headerlink" href="#what-data-means-here" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Battman’s own preferences (stored in the app container or system preferences).</li>
+<li>Cached logs or temporary files created by the app.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Important</p>
+<p>Battman would never reset systemwide configurations (Thermal Tunes, etc.) for stability concerns, please make your own backups when possible.</p>
+</div>
+<h2 id="steps-to-wipe-data">Steps to wipe data<a class="headerlink" href="#steps-to-wipe-data" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Open Battman</li>
+<li>Tap "More" tab.</li>
+<li>Tap "Preferences".</li>
+<li>Scroll to bottom, you will see <strong>Wipe all Battman data</strong>.</li>
+<li>Tap on it and confirm to wipe all Battman data.</li>
+</ol>
+<p>For uninstalling Battman, see <strong>Uninstallation</strong>.</p>
+      </article>
+
+      
+      <aside class="bm-toc bm-squircle">
+        <div class="bm-toc-title">On this page</div>
+        <ul class="bm-toc-list">
+          
+          <li class="bm-toc-item">
+            <a href="#wiping-data">Wiping Data</a>
+            
+            <ul class="bm-toc-sublist">
+              
+              <li class="bm-toc-subitem"><a href="#what-data-means-here">What "data" means here</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#steps-to-wipe-data">Steps to wipe data</a></li>
+              
+            </ul>
+            
+          </li>
+          
+        </ul>
+      </aside>
+      
+    </main>
+
+    <footer class="bm-footer">
+      <div class="bm-footer-inner">
+        <span>© Battman User Manual</span>
+      </div>
+    </footer>
+    <script src="../../javascripts/apple-theme.js"></script>
+    <script src="../../search/main.js"></script>
+  </body>
+</html>

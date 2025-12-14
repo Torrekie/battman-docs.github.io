@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>None./</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="None"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/"/>
+    </url>
+    <url>
+        <loc>Nonetheme-test/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetheme-test/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/theme-test/"/>
+    </url>
+    <url>
+        <loc>Noneuninstallation/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneuninstallation/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/uninstallation/"/>
+    </url>
+    <url>
+        <loc>Nonecontributing/codes/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonecontributing/codes/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/contributing/codes/"/>
+    </url>
+    <url>
+        <loc>Nonecontributing/locales/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonecontributing/locales/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/contributing/locales/"/>
+    </url>
+    <url>
+        <loc>Nonecontrols/charging-limits/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonecontrols/charging-limits/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/controls/charging-limits/"/>
+    </url>
+    <url>
+        <loc>Nonecontrols/charging-managements/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonecontrols/charging-managements/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/controls/charging-managements/"/>
+    </url>
+    <url>
+        <loc>Nonecontrols/thermal-tunes/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonecontrols/thermal-tunes/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/controls/thermal-tunes/"/>
+    </url>
+    <url>
+        <loc>Noneinstallation/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneinstallation/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/installation/"/>
+    </url>
+    <url>
+        <loc>Noneinstallation/macos/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneinstallation/macos/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/installation/macos/"/>
+    </url>
+    <url>
+        <loc>Nonemetrics/battery-info/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemetrics/battery-info/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/metrics/battery-info/"/>
+    </url>
+    <url>
+        <loc>Nonemetrics/brightness/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemetrics/brightness/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/metrics/brightness/"/>
+    </url>
+    <url>
+        <loc>Nonemetrics/hardware-temperature/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemetrics/hardware-temperature/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/metrics/hardware-temperature/"/>
+    </url>
+    <url>
+        <loc>Nonepreferences/preferred-languages/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonepreferences/preferred-languages/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/preferences/preferred-languages/"/>
+    </url>
+    <url>
+        <loc>Nonepreferences/wiping-data/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonepreferences/wiping-data/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/preferences/wiping-data/"/>
+    </url>
+    <url>
+        <loc>Nonetroubleshooting/battery-info/family-keys/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetroubleshooting/battery-info/family-keys/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/troubleshooting/battery-info/family-keys/"/>
+    </url>
+    <url>
+        <loc>Nonetroubleshooting/battery-info/flags/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetroubleshooting/battery-info/flags/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/troubleshooting/battery-info/flags/"/>
+    </url>
+    <url>
+        <loc>Nonetroubleshooting/battery-info/not-charging-reason/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetroubleshooting/battery-info/not-charging-reason/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/troubleshooting/battery-info/not-charging-reason/"/>
+    </url>
+    <url>
+        <loc>Nonetroubleshooting/battery-info/warning-conditions/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetroubleshooting/battery-info/warning-conditions/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/troubleshooting/battery-info/warning-conditions/"/>
+    </url>
+    <url>
+        <loc>Nonetroubleshooting/screen-brightness/brightness-backends/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetroubleshooting/screen-brightness/brightness-backends/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/troubleshooting/screen-brightness/brightness-backends/"/>
+    </url>
+    <url>
+        <loc>Nonetroubleshooting/screen-brightness/nits-and-percentages/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetroubleshooting/screen-brightness/nits-and-percentages/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/troubleshooting/screen-brightness/nits-and-percentages/"/>
+    </url>
+    <url>
+        <loc>Nonetroubleshooting/thermals/thermal-notification-levels/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetroubleshooting/thermals/thermal-notification-levels/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/troubleshooting/thermals/thermal-notification-levels/"/>
+    </url>
+    <url>
+        <loc>Nonetroubleshooting/thermals/unknown-screen-temperature/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetroubleshooting/thermals/unknown-screen-temperature/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/troubleshooting/thermals/unknown-screen-temperature/"/>
+    </url>
+    <url>
+        <loc>Noneupdating/ios/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneupdating/ios/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/updating/ios/"/>
+    </url>
+    <url>
+        <loc>Noneupdating/macos/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneupdating/macos/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/updating/macos/"/>
+    </url>
+    <url>
+        <loc>Nonezh/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None"/>
+    </url>
+    <url>
+        <loc>Nonezh/theme-test/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/theme-test/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetheme-test/"/>
+    </url>
+    <url>
+        <loc>Nonezh/uninstallation/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/uninstallation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneuninstallation/"/>
+    </url>
+    <url>
+        <loc>Nonezh/contributing/codes/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/contributing/codes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonecontributing/codes/"/>
+    </url>
+    <url>
+        <loc>Nonezh/contributing/locales/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/contributing/locales/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonecontributing/locales/"/>
+    </url>
+    <url>
+        <loc>Nonezh/controls/charging-limits/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/controls/charging-limits/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonecontrols/charging-limits/"/>
+    </url>
+    <url>
+        <loc>Nonezh/controls/charging-managements/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/controls/charging-managements/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonecontrols/charging-managements/"/>
+    </url>
+    <url>
+        <loc>Nonezh/controls/thermal-tunes/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/controls/thermal-tunes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonecontrols/thermal-tunes/"/>
+    </url>
+    <url>
+        <loc>Nonezh/installation/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/installation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneinstallation/"/>
+    </url>
+    <url>
+        <loc>Nonezh/installation/macos/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/installation/macos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneinstallation/macos/"/>
+    </url>
+    <url>
+        <loc>Nonezh/metrics/battery-info/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/metrics/battery-info/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemetrics/battery-info/"/>
+    </url>
+    <url>
+        <loc>Nonezh/metrics/brightness/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/metrics/brightness/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemetrics/brightness/"/>
+    </url>
+    <url>
+        <loc>Nonezh/metrics/hardware-temperature/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/metrics/hardware-temperature/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonemetrics/hardware-temperature/"/>
+    </url>
+    <url>
+        <loc>Nonezh/preferences/preferred-languages/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/preferences/preferred-languages/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonepreferences/preferred-languages/"/>
+    </url>
+    <url>
+        <loc>Nonezh/preferences/wiping-data/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/preferences/wiping-data/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonepreferences/wiping-data/"/>
+    </url>
+    <url>
+        <loc>Nonezh/troubleshooting/battery-info/family-keys/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/troubleshooting/battery-info/family-keys/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetroubleshooting/battery-info/family-keys/"/>
+    </url>
+    <url>
+        <loc>Nonezh/troubleshooting/battery-info/flags/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/troubleshooting/battery-info/flags/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetroubleshooting/battery-info/flags/"/>
+    </url>
+    <url>
+        <loc>Nonezh/troubleshooting/battery-info/not-charging-reason/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/troubleshooting/battery-info/not-charging-reason/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetroubleshooting/battery-info/not-charging-reason/"/>
+    </url>
+    <url>
+        <loc>Nonezh/troubleshooting/battery-info/warning-conditions/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/troubleshooting/battery-info/warning-conditions/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetroubleshooting/battery-info/warning-conditions/"/>
+    </url>
+    <url>
+        <loc>Nonezh/troubleshooting/screen-brightness/brightness-backends/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/troubleshooting/screen-brightness/brightness-backends/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetroubleshooting/screen-brightness/brightness-backends/"/>
+    </url>
+    <url>
+        <loc>Nonezh/troubleshooting/screen-brightness/nits-and-percentages/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/troubleshooting/screen-brightness/nits-and-percentages/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetroubleshooting/screen-brightness/nits-and-percentages/"/>
+    </url>
+    <url>
+        <loc>Nonezh/troubleshooting/thermals/thermal-notification-levels/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/troubleshooting/thermals/thermal-notification-levels/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetroubleshooting/thermals/thermal-notification-levels/"/>
+    </url>
+    <url>
+        <loc>Nonezh/troubleshooting/thermals/unknown-screen-temperature/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/troubleshooting/thermals/unknown-screen-temperature/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetroubleshooting/thermals/unknown-screen-temperature/"/>
+    </url>
+    <url>
+        <loc>Nonezh/updating/ios/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/updating/ios/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneupdating/ios/"/>
+    </url>
+    <url>
+        <loc>Nonezh/updating/macos/</loc>
+        <lastmod>2025-12-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/updating/macos/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneupdating/macos/"/>
+    </url>
+</urlset>

@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flags - Battman User Manual</title>
+    <link href="../../../stylesheets/apple-theme.css" rel="stylesheet">
+    
+    <script>var base_url = "../../..";</script>
+    
+  </head>
+  <body class="bm-body">
+    <header class="bm-header bm-squircle">
+      <div class="bm-header-left">
+        <div class="bm-logo">⚡</div>
+        <div class="bm-title-block">
+          <div class="bm-site-name">Battman User Manual</div>
+          <div class="bm-page-title">Flags</div>
+        </div>
+      </div>
+      <div class="bm-header-right">
+        <button id="bm-nav-toggle" class="bm-toggle bm-nav-toggle" type="button">Menu</button>
+        <button id="bm-theme-toggle" class="bm-toggle" type="button">Theme</button>
+        <select id="bm-lang-select" class="bm-select" aria-label="Language">
+          <option value="en">English</option>
+          <option value="zh">简体中文</option>
+        </select>
+        
+        <form class="bm-search" action="../../../search.html">
+          <input id="mkdocs-search-query" type="search" name="q" placeholder="Search" />
+        </form>
+        
+      </div>
+    </header>
+
+    <div id="bm-nav-overlay" class="bm-nav-overlay"></div>
+
+    <main class="bm-main">
+      <aside class="bm-sidebar bm-squircle">
+        <nav class="bm-nav">
+          <ul class="bm-nav-list">
+              <li class="bm-nav-item">
+              
+                <a href="../../.." class="bm-nav-link">Home</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Installation</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../installation/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../installation/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Metrics</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../metrics/battery-info/" class="bm-nav-link">Battery Info</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../metrics/hardware-temperature/" class="bm-nav-link">Hardware Temperature</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../metrics/brightness/" class="bm-nav-link">Brightness</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Controls</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../controls/charging-managements/" class="bm-nav-link">Charging Managements</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../controls/charging-limits/" class="bm-nav-link">Charging Limits</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../controls/thermal-tunes/" class="bm-nav-link">Thermal Tunes</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item bm-nav-item--active">
+              
+                <div class="bm-nav-section">Troubleshooting</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item bm-nav-item--active">
+              
+                <div class="bm-nav-section">Battery Info</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../warning-conditions/" class="bm-nav-link">Warning Conditions</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item bm-nav-item--active">
+              
+                <a href="./" class="bm-nav-link bm-nav-link--active">Flags</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../not-charging-reason/" class="bm-nav-link">Not Charging Reason</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../family-keys/" class="bm-nav-link">Family Codes</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Thermals</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../thermals/unknown-screen-temperature/" class="bm-nav-link">'Unknown' Screen Temperature</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../thermals/thermal-notification-levels/" class="bm-nav-link">Thermal Notification Levels</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Screen & Brightness</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../screen-brightness/nits-and-percentages/" class="bm-nav-link">Nits & Percentages</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../screen-brightness/brightness-backends/" class="bm-nav-link">Brightness Backends</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Preferences</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../preferences/preferred-languages/" class="bm-nav-link">Preferred Languages</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../preferences/wiping-data/" class="bm-nav-link">Wiping Data</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <a href="../../../uninstallation/" class="bm-nav-link">Uninstallation</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Contributing</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../contributing/locales/" class="bm-nav-link">Locales</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../contributing/codes/" class="bm-nav-link">Codes</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Updating</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../updating/ios/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../updating/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+          </ul>
+        </nav>
+      </aside>
+
+      <article class="bm-content bm-squircle">
+        <h1 id="flags">Flags<a class="headerlink" href="#flags" title="Permanent link">&para;</a></h1>
+<p>Battman shows the raw gas‑gauge flags reported by the battery fuel‑gauge IC. These bits come directly from Texas Instruments gauges (bq274xx, bq275xx, bq20zxx) and are rendered in the <strong>Flags</strong> row of the Battery Info table as two bytes (High and Low).</p>
+<h2 id="what-you-see-in-the-app">What you see in the app<a class="headerlink" href="#what-you-see-in-the-app" title="Permanent link">&para;</a></h2>
+<ul>
+<li>A hex value (e.g., <code>0x00CC</code>) shows the combined 16-bit flag word.</li>
+<li>Two segmented rows display the bits: the top row is the high byte, the bottom row is the low byte.</li>
+<li>A filled/bright segment means the bit is set; dim means clear.</li>
+</ul>
+<h2 id="how-battman-maps-flags">How Battman maps flags<a class="headerlink" href="#how-battman-maps-flags" title="Permanent link">&para;</a></h2>
+<ul>
+<li>If the gauge model is known (from device name or board target), Battman loads the matching TI flag layout; otherwise it guesses a close layout.</li>
+<li>Bits are presented in two rows. Selected segments indicate set bits.</li>
+<li>Meanings follow the TI datasheets; key fields are summarized below.</li>
+</ul>
+<h2 id="common-ti-flag-meanings">Common TI flag meanings<a class="headerlink" href="#common-ti-flag-meanings" title="Permanent link">&para;</a></h2>
+<p><strong>bq2742x (incl. bq27421/25/26/27)</strong></p>
+<p>High byte (left→right as shown in the UI)</p>
+<table>
+<thead>
+<tr>
+<th>Bit</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OT</td>
+<td>Over-temperature</td>
+</tr>
+<tr>
+<td>UT</td>
+<td>Under-temperature</td>
+</tr>
+<tr>
+<td>EEFAIL</td>
+<td>EEPROM write failure (27425 only)</td>
+</tr>
+<tr>
+<td>FC</td>
+<td>Full charge detected</td>
+</tr>
+<tr>
+<td>CHG</td>
+<td>Charge allowed</td>
+</tr>
+</tbody>
+</table>
+<p>Low byte (left→right)</p>
+<table>
+<thead>
+<tr>
+<th>Bit</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OCVTAKEN</td>
+<td>Open-circuit voltage sample taken</td>
+</tr>
+<tr>
+<td>DODC</td>
+<td>Depth-of-discharge correction active (421/426/427)</td>
+</tr>
+<tr>
+<td>ITPOR</td>
+<td>Power-on reset occurred</td>
+</tr>
+<tr>
+<td>CFGUPMODE</td>
+<td>In configuration update mode</td>
+</tr>
+<tr>
+<td>BAT_DET</td>
+<td>Battery detected</td>
+</tr>
+<tr>
+<td>SOC1</td>
+<td>Low state-of-charge threshold reached</td>
+</tr>
+<tr>
+<td>SOCF</td>
+<td>Critical state-of-charge threshold reached</td>
+</tr>
+<tr>
+<td>DSG</td>
+<td>Discharging</td>
+</tr>
+</tbody>
+</table>
+<p><strong>bq2754x / generic bq275</strong></p>
+<p>High byte (left→right)</p>
+<table>
+<thead>
+<tr>
+<th>Bit</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OTC</td>
+<td>Over-temp while charging (27545)</td>
+</tr>
+<tr>
+<td>OTD</td>
+<td>Over-temp while discharging (27545)</td>
+</tr>
+<tr>
+<td>BATHI</td>
+<td>High battery voltage</td>
+</tr>
+<tr>
+<td>BATLOW</td>
+<td>Low battery voltage</td>
+</tr>
+<tr>
+<td>CHG_INH</td>
+<td>Charging inhibited by temperature</td>
+</tr>
+<tr>
+<td>FC</td>
+<td>Full charge detected</td>
+</tr>
+<tr>
+<td>CHG</td>
+<td>Charge allowed (27545)</td>
+</tr>
+</tbody>
+</table>
+<p>Low byte — generic bq275 (left→right)</p>
+<table>
+<thead>
+<tr>
+<th>Bit</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CHG_SUS</td>
+<td>Charge suspended</td>
+</tr>
+<tr>
+<td>IMAX</td>
+<td>Imax change interrupt</td>
+</tr>
+<tr>
+<td>CHG</td>
+<td>Charge allowed</td>
+</tr>
+<tr>
+<td>SOC1</td>
+<td>Low state-of-charge threshold reached</td>
+</tr>
+<tr>
+<td>SOCF</td>
+<td>Critical state-of-charge threshold reached</td>
+</tr>
+<tr>
+<td>DSG</td>
+<td>Discharging</td>
+</tr>
+</tbody>
+</table>
+<p>Low byte — bq27545 variant (left→right)</p>
+<table>
+<thead>
+<tr>
+<th>Bit</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OCVTAKEN</td>
+<td>Relaxed OCV sample taken</td>
+</tr>
+<tr>
+<td>ISD</td>
+<td>Internal short detected</td>
+</tr>
+<tr>
+<td>TDD</td>
+<td>Tab disconnect detected</td>
+</tr>
+<tr>
+<td>HW1 / HW0</td>
+<td>Device ID bits</td>
+</tr>
+<tr>
+<td>SOC1</td>
+<td>Low state-of-charge threshold reached</td>
+</tr>
+<tr>
+<td>SOCF</td>
+<td>Critical state-of-charge threshold reached</td>
+</tr>
+<tr>
+<td>DSG</td>
+<td>Discharging</td>
+</tr>
+</tbody>
+</table>
+<p><strong>bq20zxx (MacBook battery status)</strong></p>
+<p>High byte (left→right)</p>
+<table>
+<thead>
+<tr>
+<th>Bit</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OCA</td>
+<td>Over-charged alarm</td>
+</tr>
+<tr>
+<td>TCA</td>
+<td>Terminate charge alarm</td>
+</tr>
+<tr>
+<td>OTA</td>
+<td>Over-temperature alarm</td>
+</tr>
+<tr>
+<td>TDA</td>
+<td>Terminate discharge alarm</td>
+</tr>
+<tr>
+<td>RCA</td>
+<td>Remaining capacity alarm</td>
+</tr>
+<tr>
+<td>RTA</td>
+<td>Remaining time alarm</td>
+</tr>
+</tbody>
+</table>
+<p>Low byte (left→right)</p>
+<table>
+<thead>
+<tr>
+<th>Bit</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>INIT</td>
+<td>Gauge initialization</td>
+</tr>
+<tr>
+<td>DSG</td>
+<td>Discharging</td>
+</tr>
+<tr>
+<td>FC</td>
+<td>Fully charged</td>
+</tr>
+<tr>
+<td>FD</td>
+<td>Fully discharged</td>
+</tr>
+<tr>
+<td>EC3</td>
+<td>SBS error code bit 3</td>
+</tr>
+<tr>
+<td>EC2</td>
+<td>SBS error code bit 2</td>
+</tr>
+<tr>
+<td>EC1</td>
+<td>SBS error code bit 1</td>
+</tr>
+<tr>
+<td>EC0</td>
+<td>SBS error code bit 0</td>
+</tr>
+</tbody>
+</table>
+<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Flag layouts mirror TI documentation; consult the specific datasheet for thresholds and timing.</li>
+<li>Battman displays flags read-only. Interpretation depends on charger state and the OEM thresholds. If flags consistently look wrong, the pack or gauge may be misreporting.</li>
+</ul>
+      </article>
+
+      
+      <aside class="bm-toc bm-squircle">
+        <div class="bm-toc-title">On this page</div>
+        <ul class="bm-toc-list">
+          
+          <li class="bm-toc-item">
+            <a href="#flags">Flags</a>
+            
+            <ul class="bm-toc-sublist">
+              
+              <li class="bm-toc-subitem"><a href="#what-you-see-in-the-app">What you see in the app</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#how-battman-maps-flags">How Battman maps flags</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#common-ti-flag-meanings">Common TI flag meanings</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#notes">Notes</a></li>
+              
+            </ul>
+            
+          </li>
+          
+        </ul>
+      </aside>
+      
+    </main>
+
+    <footer class="bm-footer">
+      <div class="bm-footer-inner">
+        <span>© Battman User Manual</span>
+      </div>
+    </footer>
+    <script src="../../../javascripts/apple-theme.js"></script>
+    <script src="../../../search/main.js"></script>
+  </body>
+</html>

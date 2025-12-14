@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Not Charging Reason - Battman User Manual</title>
+    <link href="../../../stylesheets/apple-theme.css" rel="stylesheet">
+    
+    <script>var base_url = "../../..";</script>
+    
+  </head>
+  <body class="bm-body">
+    <header class="bm-header bm-squircle">
+      <div class="bm-header-left">
+        <div class="bm-logo">⚡</div>
+        <div class="bm-title-block">
+          <div class="bm-site-name">Battman User Manual</div>
+          <div class="bm-page-title">Not Charging Reason</div>
+        </div>
+      </div>
+      <div class="bm-header-right">
+        <button id="bm-nav-toggle" class="bm-toggle bm-nav-toggle" type="button">Menu</button>
+        <button id="bm-theme-toggle" class="bm-toggle" type="button">Theme</button>
+        <select id="bm-lang-select" class="bm-select" aria-label="Language">
+          <option value="en">English</option>
+          <option value="zh">简体中文</option>
+        </select>
+        
+        <form class="bm-search" action="../../../search.html">
+          <input id="mkdocs-search-query" type="search" name="q" placeholder="Search" />
+        </form>
+        
+      </div>
+    </header>
+
+    <div id="bm-nav-overlay" class="bm-nav-overlay"></div>
+
+    <main class="bm-main">
+      <aside class="bm-sidebar bm-squircle">
+        <nav class="bm-nav">
+          <ul class="bm-nav-list">
+              <li class="bm-nav-item">
+              
+                <a href="../../.." class="bm-nav-link">Home</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Installation</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../installation/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../installation/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Metrics</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../metrics/battery-info/" class="bm-nav-link">Battery Info</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../metrics/hardware-temperature/" class="bm-nav-link">Hardware Temperature</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../metrics/brightness/" class="bm-nav-link">Brightness</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Controls</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../controls/charging-managements/" class="bm-nav-link">Charging Managements</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../controls/charging-limits/" class="bm-nav-link">Charging Limits</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../controls/thermal-tunes/" class="bm-nav-link">Thermal Tunes</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item bm-nav-item--active">
+              
+                <div class="bm-nav-section">Troubleshooting</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item bm-nav-item--active">
+              
+                <div class="bm-nav-section">Battery Info</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../warning-conditions/" class="bm-nav-link">Warning Conditions</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../flags/" class="bm-nav-link">Flags</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item bm-nav-item--active">
+              
+                <a href="./" class="bm-nav-link bm-nav-link--active">Not Charging Reason</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../family-keys/" class="bm-nav-link">Family Codes</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Thermals</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../thermals/unknown-screen-temperature/" class="bm-nav-link">'Unknown' Screen Temperature</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../thermals/thermal-notification-levels/" class="bm-nav-link">Thermal Notification Levels</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Screen & Brightness</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../screen-brightness/nits-and-percentages/" class="bm-nav-link">Nits & Percentages</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../screen-brightness/brightness-backends/" class="bm-nav-link">Brightness Backends</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Preferences</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../preferences/preferred-languages/" class="bm-nav-link">Preferred Languages</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../preferences/wiping-data/" class="bm-nav-link">Wiping Data</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <a href="../../../uninstallation/" class="bm-nav-link">Uninstallation</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Contributing</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../contributing/locales/" class="bm-nav-link">Locales</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../contributing/codes/" class="bm-nav-link">Codes</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Updating</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../updating/ios/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../updating/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+          </ul>
+        </nav>
+      </aside>
+
+      <article class="bm-content bm-squircle">
+        <h1 id="not-charging-reason">Not Charging Reason<a class="headerlink" href="#not-charging-reason" title="Permanent link">&para;</a></h1>
+<p>The "Not Charging Reason" is a diagnostic value that explains why your device is not charging when a charger is connected. This information is read from the Apple SMC (System Management Controller) and helps identify the root cause of charging issues.</p>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<p>The Not Charging Reason is stored in the SMC key <code>CHNC</code> (Charger Not Charging) and can have different formats depending on your device's generation:</p>
+<ul>
+<li><strong>Version 0 (NonSMC)</strong>: Legacy devices without SMC support</li>
+<li><strong>Version 1 (Gibraltar/BNCR)</strong>: Enum-based format used on specific Intel Mac models</li>
+<li><strong>Version 2 (SMC/CHNC)</strong>: Bitmask-based format used on Apple Silicon and most modern devices</li>
+</ul>
+<p>The version is determined by reading the <code>RGEN</code> (Reason Generation) SMC key.</p>
+<h2 id="version-2-smcchnc-modern-devices">Version 2 (SMC/CHNC) - Modern Devices<a class="headerlink" href="#version-2-smcchnc-modern-devices" title="Permanent link">&para;</a></h2>
+<p>Version 2 uses a bitmask format where multiple reasons can be active simultaneously. This is the format used on Apple Silicon Macs and most modern devices as of 2025.</p>
+<h3 id="common-reasons">Common Reasons<a class="headerlink" href="#common-reasons" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Reason</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Fully Charged</strong></td>
+<td>Battery has reached 100% charge capacity</td>
+</tr>
+<tr>
+<td><strong>Too Cold</strong></td>
+<td>Battery temperature is below the minimum threshold to stop charging</td>
+</tr>
+<tr>
+<td><strong>Too Hot</strong></td>
+<td>Battery temperature is above the maximum threshold to stop charging</td>
+</tr>
+<tr>
+<td><strong>Too Cold To Start</strong></td>
+<td>Battery temperature is too low to begin charging</td>
+</tr>
+<tr>
+<td><strong>Too Hot To Start</strong></td>
+<td>Battery temperature is too high to begin charging</td>
+</tr>
+</tbody>
+</table>
+<h3 id="presence-issues">Presence Issues<a class="headerlink" href="#presence-issues" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Reason</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Charger Watchdog Timeout</strong></td>
+<td>Charging has been active for over 15 hours, or charge timeout flag is set</td>
+</tr>
+<tr>
+<td><strong>Battery Not Present</strong></td>
+<td>System cannot detect the battery</td>
+</tr>
+<tr>
+<td><strong>VBUS Not Present</strong></td>
+<td>No power detected on the USB power bus</td>
+</tr>
+</tbody>
+</table>
+<h3 id="charging-inhibit-conditions">Charging Inhibit Conditions<a class="headerlink" href="#charging-inhibit-conditions" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Reason</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>High SoC High Temp Stopped</strong></td>
+<td>Charging stopped due to high state of charge combined with high temperature</td>
+</tr>
+<tr>
+<td><strong>Sensor Communication Failed</strong></td>
+<td>Communication with battery management sensors has failed</td>
+</tr>
+</tbody>
+</table>
+<h3 id="system-modes">System Modes<a class="headerlink" href="#system-modes" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Reason</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Accessory Connecting</strong></td>
+<td>IOAccessoryManager is managing an accessory connection</td>
+</tr>
+<tr>
+<td><strong>Kiosk Mode</strong></td>
+<td>Device is in kiosk mode, which may inhibit charging</td>
+</tr>
+<tr>
+<td><strong>CoreMotion</strong></td>
+<td>CoreMotion framework is controlling charging behavior</td>
+</tr>
+<tr>
+<td><strong>USB-PD Connecting</strong></td>
+<td>USB Power Delivery negotiation in progress</td>
+</tr>
+</tbody>
+</table>
+<h3 id="charging-control">Charging Control<a class="headerlink" href="#charging-control" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Reason</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>setbatt Controlled</strong></td>
+<td>Charging is being controlled by the <code>setbatt</code> tool or similar system utility</td>
+</tr>
+<tr>
+<td><strong>Predictive Charging</strong></td>
+<td>System is using predictive charging to optimize battery health</td>
+</tr>
+<tr>
+<td><strong>Wireless Charger Controlled</strong></td>
+<td>Wireless/inductive charger is managing the charging process</td>
+</tr>
+<tr>
+<td><strong>Gas Gauge FW Updating</strong></td>
+<td>Battery gas gauge firmware is being updated (common with MagSafe chargers)</td>
+</tr>
+<tr>
+<td><strong>Battery Inhibit Inflow Unsupported</strong></td>
+<td>Battery hardware doesn't support software-controlled charge inhibition</td>
+</tr>
+<tr>
+<td><strong>PCTM</strong></td>
+<td>Power Control Thermal Management is active</td>
+</tr>
+<tr>
+<td><strong>Inhibit Client Adapter</strong></td>
+<td>Client adapter charging is inhibited</td>
+</tr>
+<tr>
+<td><strong>Cell Voltage Too High</strong></td>
+<td>One or more battery cells have exceeded safe voltage limits</td>
+</tr>
+<tr>
+<td><strong>Battery Not Requesting Charge</strong></td>
+<td>Battery management system is not requesting charge</td>
+</tr>
+<tr>
+<td><strong>Camera Streaming</strong></td>
+<td>Continuity Camera or webcam streaming is active (macOS 13 / iOS 16+)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="system-controls">System Controls<a class="headerlink" href="#system-controls" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Reason</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>VACTFB</strong></td>
+<td>Voltage/current feedback system is controlling charging</td>
+</tr>
+<tr>
+<td><strong>Field Diagnostics</strong></td>
+<td>Device is in field diagnostics mode</td>
+</tr>
+<tr>
+<td><strong>Inhibit Inflow</strong></td>
+<td>System has explicitly inhibited charge inflow</td>
+</tr>
+<tr>
+<td><strong>Carrier Mode Testing</strong></td>
+<td>Device is in carrier testing mode</td>
+</tr>
+</tbody>
+</table>
+<h3 id="permanent-faults">Permanent Faults<a class="headerlink" href="#permanent-faults" title="Permanent link">&para;</a></h3>
+<p>These indicate serious hardware or firmware issues that may require service:</p>
+<table>
+<thead>
+<tr>
+<th>Reason</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Charged Too Long</strong></td>
+<td>Battery has been charging for an excessive duration</td>
+</tr>
+<tr>
+<td><strong>Vbatt Fault</strong></td>
+<td>Battery voltage fault detected</td>
+</tr>
+<tr>
+<td><strong>Ibatt MinFault</strong></td>
+<td>Battery current minimum fault detected</td>
+</tr>
+<tr>
+<td><strong>Charger Communication Failure</strong></td>
+<td>Communication with the charger has failed</td>
+</tr>
+<tr>
+<td><strong>Cell Check Fault</strong></td>
+<td>Battery cell integrity check failed</td>
+</tr>
+</tbody>
+</table>
+<p>When any permanent fault is detected, the system may display "Permanent Battery Failure" as the primary reason.</p>
+<h2 id="version-1-gibraltarbncr-intel-mac-models">Version 1 (Gibraltar/BNCR) - Intel Mac Models<a class="headerlink" href="#version-1-gibraltarbncr-intel-mac-models" title="Permanent link">&para;</a></h2>
+<p>Version 1 uses an enum-based format where only one reason is active at a time. This format is used on specific Intel Mac models:</p>
+<ul>
+<li>J132, J137, J140, J152, J213, J214, J215, J680, J780</li>
+</ul>
+<h3 id="common-reasons_1">Common Reasons<a class="headerlink" href="#common-reasons_1" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+<th>Reason</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>NO_REASON</code></td>
+<td>No Reason</td>
+<td>Device is charging normally</td>
+</tr>
+<tr>
+<td><code>NO_AC</code></td>
+<td>No AC Power</td>
+<td>No AC adapter detected</td>
+</tr>
+<tr>
+<td><code>NO_BATTERY</code></td>
+<td>No Battery</td>
+<td>Battery not detected</td>
+</tr>
+<tr>
+<td><code>BAD_BATTERY</code></td>
+<td>Bad Battery</td>
+<td>Battery health check failed</td>
+</tr>
+<tr>
+<td><code>BATTERY_FC</code></td>
+<td>Fully Charged</td>
+<td>Battery is at full capacity</td>
+</tr>
+<tr>
+<td><code>BATTERY_NO_CHG_REQ</code></td>
+<td>Battery Not Requesting Charge</td>
+<td>Battery management system not requesting charge</td>
+</tr>
+<tr>
+<td><code>AC_INSERT</code></td>
+<td>Using AC Power</td>
+<td>Device is running on AC power only</td>
+</tr>
+<tr>
+<td><code>G3</code></td>
+<td>G3 Mechanical Off</td>
+<td>Device is in G3 power state</td>
+</tr>
+<tr>
+<td><code>ADAPTER_DISABLED</code></td>
+<td>Adapter Disabled</td>
+<td>Charger adapter is disabled</td>
+</tr>
+<tr>
+<td><code>ADAPTER_UNKNOWN</code></td>
+<td>Unknown Adapter</td>
+<td>Charger adapter is not recognized</td>
+</tr>
+<tr>
+<td><code>ADAPTER_NOT_ALLOW_CHARGING</code></td>
+<td>Adapter Not Allowed</td>
+<td>Charger adapter is not authorized for charging</td>
+</tr>
+<tr>
+<td><code>CALIBRATION</code></td>
+<td>Calibration</td>
+<td>Battery is being calibrated</td>
+</tr>
+<tr>
+<td><code>B0LI_0</code></td>
+<td>Charging Disabled</td>
+<td>Charging has been disabled</td>
+</tr>
+<tr>
+<td><code>OS_NO_CHG</code></td>
+<td>OS Charging Disabled</td>
+<td>Operating system has disabled charging</td>
+</tr>
+<tr>
+<td><code>BCLM_REACHED</code></td>
+<td>Charging Limit Reached</td>
+<td>Battery charge limit has been reached</td>
+</tr>
+<tr>
+<td><code>UPSTREAM_NO_CHG</code></td>
+<td>Upstream Charging Disabled</td>
+<td>Upstream charging control disabled</td>
+</tr>
+<tr>
+<td><code>PM_NO_CHG</code></td>
+<td>PowerManagement Charging Disabled</td>
+<td>Power management has disabled charging</td>
+</tr>
+<tr>
+<td><code>TB0T_OVER_50</code></td>
+<td>Battery Temperature over 50℃</td>
+<td>Battery temperature exceeds 50°C</td>
+</tr>
+<tr>
+<td><code>TB0T_OVER_45</code></td>
+<td>Battery Temperature over 45℃</td>
+<td>Battery temperature exceeds 45°C</td>
+</tr>
+<tr>
+<td><code>TEMP_GRADIENT_TOO_HIGH</code></td>
+<td>Temperature Gradient Too High</td>
+<td>Battery temperature is changing too rapidly</td>
+</tr>
+<tr>
+<td><code>TEMP_NOT_ATV_VLD</code></td>
+<td>Temperature Not Valid</td>
+<td>Battery temperature reading is invalid</td>
+</tr>
+<tr>
+<td><code>BATTERY_TCA</code></td>
+<td>Battery TCA</td>
+<td>Battery thermal control active</td>
+</tr>
+<tr>
+<td><code>OW_TDM_LINK_ACTIVE</code></td>
+<td>One-Wire TDM Link Active</td>
+<td>One-wire communication active</td>
+</tr>
+<tr>
+<td><code>CELL_VOLTAGE_TOO_HIGH</code></td>
+<td>Cell Voltage Too High</td>
+<td>Battery cell voltage exceeds safe limits</td>
+</tr>
+<tr>
+<td><code>OBC_NO_CHG</code></td>
+<td>Predictive Charging</td>
+<td>Optimized Battery Charging is active</td>
+</tr>
+<tr>
+<td><code>VACTFB_NO_CHG</code></td>
+<td>VACTFB No Charge</td>
+<td>Voltage/current feedback preventing charge</td>
+</tr>
+<tr>
+<td><code>OBC_NO_INFLOW</code></td>
+<td>Predictive Charging (Inflow)</td>
+<td>Optimized Battery Charging preventing charge inflow</td>
+</tr>
+</tbody>
+</table>
+<h2 id="version-0-nonsmc-legacy-devices">Version 0 (NonSMC) - Legacy Devices<a class="headerlink" href="#version-0-nonsmc-legacy-devices" title="Permanent link">&para;</a></h2>
+<p>Version 0 is used on very old devices that don't have SMC support. Known devices include:</p>
+<ul>
+<li>D10, D11</li>
+<li>J71, J72, J73, J81, J82, J85, J86, J87, J96, J97, J98, J99, J120, J121, J127, J128, J171, J172, J207, J208</li>
+<li>N27, N28, N61, N66, N69, N71, N74, N75, N111, N121</li>
+</ul>
+<h3 id="nonsmc-specific-reasons">NonSMC Specific Reasons<a class="headerlink" href="#nonsmc-specific-reasons" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Reason</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>POSM Mode</strong></td>
+<td>Power On Self Test mode</td>
+</tr>
+<tr>
+<td><strong>Display</strong></td>
+<td>Display-related charging control</td>
+</tr>
+<tr>
+<td><strong>Too Cold</strong></td>
+<td>Battery temperature too low</td>
+</tr>
+<tr>
+<td><strong>Too Hot</strong></td>
+<td>Battery temperature too high</td>
+</tr>
+<tr>
+<td><strong>Done</strong></td>
+<td>Charging complete</td>
+</tr>
+<tr>
+<td><strong>Too Long</strong></td>
+<td>Charging duration exceeded</td>
+</tr>
+<tr>
+<td><strong>CHG_WD</strong></td>
+<td>Charger watchdog timeout</td>
+</tr>
+</tbody>
+</table>
+<h2 id="interpreting-the-value">Interpreting the Value<a class="headerlink" href="#interpreting-the-value" title="Permanent link">&para;</a></h2>
+<p>The Not Charging Reason is typically displayed as a hexadecimal value (e.g., <code>0x00000001</code>). In Version 2 (bitmask format), multiple bits can be set simultaneously, indicating multiple reasons.</p>
+<h3 id="example-interpretations">Example Interpretations<a class="headerlink" href="#example-interpretations" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>0x00000001</code> - Fully Charged</li>
+<li><code>0x00000002</code> - Too Cold</li>
+<li><code>0x00000004</code> - Too Hot</li>
+<li><code>0x00000003</code> - Fully Charged AND Too Cold (both bits set)</li>
+</ul>
+<h2 id="troubleshooting-tips">Troubleshooting Tips<a class="headerlink" href="#troubleshooting-tips" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p><strong>Temperature Issues</strong>: If you see "Too Cold" or "Too Hot" reasons, allow the device to reach a normal operating temperature (typically 0-35°C).</p>
+</li>
+<li>
+<p><strong>Predictive Charging</strong>: If "Predictive Charging" is shown, this is normal behavior. The system is learning your usage patterns to optimize battery health.</p>
+</li>
+<li>
+<p><strong>Firmware Updates</strong>: "Gas Gauge FW Updating" is temporary and should resolve once the update completes.</p>
+</li>
+<li>
+<p><strong>Permanent Faults</strong>: If you see any permanent fault reasons, the battery or charging system may need service.</p>
+</li>
+<li>
+<p><strong>Multiple Reasons</strong>: In Version 2, multiple reasons can be active. Check all listed reasons to understand the complete charging state.</p>
+</li>
+</ol>
+<h2 id="technical-notes">Technical Notes<a class="headerlink" href="#technical-notes" title="Permanent link">&para;</a></h2>
+<ul>
+<li>The Not Charging Reason is read from SMC key <code>CHNC</code> (8 bytes on most devices, 64 bytes on mobile devices)</li>
+<li>The generation/version is determined by SMC key <code>RGEN</code></li>
+</ul>
+      </article>
+
+      
+      <aside class="bm-toc bm-squircle">
+        <div class="bm-toc-title">On this page</div>
+        <ul class="bm-toc-list">
+          
+          <li class="bm-toc-item">
+            <a href="#not-charging-reason">Not Charging Reason</a>
+            
+            <ul class="bm-toc-sublist">
+              
+              <li class="bm-toc-subitem"><a href="#overview">Overview</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#version-2-smcchnc-modern-devices">Version 2 (SMC/CHNC) - Modern Devices</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#version-1-gibraltarbncr-intel-mac-models">Version 1 (Gibraltar/BNCR) - Intel Mac Models</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#version-0-nonsmc-legacy-devices">Version 0 (NonSMC) - Legacy Devices</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#interpreting-the-value">Interpreting the Value</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#troubleshooting-tips">Troubleshooting Tips</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#technical-notes">Technical Notes</a></li>
+              
+            </ul>
+            
+          </li>
+          
+        </ul>
+      </aside>
+      
+    </main>
+
+    <footer class="bm-footer">
+      <div class="bm-footer-inner">
+        <span>© Battman User Manual</span>
+      </div>
+    </footer>
+    <script src="../../../javascripts/apple-theme.js"></script>
+    <script src="../../../search/main.js"></script>
+  </body>
+</html>

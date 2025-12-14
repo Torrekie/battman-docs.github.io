@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Family Codes - Battman User Manual</title>
+    <link href="../../../stylesheets/apple-theme.css" rel="stylesheet">
+    
+    <script>var base_url = "../../..";</script>
+    
+  </head>
+  <body class="bm-body">
+    <header class="bm-header bm-squircle">
+      <div class="bm-header-left">
+        <div class="bm-logo">⚡</div>
+        <div class="bm-title-block">
+          <div class="bm-site-name">Battman User Manual</div>
+          <div class="bm-page-title">Family Codes</div>
+        </div>
+      </div>
+      <div class="bm-header-right">
+        <button id="bm-nav-toggle" class="bm-toggle bm-nav-toggle" type="button">Menu</button>
+        <button id="bm-theme-toggle" class="bm-toggle" type="button">Theme</button>
+        <select id="bm-lang-select" class="bm-select" aria-label="Language">
+          <option value="en">English</option>
+          <option value="zh">简体中文</option>
+        </select>
+        
+        <form class="bm-search" action="../../../search.html">
+          <input id="mkdocs-search-query" type="search" name="q" placeholder="Search" />
+        </form>
+        
+      </div>
+    </header>
+
+    <div id="bm-nav-overlay" class="bm-nav-overlay"></div>
+
+    <main class="bm-main">
+      <aside class="bm-sidebar bm-squircle">
+        <nav class="bm-nav">
+          <ul class="bm-nav-list">
+              <li class="bm-nav-item">
+              
+                <a href="../../.." class="bm-nav-link">Home</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Installation</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../installation/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../installation/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Metrics</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../metrics/battery-info/" class="bm-nav-link">Battery Info</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../metrics/hardware-temperature/" class="bm-nav-link">Hardware Temperature</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../metrics/brightness/" class="bm-nav-link">Brightness</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Controls</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../controls/charging-managements/" class="bm-nav-link">Charging Managements</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../controls/charging-limits/" class="bm-nav-link">Charging Limits</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../controls/thermal-tunes/" class="bm-nav-link">Thermal Tunes</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item bm-nav-item--active">
+              
+                <div class="bm-nav-section">Troubleshooting</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item bm-nav-item--active">
+              
+                <div class="bm-nav-section">Battery Info</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../warning-conditions/" class="bm-nav-link">Warning Conditions</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../flags/" class="bm-nav-link">Flags</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../not-charging-reason/" class="bm-nav-link">Not Charging Reason</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item bm-nav-item--active">
+              
+                <a href="./" class="bm-nav-link bm-nav-link--active">Family Codes</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Thermals</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../thermals/unknown-screen-temperature/" class="bm-nav-link">'Unknown' Screen Temperature</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../thermals/thermal-notification-levels/" class="bm-nav-link">Thermal Notification Levels</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Screen & Brightness</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../screen-brightness/nits-and-percentages/" class="bm-nav-link">Nits & Percentages</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../screen-brightness/brightness-backends/" class="bm-nav-link">Brightness Backends</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Preferences</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../preferences/preferred-languages/" class="bm-nav-link">Preferred Languages</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../preferences/wiping-data/" class="bm-nav-link">Wiping Data</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <a href="../../../uninstallation/" class="bm-nav-link">Uninstallation</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Contributing</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../contributing/locales/" class="bm-nav-link">Locales</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../contributing/codes/" class="bm-nav-link">Codes</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Updating</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../updating/ios/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../updating/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+          </ul>
+        </nav>
+      </aside>
+
+      <article class="bm-content bm-squircle">
+        <h1 id="family-codes">Family Codes<a class="headerlink" href="#family-codes" title="Permanent link">&para;</a></h1>
+<p>Family codes identify the type of power adapter or charging source connected to your device. They help identify the charging interface and capabilities of the connected adapter.</p>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<p>Family codes are used by the system to:
+- Determine charging capabilities and power limits
+- Identify the type of connection (USB, AC, wireless, etc.)
+- Apply appropriate charging protocols and safety limits
+- Display adapter information in system diagnostics</p>
+<h2 id="code-values">Code Values<a class="headerlink" href="#code-values" title="Permanent link">&para;</a></h2>
+<h3 id="no-connection-unsupported">No Connection / Unsupported<a class="headerlink" href="#no-connection-unsupported" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Hex Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kIOPSFamilyCodeDisconnected</code></td>
+<td><code>0x00000000</code></td>
+<td>No adapter connected or detected</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeUnsupported</code></td>
+<td><code>0xE00002C7</code></td>
+<td>Adapter detected but not supported or recognized</td>
+</tr>
+</tbody>
+</table>
+<h3 id="firewire">FireWire<a class="headerlink" href="#firewire" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Hex Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kIOPSFamilyCodeFirewire</code></td>
+<td><code>0xE0008000</code></td>
+<td>FireWire (IEEE 1394) power adapter (legacy)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="usb-power-sources">USB Power Sources<a class="headerlink" href="#usb-power-sources" title="Permanent link">&para;</a></h3>
+<p>USB family codes are grouped under the <code>0xE0004000</code> base range:</p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Hex Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kIOPSFamilyCodeUSBHost</code></td>
+<td><code>0xE0004000</code></td>
+<td>USB host port (standard USB port)</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeUSBHostSuspended</code></td>
+<td><code>0xE0004001</code></td>
+<td>USB SDP (Standard Downstream Port) - low power USB port</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeUSBDevice</code></td>
+<td><code>0xE0004002</code></td>
+<td>USB device mode (device acting as USB peripheral)</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeUSBAdapter</code></td>
+<td><code>0xE0004003</code></td>
+<td>Generic USB adapter</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeUSBChargingPortDedicated</code></td>
+<td><code>0xE0004004</code></td>
+<td>USB DCP (Dedicated Charging Port) - dedicated USB charger</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeUSBChargingPortDownstream</code></td>
+<td><code>0xE0004005</code></td>
+<td>USB CDP (Charging Downstream Port) - USB port that can charge while providing data</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeUSBChargingPort</code></td>
+<td><code>0xE0004006</code></td>
+<td>USB CP (Charging Port) - generic USB charging port</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeUSBUnknown</code></td>
+<td><code>0xE0004007</code></td>
+<td>Unknown USB power source type</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeUSBCBrick</code></td>
+<td><code>0xE0004008</code></td>
+<td>USB-C brick adapter (non-PD USB-C charger)</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeUSBCTypeC</code></td>
+<td><code>0xE0004009</code></td>
+<td>USB-C Type-C port (standard USB-C connection)</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeUSBCPD</code></td>
+<td><code>0xE000400A</code></td>
+<td>USB-C PD (Power Delivery) - USB-C charger with Power Delivery protocol</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ac-power">AC Power<a class="headerlink" href="#ac-power" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Hex Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kIOPSFamilyCodeAC</code></td>
+<td><code>0xE0024000</code></td>
+<td>AC power adapter (traditional MacBook power adapter)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="external-power-sources">External Power Sources<a class="headerlink" href="#external-power-sources" title="Permanent link">&para;</a></h3>
+<p>External power codes are used for proprietary or specialized charging interfaces. They are grouped sequentially starting from <code>0xE0024001</code>:</p>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Hex Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kIOPSFamilyCodeExternal</code></td>
+<td><code>0xE0024001</code></td>
+<td>External Power 1 - Generic external power source</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeExternal2</code></td>
+<td><code>0xE0024002</code></td>
+<td>External Power 2 - Secondary external power source</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeExternal3</code></td>
+<td><code>0xE0024003</code></td>
+<td>External Power 3 - Baseline Arca charging interface</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeExternal4</code></td>
+<td><code>0xE0024004</code></td>
+<td>External Power 4 - Additional external power source</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeExternal5</code></td>
+<td><code>0xE0024005</code></td>
+<td>External Power 5 - Additional external power source</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeExternal6</code></td>
+<td><code>0xE0024006</code></td>
+<td>External Power 6 - MagSafe charger (wireless charging)</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeExternal7</code></td>
+<td><code>0xE0024007</code></td>
+<td>External Power 7 - MagSafe accessory (e.g., MagSafe Battery Pack)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="understanding-usb-charging-ports">Understanding USB Charging Ports<a class="headerlink" href="#understanding-usb-charging-ports" title="Permanent link">&para;</a></h2>
+<h3 id="usb-sdp-standard-downstream-port">USB SDP (Standard Downstream Port)<a class="headerlink" href="#usb-sdp-standard-downstream-port" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Provides up to 500mA at 5V (2.5W)</li>
+<li>Used for standard USB data ports</li>
+<li>Slowest charging option</li>
+</ul>
+<h3 id="usb-dcp-dedicated-charging-port">USB DCP (Dedicated Charging Port)<a class="headerlink" href="#usb-dcp-dedicated-charging-port" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Provides up to 1.5A at 5V (7.5W)</li>
+<li>Designed specifically for charging (no data)</li>
+<li>Common on wall chargers and car chargers</li>
+</ul>
+<h3 id="usb-cdp-charging-downstream-port">USB CDP (Charging Downstream Port)<a class="headerlink" href="#usb-cdp-charging-downstream-port" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Provides up to 1.5A at 5V (7.5W)</li>
+<li>Supports both charging and data transfer simultaneously</li>
+<li>Found on computers and some hubs</li>
+</ul>
+<h3 id="usb-c-power-delivery-pd">USB-C Power Delivery (PD)<a class="headerlink" href="#usb-c-power-delivery-pd" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Can provide variable voltage and current (up to 100W+ depending on adapter)</li>
+<li>Negotiates power levels dynamically</li>
+<li>Supports fast charging on compatible devices</li>
+<li>Most capable USB charging standard</li>
+</ul>
+<h2 id="device-specific-behavior">Device-Specific Behavior<a class="headerlink" href="#device-specific-behavior" title="Permanent link">&para;</a></h2>
+<h3 id="macbooks">MacBooks<a class="headerlink" href="#macbooks" title="Permanent link">&para;</a></h3>
+<ul>
+<li>AC adapters show as <code>kIOPSFamilyCodeAC</code></li>
+<li>USB-C adapters show as <code>kIOPSFamilyCodeUSBCPD</code> or <code>kIOPSFamilyCodeUSBCTypeC</code></li>
+</ul>
+<h3 id="iphone-ipad">iPhone / iPad<a class="headerlink" href="#iphone-ipad" title="Permanent link">&para;</a></h3>
+<ul>
+<li>MagSafe chargers appear as <code>kIOPSFamilyCodeExternal6</code></li>
+<li>MagSafe accessories (like Battery Pack) appear as <code>kIOPSFamilyCodeExternal7</code></li>
+</ul>
+<h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">&para;</a></h2>
+<h3 id="unsupported-family-code">"Unsupported" Family Code<a class="headerlink" href="#unsupported-family-code" title="Permanent link">&para;</a></h3>
+<p>If you see <code>kIOPSFamilyCodeUnsupported</code>:
+- The adapter may not be Apple-certified or MFi-compatible
+- The adapter may be damaged or malfunctioning
+- The device may not recognize third-party adapters
+- Try using an Apple-certified adapter</p>
+<h3 id="disconnected-when-adapter-is-connected">"Disconnected" When Adapter is Connected<a class="headerlink" href="#disconnected-when-adapter-is-connected" title="Permanent link">&para;</a></h3>
+<p>If you see <code>kIOPSFamilyCodeDisconnected</code> despite having an adapter connected:
+- Check the physical connection (cable, port)
+- Try a different cable or port
+- The adapter may not be providing power
+- Check for debris in the charging port</p>
+<h3 id="usb-c-not-charging">USB-C Not Charging<a class="headerlink" href="#usb-c-not-charging" title="Permanent link">&para;</a></h3>
+<p>If a USB-C adapter shows a family code but isn't charging:
+- Verify the adapter supports Power Delivery (PD)
+- Check that the cable supports charging (some USB-C cables are data-only)
+- Ensure the adapter provides sufficient power for your device
+- Check the <a href="../not-charging-reason">Not Charging Reason</a> for specific error codes</p>
+<h3 id="wireless-charging-issues">Wireless Charging Issues<a class="headerlink" href="#wireless-charging-issues" title="Permanent link">&para;</a></h3>
+<p>For MagSafe or inductive charging:
+- Ensure the device supports wireless charging
+- Check that the charger is properly aligned
+- Remove any cases or accessories that might interfere
+- Verify the charger is Apple-certified (for MagSafe)</p>
+      </article>
+
+      
+      <aside class="bm-toc bm-squircle">
+        <div class="bm-toc-title">On this page</div>
+        <ul class="bm-toc-list">
+          
+          <li class="bm-toc-item">
+            <a href="#family-codes">Family Codes</a>
+            
+            <ul class="bm-toc-sublist">
+              
+              <li class="bm-toc-subitem"><a href="#overview">Overview</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#code-values">Code Values</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#understanding-usb-charging-ports">Understanding USB Charging Ports</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#device-specific-behavior">Device-Specific Behavior</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#troubleshooting">Troubleshooting</a></li>
+              
+            </ul>
+            
+          </li>
+          
+        </ul>
+      </aside>
+      
+    </main>
+
+    <footer class="bm-footer">
+      <div class="bm-footer-inner">
+        <span>© Battman User Manual</span>
+      </div>
+    </footer>
+    <script src="../../../javascripts/apple-theme.js"></script>
+    <script src="../../../search/main.js"></script>
+  </body>
+</html>

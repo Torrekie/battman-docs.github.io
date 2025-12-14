@@ -1,0 +1,979 @@
+{
+  "config": {
+    "indexing": "full",
+    "lang": [
+      "en",
+      "zh"
+    ],
+    "min_search_length": 3,
+    "prebuild_index": false,
+    "separator": "[\\s\\-]+"
+  },
+  "docs": [
+    {
+      "location": "",
+      "text": "Battman ¶ Welcome to the Battman user manual. Battman is a power-management utility for AppleSMC–capable devices. By tapping directly into the System Management Controller (SMC), Battman provides professional-grade metrics on battery health, charging cycles, temperature, and power usage. Its deep hardware integration lets you customize charging behaviors, set thresholds to extend battery life, and monitor real-time status — all from a single, intuitive interface. Key features ¶ Professional-level data: Access detailed information on voltage, current, capacity, cycle count, and temperature, etc. Custom charging profiles: Define charge start and stop points to preserve long-term battery health. Real-time monitoring: Observe power and thermal metrics as they happen, with optional logging. Lightweight and open source: Small footprint, fully? open for inspection and contribution. Whether you’re a developer, a regular user, or an IT administrator, Battman gives you the tools to make smarter, more efficient power decisions. Use the navigation bar to jump to: Installation Troubleshooting This site supports light/dark mode and multiple languages. Use the controls in the top-right corner to switch.",
+      "title": "Home"
+    },
+    {
+      "location": "#battman",
+      "text": "Welcome to the Battman user manual. Battman is a power-management utility for AppleSMC–capable devices. By tapping directly into the System Management Controller (SMC), Battman provides professional-grade metrics on battery health, charging cycles, temperature, and power usage. Its deep hardware integration lets you customize charging behaviors, set thresholds to extend battery life, and monitor real-time status — all from a single, intuitive interface.",
+      "title": "Battman"
+    },
+    {
+      "location": "#key-features",
+      "text": "Professional-level data: Access detailed information on voltage, current, capacity, cycle count, and temperature, etc. Custom charging profiles: Define charge start and stop points to preserve long-term battery health. Real-time monitoring: Observe power and thermal metrics as they happen, with optional logging. Lightweight and open source: Small footprint, fully? open for inspection and contribution. Whether you’re a developer, a regular user, or an IT administrator, Battman gives you the tools to make smarter, more efficient power decisions. Use the navigation bar to jump to: Installation Troubleshooting This site supports light/dark mode and multiple languages. Use the controls in the top-right corner to switch.",
+      "title": "Key features"
+    },
+    {
+      "location": "theme-test/",
+      "text": "Theme Test ¶ This page is used to visually test the Battman documentation theme. Headings ¶ Level 3 heading ¶ Level 4 heading ¶ Text styles ¶ Regular text, bold text , italic text , and inline code . Lists ¶ Unordered item 1 Unordered item 2 Nested item A Nested item B Ordered item 1 Ordered item 2 Admonitions ¶ Note This is a note admonition. Warning This is a warning admonition. Tip This is a tip admonition. Code blocks ¶ // Example C code #include <stdio.h> int main ( void ) { printf ( \"Hello, Battman! \\n \" ); return 0 ; } # Example shell command mkdocs serve Tables ¶ Feature Supported Light mode Yes Dark mode Yes Auto mode Yes Multilingual Yes Links and images ¶ Go back to Home Blockquotes ¶ Battman helps you understand your device battery. Nested content ¶ Item Sub-item Sub-sub-item This concludes the theme test page.",
+      "title": "Theme Test"
+    },
+    {
+      "location": "theme-test/#theme-test",
+      "text": "This page is used to visually test the Battman documentation theme.",
+      "title": "Theme Test"
+    },
+    {
+      "location": "theme-test/#headings",
+      "text": "",
+      "title": "Headings"
+    },
+    {
+      "location": "theme-test/#level-3-heading",
+      "text": "",
+      "title": "Level 3 heading"
+    },
+    {
+      "location": "theme-test/#level-4-heading",
+      "text": "",
+      "title": "Level 4 heading"
+    },
+    {
+      "location": "theme-test/#text-styles",
+      "text": "Regular text, bold text , italic text , and inline code .",
+      "title": "Text styles"
+    },
+    {
+      "location": "theme-test/#lists",
+      "text": "Unordered item 1 Unordered item 2 Nested item A Nested item B Ordered item 1 Ordered item 2",
+      "title": "Lists"
+    },
+    {
+      "location": "theme-test/#admonitions",
+      "text": "Note This is a note admonition. Warning This is a warning admonition. Tip This is a tip admonition.",
+      "title": "Admonitions"
+    },
+    {
+      "location": "theme-test/#code-blocks",
+      "text": "// Example C code #include <stdio.h> int main ( void ) { printf ( \"Hello, Battman! \\n \" ); return 0 ; } # Example shell command mkdocs serve",
+      "title": "Code blocks"
+    },
+    {
+      "location": "theme-test/#tables",
+      "text": "Feature Supported Light mode Yes Dark mode Yes Auto mode Yes Multilingual Yes",
+      "title": "Tables"
+    },
+    {
+      "location": "theme-test/#links-and-images",
+      "text": "Go back to Home",
+      "title": "Links and images"
+    },
+    {
+      "location": "theme-test/#blockquotes",
+      "text": "Battman helps you understand your device battery.",
+      "title": "Blockquotes"
+    },
+    {
+      "location": "theme-test/#nested-content",
+      "text": "Item Sub-item Sub-sub-item This concludes the theme test page.",
+      "title": "Nested content"
+    },
+    {
+      "location": "uninstallation/",
+      "text": "Uninstallation ¶ This page describes general ways to remove Battman from your device. Notice If you previously done system‑level changes (thermal tunes, etc.), make sure they are configured to default values before uninstalling where possible. Installed by TrollStore ¶ Open TrollStore Find and tap on \"Battman\" Tap \"Uninstall App\" to uninstall Battman Package‑manager installs ¶ If Battman was installed via a package manager (for example, on a jailbroken device): Open Battman and wipe Battman data first (See Wiping Data ). Open your package manager (Cydia, Sileo, Zebra, etc.). Locate the Battman package by name. Use the standard Remove / Uninstall action.",
+      "title": "Uninstallation"
+    },
+    {
+      "location": "uninstallation/#uninstallation",
+      "text": "This page describes general ways to remove Battman from your device. Notice If you previously done system‑level changes (thermal tunes, etc.), make sure they are configured to default values before uninstalling where possible.",
+      "title": "Uninstallation"
+    },
+    {
+      "location": "uninstallation/#installed-by-trollstore",
+      "text": "Open TrollStore Find and tap on \"Battman\" Tap \"Uninstall App\" to uninstall Battman",
+      "title": "Installed by TrollStore"
+    },
+    {
+      "location": "uninstallation/#packagemanager-installs",
+      "text": "If Battman was installed via a package manager (for example, on a jailbroken device): Open Battman and wipe Battman data first (See Wiping Data ). Open your package manager (Cydia, Sileo, Zebra, etc.). Locate the Battman package by name. Use the standard Remove / Uninstall action.",
+      "title": "Package‑manager installs"
+    },
+    {
+      "location": "contributing/codes/",
+      "text": "Contributing Code ¶ We welcome code contributions to Battman. Before you start ¶ Read the main README.md for an overview of the project layout and build requirements. Make sure you have a suitable iOS toolchain and environment set up. Project Structure ¶ Battman is written in Objective-C and C (no Swift). The main codebase is organized as follows: Directory Layout ¶ Battman/ - Main application code battery_utils/ - Battery information and hardware interaction utilities hw/ - Hardware-specific interfaces (e.g., IOMFB) cobjc/ - Custom Objective-C runtime wrappers for C compatibility ObjCExt/ - Objective-C category extensions CGIconSet/ - Custom icon generation code brightness/ - Brightness control functionality scprefs/ - Preferences integration security/ - Security and protection code File Naming Conventions ¶ View controllers: *ViewController.h / *ViewController.m Custom views: *View.h / *View.m or *Cell.h / *Cell.m C headers: *.h with corresponding *.c or *.m implementations Headers use #pragma once or traditional include guards Code Style Guidelines ¶ Language and Architecture ¶ Primary languages : Objective-C and C No external dependencies : No CocoaPods, Swift Packages, or third-party frameworks No Storyboards or XIBs : UI is built programmatically No Xcode Assets : Resources are generated programmatically Why No Xcode Assets and Storyboards? ¶ Battman does not use Xcode Assets (.xcassets) or Storyboards/XIBs for the following reasons: Open-source toolchain compatibility : Those formats are private commercial formats made by Apple, which are not buildable with open-source toolchains. This prevents the project from being built on non-Apple platforms or with alternative build systems. Cross-platform collaboration : We have collaborators not using macOS and Xcode. Using those formats will break the maintainability and prevent contributors from working on the project in their preferred environments. Programmatic UI preference : We always prefer writing UI programmatically, instead of predefining them in some sort of files. This approach provides better version control, easier code review, and more flexibility in UI construction. Why No Third-Party Dependencies? ¶ Battman intentionally avoids third-party dependencies (CocoaPods, Swift Packages, external frameworks) for the following reasons: Control and maintainability : External code is not under our control, and we cannot respond to potential future changes, breaking updates, or deprecations that may affect the project. Collaboration accessibility : Not every collaborator is able to pull such dependencies on their build systems. Avoiding external dependencies ensures that all contributors can build and work on the project regardless of their environment setup, facilitating better collaboration. If you need functionality that would typically come from a third-party library, please implement it directly in the codebase or adapt the necessary code to fit Battman's architecture (For example, we have completely rewritten Swift UberSegmentedControl in Objective-C). Why No Swift Code? ¶ Battman uses Objective-C and C exclusively, and does not accept Swift code submissions for the following reasons: Stability and compatibility : Swift itself has frequent updates with breaking changes, and is always trying to drop support for previous system versions. This creates maintenance burden and compatibility issues that conflict with Battman's goal of supporting iOS 12+. Toolchain size : The Swift toolchain is much larger than regular LLVM + Clang, which is not friendly for our existing collaborators who may have limited resources or prefer minimal toolchain installations. Exception for unavoidable Swift : If your submission is not Swift-avoidable (for example, WidgetKit only allows Swift), please create a new subproject to contain it. Otherwise, all logic and UI should be written in Objective-C and C. If you must use Swift, your Swift code must meet these requirements: - Your Swift code should have been compiled and tested on iOS 12 or earlier. - Your Swift code should be written in Swift 4 or older. - Your Swift code should at least be buildable with Procursus' Swift toolchain on iOS. C / Objective-C Patterns ¶ Singleton Pattern ¶ + ( instancetype ) sharedPrefs { static BattmanPrefs * shared = nil ; static dispatch_once_t onceToken ; dispatch_once ( & onceToken , ^ { shared = [[ self alloc ] _init ]; }); return shared ; } iOS Version Checks ¶ if (@ available ( iOS 13.0 , * )) { // iOS 13+ code } else { // Fallback code } if ( __builtin_available ( iOS 13.0 , * )) { // iOS 13+ code } else { // Fallback code } Debug Logging ¶ // DBGLOG is based on NSLog() DBGLOG ( CFSTR ( \"Debug message: %@\" ), value ); // DBGLOG is based on NSLog() DBGLOG ( @\"Debug message: %@\" , value ); Localization ¶ // For NSString NSString * localized = _ ( \"String to localize\" ); // For C strings const char * localized = _C ( \"String to localize\" ); Static Initialization ¶ static dispatch_once_t onceToken ; static bool value ; dispatch_once ( & onceToken , ^ { // One-time initialization value = compute_value (); }); Error Handling ¶ Check return values from system calls Use os_log_error for error conditions Provide fallback paths when possible Avoid crashing on recoverable errors Memory Management ¶ Use ARC for Objective-C code Manual memory management for C code (free what you malloc) Be careful with CF types - use CFRelease appropriately Build System ¶ Battman can be built with: - Xcode : Standard Xcode project - Makefile : Located in Battman/Makefile , supports Linux builds Key build flags: - -fobjc-arc : Automatic Reference Counting - -target arm64-apple-ios12.0 : iOS 12+ deployment target - -DDEBUG : Debug builds - -DUSE_GETTEXT : Optional gettext localization support Typical workflow ¶ Fork the repository and create a feature branch. Make your changes with clear, focused commits. Prefer small, reviewable pull requests rather than large, mixed ones. Test on as many relevant iOS versions / devices as you can. Open a pull request and describe: What you changed. How you tested it. Any user‑visible behavior differences. Code Review Guidelines ¶ Follow existing code style and patterns Maintain compatibility with iOS 12+ Test on both simulator and real devices when possible Use appropriate logging (DBGLOG for debug, os_log for production) Ensure proper memory management Add comments for complex logic or hardware-specific code Update related documentation if behavior changes Please avoid introducing private information (such as personal certificates or keys) into the repository or build scripts.",
+      "title": "Codes"
+    },
+    {
+      "location": "contributing/codes/#contributing-code",
+      "text": "We welcome code contributions to Battman.",
+      "title": "Contributing Code"
+    },
+    {
+      "location": "contributing/codes/#before-you-start",
+      "text": "Read the main README.md for an overview of the project layout and build requirements. Make sure you have a suitable iOS toolchain and environment set up.",
+      "title": "Before you start"
+    },
+    {
+      "location": "contributing/codes/#project-structure",
+      "text": "Battman is written in Objective-C and C (no Swift). The main codebase is organized as follows:",
+      "title": "Project Structure"
+    },
+    {
+      "location": "contributing/codes/#directory-layout",
+      "text": "Battman/ - Main application code battery_utils/ - Battery information and hardware interaction utilities hw/ - Hardware-specific interfaces (e.g., IOMFB) cobjc/ - Custom Objective-C runtime wrappers for C compatibility ObjCExt/ - Objective-C category extensions CGIconSet/ - Custom icon generation code brightness/ - Brightness control functionality scprefs/ - Preferences integration security/ - Security and protection code",
+      "title": "Directory Layout"
+    },
+    {
+      "location": "contributing/codes/#file-naming-conventions",
+      "text": "View controllers: *ViewController.h / *ViewController.m Custom views: *View.h / *View.m or *Cell.h / *Cell.m C headers: *.h with corresponding *.c or *.m implementations Headers use #pragma once or traditional include guards",
+      "title": "File Naming Conventions"
+    },
+    {
+      "location": "contributing/codes/#code-style-guidelines",
+      "text": "",
+      "title": "Code Style Guidelines"
+    },
+    {
+      "location": "contributing/codes/#language-and-architecture",
+      "text": "Primary languages : Objective-C and C No external dependencies : No CocoaPods, Swift Packages, or third-party frameworks No Storyboards or XIBs : UI is built programmatically No Xcode Assets : Resources are generated programmatically",
+      "title": "Language and Architecture"
+    },
+    {
+      "location": "contributing/codes/#why-no-xcode-assets-and-storyboards",
+      "text": "Battman does not use Xcode Assets (.xcassets) or Storyboards/XIBs for the following reasons: Open-source toolchain compatibility : Those formats are private commercial formats made by Apple, which are not buildable with open-source toolchains. This prevents the project from being built on non-Apple platforms or with alternative build systems. Cross-platform collaboration : We have collaborators not using macOS and Xcode. Using those formats will break the maintainability and prevent contributors from working on the project in their preferred environments. Programmatic UI preference : We always prefer writing UI programmatically, instead of predefining them in some sort of files. This approach provides better version control, easier code review, and more flexibility in UI construction.",
+      "title": "Why No Xcode Assets and Storyboards?"
+    },
+    {
+      "location": "contributing/codes/#why-no-third-party-dependencies",
+      "text": "Battman intentionally avoids third-party dependencies (CocoaPods, Swift Packages, external frameworks) for the following reasons: Control and maintainability : External code is not under our control, and we cannot respond to potential future changes, breaking updates, or deprecations that may affect the project. Collaboration accessibility : Not every collaborator is able to pull such dependencies on their build systems. Avoiding external dependencies ensures that all contributors can build and work on the project regardless of their environment setup, facilitating better collaboration. If you need functionality that would typically come from a third-party library, please implement it directly in the codebase or adapt the necessary code to fit Battman's architecture (For example, we have completely rewritten Swift UberSegmentedControl in Objective-C).",
+      "title": "Why No Third-Party Dependencies?"
+    },
+    {
+      "location": "contributing/codes/#why-no-swift-code",
+      "text": "Battman uses Objective-C and C exclusively, and does not accept Swift code submissions for the following reasons: Stability and compatibility : Swift itself has frequent updates with breaking changes, and is always trying to drop support for previous system versions. This creates maintenance burden and compatibility issues that conflict with Battman's goal of supporting iOS 12+. Toolchain size : The Swift toolchain is much larger than regular LLVM + Clang, which is not friendly for our existing collaborators who may have limited resources or prefer minimal toolchain installations. Exception for unavoidable Swift : If your submission is not Swift-avoidable (for example, WidgetKit only allows Swift), please create a new subproject to contain it. Otherwise, all logic and UI should be written in Objective-C and C. If you must use Swift, your Swift code must meet these requirements: - Your Swift code should have been compiled and tested on iOS 12 or earlier. - Your Swift code should be written in Swift 4 or older. - Your Swift code should at least be buildable with Procursus' Swift toolchain on iOS.",
+      "title": "Why No Swift Code?"
+    },
+    {
+      "location": "contributing/codes/#c-objective-c-patterns",
+      "text": "",
+      "title": "C / Objective-C Patterns"
+    },
+    {
+      "location": "contributing/codes/#singleton-pattern",
+      "text": "+ ( instancetype ) sharedPrefs { static BattmanPrefs * shared = nil ; static dispatch_once_t onceToken ; dispatch_once ( & onceToken , ^ { shared = [[ self alloc ] _init ]; }); return shared ; }",
+      "title": "Singleton Pattern"
+    },
+    {
+      "location": "contributing/codes/#ios-version-checks",
+      "text": "if (@ available ( iOS 13.0 , * )) { // iOS 13+ code } else { // Fallback code } if ( __builtin_available ( iOS 13.0 , * )) { // iOS 13+ code } else { // Fallback code }",
+      "title": "iOS Version Checks"
+    },
+    {
+      "location": "contributing/codes/#debug-logging",
+      "text": "// DBGLOG is based on NSLog() DBGLOG ( CFSTR ( \"Debug message: %@\" ), value ); // DBGLOG is based on NSLog() DBGLOG ( @\"Debug message: %@\" , value );",
+      "title": "Debug Logging"
+    },
+    {
+      "location": "contributing/codes/#localization",
+      "text": "// For NSString NSString * localized = _ ( \"String to localize\" ); // For C strings const char * localized = _C ( \"String to localize\" );",
+      "title": "Localization"
+    },
+    {
+      "location": "contributing/codes/#static-initialization",
+      "text": "static dispatch_once_t onceToken ; static bool value ; dispatch_once ( & onceToken , ^ { // One-time initialization value = compute_value (); });",
+      "title": "Static Initialization"
+    },
+    {
+      "location": "contributing/codes/#error-handling",
+      "text": "Check return values from system calls Use os_log_error for error conditions Provide fallback paths when possible Avoid crashing on recoverable errors",
+      "title": "Error Handling"
+    },
+    {
+      "location": "contributing/codes/#memory-management",
+      "text": "Use ARC for Objective-C code Manual memory management for C code (free what you malloc) Be careful with CF types - use CFRelease appropriately",
+      "title": "Memory Management"
+    },
+    {
+      "location": "contributing/codes/#build-system",
+      "text": "Battman can be built with: - Xcode : Standard Xcode project - Makefile : Located in Battman/Makefile , supports Linux builds Key build flags: - -fobjc-arc : Automatic Reference Counting - -target arm64-apple-ios12.0 : iOS 12+ deployment target - -DDEBUG : Debug builds - -DUSE_GETTEXT : Optional gettext localization support",
+      "title": "Build System"
+    },
+    {
+      "location": "contributing/codes/#typical-workflow",
+      "text": "Fork the repository and create a feature branch. Make your changes with clear, focused commits. Prefer small, reviewable pull requests rather than large, mixed ones. Test on as many relevant iOS versions / devices as you can. Open a pull request and describe: What you changed. How you tested it. Any user‑visible behavior differences.",
+      "title": "Typical workflow"
+    },
+    {
+      "location": "contributing/codes/#code-review-guidelines",
+      "text": "Follow existing code style and patterns Maintain compatibility with iOS 12+ Test on both simulator and real devices when possible Use appropriate logging (DBGLOG for debug, os_log for production) Ensure proper memory management Add comments for complex logic or hardware-specific code Update related documentation if behavior changes Please avoid introducing private information (such as personal certificates or keys) into the repository or build scripts.",
+      "title": "Code Review Guidelines"
+    },
+    {
+      "location": "contributing/locales/",
+      "text": "Contributing Locales ¶ Battman uses standard gettext .po files for localization. Folder layout ¶ Project‑level .po and .pot files live under the Localizations directory. The docs site uses language‑suffixed Markdown files (for example, page.md and page.zh.md ). Battman ├── Battman │ └── Localizations │ ├── base.pot │ ├── de.po │ ├── en.po │ ├── generate_code.sh │ ├── zh_CN.po │ └── ... └── docs └── battman-user-manuals ├── docs │ ├── index.md │ ├── index.zh.md │ └── ... └── mkdocs.yml Contributing App Locales ¶ Install Dependencies ¶ First, Make sure you have GNU Gettext tools on your device, if not, install it from your distro. # macOS Homebrew brew install gettext # macOS MacPorts sudo port install gettext # Debian derived / iOS jailbroken sudo apt install gettext After that, you should able to use xgettext and msgfmt : $ xgettext --version xgettext ( GNU gettext-tools ) 0 .22.4 Copyright ( C ) 1995 -2023 Free Software Foundation, Inc. License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html> This is free software: you are free to change and redistribute it. There is NO WARRANTY, to the extent permitted by law. Written by Ulrich Drepper. Update base.pot ¶ A .pot file is the template file for all .po files, make sure you always have a latest template before you actually going to create a locale. # In Battman, we use: # _: for Objective-C NSStrings # _C: for C strings # cond_localize_c: the actual function called by _C() cd Battman/ && \\ rm -f ./Localizations/base.pot && \\ xgettext -v \\ --keyword = _ \\ --keyword = cond_localize_c \\ --keyword = _C \\ --add-comments = TRANSLATORS \\ --no-location \\ --copyright-holder = \"Torrekie <me@torrekie.dev>\" \\ --package-name = \"Battman\" \\ --package-version = \" $( cat ./VERSION ) \" \\ --output = ./Localizations/base.pot \\ --from-code = UTF-8 \\ $( find ./ -name \"*.m\" -or -name \"*.c\" -or -name \"*.h\" ) By using this command, you can generate a new base.pot from current Battman source codes. Creating PO file ¶ This step is needed if Battman has not provided a .po file under Battman/Localizations for your language. If you are going to update an existing .po file, see Updating PO file . Before actually creating a .po file for your desired language, please check the locale code for it. A locale code used by Gettext is typically structed by: An ISO 639-1 two-letter code (e.g., en , fr , ja ). Optional ISO 3166 two-letter region code (e.g., _US , _CA , _DE ) For example: When you are going to create a locale file for Japanese, then the locale code is ja . When you are going to create a locale file for English (Canada), then the locale code should be en_CA , where en refers to the language itself and the _CA is for its region variant. After you confirmed the locale code, you can create a .po file with following command: # Assume you have already in Battman/ # This is an example of generating a Esperanto po file loc = \"eo\" # Change this to your locale code msginit --input = ./Localizations/base.pot \\ --output-file = \"./Localizations/ $loc .po\" \\ --locale = \" $loc \" \\ --no-translator After that, you will see a new .po file ( eo.po in this example) has been created: $ tree ./Battman/Localizations/ ./Battman/Localizations/ ├── base.pot ├── de.po ├── en.po ├── eo.po # <--- Newly created ├── generate_code.sh ├── vi.po └── zh_CN.po 1 directory, 7 files Then you can edit eo.po with your preferred text editors. PO file structure ¶ There is an official detailed documentation on PO files. We are trying to describe this here in a simpler way. A newly created PO file has such headers ( eo.po in this example): # Esperanto translations for Battman package. # Copyright (C) 2025 Torrekie <me@torrekie.dev> # This file is distributed under the same license as the Battman package. # Automatically generated, 2025. # msgid \"\" msgstr \"\" \" Project-Id-Version: Battman 1.0.3.1\\n\" \" Report-Msgid-Bugs-To: \\n\" \" POT-Creation-Date: 2025-12-02 18:25+0800\\n\" \" PO-Revision-Date: 2025-12-02 18:25+0800\\n\" \" Last-Translator: Automatically generated\\n\" \" Language-Team: none\\n\" \" Language: eo\\n\" \" MIME-Version: 1.0\\n\" \" Content-Type: text/plain; charset=UTF-8\\n\" \" Content-Transfer-Encoding: 8bit\\n\" \" Plural-Forms: nplurals=2; plural=(n != 1);\\n\" You may want to edit Last-Translator field to mark you were the last one who updated this locale: \"Last-Translator: Torrekie <me@torrekie.dev>\\n\" Then you can start translating all texts, the key-value format is basically a pair of msgid and msgstr , where msgid is retrieved from our source codes, for example, when we have such code: char * my_string = _C ( \"Hello, world!\" ); ( void ) printf ( \"%s\" , my_string ); Your generated .po file will then include a segment: msgid \"Hello, world!\" msgstr \"\" All you need to do is to fill the msgstr field, where it should be the translated string. msgid \"Hello, world!\" msgstr \"Saluton, mondo!\" Sometimes, you may see a TRANSLATORS note on a string, that indicates we have added a notice on how we handle this string. For instance, in de.po , we had to replace \"Benutzerdefinierter\" to \"…\" since it was too long to display on most screens. #. TRANSLATORS: Please ensure this string won't be longer as \"Custom\" msgid \"Custom\" msgstr \"…\" You can test your translated strings by building Battman with your newly added locales, see Running from Source . Updating PO file ¶ You may want to update an existing PO file when you have added some new strings in Battman or a PO file appears too much outdated. The procedure of updating a PO file is: Recreate base.pot from source (see Update base.pot ). Create a skeleton PO file to elsewhere from the updated base.pot . Combine the existing PO file with the newly created skeleton. Translate those newly added strings as usual. In Battman.xcodeproj, we are handling this like: LOCS = \"zh_CN en de vi\" LOC_BASE = \" ${ PROJECT_DIR } / ${ PROJECT_NAME } /Localizations\" POT_FILE = \" ${ LOC_BASE } /base.pot\" for locs in $LOCS ; do msginit --input = \" ${ POT_FILE } \" --output-file = \" ${ LOC_BASE } / $locs .po.step\" --locale = \" $locs \" && msgmerge --no-location -N \" ${ LOC_BASE } / $locs .po\" \" ${ LOC_BASE } / $locs .po.step\" > \" ${ LOC_BASE } / $locs .po.new\" && mv \" ${ LOC_BASE } / $locs .po.new\" \" ${ LOC_BASE } / $locs .po\" && rm \" ${ LOC_BASE } / $locs .po.step\" ; done To teardown this: # Example: updating Esperanto # Create a new PO skeleton without override existing PO # We should then have a eo.po.step msginit --input = ./Localizations/base.pot \\ --output-file = ./Localizations/eo.po.step \\ --locale = eo # Merge our existing Esperanto translations with the newly created skeleton # We should then have a eo.po.new msgmerge --no-location -N \\ ./Localizations/eo.po \\ ./Localizations/eo.po.step \\ > ./Localizations/eo.po.new # Override existing old PO file with our newly created mv ./Localizations/eo.po.new ./Localizations/eo.po # Delete the skeleton rm ./Localizations/eo.po.step The eo.po is now updated with newly added strings, you can then translate those new strings with your preferred text editors.",
+      "title": "Locales"
+    },
+    {
+      "location": "contributing/locales/#contributing-locales",
+      "text": "Battman uses standard gettext .po files for localization.",
+      "title": "Contributing Locales"
+    },
+    {
+      "location": "contributing/locales/#folder-layout",
+      "text": "Project‑level .po and .pot files live under the Localizations directory. The docs site uses language‑suffixed Markdown files (for example, page.md and page.zh.md ). Battman ├── Battman │ └── Localizations │ ├── base.pot │ ├── de.po │ ├── en.po │ ├── generate_code.sh │ ├── zh_CN.po │ └── ... └── docs └── battman-user-manuals ├── docs │ ├── index.md │ ├── index.zh.md │ └── ... └── mkdocs.yml",
+      "title": "Folder layout"
+    },
+    {
+      "location": "contributing/locales/#contributing-app-locales",
+      "text": "",
+      "title": "Contributing App Locales"
+    },
+    {
+      "location": "contributing/locales/#install-dependencies",
+      "text": "First, Make sure you have GNU Gettext tools on your device, if not, install it from your distro. # macOS Homebrew brew install gettext # macOS MacPorts sudo port install gettext # Debian derived / iOS jailbroken sudo apt install gettext After that, you should able to use xgettext and msgfmt : $ xgettext --version xgettext ( GNU gettext-tools ) 0 .22.4 Copyright ( C ) 1995 -2023 Free Software Foundation, Inc. License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html> This is free software: you are free to change and redistribute it. There is NO WARRANTY, to the extent permitted by law. Written by Ulrich Drepper.",
+      "title": "Install Dependencies"
+    },
+    {
+      "location": "contributing/locales/#update-basepot",
+      "text": "A .pot file is the template file for all .po files, make sure you always have a latest template before you actually going to create a locale. # In Battman, we use: # _: for Objective-C NSStrings # _C: for C strings # cond_localize_c: the actual function called by _C() cd Battman/ && \\ rm -f ./Localizations/base.pot && \\ xgettext -v \\ --keyword = _ \\ --keyword = cond_localize_c \\ --keyword = _C \\ --add-comments = TRANSLATORS \\ --no-location \\ --copyright-holder = \"Torrekie <me@torrekie.dev>\" \\ --package-name = \"Battman\" \\ --package-version = \" $( cat ./VERSION ) \" \\ --output = ./Localizations/base.pot \\ --from-code = UTF-8 \\ $( find ./ -name \"*.m\" -or -name \"*.c\" -or -name \"*.h\" ) By using this command, you can generate a new base.pot from current Battman source codes.",
+      "title": "Update base.pot"
+    },
+    {
+      "location": "contributing/locales/#creating-po-file",
+      "text": "This step is needed if Battman has not provided a .po file under Battman/Localizations for your language. If you are going to update an existing .po file, see Updating PO file . Before actually creating a .po file for your desired language, please check the locale code for it. A locale code used by Gettext is typically structed by: An ISO 639-1 two-letter code (e.g., en , fr , ja ). Optional ISO 3166 two-letter region code (e.g., _US , _CA , _DE ) For example: When you are going to create a locale file for Japanese, then the locale code is ja . When you are going to create a locale file for English (Canada), then the locale code should be en_CA , where en refers to the language itself and the _CA is for its region variant. After you confirmed the locale code, you can create a .po file with following command: # Assume you have already in Battman/ # This is an example of generating a Esperanto po file loc = \"eo\" # Change this to your locale code msginit --input = ./Localizations/base.pot \\ --output-file = \"./Localizations/ $loc .po\" \\ --locale = \" $loc \" \\ --no-translator After that, you will see a new .po file ( eo.po in this example) has been created: $ tree ./Battman/Localizations/ ./Battman/Localizations/ ├── base.pot ├── de.po ├── en.po ├── eo.po # <--- Newly created ├── generate_code.sh ├── vi.po └── zh_CN.po 1 directory, 7 files Then you can edit eo.po with your preferred text editors.",
+      "title": "Creating PO file"
+    },
+    {
+      "location": "contributing/locales/#po-file-structure",
+      "text": "There is an official detailed documentation on PO files. We are trying to describe this here in a simpler way. A newly created PO file has such headers ( eo.po in this example): # Esperanto translations for Battman package. # Copyright (C) 2025 Torrekie <me@torrekie.dev> # This file is distributed under the same license as the Battman package. # Automatically generated, 2025. # msgid \"\" msgstr \"\" \" Project-Id-Version: Battman 1.0.3.1\\n\" \" Report-Msgid-Bugs-To: \\n\" \" POT-Creation-Date: 2025-12-02 18:25+0800\\n\" \" PO-Revision-Date: 2025-12-02 18:25+0800\\n\" \" Last-Translator: Automatically generated\\n\" \" Language-Team: none\\n\" \" Language: eo\\n\" \" MIME-Version: 1.0\\n\" \" Content-Type: text/plain; charset=UTF-8\\n\" \" Content-Transfer-Encoding: 8bit\\n\" \" Plural-Forms: nplurals=2; plural=(n != 1);\\n\" You may want to edit Last-Translator field to mark you were the last one who updated this locale: \"Last-Translator: Torrekie <me@torrekie.dev>\\n\" Then you can start translating all texts, the key-value format is basically a pair of msgid and msgstr , where msgid is retrieved from our source codes, for example, when we have such code: char * my_string = _C ( \"Hello, world!\" ); ( void ) printf ( \"%s\" , my_string ); Your generated .po file will then include a segment: msgid \"Hello, world!\" msgstr \"\" All you need to do is to fill the msgstr field, where it should be the translated string. msgid \"Hello, world!\" msgstr \"Saluton, mondo!\" Sometimes, you may see a TRANSLATORS note on a string, that indicates we have added a notice on how we handle this string. For instance, in de.po , we had to replace \"Benutzerdefinierter\" to \"…\" since it was too long to display on most screens. #. TRANSLATORS: Please ensure this string won't be longer as \"Custom\" msgid \"Custom\" msgstr \"…\" You can test your translated strings by building Battman with your newly added locales, see Running from Source .",
+      "title": "PO file structure"
+    },
+    {
+      "location": "contributing/locales/#updating-po-file",
+      "text": "You may want to update an existing PO file when you have added some new strings in Battman or a PO file appears too much outdated. The procedure of updating a PO file is: Recreate base.pot from source (see Update base.pot ). Create a skeleton PO file to elsewhere from the updated base.pot . Combine the existing PO file with the newly created skeleton. Translate those newly added strings as usual. In Battman.xcodeproj, we are handling this like: LOCS = \"zh_CN en de vi\" LOC_BASE = \" ${ PROJECT_DIR } / ${ PROJECT_NAME } /Localizations\" POT_FILE = \" ${ LOC_BASE } /base.pot\" for locs in $LOCS ; do msginit --input = \" ${ POT_FILE } \" --output-file = \" ${ LOC_BASE } / $locs .po.step\" --locale = \" $locs \" && msgmerge --no-location -N \" ${ LOC_BASE } / $locs .po\" \" ${ LOC_BASE } / $locs .po.step\" > \" ${ LOC_BASE } / $locs .po.new\" && mv \" ${ LOC_BASE } / $locs .po.new\" \" ${ LOC_BASE } / $locs .po\" && rm \" ${ LOC_BASE } / $locs .po.step\" ; done To teardown this: # Example: updating Esperanto # Create a new PO skeleton without override existing PO # We should then have a eo.po.step msginit --input = ./Localizations/base.pot \\ --output-file = ./Localizations/eo.po.step \\ --locale = eo # Merge our existing Esperanto translations with the newly created skeleton # We should then have a eo.po.new msgmerge --no-location -N \\ ./Localizations/eo.po \\ ./Localizations/eo.po.step \\ > ./Localizations/eo.po.new # Override existing old PO file with our newly created mv ./Localizations/eo.po.new ./Localizations/eo.po # Delete the skeleton rm ./Localizations/eo.po.step The eo.po is now updated with newly added strings, you can then translate those new strings with your preferred text editors.",
+      "title": "Updating PO file"
+    },
+    {
+      "location": "controls/charging-limits/",
+      "text": "Charging Limits ¶ The Charging Limits configures an experimental background daemon that keeps the battery within a chosen range. Main concepts ¶ Limit at (%) Target charge level where Battman stops charging. Resume at (%) (Optional) lower threshold where charging is allowed again. Drain Mode Decide whether to keep A/C power or block A/C while discharging. Override OBC Optionally override Optimized Battery Charging when Battman is in control. Overriding OBC? ¶ The system shipped Optimized Battery Charging feature is communicating with a lower interface where controlling the device’s charging states. Normally, you should avoid using Battman’s Charging Limit when you are using a calibrated and authorized genuine battery part. Apple’s OBC behaves better. If you really desired to use this feacture, please notice that OBC may prevent others from changing the charging state when Override OBC is disabled. Working states ¶ Allowing charge — daemon is running and letting the battery climb toward the limit. Blocking charge — daemon is holding charge at the limit. No external power — no adapter detected, so the limit cannot be enforced. External power but no power — adapter is connected but not delivering power (e.g., weak cable/negotiation/scheduled). Optimized Battery Charging is in control — when running in “soft” mode which without overriding OBC, Apple’s OBC may ignore Battman’s requests. Enable “Override OBC” before starting the daemon if you need Battman to take precedence. Warnings ¶ This feature is still experimental and may now working correctly on your device. This feature writes directly to system power interfaces and runs long‑lived background code. Currently, Battman's \"daemon\" runs as a regular background process and does not use the system's LaunchDaemons feature. As a result, rebooting or performing an ldrestart will stop the charging limit process, and you will need to manually restart it for the feature to take effect again.",
+      "title": "Charging Limits"
+    },
+    {
+      "location": "controls/charging-limits/#charging-limits",
+      "text": "The Charging Limits configures an experimental background daemon that keeps the battery within a chosen range.",
+      "title": "Charging Limits"
+    },
+    {
+      "location": "controls/charging-limits/#main-concepts",
+      "text": "Limit at (%) Target charge level where Battman stops charging. Resume at (%) (Optional) lower threshold where charging is allowed again. Drain Mode Decide whether to keep A/C power or block A/C while discharging. Override OBC Optionally override Optimized Battery Charging when Battman is in control.",
+      "title": "Main concepts"
+    },
+    {
+      "location": "controls/charging-limits/#overriding-obc",
+      "text": "The system shipped Optimized Battery Charging feature is communicating with a lower interface where controlling the device’s charging states. Normally, you should avoid using Battman’s Charging Limit when you are using a calibrated and authorized genuine battery part. Apple’s OBC behaves better. If you really desired to use this feacture, please notice that OBC may prevent others from changing the charging state when Override OBC is disabled.",
+      "title": "Overriding OBC?"
+    },
+    {
+      "location": "controls/charging-limits/#working-states",
+      "text": "Allowing charge — daemon is running and letting the battery climb toward the limit. Blocking charge — daemon is holding charge at the limit. No external power — no adapter detected, so the limit cannot be enforced. External power but no power — adapter is connected but not delivering power (e.g., weak cable/negotiation/scheduled). Optimized Battery Charging is in control — when running in “soft” mode which without overriding OBC, Apple’s OBC may ignore Battman’s requests. Enable “Override OBC” before starting the daemon if you need Battman to take precedence.",
+      "title": "Working states"
+    },
+    {
+      "location": "controls/charging-limits/#warnings",
+      "text": "This feature is still experimental and may now working correctly on your device. This feature writes directly to system power interfaces and runs long‑lived background code. Currently, Battman's \"daemon\" runs as a regular background process and does not use the system's LaunchDaemons feature. As a result, rebooting or performing an ldrestart will stop the charging limit process, and you will need to manually restart it for the feature to take effect again.",
+      "title": "Warnings"
+    },
+    {
+      "location": "controls/charging-managements/",
+      "text": "Charging Managements ¶ The Charging Managements screen lets you control how the system charges the battery and controls Low Power Mode. Features ¶ Block Charging Uses SMC registers to stop charging while keeping the device powered from A/C. Block Power Supply Completely ingore A/C. Forces the device to draw from the battery even when plugged in. OBC schedule Integrates with PowerUI to manually schedule Optimized Battery Charging (start / end time). Low Power Mode Config Enables, disables and auto‑disables LPM based on plug state and battery‑percentage thresholds, with options to hide system alerts. Notice ¶ Changes made to Low Power Mode settings through Battman will directly modify your device's global configuration for LPM. These configuration changes are treated as global user data by iOS. As a result, your customized Low Power Mode settings will be included when you back up your device using iTunes or other iPhone backup tools. If you restore this backup onto another device, the same Low Power Mode settings will also be applied to that device automatically.",
+      "title": "Charging Managements"
+    },
+    {
+      "location": "controls/charging-managements/#charging-managements",
+      "text": "The Charging Managements screen lets you control how the system charges the battery and controls Low Power Mode.",
+      "title": "Charging Managements"
+    },
+    {
+      "location": "controls/charging-managements/#features",
+      "text": "Block Charging Uses SMC registers to stop charging while keeping the device powered from A/C. Block Power Supply Completely ingore A/C. Forces the device to draw from the battery even when plugged in. OBC schedule Integrates with PowerUI to manually schedule Optimized Battery Charging (start / end time). Low Power Mode Config Enables, disables and auto‑disables LPM based on plug state and battery‑percentage thresholds, with options to hide system alerts.",
+      "title": "Features"
+    },
+    {
+      "location": "controls/charging-managements/#notice",
+      "text": "Changes made to Low Power Mode settings through Battman will directly modify your device's global configuration for LPM. These configuration changes are treated as global user data by iOS. As a result, your customized Low Power Mode settings will be included when you back up your device using iTunes or other iPhone backup tools. If you restore this backup onto another device, the same Low Power Mode settings will also be applied to that device automatically.",
+      "title": "Notice"
+    },
+    {
+      "location": "controls/thermal-tunes/",
+      "text": "Thermal Tunes ¶ The Thermal Tunes screen exposes mid‑level thermal‑management switches that normally stay hidden from users. Sections ¶ General – whether apps receive thermal state updates, and whether the system reduces power when heating. Hot‑In‑Pocket Mode (HIP) – available on supported iPhones; controls thermal behavior when the screen is off and the device is in a pocket. Sunlight Exposure – automatic vs manual control of sunlight exposure mode and current sunlight status. Thermal Levels – current thermal pressure and notification level, with a segmented bar allowing manual overrides. How the toggles work ¶ Lock (padlock icon): prevents thermalmonitord from resetting the setting back to its default. Use this when you want your chosen value to persist across reboots and system changes. Checkmark: the actual on/off state of the feature. Toggle it to enable or disable the behavior itself. Safety notes ¶ Changing these settings can: Increase device and battery temperatures. Affect charging, backlight, flashlight and media behaviors. Notice ¶ Changes made to Thermal Tunes settings through Battman will directly modify your device's global configuration for thermalmonitord . These configuration changes are treated as global user data by iOS. As a result, your customized thermal settings will be included when you back up your device using iTunes or other iPhone backup tools. If you restore this backup onto another device, the same thermal settings will also be applied to that device automatically.",
+      "title": "Thermal Tunes"
+    },
+    {
+      "location": "controls/thermal-tunes/#thermal-tunes",
+      "text": "The Thermal Tunes screen exposes mid‑level thermal‑management switches that normally stay hidden from users.",
+      "title": "Thermal Tunes"
+    },
+    {
+      "location": "controls/thermal-tunes/#sections",
+      "text": "General – whether apps receive thermal state updates, and whether the system reduces power when heating. Hot‑In‑Pocket Mode (HIP) – available on supported iPhones; controls thermal behavior when the screen is off and the device is in a pocket. Sunlight Exposure – automatic vs manual control of sunlight exposure mode and current sunlight status. Thermal Levels – current thermal pressure and notification level, with a segmented bar allowing manual overrides.",
+      "title": "Sections"
+    },
+    {
+      "location": "controls/thermal-tunes/#how-the-toggles-work",
+      "text": "Lock (padlock icon): prevents thermalmonitord from resetting the setting back to its default. Use this when you want your chosen value to persist across reboots and system changes. Checkmark: the actual on/off state of the feature. Toggle it to enable or disable the behavior itself.",
+      "title": "How the toggles work"
+    },
+    {
+      "location": "controls/thermal-tunes/#safety-notes",
+      "text": "Changing these settings can: Increase device and battery temperatures. Affect charging, backlight, flashlight and media behaviors.",
+      "title": "Safety notes"
+    },
+    {
+      "location": "controls/thermal-tunes/#notice",
+      "text": "Changes made to Thermal Tunes settings through Battman will directly modify your device's global configuration for thermalmonitord . These configuration changes are treated as global user data by iOS. As a result, your customized thermal settings will be included when you back up your device using iTunes or other iPhone backup tools. If you restore this backup onto another device, the same thermal settings will also be applied to that device automatically.",
+      "title": "Notice"
+    },
+    {
+      "location": "installation/",
+      "text": "Installation ¶ This page describes how to install and set up Battman. Requirements ¶ Device with Apple A11 or above. Device with iOS 12 or above. Jailbroken, or have TrollStore installed. Battman now provides ONLY TrollStore App and Jailbroken App. All other methods are unsupported and will not resulting a successful installation. This is caused by Battman's implementation where it heavily depending on iOS/macOS private APIs. If you really desired to sideload it with some sort of certificates or profiles, please make sure your Developer Provisioning Profile allows you to sign app with Battman's entitlements . (How could it be possible?) Install (TrollStore, iOS 14+) ¶ If you don't have TrollStore on your device, follow guides at ios.cfw.guide Download latest Battman.tipa , or choose a version you preferred from our Releases page. Long hold (or find the 'Share' button) the downloaded Battman.tipa , tap \"Share\", then choose \"TrollStore\". Press \"Install\" in opened TrollStore window. Jailbroken Install (rooted, iOS 12+) ¶ Open your package manager (Cydia, Sileo, Zebra, etc.) and install libintl8 from your bootstrap source (Elucubratus or Procursus) Download latest com.torrekie.battman_<version>_iphoneos-arm.deb from our Releases page. Where <version> is the version number of Battman, please make sure you are downloading the one with iphoneos-arm but not iphoneos-arm64 . Current latest version is 1.0.3.1 (click to download) . Long hold the downloaded deb package, tap \"Share\", and choose your package manager (or Filza) to proceed installation. (or any method you preferred to install debs) Jailbroken Install (rootless, iOS 15+) ¶ Open your package manager (Cydia, Sileo, Zebra, etc.) and install libintl8 from your bootstrap source (Elucubratus or Procursus) Download latest com.torrekie.battman_<version>_iphoneos-arm.deb from our Releases page. Where <version> is the version number of Battman, please make sure you are downloading the one with iphoneos-arm but not iphoneos-arm64 . Current latest version is 1.0.3.1 (click to download) . Long hold the downloaded deb package, tap \"Share\", and choose your package manager (or Filza) to proceed installation. (or any method you preferred to install debs) Next steps ¶ If installation fails, see the Troubleshooting section. After installation, explore the features from the Home page.",
+      "title": "iOS"
+    },
+    {
+      "location": "installation/#installation",
+      "text": "This page describes how to install and set up Battman.",
+      "title": "Installation"
+    },
+    {
+      "location": "installation/#requirements",
+      "text": "Device with Apple A11 or above. Device with iOS 12 or above. Jailbroken, or have TrollStore installed. Battman now provides ONLY TrollStore App and Jailbroken App. All other methods are unsupported and will not resulting a successful installation. This is caused by Battman's implementation where it heavily depending on iOS/macOS private APIs. If you really desired to sideload it with some sort of certificates or profiles, please make sure your Developer Provisioning Profile allows you to sign app with Battman's entitlements . (How could it be possible?)",
+      "title": "Requirements"
+    },
+    {
+      "location": "installation/#install-trollstore-ios-14",
+      "text": "If you don't have TrollStore on your device, follow guides at ios.cfw.guide Download latest Battman.tipa , or choose a version you preferred from our Releases page. Long hold (or find the 'Share' button) the downloaded Battman.tipa , tap \"Share\", then choose \"TrollStore\". Press \"Install\" in opened TrollStore window.",
+      "title": "Install (TrollStore, iOS 14+)"
+    },
+    {
+      "location": "installation/#jailbroken-install-rooted-ios-12",
+      "text": "Open your package manager (Cydia, Sileo, Zebra, etc.) and install libintl8 from your bootstrap source (Elucubratus or Procursus) Download latest com.torrekie.battman_<version>_iphoneos-arm.deb from our Releases page. Where <version> is the version number of Battman, please make sure you are downloading the one with iphoneos-arm but not iphoneos-arm64 . Current latest version is 1.0.3.1 (click to download) . Long hold the downloaded deb package, tap \"Share\", and choose your package manager (or Filza) to proceed installation. (or any method you preferred to install debs)",
+      "title": "Jailbroken Install (rooted, iOS 12+)"
+    },
+    {
+      "location": "installation/#jailbroken-install-rootless-ios-15",
+      "text": "Open your package manager (Cydia, Sileo, Zebra, etc.) and install libintl8 from your bootstrap source (Elucubratus or Procursus) Download latest com.torrekie.battman_<version>_iphoneos-arm.deb from our Releases page. Where <version> is the version number of Battman, please make sure you are downloading the one with iphoneos-arm but not iphoneos-arm64 . Current latest version is 1.0.3.1 (click to download) . Long hold the downloaded deb package, tap \"Share\", and choose your package manager (or Filza) to proceed installation. (or any method you preferred to install debs)",
+      "title": "Jailbroken Install (rootless, iOS 15+)"
+    },
+    {
+      "location": "installation/#next-steps",
+      "text": "If installation fails, see the Troubleshooting section. After installation, explore the features from the Home page.",
+      "title": "Next steps"
+    },
+    {
+      "location": "installation/macos/",
+      "text": "Installation on macOS ¶ macOS support for Battman is planned but the native macOS UI has not been implemented yet . For now, Battman primarily targets jailbroken or TrollStore-enabled iOS devices. Some low‑level components and libraries may build on macOS or Apple‑silicon Macs for development and testing, but there is no end‑user macOS GUI. Current status ¶ No official macOS app bundle or installer is provided. Core libraries may compile on macOS 11+ for internal development. Thermal and battery‑related APIs on macOS are still under investigation. When macOS support arrives ¶ This page will describe: System requirements (macOS version, supported Macs). How to install Battman for macOS (download, verify and run). Notes about sandboxing, permissions and data directories. In the meantime, please follow the iOS installation guide for supported devices.",
+      "title": "macOS"
+    },
+    {
+      "location": "installation/macos/#installation-on-macos",
+      "text": "macOS support for Battman is planned but the native macOS UI has not been implemented yet . For now, Battman primarily targets jailbroken or TrollStore-enabled iOS devices. Some low‑level components and libraries may build on macOS or Apple‑silicon Macs for development and testing, but there is no end‑user macOS GUI.",
+      "title": "Installation on macOS"
+    },
+    {
+      "location": "installation/macos/#current-status",
+      "text": "No official macOS app bundle or installer is provided. Core libraries may compile on macOS 11+ for internal development. Thermal and battery‑related APIs on macOS are still under investigation.",
+      "title": "Current status"
+    },
+    {
+      "location": "installation/macos/#when-macos-support-arrives",
+      "text": "This page will describe: System requirements (macOS version, supported Macs). How to install Battman for macOS (download, verify and run). Notes about sandboxing, permissions and data directories. In the meantime, please follow the iOS installation guide for supported devices.",
+      "title": "When macOS support arrives"
+    },
+    {
+      "location": "metrics/battery-info/",
+      "text": "Battery Info ¶ The Battery Info page in Battman shows detailed information read directly from the device’s battery gas-gauge and IOAccessoryManager . It corresponds to the Battery Info section on the Battery tab. What You May Want to Know ¶ Current charge level (%), voltage, and current Design capacity, nominal/actual full-charge capacity, and cycle count Charging state and power source (USB, adapter, wireless, MagSafe, etc.) Not-charging reasons Unlike other tools that are based on IOPM , Battman does not guess or smooth values: it exposes the deepest raw metrics that the hardware reports. Subsections ¶ On the \"Battery Info\" page, you may see the following sections, depending on your device's current state: Gas Gauge (Basic) Adapter Details Inductive Port / Serial Port Each section lists the detected metrics from different parts. Gas Gauge (Basic) ¶ This section displays the most commonly used Gas Gauge metrics. Device Information ¶ Field Description Device Name Gas Gauge IC used by the installed battery (e.g., bq20z451 ). Battery Serial No. Serial number of the battery pack. Chemistry ID ChemID used to match battery-specific strategies shipped in the OS. Cell Count Number of cells in the pack (e.g., 3 for a 3‑cell battery). Capacity Metrics ¶ Field Description Full Charge Capacity Current maximum charge capacity in mAh, reported by the Gas Gauge IC. Designed Capacity Original design capacity in mAh when the battery was new. Remaining Capacity Current remaining charge capacity in mAh. Qmax Designed maximum chemical capacity of the pack. True Remaining Capacity Actual remaining capacity in mAh, reported by the BMS. Battery Uptime Time the battery has been in use since the last reset. Discharge Metrics ¶ Field Description Depth of Discharge (DOD₀) Chemical depth of discharge, updated from OCV readings in a relaxed state. Passed Charge Cumulative capacity of the current charge/discharge cycle; resets with each DOD₀ update. Electrical Measurements ¶ Field Description Voltage Average working voltage in mV (e.g., 11433 mV ). Avg. Current Average working current in mA (negative = discharging, e.g., -807 mA ). Avg. Power Average working power in mW (negative = consumption, e.g., -9226 mW ). OCV Current Open-circuit voltage current measurement. OCV Voltage Open-circuit voltage measurement. Max Load Current Maximum load current the battery can handle. Max Load Current 2 Secondary maximum load current measurement. State of Charge ¶ Field Description State of Charge Battery percentage reported by the Gas Gauge IC. State of Charge (UI) SoC shown in the UI (differ from actual SoC). Daily Max SoC / Daily Min SoC Highest/lowest SoC reached in a day, reported by the BMS. Time Estimates ¶ Field Description Time to Full Estimated time until the battery reaches full charge. Time to Empty Estimated time until the battery is depleted. Cycle Information ¶ Field Description Cycle Count Charge/discharge cycles completed (e.g., 1145 ). Designed Cycle Count Maximum cycles the battery is designed to handle. Temperature ¶ Field Description Avg. Temperature Average working temperature reported by the Gas Gauge IC (e.g., 30.73 °C ). Advanced Metrics ¶ Field Description Resistance Scale Scaling factor used for resistance calculations. Flags See Flags . IT Misc Status Impedance Track miscellaneous status information. Simulation Rate Rate at which the Gas Gauge performs Impedance Track™ simulations. Adapter Details ¶ This section displays information about the current working adapter [1] . Working Adapter When one or multiple adapters are connected, the device will choose the best adapter as the working external power source; others will be inhibited. Connection Information ¶ Field Description Port Numeric ID of the port in use. iPhone/iPad: 1 Serial (Lightning/USB-C), 2 Inductive (MagSafe/Wireless). MacBooks: 1 USB port 1, 2 USB port 2. Adapter Type Numeric ID describing the current adapter type (undocumented). Type Family code ( kIOPSPowerAdapterFamilyKey ) of the connected adapter. See Family Keys . Charging Status ¶ Field Description Status Charging status: Charging or Not Charging . Reason Reason code when not charging. See NotChargingReason . Charger Capable Adapter is identified as a compatible power source. External Connected Adapter is present and usable as a stable power source / UPS. Power Specifications ¶ Field Description Current Rating / Voltage Rating Designed current/voltage the adapter provides. Input Current / Input Voltage Actual input current/voltage being received. Charging Current / Charging Voltage Final current/voltage charging the battery. PMU Configuration / Charger Configuration Charging current limit set by the PMU/charger. HVC Mode High Voltage Charging modes allowed by the adapter hardware (not user-configurable). Hardware Information ¶ Field Description Charger IC ID Numeric ID of the device's charger IC. 0xFFFFFFFF on some USB‑C devices means no readable IC ID. Adapter Identification ¶ The following fields are only available when an adapter is designed to work with Apple devices (or emulates an Apple/MFi genuine adapter): Field Description Model Name Adapter model name (e.g., \"61W USB-C Power Adapter\"). Manufacturer Vendor name (e.g., \"Apple Inc.\"). Model Model number (e.g., 0x1685 ). Firmware Version Firmware version (e.g., 01050029 → 1.5.0.29 ). Hardware Version Hardware version (e.g., 1.0 ). Serial No. Adapter serial (e.g., C4H306600XDL4YRAD ). Description PMU description of the adapter type (e.g., \"pd charger\"). Inductive Port / Serial Port ¶ When your device is connecting to an inductive power accessory / USB accessory which providing it’s informations, this section will appear in your page. Identification ¶ Field Description Acc. ID Systen internally used numeric ID of the attached accessory. Digital ID (Lightning only) Chip ID of the accessory. ID Serial No. (Lightning only) Interface Device Serial Number (ID‑SN). IM Serial No. (Lightning only) Interface Module Serial Number (MSN). PPID Accessory PPID (manufacturer-provided identifier). Port Type Connecting port type, from IOAccessoryManager . Allowed Features Accessory feature flags (may be device-specific). Serial No. (MagSafe only) Serial number of the accessory. Manufacturer Accessory vendor. Product ID HID PID. Vendor ID HID VID. Model Accessory model (e.g., A2384 ). Name Accessory name (e.g., \"MagSafe Battery Pack\"). Firmware Version Accessory firmware version (e.g., 2.7.b.0 ). Hardware Version Accessory hardware version (e.g., 1.0.0 ). Power Role ¶ Field Description Battery Pack Indicates if the accessory acts as a Smart Battery Case . Providing Power Accessory is working as a power source. Status (MagSafe only) Current accessory working status. Accepting Charge (Accessory UPS only) Accessory is accepting charge. Accessory Battery (UPS) ¶ Field Description State of Charge Accessory battery percentage. Max Capacity Accessory battery full-charge capacity. Current Capacity Accessory battery current capacity. Avg. Charging Current Average charging current when accepting charge. Charging Voltage Rating Charging voltage rating. Cell Count Battery cell count of the accessory pack. Cycle Count Cycle count of the accessory pack. Current / Voltage Real-time accessory output current/voltage. Incoming Current / Incoming Voltage Real-time current/voltage received by the device. Temperature Current accessory temperature. Acc. Time to Full / Acc. Time to Empty Time estimates from the accessory gas gauge IC. Power Mode Active power modes of the accessory. Sleep Power Sleep power modes of the accessory. Supervised Acc. Attached Whether the accessory is marked as supervised . Supervised Transports Restricted Whether supervised transports are restricted. USB (Serial Port Only) ¶ Field Description USB Connect State Current USB device connect state. USB Charging Volt. Current USB device charging voltage. USB Current Config Current USB device charging current configuration.",
+      "title": "Battery Info"
+    },
+    {
+      "location": "metrics/battery-info/#battery-info",
+      "text": "The Battery Info page in Battman shows detailed information read directly from the device’s battery gas-gauge and IOAccessoryManager . It corresponds to the Battery Info section on the Battery tab.",
+      "title": "Battery Info"
+    },
+    {
+      "location": "metrics/battery-info/#what-you-may-want-to-know",
+      "text": "Current charge level (%), voltage, and current Design capacity, nominal/actual full-charge capacity, and cycle count Charging state and power source (USB, adapter, wireless, MagSafe, etc.) Not-charging reasons Unlike other tools that are based on IOPM , Battman does not guess or smooth values: it exposes the deepest raw metrics that the hardware reports.",
+      "title": "What You May Want to Know"
+    },
+    {
+      "location": "metrics/battery-info/#subsections",
+      "text": "On the \"Battery Info\" page, you may see the following sections, depending on your device's current state: Gas Gauge (Basic) Adapter Details Inductive Port / Serial Port Each section lists the detected metrics from different parts.",
+      "title": "Subsections"
+    },
+    {
+      "location": "metrics/battery-info/#gas-gauge-basic",
+      "text": "This section displays the most commonly used Gas Gauge metrics.",
+      "title": "Gas Gauge (Basic)"
+    },
+    {
+      "location": "metrics/battery-info/#device-information",
+      "text": "Field Description Device Name Gas Gauge IC used by the installed battery (e.g., bq20z451 ). Battery Serial No. Serial number of the battery pack. Chemistry ID ChemID used to match battery-specific strategies shipped in the OS. Cell Count Number of cells in the pack (e.g., 3 for a 3‑cell battery).",
+      "title": "Device Information"
+    },
+    {
+      "location": "metrics/battery-info/#capacity-metrics",
+      "text": "Field Description Full Charge Capacity Current maximum charge capacity in mAh, reported by the Gas Gauge IC. Designed Capacity Original design capacity in mAh when the battery was new. Remaining Capacity Current remaining charge capacity in mAh. Qmax Designed maximum chemical capacity of the pack. True Remaining Capacity Actual remaining capacity in mAh, reported by the BMS. Battery Uptime Time the battery has been in use since the last reset.",
+      "title": "Capacity Metrics"
+    },
+    {
+      "location": "metrics/battery-info/#discharge-metrics",
+      "text": "Field Description Depth of Discharge (DOD₀) Chemical depth of discharge, updated from OCV readings in a relaxed state. Passed Charge Cumulative capacity of the current charge/discharge cycle; resets with each DOD₀ update.",
+      "title": "Discharge Metrics"
+    },
+    {
+      "location": "metrics/battery-info/#electrical-measurements",
+      "text": "Field Description Voltage Average working voltage in mV (e.g., 11433 mV ). Avg. Current Average working current in mA (negative = discharging, e.g., -807 mA ). Avg. Power Average working power in mW (negative = consumption, e.g., -9226 mW ). OCV Current Open-circuit voltage current measurement. OCV Voltage Open-circuit voltage measurement. Max Load Current Maximum load current the battery can handle. Max Load Current 2 Secondary maximum load current measurement.",
+      "title": "Electrical Measurements"
+    },
+    {
+      "location": "metrics/battery-info/#state-of-charge",
+      "text": "Field Description State of Charge Battery percentage reported by the Gas Gauge IC. State of Charge (UI) SoC shown in the UI (differ from actual SoC). Daily Max SoC / Daily Min SoC Highest/lowest SoC reached in a day, reported by the BMS.",
+      "title": "State of Charge"
+    },
+    {
+      "location": "metrics/battery-info/#time-estimates",
+      "text": "Field Description Time to Full Estimated time until the battery reaches full charge. Time to Empty Estimated time until the battery is depleted.",
+      "title": "Time Estimates"
+    },
+    {
+      "location": "metrics/battery-info/#cycle-information",
+      "text": "Field Description Cycle Count Charge/discharge cycles completed (e.g., 1145 ). Designed Cycle Count Maximum cycles the battery is designed to handle.",
+      "title": "Cycle Information"
+    },
+    {
+      "location": "metrics/battery-info/#temperature",
+      "text": "Field Description Avg. Temperature Average working temperature reported by the Gas Gauge IC (e.g., 30.73 °C ).",
+      "title": "Temperature"
+    },
+    {
+      "location": "metrics/battery-info/#advanced-metrics",
+      "text": "Field Description Resistance Scale Scaling factor used for resistance calculations. Flags See Flags . IT Misc Status Impedance Track miscellaneous status information. Simulation Rate Rate at which the Gas Gauge performs Impedance Track™ simulations.",
+      "title": "Advanced Metrics"
+    },
+    {
+      "location": "metrics/battery-info/#adapter-details",
+      "text": "This section displays information about the current working adapter [1] . Working Adapter When one or multiple adapters are connected, the device will choose the best adapter as the working external power source; others will be inhibited.",
+      "title": "Adapter Details"
+    },
+    {
+      "location": "metrics/battery-info/#connection-information",
+      "text": "Field Description Port Numeric ID of the port in use. iPhone/iPad: 1 Serial (Lightning/USB-C), 2 Inductive (MagSafe/Wireless). MacBooks: 1 USB port 1, 2 USB port 2. Adapter Type Numeric ID describing the current adapter type (undocumented). Type Family code ( kIOPSPowerAdapterFamilyKey ) of the connected adapter. See Family Keys .",
+      "title": "Connection Information"
+    },
+    {
+      "location": "metrics/battery-info/#charging-status",
+      "text": "Field Description Status Charging status: Charging or Not Charging . Reason Reason code when not charging. See NotChargingReason . Charger Capable Adapter is identified as a compatible power source. External Connected Adapter is present and usable as a stable power source / UPS.",
+      "title": "Charging Status"
+    },
+    {
+      "location": "metrics/battery-info/#power-specifications",
+      "text": "Field Description Current Rating / Voltage Rating Designed current/voltage the adapter provides. Input Current / Input Voltage Actual input current/voltage being received. Charging Current / Charging Voltage Final current/voltage charging the battery. PMU Configuration / Charger Configuration Charging current limit set by the PMU/charger. HVC Mode High Voltage Charging modes allowed by the adapter hardware (not user-configurable).",
+      "title": "Power Specifications"
+    },
+    {
+      "location": "metrics/battery-info/#hardware-information",
+      "text": "Field Description Charger IC ID Numeric ID of the device's charger IC. 0xFFFFFFFF on some USB‑C devices means no readable IC ID.",
+      "title": "Hardware Information"
+    },
+    {
+      "location": "metrics/battery-info/#adapter-identification",
+      "text": "The following fields are only available when an adapter is designed to work with Apple devices (or emulates an Apple/MFi genuine adapter): Field Description Model Name Adapter model name (e.g., \"61W USB-C Power Adapter\"). Manufacturer Vendor name (e.g., \"Apple Inc.\"). Model Model number (e.g., 0x1685 ). Firmware Version Firmware version (e.g., 01050029 → 1.5.0.29 ). Hardware Version Hardware version (e.g., 1.0 ). Serial No. Adapter serial (e.g., C4H306600XDL4YRAD ). Description PMU description of the adapter type (e.g., \"pd charger\").",
+      "title": "Adapter Identification"
+    },
+    {
+      "location": "metrics/battery-info/#inductive-port-serial-port",
+      "text": "When your device is connecting to an inductive power accessory / USB accessory which providing it’s informations, this section will appear in your page.",
+      "title": "Inductive Port / Serial Port"
+    },
+    {
+      "location": "metrics/battery-info/#identification",
+      "text": "Field Description Acc. ID Systen internally used numeric ID of the attached accessory. Digital ID (Lightning only) Chip ID of the accessory. ID Serial No. (Lightning only) Interface Device Serial Number (ID‑SN). IM Serial No. (Lightning only) Interface Module Serial Number (MSN). PPID Accessory PPID (manufacturer-provided identifier). Port Type Connecting port type, from IOAccessoryManager . Allowed Features Accessory feature flags (may be device-specific). Serial No. (MagSafe only) Serial number of the accessory. Manufacturer Accessory vendor. Product ID HID PID. Vendor ID HID VID. Model Accessory model (e.g., A2384 ). Name Accessory name (e.g., \"MagSafe Battery Pack\"). Firmware Version Accessory firmware version (e.g., 2.7.b.0 ). Hardware Version Accessory hardware version (e.g., 1.0.0 ).",
+      "title": "Identification"
+    },
+    {
+      "location": "metrics/battery-info/#power-role",
+      "text": "Field Description Battery Pack Indicates if the accessory acts as a Smart Battery Case . Providing Power Accessory is working as a power source. Status (MagSafe only) Current accessory working status. Accepting Charge (Accessory UPS only) Accessory is accepting charge.",
+      "title": "Power Role"
+    },
+    {
+      "location": "metrics/battery-info/#accessory-battery-ups",
+      "text": "Field Description State of Charge Accessory battery percentage. Max Capacity Accessory battery full-charge capacity. Current Capacity Accessory battery current capacity. Avg. Charging Current Average charging current when accepting charge. Charging Voltage Rating Charging voltage rating. Cell Count Battery cell count of the accessory pack. Cycle Count Cycle count of the accessory pack. Current / Voltage Real-time accessory output current/voltage. Incoming Current / Incoming Voltage Real-time current/voltage received by the device. Temperature Current accessory temperature. Acc. Time to Full / Acc. Time to Empty Time estimates from the accessory gas gauge IC. Power Mode Active power modes of the accessory. Sleep Power Sleep power modes of the accessory. Supervised Acc. Attached Whether the accessory is marked as supervised . Supervised Transports Restricted Whether supervised transports are restricted.",
+      "title": "Accessory Battery (UPS)"
+    },
+    {
+      "location": "metrics/battery-info/#usb-serial-port-only",
+      "text": "Field Description USB Connect State Current USB device connect state. USB Charging Volt. Current USB device charging voltage. USB Current Config Current USB device charging current configuration.",
+      "title": "USB (Serial Port Only)"
+    },
+    {
+      "location": "metrics/brightness/",
+      "text": "Brightness ¶ The Brightness page reads and presents screen‑brightness data. It corresponds to the Brightness section on the Battery tab. What is shown ¶ Current brightness as a user percentage . Hardware and user‑accessible brightness limits values in nits . Display characteristics such as resolution, color gamut (sRGB / P3), refresh rate and color depth. Percent vs. nits isn’t linear ¶ iOS maps the user slider to panel output with a perceptual (gamma‑like) curve, not a straight line. The function is roughly exponential: f(percentage) ≠ max_nits * percentage . Example: on a 650‑nit panel, 50% user brightness typically lands near ~150 nits, not ~325. This curve keeps low and mid levels more usable for human vision.",
+      "title": "Brightness"
+    },
+    {
+      "location": "metrics/brightness/#brightness",
+      "text": "The Brightness page reads and presents screen‑brightness data. It corresponds to the Brightness section on the Battery tab.",
+      "title": "Brightness"
+    },
+    {
+      "location": "metrics/brightness/#what-is-shown",
+      "text": "Current brightness as a user percentage . Hardware and user‑accessible brightness limits values in nits . Display characteristics such as resolution, color gamut (sRGB / P3), refresh rate and color depth.",
+      "title": "What is shown"
+    },
+    {
+      "location": "metrics/brightness/#percent-vs-nits-isnt-linear",
+      "text": "iOS maps the user slider to panel output with a perceptual (gamma‑like) curve, not a straight line. The function is roughly exponential: f(percentage) ≠ max_nits * percentage . Example: on a 650‑nit panel, 50% user brightness typically lands near ~150 nits, not ~325. This curve keeps low and mid levels more usable for human vision.",
+      "title": "Percent vs. nits isn’t linear"
+    },
+    {
+      "location": "metrics/hardware-temperature/",
+      "text": "Hardware Temperature ¶ The Hardware Temperature view shows real‑time readings from the device’s thermal sensors. It corresponds to the Hardware Temperature row in the Battery tab. Sections ¶ Battman groups temperature data into several sections: System Thermal Monitor State Shows the status of system thermal monitor daemon thermalmonitord . Thermal Basics High‑level thermal metrics: thermal pressure level, thermal notification level , maximum trigger temperature and sunlight‑exposure state. Device Sensors Per‑sensor readings reported by the system (e.g. SoC, skin, battery pack, camera module). HID / HID Raw Data Lower‑level HID temperature channels aggregated from multiple hardware sensors. Usage notes ¶ Some sensors may not update in real time or may report stub values. Thermal behavior can be tuned from Thermal Tunes , while this page is focused on read‑only monitoring.",
+      "title": "Hardware Temperature"
+    },
+    {
+      "location": "metrics/hardware-temperature/#hardware-temperature",
+      "text": "The Hardware Temperature view shows real‑time readings from the device’s thermal sensors. It corresponds to the Hardware Temperature row in the Battery tab.",
+      "title": "Hardware Temperature"
+    },
+    {
+      "location": "metrics/hardware-temperature/#sections",
+      "text": "Battman groups temperature data into several sections: System Thermal Monitor State Shows the status of system thermal monitor daemon thermalmonitord . Thermal Basics High‑level thermal metrics: thermal pressure level, thermal notification level , maximum trigger temperature and sunlight‑exposure state. Device Sensors Per‑sensor readings reported by the system (e.g. SoC, skin, battery pack, camera module). HID / HID Raw Data Lower‑level HID temperature channels aggregated from multiple hardware sensors.",
+      "title": "Sections"
+    },
+    {
+      "location": "metrics/hardware-temperature/#usage-notes",
+      "text": "Some sensors may not update in real time or may report stub values. Thermal behavior can be tuned from Thermal Tunes , while this page is focused on read‑only monitoring.",
+      "title": "Usage notes"
+    },
+    {
+      "location": "preferences/preferred-languages/",
+      "text": "Preferred Languages ¶ Battman and this user manual are designed to be multi‑lingual . App UI ¶ Battman follows the iOS system language order by default. Where multiple localizations are available, iOS will automatically pick the best match, otherwise uses English as fallback. Documentation site ¶ This site uses MkDocs with a language suffix scheme: index.md for English, index.zh.md for Simplified Chinese. Use the language switcher in the top‑right corner to change documentation language without changing system settings. If a string or page is missing in your language, you can help by contributing translations (see Contributing → Locales ).",
+      "title": "Preferred Languages"
+    },
+    {
+      "location": "preferences/preferred-languages/#preferred-languages",
+      "text": "Battman and this user manual are designed to be multi‑lingual .",
+      "title": "Preferred Languages"
+    },
+    {
+      "location": "preferences/preferred-languages/#app-ui",
+      "text": "Battman follows the iOS system language order by default. Where multiple localizations are available, iOS will automatically pick the best match, otherwise uses English as fallback.",
+      "title": "App UI"
+    },
+    {
+      "location": "preferences/preferred-languages/#documentation-site",
+      "text": "This site uses MkDocs with a language suffix scheme: index.md for English, index.zh.md for Simplified Chinese. Use the language switcher in the top‑right corner to change documentation language without changing system settings. If a string or page is missing in your language, you can help by contributing translations (see Contributing → Locales ).",
+      "title": "Documentation site"
+    },
+    {
+      "location": "preferences/wiping-data/",
+      "text": "Wiping Data ¶ This page explains how to clear Battman’s local data and settings. What \"data\" means here ¶ Battman’s own preferences (stored in the app container or system preferences). Cached logs or temporary files created by the app. Important Battman would never reset systemwide configurations (Thermal Tunes, etc.) for stability concerns, please make your own backups when possible. Steps to wipe data ¶ Open Battman Tap \"More\" tab. Tap \"Preferences\". Scroll to bottom, you will see Wipe all Battman data . Tap on it and confirm to wipe all Battman data. For uninstalling Battman, see Uninstallation .",
+      "title": "Wiping Data"
+    },
+    {
+      "location": "preferences/wiping-data/#wiping-data",
+      "text": "This page explains how to clear Battman’s local data and settings.",
+      "title": "Wiping Data"
+    },
+    {
+      "location": "preferences/wiping-data/#what-data-means-here",
+      "text": "Battman’s own preferences (stored in the app container or system preferences). Cached logs or temporary files created by the app. Important Battman would never reset systemwide configurations (Thermal Tunes, etc.) for stability concerns, please make your own backups when possible.",
+      "title": "What \"data\" means here"
+    },
+    {
+      "location": "preferences/wiping-data/#steps-to-wipe-data",
+      "text": "Open Battman Tap \"More\" tab. Tap \"Preferences\". Scroll to bottom, you will see Wipe all Battman data . Tap on it and confirm to wipe all Battman data. For uninstalling Battman, see Uninstallation .",
+      "title": "Steps to wipe data"
+    },
+    {
+      "location": "troubleshooting/battery-info/family-keys/",
+      "text": "Family Codes ¶ Family codes identify the type of power adapter or charging source connected to your device. They help identify the charging interface and capabilities of the connected adapter. Overview ¶ Family codes are used by the system to: - Determine charging capabilities and power limits - Identify the type of connection (USB, AC, wireless, etc.) - Apply appropriate charging protocols and safety limits - Display adapter information in system diagnostics Code Values ¶ No Connection / Unsupported ¶ Code Hex Value Description kIOPSFamilyCodeDisconnected 0x00000000 No adapter connected or detected kIOPSFamilyCodeUnsupported 0xE00002C7 Adapter detected but not supported or recognized FireWire ¶ Code Hex Value Description kIOPSFamilyCodeFirewire 0xE0008000 FireWire (IEEE 1394) power adapter (legacy) USB Power Sources ¶ USB family codes are grouped under the 0xE0004000 base range: Code Hex Value Description kIOPSFamilyCodeUSBHost 0xE0004000 USB host port (standard USB port) kIOPSFamilyCodeUSBHostSuspended 0xE0004001 USB SDP (Standard Downstream Port) - low power USB port kIOPSFamilyCodeUSBDevice 0xE0004002 USB device mode (device acting as USB peripheral) kIOPSFamilyCodeUSBAdapter 0xE0004003 Generic USB adapter kIOPSFamilyCodeUSBChargingPortDedicated 0xE0004004 USB DCP (Dedicated Charging Port) - dedicated USB charger kIOPSFamilyCodeUSBChargingPortDownstream 0xE0004005 USB CDP (Charging Downstream Port) - USB port that can charge while providing data kIOPSFamilyCodeUSBChargingPort 0xE0004006 USB CP (Charging Port) - generic USB charging port kIOPSFamilyCodeUSBUnknown 0xE0004007 Unknown USB power source type kIOPSFamilyCodeUSBCBrick 0xE0004008 USB-C brick adapter (non-PD USB-C charger) kIOPSFamilyCodeUSBCTypeC 0xE0004009 USB-C Type-C port (standard USB-C connection) kIOPSFamilyCodeUSBCPD 0xE000400A USB-C PD (Power Delivery) - USB-C charger with Power Delivery protocol AC Power ¶ Code Hex Value Description kIOPSFamilyCodeAC 0xE0024000 AC power adapter (traditional MacBook power adapter) External Power Sources ¶ External power codes are used for proprietary or specialized charging interfaces. They are grouped sequentially starting from 0xE0024001 : Code Hex Value Description kIOPSFamilyCodeExternal 0xE0024001 External Power 1 - Generic external power source kIOPSFamilyCodeExternal2 0xE0024002 External Power 2 - Secondary external power source kIOPSFamilyCodeExternal3 0xE0024003 External Power 3 - Baseline Arca charging interface kIOPSFamilyCodeExternal4 0xE0024004 External Power 4 - Additional external power source kIOPSFamilyCodeExternal5 0xE0024005 External Power 5 - Additional external power source kIOPSFamilyCodeExternal6 0xE0024006 External Power 6 - MagSafe charger (wireless charging) kIOPSFamilyCodeExternal7 0xE0024007 External Power 7 - MagSafe accessory (e.g., MagSafe Battery Pack) Understanding USB Charging Ports ¶ USB SDP (Standard Downstream Port) ¶ Provides up to 500mA at 5V (2.5W) Used for standard USB data ports Slowest charging option USB DCP (Dedicated Charging Port) ¶ Provides up to 1.5A at 5V (7.5W) Designed specifically for charging (no data) Common on wall chargers and car chargers USB CDP (Charging Downstream Port) ¶ Provides up to 1.5A at 5V (7.5W) Supports both charging and data transfer simultaneously Found on computers and some hubs USB-C Power Delivery (PD) ¶ Can provide variable voltage and current (up to 100W+ depending on adapter) Negotiates power levels dynamically Supports fast charging on compatible devices Most capable USB charging standard Device-Specific Behavior ¶ MacBooks ¶ AC adapters show as kIOPSFamilyCodeAC USB-C adapters show as kIOPSFamilyCodeUSBCPD or kIOPSFamilyCodeUSBCTypeC iPhone / iPad ¶ MagSafe chargers appear as kIOPSFamilyCodeExternal6 MagSafe accessories (like Battery Pack) appear as kIOPSFamilyCodeExternal7 Troubleshooting ¶ \"Unsupported\" Family Code ¶ If you see kIOPSFamilyCodeUnsupported : - The adapter may not be Apple-certified or MFi-compatible - The adapter may be damaged or malfunctioning - The device may not recognize third-party adapters - Try using an Apple-certified adapter \"Disconnected\" When Adapter is Connected ¶ If you see kIOPSFamilyCodeDisconnected despite having an adapter connected: - Check the physical connection (cable, port) - Try a different cable or port - The adapter may not be providing power - Check for debris in the charging port USB-C Not Charging ¶ If a USB-C adapter shows a family code but isn't charging: - Verify the adapter supports Power Delivery (PD) - Check that the cable supports charging (some USB-C cables are data-only) - Ensure the adapter provides sufficient power for your device - Check the Not Charging Reason for specific error codes Wireless Charging Issues ¶ For MagSafe or inductive charging: - Ensure the device supports wireless charging - Check that the charger is properly aligned - Remove any cases or accessories that might interfere - Verify the charger is Apple-certified (for MagSafe)",
+      "title": "Family Codes"
+    },
+    {
+      "location": "troubleshooting/battery-info/family-keys/#family-codes",
+      "text": "Family codes identify the type of power adapter or charging source connected to your device. They help identify the charging interface and capabilities of the connected adapter.",
+      "title": "Family Codes"
+    },
+    {
+      "location": "troubleshooting/battery-info/family-keys/#overview",
+      "text": "Family codes are used by the system to: - Determine charging capabilities and power limits - Identify the type of connection (USB, AC, wireless, etc.) - Apply appropriate charging protocols and safety limits - Display adapter information in system diagnostics",
+      "title": "Overview"
+    },
+    {
+      "location": "troubleshooting/battery-info/family-keys/#code-values",
+      "text": "",
+      "title": "Code Values"
+    },
+    {
+      "location": "troubleshooting/battery-info/family-keys/#no-connection-unsupported",
+      "text": "Code Hex Value Description kIOPSFamilyCodeDisconnected 0x00000000 No adapter connected or detected kIOPSFamilyCodeUnsupported 0xE00002C7 Adapter detected but not supported or recognized",
+      "title": "No Connection / Unsupported"
+    },
+    {
+      "location": "troubleshooting/battery-info/family-keys/#firewire",
+      "text": "Code Hex Value Description kIOPSFamilyCodeFirewire 0xE0008000 FireWire (IEEE 1394) power adapter (legacy)",
+      "title": "FireWire"
+    },
+    {
+      "location": "troubleshooting/battery-info/family-keys/#usb-power-sources",
+      "text": "USB family codes are grouped under the 0xE0004000 base range: Code Hex Value Description kIOPSFamilyCodeUSBHost 0xE0004000 USB host port (standard USB port) kIOPSFamilyCodeUSBHostSuspended 0xE0004001 USB SDP (Standard Downstream Port) - low power USB port kIOPSFamilyCodeUSBDevice 0xE0004002 USB device mode (device acting as USB peripheral) kIOPSFamilyCodeUSBAdapter 0xE0004003 Generic USB adapter kIOPSFamilyCodeUSBChargingPortDedicated 0xE0004004 USB DCP (Dedicated Charging Port) - dedicated USB charger kIOPSFamilyCodeUSBChargingPortDownstream 0xE0004005 USB CDP (Charging Downstream Port) - USB port that can charge while providing data kIOPSFamilyCodeUSBChargingPort 0xE0004006 USB CP (Charging Port) - generic USB charging port kIOPSFamilyCodeUSBUnknown 0xE0004007 Unknown USB power source type kIOPSFamilyCodeUSBCBrick 0xE0004008 USB-C brick adapter (non-PD USB-C charger) kIOPSFamilyCodeUSBCTypeC 0xE0004009 USB-C Type-C port (standard USB-C connection) kIOPSFamilyCodeUSBCPD 0xE000400A USB-C PD (Power Delivery) - USB-C charger with Power Delivery protocol",
+      "title": "USB Power Sources"
+    },
+    {
+      "location": "troubleshooting/battery-info/family-keys/#ac-power",
+      "text": "Code Hex Value Description kIOPSFamilyCodeAC 0xE0024000 AC power adapter (traditional MacBook power adapter)",
+      "title": "AC Power"
+    },
+    {
+      "location": "troubleshooting/battery-info/family-keys/#external-power-sources",
+      "text": "External power codes are used for proprietary or specialized charging interfaces. They are grouped sequentially starting from 0xE0024001 : Code Hex Value Description kIOPSFamilyCodeExternal 0xE0024001 External Power 1 - Generic external power source kIOPSFamilyCodeExternal2 0xE0024002 External Power 2 - Secondary external power source kIOPSFamilyCodeExternal3 0xE0024003 External Power 3 - Baseline Arca charging interface kIOPSFamilyCodeExternal4 0xE0024004 External Power 4 - Additional external power source kIOPSFamilyCodeExternal5 0xE0024005 External Power 5 - Additional external power source kIOPSFamilyCodeExternal6 0xE0024006 External Power 6 - MagSafe charger (wireless charging) kIOPSFamilyCodeExternal7 0xE0024007 External Power 7 - MagSafe accessory (e.g., MagSafe Battery Pack)",
+      "title": "External Power Sources"
+    },
+    {
+      "location": "troubleshooting/battery-info/family-keys/#understanding-usb-charging-ports",
+      "text": "",
+      "title": "Understanding USB Charging Ports"
+    },
+    {
+      "location": "troubleshooting/battery-info/family-keys/#usb-sdp-standard-downstream-port",
+      "text": "Provides up to 500mA at 5V (2.5W) Used for standard USB data ports Slowest charging option",
+      "title": "USB SDP (Standard Downstream Port)"
+    },
+    {
+      "location": "troubleshooting/battery-info/family-keys/#usb-dcp-dedicated-charging-port",
+      "text": "Provides up to 1.5A at 5V (7.5W) Designed specifically for charging (no data) Common on wall chargers and car chargers",
+      "title": "USB DCP (Dedicated Charging Port)"
+    },
+    {
+      "location": "troubleshooting/battery-info/family-keys/#usb-cdp-charging-downstream-port",
+      "text": "Provides up to 1.5A at 5V (7.5W) Supports both charging and data transfer simultaneously Found on computers and some hubs",
+      "title": "USB CDP (Charging Downstream Port)"
+    },
+    {
+      "location": "troubleshooting/battery-info/family-keys/#usb-c-power-delivery-pd",
+      "text": "Can provide variable voltage and current (up to 100W+ depending on adapter) Negotiates power levels dynamically Supports fast charging on compatible devices Most capable USB charging standard",
+      "title": "USB-C Power Delivery (PD)"
+    },
+    {
+      "location": "troubleshooting/battery-info/family-keys/#device-specific-behavior",
+      "text": "",
+      "title": "Device-Specific Behavior"
+    },
+    {
+      "location": "troubleshooting/battery-info/family-keys/#macbooks",
+      "text": "AC adapters show as kIOPSFamilyCodeAC USB-C adapters show as kIOPSFamilyCodeUSBCPD or kIOPSFamilyCodeUSBCTypeC",
+      "title": "MacBooks"
+    },
+    {
+      "location": "troubleshooting/battery-info/family-keys/#iphone-ipad",
+      "text": "MagSafe chargers appear as kIOPSFamilyCodeExternal6 MagSafe accessories (like Battery Pack) appear as kIOPSFamilyCodeExternal7",
+      "title": "iPhone / iPad"
+    },
+    {
+      "location": "troubleshooting/battery-info/family-keys/#troubleshooting",
+      "text": "",
+      "title": "Troubleshooting"
+    },
+    {
+      "location": "troubleshooting/battery-info/family-keys/#unsupported-family-code",
+      "text": "If you see kIOPSFamilyCodeUnsupported : - The adapter may not be Apple-certified or MFi-compatible - The adapter may be damaged or malfunctioning - The device may not recognize third-party adapters - Try using an Apple-certified adapter",
+      "title": "\"Unsupported\" Family Code"
+    },
+    {
+      "location": "troubleshooting/battery-info/family-keys/#disconnected-when-adapter-is-connected",
+      "text": "If you see kIOPSFamilyCodeDisconnected despite having an adapter connected: - Check the physical connection (cable, port) - Try a different cable or port - The adapter may not be providing power - Check for debris in the charging port",
+      "title": "\"Disconnected\" When Adapter is Connected"
+    },
+    {
+      "location": "troubleshooting/battery-info/family-keys/#usb-c-not-charging",
+      "text": "If a USB-C adapter shows a family code but isn't charging: - Verify the adapter supports Power Delivery (PD) - Check that the cable supports charging (some USB-C cables are data-only) - Ensure the adapter provides sufficient power for your device - Check the Not Charging Reason for specific error codes",
+      "title": "USB-C Not Charging"
+    },
+    {
+      "location": "troubleshooting/battery-info/family-keys/#wireless-charging-issues",
+      "text": "For MagSafe or inductive charging: - Ensure the device supports wireless charging - Check that the charger is properly aligned - Remove any cases or accessories that might interfere - Verify the charger is Apple-certified (for MagSafe)",
+      "title": "Wireless Charging Issues"
+    },
+    {
+      "location": "troubleshooting/battery-info/flags/",
+      "text": "Flags ¶ Battman shows the raw gas‑gauge flags reported by the battery fuel‑gauge IC. These bits come directly from Texas Instruments gauges (bq274xx, bq275xx, bq20zxx) and are rendered in the Flags row of the Battery Info table as two bytes (High and Low). What you see in the app ¶ A hex value (e.g., 0x00CC ) shows the combined 16-bit flag word. Two segmented rows display the bits: the top row is the high byte, the bottom row is the low byte. A filled/bright segment means the bit is set; dim means clear. How Battman maps flags ¶ If the gauge model is known (from device name or board target), Battman loads the matching TI flag layout; otherwise it guesses a close layout. Bits are presented in two rows. Selected segments indicate set bits. Meanings follow the TI datasheets; key fields are summarized below. Common TI flag meanings ¶ bq2742x (incl. bq27421/25/26/27) High byte (left→right as shown in the UI) Bit Meaning OT Over-temperature UT Under-temperature EEFAIL EEPROM write failure (27425 only) FC Full charge detected CHG Charge allowed Low byte (left→right) Bit Meaning OCVTAKEN Open-circuit voltage sample taken DODC Depth-of-discharge correction active (421/426/427) ITPOR Power-on reset occurred CFGUPMODE In configuration update mode BAT_DET Battery detected SOC1 Low state-of-charge threshold reached SOCF Critical state-of-charge threshold reached DSG Discharging bq2754x / generic bq275 High byte (left→right) Bit Meaning OTC Over-temp while charging (27545) OTD Over-temp while discharging (27545) BATHI High battery voltage BATLOW Low battery voltage CHG_INH Charging inhibited by temperature FC Full charge detected CHG Charge allowed (27545) Low byte — generic bq275 (left→right) Bit Meaning CHG_SUS Charge suspended IMAX Imax change interrupt CHG Charge allowed SOC1 Low state-of-charge threshold reached SOCF Critical state-of-charge threshold reached DSG Discharging Low byte — bq27545 variant (left→right) Bit Meaning OCVTAKEN Relaxed OCV sample taken ISD Internal short detected TDD Tab disconnect detected HW1 / HW0 Device ID bits SOC1 Low state-of-charge threshold reached SOCF Critical state-of-charge threshold reached DSG Discharging bq20zxx (MacBook battery status) High byte (left→right) Bit Meaning OCA Over-charged alarm TCA Terminate charge alarm OTA Over-temperature alarm TDA Terminate discharge alarm RCA Remaining capacity alarm RTA Remaining time alarm Low byte (left→right) Bit Meaning INIT Gauge initialization DSG Discharging FC Fully charged FD Fully discharged EC3 SBS error code bit 3 EC2 SBS error code bit 2 EC1 SBS error code bit 1 EC0 SBS error code bit 0 Notes ¶ Flag layouts mirror TI documentation; consult the specific datasheet for thresholds and timing. Battman displays flags read-only. Interpretation depends on charger state and the OEM thresholds. If flags consistently look wrong, the pack or gauge may be misreporting.",
+      "title": "Flags"
+    },
+    {
+      "location": "troubleshooting/battery-info/flags/#flags",
+      "text": "Battman shows the raw gas‑gauge flags reported by the battery fuel‑gauge IC. These bits come directly from Texas Instruments gauges (bq274xx, bq275xx, bq20zxx) and are rendered in the Flags row of the Battery Info table as two bytes (High and Low).",
+      "title": "Flags"
+    },
+    {
+      "location": "troubleshooting/battery-info/flags/#what-you-see-in-the-app",
+      "text": "A hex value (e.g., 0x00CC ) shows the combined 16-bit flag word. Two segmented rows display the bits: the top row is the high byte, the bottom row is the low byte. A filled/bright segment means the bit is set; dim means clear.",
+      "title": "What you see in the app"
+    },
+    {
+      "location": "troubleshooting/battery-info/flags/#how-battman-maps-flags",
+      "text": "If the gauge model is known (from device name or board target), Battman loads the matching TI flag layout; otherwise it guesses a close layout. Bits are presented in two rows. Selected segments indicate set bits. Meanings follow the TI datasheets; key fields are summarized below.",
+      "title": "How Battman maps flags"
+    },
+    {
+      "location": "troubleshooting/battery-info/flags/#common-ti-flag-meanings",
+      "text": "bq2742x (incl. bq27421/25/26/27) High byte (left→right as shown in the UI) Bit Meaning OT Over-temperature UT Under-temperature EEFAIL EEPROM write failure (27425 only) FC Full charge detected CHG Charge allowed Low byte (left→right) Bit Meaning OCVTAKEN Open-circuit voltage sample taken DODC Depth-of-discharge correction active (421/426/427) ITPOR Power-on reset occurred CFGUPMODE In configuration update mode BAT_DET Battery detected SOC1 Low state-of-charge threshold reached SOCF Critical state-of-charge threshold reached DSG Discharging bq2754x / generic bq275 High byte (left→right) Bit Meaning OTC Over-temp while charging (27545) OTD Over-temp while discharging (27545) BATHI High battery voltage BATLOW Low battery voltage CHG_INH Charging inhibited by temperature FC Full charge detected CHG Charge allowed (27545) Low byte — generic bq275 (left→right) Bit Meaning CHG_SUS Charge suspended IMAX Imax change interrupt CHG Charge allowed SOC1 Low state-of-charge threshold reached SOCF Critical state-of-charge threshold reached DSG Discharging Low byte — bq27545 variant (left→right) Bit Meaning OCVTAKEN Relaxed OCV sample taken ISD Internal short detected TDD Tab disconnect detected HW1 / HW0 Device ID bits SOC1 Low state-of-charge threshold reached SOCF Critical state-of-charge threshold reached DSG Discharging bq20zxx (MacBook battery status) High byte (left→right) Bit Meaning OCA Over-charged alarm TCA Terminate charge alarm OTA Over-temperature alarm TDA Terminate discharge alarm RCA Remaining capacity alarm RTA Remaining time alarm Low byte (left→right) Bit Meaning INIT Gauge initialization DSG Discharging FC Fully charged FD Fully discharged EC3 SBS error code bit 3 EC2 SBS error code bit 2 EC1 SBS error code bit 1 EC0 SBS error code bit 0",
+      "title": "Common TI flag meanings"
+    },
+    {
+      "location": "troubleshooting/battery-info/flags/#notes",
+      "text": "Flag layouts mirror TI documentation; consult the specific datasheet for thresholds and timing. Battman displays flags read-only. Interpretation depends on charger state and the OEM thresholds. If flags consistently look wrong, the pack or gauge may be misreporting.",
+      "title": "Notes"
+    },
+    {
+      "location": "troubleshooting/battery-info/not-charging-reason/",
+      "text": "Not Charging Reason ¶ The \"Not Charging Reason\" is a diagnostic value that explains why your device is not charging when a charger is connected. This information is read from the Apple SMC (System Management Controller) and helps identify the root cause of charging issues. Overview ¶ The Not Charging Reason is stored in the SMC key CHNC (Charger Not Charging) and can have different formats depending on your device's generation: Version 0 (NonSMC) : Legacy devices without SMC support Version 1 (Gibraltar/BNCR) : Enum-based format used on specific Intel Mac models Version 2 (SMC/CHNC) : Bitmask-based format used on Apple Silicon and most modern devices The version is determined by reading the RGEN (Reason Generation) SMC key. Version 2 (SMC/CHNC) - Modern Devices ¶ Version 2 uses a bitmask format where multiple reasons can be active simultaneously. This is the format used on Apple Silicon Macs and most modern devices as of 2025. Common Reasons ¶ Reason Description Fully Charged Battery has reached 100% charge capacity Too Cold Battery temperature is below the minimum threshold to stop charging Too Hot Battery temperature is above the maximum threshold to stop charging Too Cold To Start Battery temperature is too low to begin charging Too Hot To Start Battery temperature is too high to begin charging Presence Issues ¶ Reason Description Charger Watchdog Timeout Charging has been active for over 15 hours, or charge timeout flag is set Battery Not Present System cannot detect the battery VBUS Not Present No power detected on the USB power bus Charging Inhibit Conditions ¶ Reason Description High SoC High Temp Stopped Charging stopped due to high state of charge combined with high temperature Sensor Communication Failed Communication with battery management sensors has failed System Modes ¶ Reason Description Accessory Connecting IOAccessoryManager is managing an accessory connection Kiosk Mode Device is in kiosk mode, which may inhibit charging CoreMotion CoreMotion framework is controlling charging behavior USB-PD Connecting USB Power Delivery negotiation in progress Charging Control ¶ Reason Description setbatt Controlled Charging is being controlled by the setbatt tool or similar system utility Predictive Charging System is using predictive charging to optimize battery health Wireless Charger Controlled Wireless/inductive charger is managing the charging process Gas Gauge FW Updating Battery gas gauge firmware is being updated (common with MagSafe chargers) Battery Inhibit Inflow Unsupported Battery hardware doesn't support software-controlled charge inhibition PCTM Power Control Thermal Management is active Inhibit Client Adapter Client adapter charging is inhibited Cell Voltage Too High One or more battery cells have exceeded safe voltage limits Battery Not Requesting Charge Battery management system is not requesting charge Camera Streaming Continuity Camera or webcam streaming is active (macOS 13 / iOS 16+) System Controls ¶ Reason Description VACTFB Voltage/current feedback system is controlling charging Field Diagnostics Device is in field diagnostics mode Inhibit Inflow System has explicitly inhibited charge inflow Carrier Mode Testing Device is in carrier testing mode Permanent Faults ¶ These indicate serious hardware or firmware issues that may require service: Reason Description Charged Too Long Battery has been charging for an excessive duration Vbatt Fault Battery voltage fault detected Ibatt MinFault Battery current minimum fault detected Charger Communication Failure Communication with the charger has failed Cell Check Fault Battery cell integrity check failed When any permanent fault is detected, the system may display \"Permanent Battery Failure\" as the primary reason. Version 1 (Gibraltar/BNCR) - Intel Mac Models ¶ Version 1 uses an enum-based format where only one reason is active at a time. This format is used on specific Intel Mac models: J132, J137, J140, J152, J213, J214, J215, J680, J780 Common Reasons ¶ Value Reason Description NO_REASON No Reason Device is charging normally NO_AC No AC Power No AC adapter detected NO_BATTERY No Battery Battery not detected BAD_BATTERY Bad Battery Battery health check failed BATTERY_FC Fully Charged Battery is at full capacity BATTERY_NO_CHG_REQ Battery Not Requesting Charge Battery management system not requesting charge AC_INSERT Using AC Power Device is running on AC power only G3 G3 Mechanical Off Device is in G3 power state ADAPTER_DISABLED Adapter Disabled Charger adapter is disabled ADAPTER_UNKNOWN Unknown Adapter Charger adapter is not recognized ADAPTER_NOT_ALLOW_CHARGING Adapter Not Allowed Charger adapter is not authorized for charging CALIBRATION Calibration Battery is being calibrated B0LI_0 Charging Disabled Charging has been disabled OS_NO_CHG OS Charging Disabled Operating system has disabled charging BCLM_REACHED Charging Limit Reached Battery charge limit has been reached UPSTREAM_NO_CHG Upstream Charging Disabled Upstream charging control disabled PM_NO_CHG PowerManagement Charging Disabled Power management has disabled charging TB0T_OVER_50 Battery Temperature over 50℃ Battery temperature exceeds 50°C TB0T_OVER_45 Battery Temperature over 45℃ Battery temperature exceeds 45°C TEMP_GRADIENT_TOO_HIGH Temperature Gradient Too High Battery temperature is changing too rapidly TEMP_NOT_ATV_VLD Temperature Not Valid Battery temperature reading is invalid BATTERY_TCA Battery TCA Battery thermal control active OW_TDM_LINK_ACTIVE One-Wire TDM Link Active One-wire communication active CELL_VOLTAGE_TOO_HIGH Cell Voltage Too High Battery cell voltage exceeds safe limits OBC_NO_CHG Predictive Charging Optimized Battery Charging is active VACTFB_NO_CHG VACTFB No Charge Voltage/current feedback preventing charge OBC_NO_INFLOW Predictive Charging (Inflow) Optimized Battery Charging preventing charge inflow Version 0 (NonSMC) - Legacy Devices ¶ Version 0 is used on very old devices that don't have SMC support. Known devices include: D10, D11 J71, J72, J73, J81, J82, J85, J86, J87, J96, J97, J98, J99, J120, J121, J127, J128, J171, J172, J207, J208 N27, N28, N61, N66, N69, N71, N74, N75, N111, N121 NonSMC Specific Reasons ¶ Reason Description POSM Mode Power On Self Test mode Display Display-related charging control Too Cold Battery temperature too low Too Hot Battery temperature too high Done Charging complete Too Long Charging duration exceeded CHG_WD Charger watchdog timeout Interpreting the Value ¶ The Not Charging Reason is typically displayed as a hexadecimal value (e.g., 0x00000001 ). In Version 2 (bitmask format), multiple bits can be set simultaneously, indicating multiple reasons. Example Interpretations ¶ 0x00000001 - Fully Charged 0x00000002 - Too Cold 0x00000004 - Too Hot 0x00000003 - Fully Charged AND Too Cold (both bits set) Troubleshooting Tips ¶ Temperature Issues : If you see \"Too Cold\" or \"Too Hot\" reasons, allow the device to reach a normal operating temperature (typically 0-35°C). Predictive Charging : If \"Predictive Charging\" is shown, this is normal behavior. The system is learning your usage patterns to optimize battery health. Firmware Updates : \"Gas Gauge FW Updating\" is temporary and should resolve once the update completes. Permanent Faults : If you see any permanent fault reasons, the battery or charging system may need service. Multiple Reasons : In Version 2, multiple reasons can be active. Check all listed reasons to understand the complete charging state. Technical Notes ¶ The Not Charging Reason is read from SMC key CHNC (8 bytes on most devices, 64 bytes on mobile devices) The generation/version is determined by SMC key RGEN",
+      "title": "Not Charging Reason"
+    },
+    {
+      "location": "troubleshooting/battery-info/not-charging-reason/#not-charging-reason",
+      "text": "The \"Not Charging Reason\" is a diagnostic value that explains why your device is not charging when a charger is connected. This information is read from the Apple SMC (System Management Controller) and helps identify the root cause of charging issues.",
+      "title": "Not Charging Reason"
+    },
+    {
+      "location": "troubleshooting/battery-info/not-charging-reason/#overview",
+      "text": "The Not Charging Reason is stored in the SMC key CHNC (Charger Not Charging) and can have different formats depending on your device's generation: Version 0 (NonSMC) : Legacy devices without SMC support Version 1 (Gibraltar/BNCR) : Enum-based format used on specific Intel Mac models Version 2 (SMC/CHNC) : Bitmask-based format used on Apple Silicon and most modern devices The version is determined by reading the RGEN (Reason Generation) SMC key.",
+      "title": "Overview"
+    },
+    {
+      "location": "troubleshooting/battery-info/not-charging-reason/#version-2-smcchnc-modern-devices",
+      "text": "Version 2 uses a bitmask format where multiple reasons can be active simultaneously. This is the format used on Apple Silicon Macs and most modern devices as of 2025.",
+      "title": "Version 2 (SMC/CHNC) - Modern Devices"
+    },
+    {
+      "location": "troubleshooting/battery-info/not-charging-reason/#common-reasons",
+      "text": "Reason Description Fully Charged Battery has reached 100% charge capacity Too Cold Battery temperature is below the minimum threshold to stop charging Too Hot Battery temperature is above the maximum threshold to stop charging Too Cold To Start Battery temperature is too low to begin charging Too Hot To Start Battery temperature is too high to begin charging",
+      "title": "Common Reasons"
+    },
+    {
+      "location": "troubleshooting/battery-info/not-charging-reason/#presence-issues",
+      "text": "Reason Description Charger Watchdog Timeout Charging has been active for over 15 hours, or charge timeout flag is set Battery Not Present System cannot detect the battery VBUS Not Present No power detected on the USB power bus",
+      "title": "Presence Issues"
+    },
+    {
+      "location": "troubleshooting/battery-info/not-charging-reason/#charging-inhibit-conditions",
+      "text": "Reason Description High SoC High Temp Stopped Charging stopped due to high state of charge combined with high temperature Sensor Communication Failed Communication with battery management sensors has failed",
+      "title": "Charging Inhibit Conditions"
+    },
+    {
+      "location": "troubleshooting/battery-info/not-charging-reason/#system-modes",
+      "text": "Reason Description Accessory Connecting IOAccessoryManager is managing an accessory connection Kiosk Mode Device is in kiosk mode, which may inhibit charging CoreMotion CoreMotion framework is controlling charging behavior USB-PD Connecting USB Power Delivery negotiation in progress",
+      "title": "System Modes"
+    },
+    {
+      "location": "troubleshooting/battery-info/not-charging-reason/#charging-control",
+      "text": "Reason Description setbatt Controlled Charging is being controlled by the setbatt tool or similar system utility Predictive Charging System is using predictive charging to optimize battery health Wireless Charger Controlled Wireless/inductive charger is managing the charging process Gas Gauge FW Updating Battery gas gauge firmware is being updated (common with MagSafe chargers) Battery Inhibit Inflow Unsupported Battery hardware doesn't support software-controlled charge inhibition PCTM Power Control Thermal Management is active Inhibit Client Adapter Client adapter charging is inhibited Cell Voltage Too High One or more battery cells have exceeded safe voltage limits Battery Not Requesting Charge Battery management system is not requesting charge Camera Streaming Continuity Camera or webcam streaming is active (macOS 13 / iOS 16+)",
+      "title": "Charging Control"
+    },
+    {
+      "location": "troubleshooting/battery-info/not-charging-reason/#system-controls",
+      "text": "Reason Description VACTFB Voltage/current feedback system is controlling charging Field Diagnostics Device is in field diagnostics mode Inhibit Inflow System has explicitly inhibited charge inflow Carrier Mode Testing Device is in carrier testing mode",
+      "title": "System Controls"
+    },
+    {
+      "location": "troubleshooting/battery-info/not-charging-reason/#permanent-faults",
+      "text": "These indicate serious hardware or firmware issues that may require service: Reason Description Charged Too Long Battery has been charging for an excessive duration Vbatt Fault Battery voltage fault detected Ibatt MinFault Battery current minimum fault detected Charger Communication Failure Communication with the charger has failed Cell Check Fault Battery cell integrity check failed When any permanent fault is detected, the system may display \"Permanent Battery Failure\" as the primary reason.",
+      "title": "Permanent Faults"
+    },
+    {
+      "location": "troubleshooting/battery-info/not-charging-reason/#version-1-gibraltarbncr-intel-mac-models",
+      "text": "Version 1 uses an enum-based format where only one reason is active at a time. This format is used on specific Intel Mac models: J132, J137, J140, J152, J213, J214, J215, J680, J780",
+      "title": "Version 1 (Gibraltar/BNCR) - Intel Mac Models"
+    },
+    {
+      "location": "troubleshooting/battery-info/not-charging-reason/#common-reasons_1",
+      "text": "Value Reason Description NO_REASON No Reason Device is charging normally NO_AC No AC Power No AC adapter detected NO_BATTERY No Battery Battery not detected BAD_BATTERY Bad Battery Battery health check failed BATTERY_FC Fully Charged Battery is at full capacity BATTERY_NO_CHG_REQ Battery Not Requesting Charge Battery management system not requesting charge AC_INSERT Using AC Power Device is running on AC power only G3 G3 Mechanical Off Device is in G3 power state ADAPTER_DISABLED Adapter Disabled Charger adapter is disabled ADAPTER_UNKNOWN Unknown Adapter Charger adapter is not recognized ADAPTER_NOT_ALLOW_CHARGING Adapter Not Allowed Charger adapter is not authorized for charging CALIBRATION Calibration Battery is being calibrated B0LI_0 Charging Disabled Charging has been disabled OS_NO_CHG OS Charging Disabled Operating system has disabled charging BCLM_REACHED Charging Limit Reached Battery charge limit has been reached UPSTREAM_NO_CHG Upstream Charging Disabled Upstream charging control disabled PM_NO_CHG PowerManagement Charging Disabled Power management has disabled charging TB0T_OVER_50 Battery Temperature over 50℃ Battery temperature exceeds 50°C TB0T_OVER_45 Battery Temperature over 45℃ Battery temperature exceeds 45°C TEMP_GRADIENT_TOO_HIGH Temperature Gradient Too High Battery temperature is changing too rapidly TEMP_NOT_ATV_VLD Temperature Not Valid Battery temperature reading is invalid BATTERY_TCA Battery TCA Battery thermal control active OW_TDM_LINK_ACTIVE One-Wire TDM Link Active One-wire communication active CELL_VOLTAGE_TOO_HIGH Cell Voltage Too High Battery cell voltage exceeds safe limits OBC_NO_CHG Predictive Charging Optimized Battery Charging is active VACTFB_NO_CHG VACTFB No Charge Voltage/current feedback preventing charge OBC_NO_INFLOW Predictive Charging (Inflow) Optimized Battery Charging preventing charge inflow",
+      "title": "Common Reasons"
+    },
+    {
+      "location": "troubleshooting/battery-info/not-charging-reason/#version-0-nonsmc-legacy-devices",
+      "text": "Version 0 is used on very old devices that don't have SMC support. Known devices include: D10, D11 J71, J72, J73, J81, J82, J85, J86, J87, J96, J97, J98, J99, J120, J121, J127, J128, J171, J172, J207, J208 N27, N28, N61, N66, N69, N71, N74, N75, N111, N121",
+      "title": "Version 0 (NonSMC) - Legacy Devices"
+    },
+    {
+      "location": "troubleshooting/battery-info/not-charging-reason/#nonsmc-specific-reasons",
+      "text": "Reason Description POSM Mode Power On Self Test mode Display Display-related charging control Too Cold Battery temperature too low Too Hot Battery temperature too high Done Charging complete Too Long Charging duration exceeded CHG_WD Charger watchdog timeout",
+      "title": "NonSMC Specific Reasons"
+    },
+    {
+      "location": "troubleshooting/battery-info/not-charging-reason/#interpreting-the-value",
+      "text": "The Not Charging Reason is typically displayed as a hexadecimal value (e.g., 0x00000001 ). In Version 2 (bitmask format), multiple bits can be set simultaneously, indicating multiple reasons.",
+      "title": "Interpreting the Value"
+    },
+    {
+      "location": "troubleshooting/battery-info/not-charging-reason/#example-interpretations",
+      "text": "0x00000001 - Fully Charged 0x00000002 - Too Cold 0x00000004 - Too Hot 0x00000003 - Fully Charged AND Too Cold (both bits set)",
+      "title": "Example Interpretations"
+    },
+    {
+      "location": "troubleshooting/battery-info/not-charging-reason/#troubleshooting-tips",
+      "text": "Temperature Issues : If you see \"Too Cold\" or \"Too Hot\" reasons, allow the device to reach a normal operating temperature (typically 0-35°C). Predictive Charging : If \"Predictive Charging\" is shown, this is normal behavior. The system is learning your usage patterns to optimize battery health. Firmware Updates : \"Gas Gauge FW Updating\" is temporary and should resolve once the update completes. Permanent Faults : If you see any permanent fault reasons, the battery or charging system may need service. Multiple Reasons : In Version 2, multiple reasons can be active. Check all listed reasons to understand the complete charging state.",
+      "title": "Troubleshooting Tips"
+    },
+    {
+      "location": "troubleshooting/battery-info/not-charging-reason/#technical-notes",
+      "text": "The Not Charging Reason is read from SMC key CHNC (8 bytes on most devices, 64 bytes on mobile devices) The generation/version is determined by SMC key RGEN",
+      "title": "Technical Notes"
+    },
+    {
+      "location": "troubleshooting/battery-info/warning-conditions/",
+      "text": "Warning Conditions ¶ This page explains battery‑related warning conditions as reported by Battman and the system. Data warnings shown in Battery Info ¶ Battman flags suspicious or missing telemetry values in the Battery Info table. A warning icon appears beside the row, and tapping it shows the detail text below. Remaining Capacity Unusual when reported capacity exceeds the current full‑charge capacity or is more than 10 mAh above the device‑calculated True Remaining Capacity. Message: “Unusual Remaining Capacity, a non-genuine battery component may be in use.” For the first case, Battman also shows an “Estimated Remaining” capacity derived from state of charge. Missing value triggers “Remaining Capacity not detected.” Cycle Count Warns when cycle count exceeds the design target. If the design value is not provided by the gauge, Battman infers it based on Apple official documentation (before iPhone 15: 500; newer iPhone, iPad, Watch, MacBook: 1000; iPod: 400). Message: “Cycle Count exceeded designed cycle count, consider replacing with a genuine battery.” Time to Empty When discharging, Battman compares the reported time‑to‑empty against an ideal estimate (capacity ÷ discharge current). If reported TTE is more than 1.5× the ideal, it flags “Unusual Time to Empty, a non-genuine battery component may be in use.” Depth of Discharge Flags “Unusual Depth of Discharge, a non-genuine battery component may be in use.” when DOD0 is more than 3× Qmax, which is atypical even with load or charge attached. Warning titles use the following labels: “Error Data”, “Unusual Data”, “Data Too Large”, or “Empty Data”, depending on the specific condition. If you continuously see those warnings, consider professional hardware diagnostics.",
+      "title": "Warning Conditions"
+    },
+    {
+      "location": "troubleshooting/battery-info/warning-conditions/#warning-conditions",
+      "text": "This page explains battery‑related warning conditions as reported by Battman and the system.",
+      "title": "Warning Conditions"
+    },
+    {
+      "location": "troubleshooting/battery-info/warning-conditions/#data-warnings-shown-in-battery-info",
+      "text": "Battman flags suspicious or missing telemetry values in the Battery Info table. A warning icon appears beside the row, and tapping it shows the detail text below. Remaining Capacity Unusual when reported capacity exceeds the current full‑charge capacity or is more than 10 mAh above the device‑calculated True Remaining Capacity. Message: “Unusual Remaining Capacity, a non-genuine battery component may be in use.” For the first case, Battman also shows an “Estimated Remaining” capacity derived from state of charge. Missing value triggers “Remaining Capacity not detected.” Cycle Count Warns when cycle count exceeds the design target. If the design value is not provided by the gauge, Battman infers it based on Apple official documentation (before iPhone 15: 500; newer iPhone, iPad, Watch, MacBook: 1000; iPod: 400). Message: “Cycle Count exceeded designed cycle count, consider replacing with a genuine battery.” Time to Empty When discharging, Battman compares the reported time‑to‑empty against an ideal estimate (capacity ÷ discharge current). If reported TTE is more than 1.5× the ideal, it flags “Unusual Time to Empty, a non-genuine battery component may be in use.” Depth of Discharge Flags “Unusual Depth of Discharge, a non-genuine battery component may be in use.” when DOD0 is more than 3× Qmax, which is atypical even with load or charge attached. Warning titles use the following labels: “Error Data”, “Unusual Data”, “Data Too Large”, or “Empty Data”, depending on the specific condition. If you continuously see those warnings, consider professional hardware diagnostics.",
+      "title": "Data warnings shown in Battery Info"
+    },
+    {
+      "location": "troubleshooting/screen-brightness/brightness-backends/",
+      "text": "Brightness Backends ¶ Battman distinguishes between different brightness backends used by the system display. Standard – classic backlight control path used on older or simpler devices. DCP – Display Co‑Processor based pipeline used on newer devices (A14 or above) with more complex panel control. Why it matters ¶ Different backends may expose different limits, ramps and latency characteristics. Some advanced features (HDR, high refresh rates) are usually tied to DCP‑based pipelines. Bugs or quirks can be backend‑specific; knowing which backend is active can help when reporting issues. This field is informational only; you cannot switch backends from within Battman.",
+      "title": "Brightness Backends"
+    },
+    {
+      "location": "troubleshooting/screen-brightness/brightness-backends/#brightness-backends",
+      "text": "Battman distinguishes between different brightness backends used by the system display. Standard – classic backlight control path used on older or simpler devices. DCP – Display Co‑Processor based pipeline used on newer devices (A14 or above) with more complex panel control.",
+      "title": "Brightness Backends"
+    },
+    {
+      "location": "troubleshooting/screen-brightness/brightness-backends/#why-it-matters",
+      "text": "Different backends may expose different limits, ramps and latency characteristics. Some advanced features (HDR, high refresh rates) are usually tied to DCP‑based pipelines. Bugs or quirks can be backend‑specific; knowing which backend is active can help when reporting issues. This field is informational only; you cannot switch backends from within Battman.",
+      "title": "Why it matters"
+    },
+    {
+      "location": "troubleshooting/screen-brightness/nits-and-percentages/",
+      "text": "Nits & Percentages ¶ Battman shows brightness both as a user percentage and, where possible, as approximate nits . Why they differ ¶ The system slider is not linear in nits; the same percentage can map to different physical brightness on different panels. Physical nits depend on the device model, HDR status, and whether the device is in sunlight‑boost mode. Auto‑brightness and Night Shift / True Tone can further change the perceived brightness. In Battman ¶ The Brightness metrics page shows the current percentage plus any known hardware limits.",
+      "title": "Nits & Percentages"
+    },
+    {
+      "location": "troubleshooting/screen-brightness/nits-and-percentages/#nits-percentages",
+      "text": "Battman shows brightness both as a user percentage and, where possible, as approximate nits .",
+      "title": "Nits &amp; Percentages"
+    },
+    {
+      "location": "troubleshooting/screen-brightness/nits-and-percentages/#why-they-differ",
+      "text": "The system slider is not linear in nits; the same percentage can map to different physical brightness on different panels. Physical nits depend on the device model, HDR status, and whether the device is in sunlight‑boost mode. Auto‑brightness and Night Shift / True Tone can further change the perceived brightness.",
+      "title": "Why they differ"
+    },
+    {
+      "location": "troubleshooting/screen-brightness/nits-and-percentages/#in-battman",
+      "text": "The Brightness metrics page shows the current percentage plus any known hardware limits.",
+      "title": "In Battman"
+    },
+    {
+      "location": "troubleshooting/thermals/thermal-notification-levels/",
+      "text": "Thermal Notification Levels ¶ Deprecated Feature This feature has been deprecated by iOS and no longer available on iOS 16 or above. Battman exposes the system's thermal notification levels , which describe how aggressively iOS will react to heat. Levels ¶ The thermal notification system uses a progressive series of behavior levels, each representing increasingly aggressive thermal mitigation measures. The numbers shown below are behavior indices (0-10), not the actual system notification level IDs. Normal — Normal operation with no thermal restrictions. 70% Torch — Torch (flashlight) brightness reduced to 70%. 70% Backlight — Display backlight reduced to 70%. 50% Torch — Torch brightness further reduced to 50%. 50% Backlight — Display backlight reduced to 50%. Torch Disabled — Torch is completely disabled. 25% Backlight — Aggressive backlight reduction to 25%. Maps halo Disabled — Visual effects like Maps halo are disabled. App Terminated — Applications may be terminated to reduce thermal load. Device Restart — Extreme thermal conditions may trigger a device restart. Ready — Thermal table is ready (internal state). Implementation Details ¶ Important: The actual system notification level IDs are dynamically assigned by iOS and are not constant values. The behavior indices (0-10) shown above are just identifiers for the different thermal mitigation behaviors. This dynamic mapping allows Battman to work correctly even when iOS assigns different numeric IDs to the same thermal behaviors. In Battman ¶ The Thermal Tunes screen shows the current notification level and allows limited overrides. The Hardware Temperature page helps correlate these levels with sensor readings. If you frequently hit high notification levels, consider reducing load, improving airflow, or adjusting Thermal Tunes more conservatively.",
+      "title": "Thermal Notification Levels"
+    },
+    {
+      "location": "troubleshooting/thermals/thermal-notification-levels/#thermal-notification-levels",
+      "text": "Deprecated Feature This feature has been deprecated by iOS and no longer available on iOS 16 or above. Battman exposes the system's thermal notification levels , which describe how aggressively iOS will react to heat.",
+      "title": "Thermal Notification Levels"
+    },
+    {
+      "location": "troubleshooting/thermals/thermal-notification-levels/#levels",
+      "text": "The thermal notification system uses a progressive series of behavior levels, each representing increasingly aggressive thermal mitigation measures. The numbers shown below are behavior indices (0-10), not the actual system notification level IDs. Normal — Normal operation with no thermal restrictions. 70% Torch — Torch (flashlight) brightness reduced to 70%. 70% Backlight — Display backlight reduced to 70%. 50% Torch — Torch brightness further reduced to 50%. 50% Backlight — Display backlight reduced to 50%. Torch Disabled — Torch is completely disabled. 25% Backlight — Aggressive backlight reduction to 25%. Maps halo Disabled — Visual effects like Maps halo are disabled. App Terminated — Applications may be terminated to reduce thermal load. Device Restart — Extreme thermal conditions may trigger a device restart. Ready — Thermal table is ready (internal state).",
+      "title": "Levels"
+    },
+    {
+      "location": "troubleshooting/thermals/thermal-notification-levels/#implementation-details",
+      "text": "Important: The actual system notification level IDs are dynamically assigned by iOS and are not constant values. The behavior indices (0-10) shown above are just identifiers for the different thermal mitigation behaviors. This dynamic mapping allows Battman to work correctly even when iOS assigns different numeric IDs to the same thermal behaviors.",
+      "title": "Implementation Details"
+    },
+    {
+      "location": "troubleshooting/thermals/thermal-notification-levels/#in-battman",
+      "text": "The Thermal Tunes screen shows the current notification level and allows limited overrides. The Hardware Temperature page helps correlate these levels with sensor readings. If you frequently hit high notification levels, consider reducing load, improving airflow, or adjusting Thermal Tunes more conservatively.",
+      "title": "In Battman"
+    },
+    {
+      "location": "troubleshooting/thermals/unknown-screen-temperature/",
+      "text": "title: 'Unknown' Screen Temperature ¶ \"Unknown\" Screen Temperature ¶ Sometimes Battman cannot map the system’s thermal readings to a meaningful screen or panel temperature. In that case the UI may show \"Unknown\" on screen temperature or omit the value entirely. Why this happens ¶ The device firmware does not expose a dedicated panel temperature sensor. The current iOS version hides or aggregates the relevant sensor. Battman is running on a simulator or an unsupported platform (for example, certain Macs). Battman has not supported reading panel temperature for your device. What you can do ¶ Use the Hardware Temperature page to inspect other available sensors. Check for abnormal thermal pressure or throttling rather than relying on a single screen‑temperature number. Keep Battman updated; support for more sensors may be added over time.",
+      "title": "'Unknown' Screen Temperature"
+    },
+    {
+      "location": "troubleshooting/thermals/unknown-screen-temperature/#title-unknown-screen-temperature",
+      "text": "",
+      "title": "title: 'Unknown' Screen Temperature"
+    },
+    {
+      "location": "troubleshooting/thermals/unknown-screen-temperature/#unknown-screen-temperature",
+      "text": "Sometimes Battman cannot map the system’s thermal readings to a meaningful screen or panel temperature. In that case the UI may show \"Unknown\" on screen temperature or omit the value entirely.",
+      "title": "\"Unknown\" Screen Temperature"
+    },
+    {
+      "location": "troubleshooting/thermals/unknown-screen-temperature/#why-this-happens",
+      "text": "The device firmware does not expose a dedicated panel temperature sensor. The current iOS version hides or aggregates the relevant sensor. Battman is running on a simulator or an unsupported platform (for example, certain Macs). Battman has not supported reading panel temperature for your device.",
+      "title": "Why this happens"
+    },
+    {
+      "location": "troubleshooting/thermals/unknown-screen-temperature/#what-you-can-do",
+      "text": "Use the Hardware Temperature page to inspect other available sensors. Check for abnormal thermal pressure or throttling rather than relying on a single screen‑temperature number. Keep Battman updated; support for more sensors may be added over time.",
+      "title": "What you can do"
+    },
+    {
+      "location": "updating/ios/",
+      "text": "Updating on iOS ¶ How you update Battman on iOS depends on how you installed it. Installed by TrollStore ¶ Install the new version following the same method as the initial installation. Package‑manager installs ¶ Open your package manager (Cydia, Sileo, Zebra, etc.). Refresh package sources. When a new Battman version is available, use the Upgrade action.",
+      "title": "iOS"
+    },
+    {
+      "location": "updating/ios/#updating-on-ios",
+      "text": "How you update Battman on iOS depends on how you installed it.",
+      "title": "Updating on iOS"
+    },
+    {
+      "location": "updating/ios/#installed-by-trollstore",
+      "text": "Install the new version following the same method as the initial installation.",
+      "title": "Installed by TrollStore"
+    },
+    {
+      "location": "updating/ios/#packagemanager-installs",
+      "text": "Open your package manager (Cydia, Sileo, Zebra, etc.). Refresh package sources. When a new Battman version is available, use the Upgrade action.",
+      "title": "Package‑manager installs"
+    },
+    {
+      "location": "updating/macos/",
+      "text": "Updating on macOS ¶ A native macOS version of Battman is not yet available . This page documents the expected behavior once macOS support is implemented. Planned behavior ¶ Battman for macOS will likely be distributed as a signed app bundle or via a package manager. Updating should follow the usual macOS patterns (replacing the app in /Applications or using the package manager’s update command). Until a macOS build ships, there is nothing to update here. Please refer to Updating → iOS for current, supported platforms.",
+      "title": "macOS"
+    },
+    {
+      "location": "updating/macos/#updating-on-macos",
+      "text": "A native macOS version of Battman is not yet available . This page documents the expected behavior once macOS support is implemented.",
+      "title": "Updating on macOS"
+    },
+    {
+      "location": "updating/macos/#planned-behavior",
+      "text": "Battman for macOS will likely be distributed as a signed app bundle or via a package manager. Updating should follow the usual macOS patterns (replacing the app in /Applications or using the package manager’s update command). Until a macOS build ships, there is nothing to update here. Please refer to Updating → iOS for current, supported platforms.",
+      "title": "Planned behavior"
+    }
+  ]
+}

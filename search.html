@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Search Results - Battman User Manual</title>
+    <link href="./stylesheets/apple-theme.css" rel="stylesheet">
+    
+    <script>var base_url = ".";</script>
+    
+  </head>
+  <body class="bm-body">
+    <header class="bm-header bm-squircle">
+      <div class="bm-header-left">
+        <div class="bm-logo">⚡</div>
+        <div class="bm-title-block">
+          <div class="bm-site-name">Battman User Manual</div>
+          <div class="bm-page-title">Search Results</div>
+        </div>
+      </div>
+      <div class="bm-header-right">
+        <button id="bm-nav-toggle" class="bm-toggle bm-nav-toggle" type="button">Menu</button>
+        <button id="bm-theme-toggle" class="bm-toggle" type="button">Theme</button>
+        <select id="bm-lang-select" class="bm-select" aria-label="Language">
+          <option value="en">English</option>
+          <option value="zh">简体中文</option>
+        </select>
+        
+        
+        
+        <form class="bm-search" action="./search.html" method="get" onsubmit="var form = this; var action = form.action; if (action.endsWith('/')) { form.action = action.slice(0, -1); } return true;">
+          <input id="mkdocs-search-query" type="search" name="q" placeholder="Search" autocomplete="off" />
+        </form>
+        
+      </div>
+    </header>
+
+    <div id="bm-nav-overlay" class="bm-nav-overlay"></div>
+
+    <main class="bm-main">
+      <aside class="bm-sidebar bm-squircle">
+        <nav class="bm-nav">
+          <ul class="bm-nav-list">
+              <li class="bm-nav-item">
+              
+                <a href="./zh/" class="bm-nav-link">首页</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">安装</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="./zh/installation/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="./zh/installation/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">数据</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="./zh/metrics/battery-info/" class="bm-nav-link">电池信息</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="./zh/metrics/hardware-temperature/" class="bm-nav-link">硬件温度</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="./zh/metrics/brightness/" class="bm-nav-link">亮度</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">控制</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="./zh/controls/charging-managements/" class="bm-nav-link">充电管理</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="./zh/controls/charging-limits/" class="bm-nav-link">充电限制</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="./zh/controls/thermal-tunes/" class="bm-nav-link">温控调校</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">故障排除</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">电池信息</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="./zh/troubleshooting/battery-info/warning-conditions/" class="bm-nav-link">警告条件</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="./zh/troubleshooting/battery-info/flags/" class="bm-nav-link">标示位</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="./zh/troubleshooting/battery-info/not-charging-reason/" class="bm-nav-link">未充电原因</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="./zh/troubleshooting/battery-info/family-keys/" class="bm-nav-link">类型代码</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">温控</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="./zh/troubleshooting/thermals/unknown-screen-temperature/" class="bm-nav-link">「未知」屏幕温度</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="./zh/troubleshooting/thermals/thermal-notification-levels/" class="bm-nav-link">温控通知等级</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">屏幕与亮度</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="./zh/troubleshooting/screen-brightness/nits-and-percentages/" class="bm-nav-link">Nit 与百分比</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="./zh/troubleshooting/screen-brightness/brightness-backends/" class="bm-nav-link">亮度后端</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">设置</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="./zh/preferences/preferred-languages/" class="bm-nav-link">首选语言</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="./zh/preferences/wiping-data/" class="bm-nav-link">清除数据</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <a href="./zh/uninstallation/" class="bm-nav-link">卸载</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">参与贡献</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="./zh/contributing/locales/" class="bm-nav-link">本地化</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="./zh/contributing/codes/" class="bm-nav-link">代码</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">更新</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="./zh/updating/ios/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="./zh/updating/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+          </ul>
+        </nav>
+      </aside>
+
+      <article class="bm-content bm-squircle">
+        <h1>Search Results</h1>
+        <div id="mkdocs-search-results" class="bm-search-results">
+          <p class="bm-search-no-results">No results found</p>
+        </div>
+      </article>
+    </main>
+
+    <footer class="bm-footer">
+      <div class="bm-footer-inner">
+        <span>© Battman User Manual</span>
+      </div>
+    </footer>
+
+    
+    
+    
+    <script src="./search/main.js"></script>
+    
+    <script>
+      (function() {
+        // Detect locale from current path and update base_url if needed
+        var path = window.location.pathname;
+        var pathParts = path.split('/').filter(function(p) { return p; });
+        
+        // Check if we're in a language subdirectory (e.g., /zh/search.html)
+        if (pathParts.length >= 1) {
+          var firstPart = pathParts[0];
+          var knownLangs = ['zh', 'fr', 'de', 'es', 'ja', 'ko'];
+          
+          if (knownLangs.indexOf(firstPart) !== -1) {
+            // We're in a language subdirectory
+            if (typeof base_url !== 'undefined') {
+              // Update base_url to point to the language directory
+              base_url = '/' + firstPart + '/';
+            }
+          }
+        }
+      })();
+    </script>
+    
+    <script src="./javascripts/apple-theme.js"></script>
+    <script src="./search/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>充电限制 - Battman User Manual</title>
+    <link href="../../../stylesheets/apple-theme.css" rel="stylesheet">
+    
+    <script>var base_url = "../../..";</script>
+    
+  </head>
+  <body class="bm-body">
+    <header class="bm-header bm-squircle">
+      <div class="bm-header-left">
+        <div class="bm-logo">⚡</div>
+        <div class="bm-title-block">
+          <div class="bm-site-name">Battman 用户手册</div>
+          <div class="bm-page-title">充电限制</div>
+        </div>
+      </div>
+      <div class="bm-header-right">
+        <button id="bm-nav-toggle" class="bm-toggle bm-nav-toggle" type="button">菜单</button>
+        <button id="bm-theme-toggle" class="bm-toggle" type="button">主题</button>
+        <select id="bm-lang-select" class="bm-select" aria-label="语言">
+          <option value="en">English</option>
+          <option value="zh">简体中文</option>
+        </select>
+        
+        <form class="bm-search" action="../../../search.html">
+          <input id="mkdocs-search-query" type="search" name="q" placeholder="搜索" />
+        </form>
+        
+      </div>
+    </header>
+
+    <div id="bm-nav-overlay" class="bm-nav-overlay"></div>
+
+    <main class="bm-main">
+      <aside class="bm-sidebar bm-squircle">
+        <nav class="bm-nav">
+          <ul class="bm-nav-list">
+              <li class="bm-nav-item">
+              
+                <a href="../../" class="bm-nav-link">首页</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">安装</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../installation/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../installation/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">数据</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../metrics/battery-info/" class="bm-nav-link">电池信息</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../metrics/hardware-temperature/" class="bm-nav-link">硬件温度</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../metrics/brightness/" class="bm-nav-link">亮度</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item bm-nav-item--active">
+              
+                <div class="bm-nav-section">控制</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../charging-managements/" class="bm-nav-link">充电管理</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item bm-nav-item--active">
+              
+                <a href="./" class="bm-nav-link bm-nav-link--active">充电限制</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../thermal-tunes/" class="bm-nav-link">温控调校</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">故障排除</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">电池信息</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/battery-info/warning-conditions/" class="bm-nav-link">警告条件</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/battery-info/flags/" class="bm-nav-link">标示位</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/battery-info/not-charging-reason/" class="bm-nav-link">未充电原因</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/battery-info/family-keys/" class="bm-nav-link">类型代码</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">温控</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/thermals/unknown-screen-temperature/" class="bm-nav-link">「未知」屏幕温度</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/thermals/thermal-notification-levels/" class="bm-nav-link">温控通知等级</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">屏幕与亮度</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/screen-brightness/nits-and-percentages/" class="bm-nav-link">Nit 与百分比</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/screen-brightness/brightness-backends/" class="bm-nav-link">亮度后端</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">设置</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../preferences/preferred-languages/" class="bm-nav-link">首选语言</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../preferences/wiping-data/" class="bm-nav-link">清除数据</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <a href="../../uninstallation/" class="bm-nav-link">卸载</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">参与贡献</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../contributing/locales/" class="bm-nav-link">本地化</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../contributing/codes/" class="bm-nav-link">代码</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">更新</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../updating/ios/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../updating/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+          </ul>
+        </nav>
+      </aside>
+
+      <article class="bm-content bm-squircle">
+        <h1 id="_1">充电限制<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p><strong>充电限制</strong>页面用于配置一个实验性的后台守护进程，使电池电量保持在指定区间内。</p>
+<h2 id="_2">核心概念<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>限制电量</strong><br />
+  设定电池充到多少百分比时停止充电。</li>
+<li><strong>恢复电量</strong><br />
+  （可选）设定在低于该百分比后重新允许充电。</li>
+<li><strong>放电模式</strong><br />
+  决定在放电阶段是保留外部供电，还是阻断外部供电而强制使用电池。</li>
+<li><strong>覆盖优化电池充电</strong><br />
+  在 Battman 接管充电逻辑时，可选择是否覆盖系统的“优化电池充电”行为。</li>
+</ul>
+<h2 id="_3">工作状态<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>允许充电</strong> — 值守进程运行中，允许电量继续上升至预设上限。</li>
+</ul>
+<p align="center" style="margin-top: -0.5em; margin-bottom: 0.5em;">
+  <img src="/controls/images/Battman_badge_continue.PNG" alt="Allowing charge badge" style="max-width: 30%; height: auto; display: block; margin: 0 auto;" />
+</p>
+
+<ul>
+<li><strong>阻断充电</strong> — 值守进程运行中，在抵达上限时保持不再充电。</li>
+</ul>
+<p align="center" style="margin-top: -0.5em; margin-bottom: 0.5em;">
+  <img src="/controls/images/Battman_badge_stop.PNG" alt="Stopping charge badge" style="max-width: 30%; height: auto; display: block; margin: 0 auto;" />
+</p>
+
+<ul>
+<li><strong>无外部电源</strong> — 未检测到适配器，无法执行限制。</li>
+</ul>
+<p align="center" style="margin-top: -0.5em; margin-bottom: 0.5em;">
+  <img src="/controls/images/Battman_badge_noext.PNG" alt="No external power badge" style="max-width: 30%; height: auto; display: block; margin: 0 auto;" />
+</p>
+
+<ul>
+<li><strong>有适配器但无供电</strong> — 连接了适配器但未输出电流（如线材 / 协议问题或计划任务）。</li>
+</ul>
+<p align="center" style="margin-top: -0.5em; margin-bottom: 0.5em;">
+  <img src="/controls/images/Battman_badge_nopwr.PNG" alt="No current badge" style="max-width: 30%; height: auto; display: block; margin: 0 auto;" />
+</p>
+
+<ul>
+<li><strong>优化电池充电接管</strong> — 在未覆盖“优化电池充电”的软模式下，系统“优化电池充电”可能忽略 Battman 的请求。需要 Battman 优先时，请先启用“循环时覆盖‘优化电池充电’”再启动值守进程。</li>
+</ul>
+<p align="center" style="margin-top: -0.5em; margin-bottom: 0.5em;">
+  <img src="/controls/images/Battman_badge_obc.PNG" alt="OBC badge" style="max-width: 30%; height: auto; display: block; margin: 0 auto;" />
+</p>
+
+<h2 id="_4">风险提示<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<ul>
+<li>此功能仍在测试阶段，可能无法在所有设备上正常工作。</li>
+<li>此功能会直接写入系统电源相关接口，并长时间运行后台代码。</li>
+<li>当前 Battman 值守进程作为常规后台进程运行，未使用系统 <code>LaunchDaemons</code>。设备重启或执行 ldrestart 后需要手动重新启动值守进程才能生效。</li>
+</ul>
+      </article>
+
+      
+      <aside class="bm-toc bm-squircle">
+        <div class="bm-toc-title">本页内容</div>
+        <ul class="bm-toc-list">
+          
+          <li class="bm-toc-item">
+            <a href="#_1">充电限制</a>
+            
+            <ul class="bm-toc-sublist">
+              
+              <li class="bm-toc-subitem"><a href="#_2">核心概念</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#_3">工作状态</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#_4">风险提示</a></li>
+              
+            </ul>
+            
+          </li>
+          
+        </ul>
+      </aside>
+      
+    </main>
+
+    <footer class="bm-footer">
+      <div class="bm-footer-inner">
+        <span>© Battman 用户手册</span>
+      </div>
+    </footer>
+    <script src="../../../javascripts/apple-theme.js"></script>
+    <script src="../../../search/main.js"></script>
+  </body>
+</html>

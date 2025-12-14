@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>硬件温度 - Battman User Manual</title>
+    <link href="../../../stylesheets/apple-theme.css" rel="stylesheet">
+    
+    <script>var base_url = "../../..";</script>
+    
+  </head>
+  <body class="bm-body">
+    <header class="bm-header bm-squircle">
+      <div class="bm-header-left">
+        <div class="bm-logo">⚡</div>
+        <div class="bm-title-block">
+          <div class="bm-site-name">Battman 用户手册</div>
+          <div class="bm-page-title">硬件温度</div>
+        </div>
+      </div>
+      <div class="bm-header-right">
+        <button id="bm-nav-toggle" class="bm-toggle bm-nav-toggle" type="button">菜单</button>
+        <button id="bm-theme-toggle" class="bm-toggle" type="button">主题</button>
+        <select id="bm-lang-select" class="bm-select" aria-label="语言">
+          <option value="en">English</option>
+          <option value="zh">简体中文</option>
+        </select>
+        
+        <form class="bm-search" action="../../../search.html">
+          <input id="mkdocs-search-query" type="search" name="q" placeholder="搜索" />
+        </form>
+        
+      </div>
+    </header>
+
+    <div id="bm-nav-overlay" class="bm-nav-overlay"></div>
+
+    <main class="bm-main">
+      <aside class="bm-sidebar bm-squircle">
+        <nav class="bm-nav">
+          <ul class="bm-nav-list">
+              <li class="bm-nav-item">
+              
+                <a href="../../" class="bm-nav-link">首页</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">安装</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../installation/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../installation/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item bm-nav-item--active">
+              
+                <div class="bm-nav-section">数据</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../battery-info/" class="bm-nav-link">电池信息</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item bm-nav-item--active">
+              
+                <a href="./" class="bm-nav-link bm-nav-link--active">硬件温度</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../brightness/" class="bm-nav-link">亮度</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">控制</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../controls/charging-managements/" class="bm-nav-link">充电管理</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../controls/charging-limits/" class="bm-nav-link">充电限制</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../controls/thermal-tunes/" class="bm-nav-link">温控调校</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">故障排除</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">电池信息</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/battery-info/warning-conditions/" class="bm-nav-link">警告条件</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/battery-info/flags/" class="bm-nav-link">标示位</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/battery-info/not-charging-reason/" class="bm-nav-link">未充电原因</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/battery-info/family-keys/" class="bm-nav-link">类型代码</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">温控</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/thermals/unknown-screen-temperature/" class="bm-nav-link">「未知」屏幕温度</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/thermals/thermal-notification-levels/" class="bm-nav-link">温控通知等级</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">屏幕与亮度</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/screen-brightness/nits-and-percentages/" class="bm-nav-link">Nit 与百分比</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/screen-brightness/brightness-backends/" class="bm-nav-link">亮度后端</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">设置</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../preferences/preferred-languages/" class="bm-nav-link">首选语言</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../preferences/wiping-data/" class="bm-nav-link">清除数据</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <a href="../../uninstallation/" class="bm-nav-link">卸载</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">参与贡献</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../contributing/locales/" class="bm-nav-link">本地化</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../contributing/codes/" class="bm-nav-link">代码</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">更新</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../updating/ios/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../updating/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+          </ul>
+        </nav>
+      </aside>
+
+      <article class="bm-content bm-squircle">
+        <h1 id="_1">硬件温度<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p><strong>硬件温度</strong>页面展示设备各类温度传感器的实时读数。</p>
+<p>它对应「电池」标签中的<strong>硬件温度</strong>区域。</p>
+<h2 id="_2">分区<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>Battman 会将温度数据分为以下板块：</p>
+<ul>
+<li><strong>系统温控状态</strong><br />
+  显示系统温控值守进程 <code>thermalmonitord</code> 的状态。</li>
+<li><strong>温控信息</strong><br />
+  上层热指标：温控压力等级、<a href="../../troubleshooting/thermals/thermal-notification-levels">温控通知等级</a>、最大触发温度、阳光暴晒状态。</li>
+<li><strong>设备传感器</strong><br />
+  系统报告的逐个传感器读数（如 SoC、机身、电池模组、摄像头模组）。</li>
+<li><strong>HID / HID 原始数据</strong><br />
+  来自多个硬件传感器的底层 HID 温度。</li>
+</ul>
+<h2 id="_3">使用说明<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<ul>
+<li>部分传感器可能不会实时更新，或只返回占位值。</li>
+<li>热行为可在<strong>温控调校</strong>中调整；本页专注只读监控。</li>
+</ul>
+      </article>
+
+      
+      <aside class="bm-toc bm-squircle">
+        <div class="bm-toc-title">本页内容</div>
+        <ul class="bm-toc-list">
+          
+          <li class="bm-toc-item">
+            <a href="#_1">硬件温度</a>
+            
+            <ul class="bm-toc-sublist">
+              
+              <li class="bm-toc-subitem"><a href="#_2">分区</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#_3">使用说明</a></li>
+              
+            </ul>
+            
+          </li>
+          
+        </ul>
+      </aside>
+      
+    </main>
+
+    <footer class="bm-footer">
+      <div class="bm-footer-inner">
+        <span>© Battman 用户手册</span>
+      </div>
+    </footer>
+    <script src="../../../javascripts/apple-theme.js"></script>
+    <script src="../../../search/main.js"></script>
+  </body>
+</html>

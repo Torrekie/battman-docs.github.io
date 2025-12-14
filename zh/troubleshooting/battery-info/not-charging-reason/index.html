@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>未充电原因 - Battman User Manual</title>
+    <link href="../../../../stylesheets/apple-theme.css" rel="stylesheet">
+    
+    <script>var base_url = "../../../..";</script>
+    
+  </head>
+  <body class="bm-body">
+    <header class="bm-header bm-squircle">
+      <div class="bm-header-left">
+        <div class="bm-logo">⚡</div>
+        <div class="bm-title-block">
+          <div class="bm-site-name">Battman 用户手册</div>
+          <div class="bm-page-title">未充电原因</div>
+        </div>
+      </div>
+      <div class="bm-header-right">
+        <button id="bm-nav-toggle" class="bm-toggle bm-nav-toggle" type="button">菜单</button>
+        <button id="bm-theme-toggle" class="bm-toggle" type="button">主题</button>
+        <select id="bm-lang-select" class="bm-select" aria-label="语言">
+          <option value="en">English</option>
+          <option value="zh">简体中文</option>
+        </select>
+        
+        <form class="bm-search" action="../../../../search.html">
+          <input id="mkdocs-search-query" type="search" name="q" placeholder="搜索" />
+        </form>
+        
+      </div>
+    </header>
+
+    <div id="bm-nav-overlay" class="bm-nav-overlay"></div>
+
+    <main class="bm-main">
+      <aside class="bm-sidebar bm-squircle">
+        <nav class="bm-nav">
+          <ul class="bm-nav-list">
+              <li class="bm-nav-item">
+              
+                <a href="../../../" class="bm-nav-link">首页</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">安装</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../installation/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../installation/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">数据</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../metrics/battery-info/" class="bm-nav-link">电池信息</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../metrics/hardware-temperature/" class="bm-nav-link">硬件温度</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../metrics/brightness/" class="bm-nav-link">亮度</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">控制</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../controls/charging-managements/" class="bm-nav-link">充电管理</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../controls/charging-limits/" class="bm-nav-link">充电限制</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../controls/thermal-tunes/" class="bm-nav-link">温控调校</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item bm-nav-item--active">
+              
+                <div class="bm-nav-section">故障排除</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item bm-nav-item--active">
+              
+                <div class="bm-nav-section">电池信息</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../warning-conditions/" class="bm-nav-link">警告条件</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../flags/" class="bm-nav-link">标示位</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item bm-nav-item--active">
+              
+                <a href="./" class="bm-nav-link bm-nav-link--active">未充电原因</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../family-keys/" class="bm-nav-link">类型代码</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">温控</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../thermals/unknown-screen-temperature/" class="bm-nav-link">「未知」屏幕温度</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../thermals/thermal-notification-levels/" class="bm-nav-link">温控通知等级</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">屏幕与亮度</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../screen-brightness/nits-and-percentages/" class="bm-nav-link">Nit 与百分比</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../screen-brightness/brightness-backends/" class="bm-nav-link">亮度后端</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">设置</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../preferences/preferred-languages/" class="bm-nav-link">首选语言</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../preferences/wiping-data/" class="bm-nav-link">清除数据</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <a href="../../../uninstallation/" class="bm-nav-link">卸载</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">参与贡献</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../contributing/locales/" class="bm-nav-link">本地化</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../contributing/codes/" class="bm-nav-link">代码</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">更新</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../updating/ios/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../updating/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+          </ul>
+        </nav>
+      </aside>
+
+      <article class="bm-content bm-squircle">
+        <h1 id="_1">未充电原因<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p>“未充电原因”用于诊断在已连接充电器时设备为何没有充电。该信息来自 Apple SMC（系统管理控制器），有助于定位充电异常的根因。</p>
+<h2 id="_2">概览<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>未充电原因存放在 SMC 键 <code>CHNC</code>（Charger Not Charging）中，不同设备代际使用不同格式：</p>
+<ul>
+<li><strong>版本 0（NonSMC）</strong>：无 SMC 支持的早期设备</li>
+<li><strong>版本 1（Gibraltar/BNCR）</strong>：枚举格式，部分 Intel Mac 机型使用</li>
+<li><strong>版本 2（SMC/CHNC）</strong>：位掩码格式，Apple Silicon 及绝大多数现代设备使用</li>
+</ul>
+<p>通过读取 SMC 键 <code>RGEN</code>（Reason Generation）确定版本。</p>
+<h2 id="2smcchnc">版本 2（SMC/CHNC）— 现代设备<a class="headerlink" href="#2smcchnc" title="Permanent link">&para;</a></h2>
+<p>版本 2 采用位掩码，可同时包含多个原因。这是 2025 年起 Apple Silicon 与多数设备的主流格式。</p>
+<h3 id="_3">常见原因<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>原因</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>已充满电</strong></td>
+<td>电池容量已达 100%</td>
+</tr>
+<tr>
+<td><strong>温度过低</strong></td>
+<td>电池温度低于停止充电阈值</td>
+</tr>
+<tr>
+<td><strong>温度过高</strong></td>
+<td>电池温度高于停止充电阈值</td>
+</tr>
+<tr>
+<td><strong>温度过低，无法开始</strong></td>
+<td>电池温度过低，无法开始充电</td>
+</tr>
+<tr>
+<td><strong>温度过高，无法开始</strong></td>
+<td>电池温度过高，无法开始充电</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_4">检测与存在问题<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>原因</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>充电器超时</strong></td>
+<td>充电超过 15 小时或触发超时标志</td>
+</tr>
+<tr>
+<td><strong>未检测到电池</strong></td>
+<td>系统未检测到电池</td>
+</tr>
+<tr>
+<td><strong>未检测到总线供电</strong></td>
+<td>USB 供电总线上无电源</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_5">充电抑制条件<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>原因</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>电量与温度高而停止</strong></td>
+<td>因高电量且温度高而停止充电</td>
+</tr>
+<tr>
+<td><strong>传感器交互失败</strong></td>
+<td>与电池管理传感器通信失败</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_6">系统模式<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>原因</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>正在连接配件</strong></td>
+<td>IOAccessoryManager 正在管理配件连接</td>
+</tr>
+<tr>
+<td><strong>展示模式</strong></td>
+<td>设备处于展示/亭模式，可能抑制充电</td>
+</tr>
+<tr>
+<td><strong>CoreMotion</strong></td>
+<td>CoreMotion 框架控制充电行为</td>
+</tr>
+<tr>
+<td><strong>正在连接 USB-PD</strong></td>
+<td>USB-PD 协商进行中</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_7">充电控制<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>原因</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>setbatt 控制</strong></td>
+<td>由 <code>setbatt</code> 工具或系统组件控制充电</td>
+</tr>
+<tr>
+<td><strong>优化电池充电</strong></td>
+<td>系统执行预测/优化充电以保护电池健康</td>
+</tr>
+<tr>
+<td><strong>无线充电控制</strong></td>
+<td>无线/感应式充电器接管充电流程</td>
+</tr>
+<tr>
+<td><strong>电量计固件正在升级</strong></td>
+<td>电量计（Gas Gauge）固件更新中（常见于 MagSafe）</td>
+</tr>
+<tr>
+<td><strong>不支持电池充电流抑制</strong></td>
+<td>电池硬件不支持软件层抑制充电流</td>
+</tr>
+<tr>
+<td><strong>PCTM</strong></td>
+<td>Power Control Thermal Management 活动中</td>
+</tr>
+<tr>
+<td><strong>抑制客户端适配器</strong></td>
+<td>客户端适配器充电被抑制</td>
+</tr>
+<tr>
+<td><strong>电芯电压过高</strong></td>
+<td>一个或多个电芯电压超出安全阈值</td>
+</tr>
+<tr>
+<td><strong>电池未请求充电</strong></td>
+<td>电池管理系统未请求充电</td>
+</tr>
+<tr>
+<td><strong>相机流式传输</strong></td>
+<td>连续互联相机/摄像头串流占用（macOS 13 / iOS 16+）</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_8">系统控制<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>原因</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>VACTFB</strong></td>
+<td>电压/电流反馈控制充电</td>
+</tr>
+<tr>
+<td><strong>诊断</strong></td>
+<td>设备处于现场诊断模式</td>
+</tr>
+<tr>
+<td><strong>电流抑制</strong></td>
+<td>系统显式抑制了充电流入</td>
+</tr>
+<tr>
+<td><strong>测试运输模式</strong></td>
+<td>设备处于运营商测试模式</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_9">永久性故障<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
+<p>出现以下情况通常意味着硬件或固件严重故障，可能需要送修：</p>
+<table>
+<thead>
+<tr>
+<th>原因</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>充电时间过长</strong></td>
+<td>充电持续时间异常过长</td>
+</tr>
+<tr>
+<td><strong>电池电压故障</strong></td>
+<td>检测到电池电压故障</td>
+</tr>
+<tr>
+<td><strong>电池电流故障</strong></td>
+<td>检测到电池电流下限故障</td>
+</tr>
+<tr>
+<td><strong>充电器交互失败</strong></td>
+<td>与充电器通信失败</td>
+</tr>
+<tr>
+<td><strong>电芯检查失败</strong></td>
+<td>电芯完整性检查失败</td>
+</tr>
+</tbody>
+</table>
+<p>当检测到任何永久性故障时，系统可能会以“电池永久故障”作为主提示。</p>
+<h2 id="1gibraltarbncr-intel-mac">版本 1（Gibraltar/BNCR）— Intel Mac 机型<a class="headerlink" href="#1gibraltarbncr-intel-mac" title="Permanent link">&para;</a></h2>
+<p>版本 1 使用枚举格式，任一时刻仅有一个原因生效，适用于部分 Intel Mac：</p>
+<ul>
+<li>J132, J137, J140, J152, J213, J214, J215, J680, J780</li>
+</ul>
+<h3 id="_10">常见原因<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>值</th>
+<th>原因</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>NO_REASON</code></td>
+<td>无</td>
+<td>正常充电</td>
+</tr>
+<tr>
+<td><code>NO_AC</code></td>
+<td>无交流电源</td>
+<td>未检测到交流电适配器</td>
+</tr>
+<tr>
+<td><code>NO_BATTERY</code></td>
+<td>无电池</td>
+<td>未检测到电池</td>
+</tr>
+<tr>
+<td><code>BAD_BATTERY</code></td>
+<td>电池故障</td>
+<td>电池健康检查失败</td>
+</tr>
+<tr>
+<td><code>BATTERY_FC</code></td>
+<td>已充满电</td>
+<td>电池已满</td>
+</tr>
+<tr>
+<td><code>BATTERY_NO_CHG_REQ</code></td>
+<td>电池未请求充电</td>
+<td>电池管理系统未请求充电</td>
+</tr>
+<tr>
+<td><code>AC_INSERT</code></td>
+<td>正在使用交流电源</td>
+<td>仅使用外接电源运行</td>
+</tr>
+<tr>
+<td><code>G3</code></td>
+<td>G3 设备休眠</td>
+<td>处于 G3 电源状态</td>
+</tr>
+<tr>
+<td><code>ADAPTER_DISABLED</code></td>
+<td>适配器未启用</td>
+<td>适配器被禁用</td>
+</tr>
+<tr>
+<td><code>ADAPTER_UNKNOWN</code></td>
+<td>未知适配器</td>
+<td>适配器无法识别</td>
+</tr>
+<tr>
+<td><code>ADAPTER_NOT_ALLOW_CHARGING</code></td>
+<td>不受允许的适配器</td>
+<td>适配器未获授权充电</td>
+</tr>
+<tr>
+<td><code>CALIBRATION</code></td>
+<td>校准中</td>
+<td>正在校准电池</td>
+</tr>
+<tr>
+<td><code>B0LI_0</code></td>
+<td>充电已关闭</td>
+<td>充电被禁用</td>
+</tr>
+<tr>
+<td><code>OS_NO_CHG</code></td>
+<td>系统充电已关闭</td>
+<td>操作系统禁用充电</td>
+</tr>
+<tr>
+<td><code>BCLM_REACHED</code></td>
+<td>达到充电限制</td>
+<td>已达到充电上限</td>
+</tr>
+<tr>
+<td><code>UPSTREAM_NO_CHG</code></td>
+<td>上行充电已关闭</td>
+<td>上游控制禁用充电</td>
+</tr>
+<tr>
+<td><code>PM_NO_CHG</code></td>
+<td>电源管理充电已关闭</td>
+<td>电源管理禁用充电</td>
+</tr>
+<tr>
+<td><code>TB0T_OVER_50</code></td>
+<td>电池温度大于50℃</td>
+<td>电池温度超过 50℃</td>
+</tr>
+<tr>
+<td><code>TB0T_OVER_45</code></td>
+<td>电池温度大于45℃</td>
+<td>电池温度超过 45℃</td>
+</tr>
+<tr>
+<td><code>TEMP_GRADIENT_TOO_HIGH</code></td>
+<td>温度梯度过高</td>
+<td>电池温度变化过快</td>
+</tr>
+<tr>
+<td><code>TEMP_NOT_ATV_VLD</code></td>
+<td>TEMP_NOT_ATV_VLD</td>
+<td>温度读数无效</td>
+</tr>
+<tr>
+<td><code>BATTERY_TCA</code></td>
+<td>BATTERY_TCA</td>
+<td>电池热控制激活</td>
+</tr>
+<tr>
+<td><code>OW_TDM_LINK_ACTIVE</code></td>
+<td>OW_TDM_LINK_ACTIVE</td>
+<td>单线通信激活</td>
+</tr>
+<tr>
+<td><code>CELL_VOLTAGE_TOO_HIGH</code></td>
+<td>电芯电压过高</td>
+<td>电芯电压超出安全范围</td>
+</tr>
+<tr>
+<td><code>OBC_NO_CHG</code></td>
+<td>优化电池充电</td>
+<td>优化电池充电生效</td>
+</tr>
+<tr>
+<td><code>VACTFB_NO_CHG</code></td>
+<td>VACTFB_NO_CHG</td>
+<td>电压/电流反馈阻止充电</td>
+</tr>
+<tr>
+<td><code>OBC_NO_INFLOW</code></td>
+<td>优化电池充电（输入）</td>
+<td>优化电池充电阻止电流流入</td>
+</tr>
+</tbody>
+</table>
+<h2 id="0nonsmc">版本 0（NonSMC）— 早期设备<a class="headerlink" href="#0nonsmc" title="Permanent link">&para;</a></h2>
+<p>版本 0 用于不具备 SMC 的老设备，已知包括：</p>
+<ul>
+<li>D10, D11</li>
+<li>J71, J72, J73, J81, J82, J85, J86, J87, J96, J97, J98, J99, J120, J121, J127, J128, J171, J172, J207, J208</li>
+<li>N27, N28, N61, N66, N69, N71, N74, N75, N111, N121</li>
+</ul>
+<h3 id="nonsmc">NonSMC 专用原因<a class="headerlink" href="#nonsmc" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>原因</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>POSM Mode</strong></td>
+<td>自检/开机模式</td>
+</tr>
+<tr>
+<td><strong>Display</strong></td>
+<td>显示相关的充电控制</td>
+</tr>
+<tr>
+<td><strong>温度过低</strong></td>
+<td>电池温度过低</td>
+</tr>
+<tr>
+<td><strong>温度过高</strong></td>
+<td>电池温度过高</td>
+</tr>
+<tr>
+<td><strong>完成</strong></td>
+<td>充电完成</td>
+</tr>
+<tr>
+<td><strong>时间过长</strong></td>
+<td>充电时长超限</td>
+</tr>
+<tr>
+<td><strong>CHG_WD</strong></td>
+<td>充电器 watchdog 超时</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_11">读数解读<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h2>
+<p>未充电原因通常以十六进制展示（如 <code>0x00000001</code>）。在版本 2（位掩码）中可同时置多位，表示多个原因并存。</p>
+<h3 id="_12">示例<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>0x00000001</code> - 已充满电</li>
+<li><code>0x00000002</code> - 温度过低</li>
+<li><code>0x00000004</code> - 温度过高</li>
+<li><code>0x00000003</code> - 已充满电且温度过低（两位同时置位）</li>
+</ul>
+<h2 id="_13">故障排查提示<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h2>
+<ol>
+<li><strong>温度问题</strong>：出现“温度过低/过高”时，让设备回到 0–35℃ 的正常工作温度范围。</li>
+<li><strong>优化电池充电</strong>：显示“优化电池充电”属正常行为，系统在学习使用模式以延长电池寿命。</li>
+<li><strong>固件更新</strong>：出现“电量计固件正在升级”为暂时状态，完成更新后会恢复。</li>
+<li><strong>永久故障</strong>：若出现任何永久性故障提示，电池或充电系统可能需要检修。</li>
+<li><strong>多重原因</strong>：版本 2 可同时触发多条原因，请结合全部列出的原因判断当前充电状态。</li>
+</ol>
+<h2 id="_14">技术说明<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h2>
+<ul>
+<li>未充电原因来自 SMC 键 <code>CHNC</code>（多数设备 8 字节，移动设备 64 字节）</li>
+<li>版本/代际由 SMC 键 <code>RGEN</code> 确定</li>
+</ul>
+      </article>
+
+      
+      <aside class="bm-toc bm-squircle">
+        <div class="bm-toc-title">本页内容</div>
+        <ul class="bm-toc-list">
+          
+          <li class="bm-toc-item">
+            <a href="#_1">未充电原因</a>
+            
+            <ul class="bm-toc-sublist">
+              
+              <li class="bm-toc-subitem"><a href="#_2">概览</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#2smcchnc">版本 2（SMC/CHNC）— 现代设备</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#1gibraltarbncr-intel-mac">版本 1（Gibraltar/BNCR）— Intel Mac 机型</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#0nonsmc">版本 0（NonSMC）— 早期设备</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#_11">读数解读</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#_13">故障排查提示</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#_14">技术说明</a></li>
+              
+            </ul>
+            
+          </li>
+          
+        </ul>
+      </aside>
+      
+    </main>
+
+    <footer class="bm-footer">
+      <div class="bm-footer-inner">
+        <span>© Battman 用户手册</span>
+      </div>
+    </footer>
+    <script src="../../../../javascripts/apple-theme.js"></script>
+    <script src="../../../../search/main.js"></script>
+  </body>
+</html>

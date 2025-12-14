@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>iOS - Battman User Manual</title>
+    <link href="../stylesheets/apple-theme.css" rel="stylesheet">
+    
+    <script>var base_url = "..";</script>
+    
+  </head>
+  <body class="bm-body">
+    <header class="bm-header bm-squircle">
+      <div class="bm-header-left">
+        <div class="bm-logo">⚡</div>
+        <div class="bm-title-block">
+          <div class="bm-site-name">Battman User Manual</div>
+          <div class="bm-page-title">iOS</div>
+        </div>
+      </div>
+      <div class="bm-header-right">
+        <button id="bm-nav-toggle" class="bm-toggle bm-nav-toggle" type="button">Menu</button>
+        <button id="bm-theme-toggle" class="bm-toggle" type="button">Theme</button>
+        <select id="bm-lang-select" class="bm-select" aria-label="Language">
+          <option value="en">English</option>
+          <option value="zh">简体中文</option>
+        </select>
+        
+        <form class="bm-search" action="../search.html">
+          <input id="mkdocs-search-query" type="search" name="q" placeholder="Search" />
+        </form>
+        
+      </div>
+    </header>
+
+    <div id="bm-nav-overlay" class="bm-nav-overlay"></div>
+
+    <main class="bm-main">
+      <aside class="bm-sidebar bm-squircle">
+        <nav class="bm-nav">
+          <ul class="bm-nav-list">
+              <li class="bm-nav-item">
+              
+                <a href=".." class="bm-nav-link">Home</a>
+              
+            </li>
+            
+              <li class="bm-nav-item bm-nav-item--active">
+              
+                <div class="bm-nav-section">Installation</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item bm-nav-item--active">
+              
+                <a href="./" class="bm-nav-link bm-nav-link--active">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Metrics</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../metrics/battery-info/" class="bm-nav-link">Battery Info</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../metrics/hardware-temperature/" class="bm-nav-link">Hardware Temperature</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../metrics/brightness/" class="bm-nav-link">Brightness</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Controls</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../controls/charging-managements/" class="bm-nav-link">Charging Managements</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../controls/charging-limits/" class="bm-nav-link">Charging Limits</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../controls/thermal-tunes/" class="bm-nav-link">Thermal Tunes</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Troubleshooting</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Battery Info</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../troubleshooting/battery-info/warning-conditions/" class="bm-nav-link">Warning Conditions</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../troubleshooting/battery-info/flags/" class="bm-nav-link">Flags</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../troubleshooting/battery-info/not-charging-reason/" class="bm-nav-link">Not Charging Reason</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../troubleshooting/battery-info/family-keys/" class="bm-nav-link">Family Codes</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Thermals</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../troubleshooting/thermals/unknown-screen-temperature/" class="bm-nav-link">'Unknown' Screen Temperature</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../troubleshooting/thermals/thermal-notification-levels/" class="bm-nav-link">Thermal Notification Levels</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Screen & Brightness</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../troubleshooting/screen-brightness/nits-and-percentages/" class="bm-nav-link">Nits & Percentages</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../troubleshooting/screen-brightness/brightness-backends/" class="bm-nav-link">Brightness Backends</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Preferences</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../preferences/preferred-languages/" class="bm-nav-link">Preferred Languages</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../preferences/wiping-data/" class="bm-nav-link">Wiping Data</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <a href="../uninstallation/" class="bm-nav-link">Uninstallation</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Contributing</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../contributing/locales/" class="bm-nav-link">Locales</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../contributing/codes/" class="bm-nav-link">Codes</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Updating</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../updating/ios/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../updating/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+          </ul>
+        </nav>
+      </aside>
+
+      <article class="bm-content bm-squircle">
+        <h1 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h1>
+<p>This page describes how to install and set up Battman.</p>
+<h2 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Device with Apple A11 or above.</li>
+<li>Device with iOS 12 or above.</li>
+<li>Jailbroken, or have TrollStore installed.</li>
+</ul>
+<p>Battman now provides ONLY TrollStore App and Jailbroken App. All other methods are unsupported and will not resulting a successful installation. This is caused by Battman's implementation where it heavily depending on iOS/macOS private APIs.</p>
+<blockquote>
+<p>If you really desired to sideload it with some sort of certificates or profiles, please make sure your Developer Provisioning Profile allows you to sign app with <a href="https://github.com/Torrekie/Battman/blob/master/Battman.entitlements">Battman's entitlements</a>. (How could it be possible?)</p>
+</blockquote>
+<h2 id="install-trollstore-ios-14">Install (TrollStore, iOS 14+)<a class="headerlink" href="#install-trollstore-ios-14" title="Permanent link">&para;</a></h2>
+<p>If you don't have TrollStore on your device, follow guides at <a href="https://ios.cfw.guide/installing-trollstore/">ios.cfw.guide</a></p>
+<ol>
+<li>Download latest <a href="https://github.com/Torrekie/Battman/releases/download/latest/Battman.tipa">Battman.tipa</a>, or choose a version you preferred from our <a href="https://github.com/Torrekie/Battman/releases/latest">Releases</a> page.</li>
+<li>Long hold (or find the 'Share' button) the downloaded <code>Battman.tipa</code>, tap "Share", then choose "TrollStore".</li>
+<li>Press "Install" in opened TrollStore window.</li>
+</ol>
+<h2 id="jailbroken-install-rooted-ios-12">Jailbroken Install (rooted, iOS 12+)<a class="headerlink" href="#jailbroken-install-rooted-ios-12" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Open your package manager (Cydia, Sileo, Zebra, etc.) and install <code>libintl8</code> from your bootstrap source (Elucubratus or Procursus)</li>
+<li>Download latest <code>com.torrekie.battman_&lt;version&gt;_iphoneos-arm.deb</code> from our <a href="https://github.com/Torrekie/Battman/releases/latest">Releases</a> page. Where <code>&lt;version&gt;</code> is the version number of Battman, please make sure you are downloading the one with <code>iphoneos-arm</code> but not <code>iphoneos-arm64</code>. Current latest version is <a href="https://github.com/Torrekie/Battman/releases/v1.0.3.1/com.torrekie.battman_1.0.3.1_iphoneos-arm.deb">1.0.3.1 (click to download)</a>.</li>
+<li>Long hold the downloaded deb package, tap "Share", and choose your package manager (or Filza) to proceed installation. (or any method you preferred to install debs)</li>
+</ol>
+<h2 id="jailbroken-install-rootless-ios-15">Jailbroken Install (rootless, iOS 15+)<a class="headerlink" href="#jailbroken-install-rootless-ios-15" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Open your package manager (Cydia, Sileo, Zebra, etc.) and install <code>libintl8</code> from your bootstrap source (Elucubratus or Procursus)</li>
+<li>Download latest <code>com.torrekie.battman_&lt;version&gt;_iphoneos-arm.deb</code> from our <a href="https://github.com/Torrekie/Battman/releases/latest">Releases</a> page. Where <code>&lt;version&gt;</code> is the version number of Battman, please make sure you are downloading the one with <code>iphoneos-arm</code> but not <code>iphoneos-arm64</code>. Current latest version is <a href="https://github.com/Torrekie/Battman/releases/v1.0.3.1/com.torrekie.battman_1.0.3.1_iphoneos-arm64.deb">1.0.3.1 (click to download)</a>.</li>
+<li>Long hold the downloaded deb package, tap "Share", and choose your package manager (or Filza) to proceed installation. (or any method you preferred to install debs)</li>
+</ol>
+<h2 id="next-steps">Next steps<a class="headerlink" href="#next-steps" title="Permanent link">&para;</a></h2>
+<ul>
+<li>If installation fails, see the Troubleshooting section.</li>
+<li>After installation, explore the features from the Home page.</li>
+</ul>
+      </article>
+
+      
+      <aside class="bm-toc bm-squircle">
+        <div class="bm-toc-title">On this page</div>
+        <ul class="bm-toc-list">
+          
+          <li class="bm-toc-item">
+            <a href="#installation">Installation</a>
+            
+            <ul class="bm-toc-sublist">
+              
+              <li class="bm-toc-subitem"><a href="#requirements">Requirements</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#install-trollstore-ios-14">Install (TrollStore, iOS 14+)</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#jailbroken-install-rooted-ios-12">Jailbroken Install (rooted, iOS 12+)</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#jailbroken-install-rootless-ios-15">Jailbroken Install (rootless, iOS 15+)</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#next-steps">Next steps</a></li>
+              
+            </ul>
+            
+          </li>
+          
+        </ul>
+      </aside>
+      
+    </main>
+
+    <footer class="bm-footer">
+      <div class="bm-footer-inner">
+        <span>© Battman User Manual</span>
+      </div>
+    </footer>
+    <script src="../javascripts/apple-theme.js"></script>
+    <script src="../search/main.js"></script>
+  </body>
+</html>

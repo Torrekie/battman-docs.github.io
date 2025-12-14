@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>本地化 - Battman User Manual</title>
+    <link href="../../../stylesheets/apple-theme.css" rel="stylesheet">
+    
+    <script>var base_url = "../../..";</script>
+    
+  </head>
+  <body class="bm-body">
+    <header class="bm-header bm-squircle">
+      <div class="bm-header-left">
+        <div class="bm-logo">⚡</div>
+        <div class="bm-title-block">
+          <div class="bm-site-name">Battman 用户手册</div>
+          <div class="bm-page-title">本地化</div>
+        </div>
+      </div>
+      <div class="bm-header-right">
+        <button id="bm-nav-toggle" class="bm-toggle bm-nav-toggle" type="button">菜单</button>
+        <button id="bm-theme-toggle" class="bm-toggle" type="button">主题</button>
+        <select id="bm-lang-select" class="bm-select" aria-label="语言">
+          <option value="en">English</option>
+          <option value="zh">简体中文</option>
+        </select>
+        
+        <form class="bm-search" action="../../../search.html">
+          <input id="mkdocs-search-query" type="search" name="q" placeholder="搜索" />
+        </form>
+        
+      </div>
+    </header>
+
+    <div id="bm-nav-overlay" class="bm-nav-overlay"></div>
+
+    <main class="bm-main">
+      <aside class="bm-sidebar bm-squircle">
+        <nav class="bm-nav">
+          <ul class="bm-nav-list">
+              <li class="bm-nav-item">
+              
+                <a href="../../" class="bm-nav-link">首页</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">安装</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../installation/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../installation/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">数据</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../metrics/battery-info/" class="bm-nav-link">电池信息</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../metrics/hardware-temperature/" class="bm-nav-link">硬件温度</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../metrics/brightness/" class="bm-nav-link">亮度</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">控制</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../controls/charging-managements/" class="bm-nav-link">充电管理</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../controls/charging-limits/" class="bm-nav-link">充电限制</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../controls/thermal-tunes/" class="bm-nav-link">温控调校</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">故障排除</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">电池信息</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/battery-info/warning-conditions/" class="bm-nav-link">警告条件</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/battery-info/flags/" class="bm-nav-link">标示位</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/battery-info/not-charging-reason/" class="bm-nav-link">未充电原因</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/battery-info/family-keys/" class="bm-nav-link">类型代码</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">温控</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/thermals/unknown-screen-temperature/" class="bm-nav-link">「未知」屏幕温度</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/thermals/thermal-notification-levels/" class="bm-nav-link">温控通知等级</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">屏幕与亮度</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/screen-brightness/nits-and-percentages/" class="bm-nav-link">Nit 与百分比</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/screen-brightness/brightness-backends/" class="bm-nav-link">亮度后端</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">设置</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../preferences/preferred-languages/" class="bm-nav-link">首选语言</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../preferences/wiping-data/" class="bm-nav-link">清除数据</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <a href="../../uninstallation/" class="bm-nav-link">卸载</a>
+              
+            </li>
+            
+              <li class="bm-nav-item bm-nav-item--active">
+              
+                <div class="bm-nav-section">参与贡献</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item bm-nav-item--active">
+              
+                <a href="./" class="bm-nav-link bm-nav-link--active">本地化</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../codes/" class="bm-nav-link">代码</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">更新</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../updating/ios/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../updating/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+          </ul>
+        </nav>
+      </aside>
+
+      <article class="bm-content bm-squircle">
+        <h1 id="_1">参与本地化<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p>Battman 使用标准的 gettext <code>.po</code> 文件进行本地化管理。</p>
+<h2 id="_2">目录结构<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<ul>
+<li>项目级的 <code>.po</code> 和 <code>.pot</code> 文件位于 <code>Localizations</code> 目录下。</li>
+<li>文档站点通过带语言后缀的 Markdown 文件区分语言（例如 <code>page.md</code> 和 <code>page.zh.md</code>）。</li>
+</ul>
+<div class="codehilite"><pre><span></span><code>Battman
+├── Battman
+│   └── Localizations
+│       ├── base.pot
+│       ├── de.po
+│       ├── en.po
+│       ├── generate_code.sh
+│       ├── zh_CN.po
+│       └── ...
+└── docs
+    └── battman-user-manuals
+        ├── docs
+        │   ├── index.md
+        │   ├── index.zh.md
+        │   └── ...
+        └── mkdocs.yml
+</code></pre></div>
+
+<h2 id="_3">参与应用本地化<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<h3 id="_4">安装依赖<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<p>首先，确保你的设备上已安装 GNU Gettext 工具，如果没有，请从你的发行源安装。</p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># macOS Homebrew</span>
+brew<span class="w"> </span>install<span class="w"> </span>gettext
+<span class="c1"># macOS MacPorts</span>
+sudo<span class="w"> </span>port<span class="w"> </span>install<span class="w"> </span>gettext
+<span class="c1"># Debian 衍生 / iOS 越狱设备</span>
+sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>gettext
+</code></pre></div>
+
+<p>安装完成后，你应该可以使用 <code>xgettext</code> 和 <code>msgfmt</code>：</p>
+<div class="codehilite"><pre><span></span><code>$<span class="w"> </span>xgettext<span class="w"> </span>--version
+xgettext<span class="w"> </span><span class="o">(</span>GNU<span class="w"> </span>gettext-tools<span class="o">)</span><span class="w"> </span><span class="m">0</span>.22.4
+Copyright<span class="w"> </span><span class="o">(</span>C<span class="o">)</span><span class="w"> </span><span class="m">1995</span>-2023<span class="w"> </span>Free<span class="w"> </span>Software<span class="w"> </span>Foundation,<span class="w"> </span>Inc.
+License<span class="w"> </span>GPLv3+:<span class="w"> </span>GNU<span class="w"> </span>GPL<span class="w"> </span>version<span class="w"> </span><span class="m">3</span><span class="w"> </span>or<span class="w"> </span>later<span class="w"> </span>&lt;https://gnu.org/licenses/gpl.html&gt;
+This<span class="w"> </span>is<span class="w"> </span>free<span class="w"> </span>software:<span class="w"> </span>you<span class="w"> </span>are<span class="w"> </span>free<span class="w"> </span>to<span class="w"> </span>change<span class="w"> </span>and<span class="w"> </span>redistribute<span class="w"> </span>it.
+There<span class="w"> </span>is<span class="w"> </span>NO<span class="w"> </span>WARRANTY,<span class="w"> </span>to<span class="w"> </span>the<span class="w"> </span>extent<span class="w"> </span>permitted<span class="w"> </span>by<span class="w"> </span>law.
+Written<span class="w"> </span>by<span class="w"> </span>Ulrich<span class="w"> </span>Drepper.
+</code></pre></div>
+
+<h3 id="basepot">更新 <code>base.pot</code><a class="headerlink" href="#basepot" title="Permanent link">&para;</a></h3>
+<p><code>.pot</code> 文件是所有 <code>.po</code> 文件的模板文件，在创建本地化文件之前，请确保你始终拥有最新的模板。</p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># 在 Battman 中，我们使用：</span>
+<span class="c1"># _: 用于 Objective-C NSStrings</span>
+<span class="c1"># _C: 用于 C 字符串</span>
+<span class="c1"># cond_localize_c: _C() 实际调用的函数</span>
+
+<span class="nb">cd</span><span class="w"> </span>Battman/<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="se">\</span>
+rm<span class="w"> </span>-f<span class="w"> </span>./Localizations/base.pot<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="se">\</span>
+xgettext<span class="w"> </span>-v<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>--keyword<span class="o">=</span>_<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>--keyword<span class="o">=</span>cond_localize_c<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>--keyword<span class="o">=</span>_C<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>--add-comments<span class="o">=</span>TRANSLATORS<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>--no-location<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>--copyright-holder<span class="o">=</span><span class="s2">&quot;Torrekie &lt;me@torrekie.dev&gt;&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>--package-name<span class="o">=</span><span class="s2">&quot;Battman&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>--package-version<span class="o">=</span><span class="s2">&quot;</span><span class="k">$(</span>cat<span class="w"> </span>./VERSION<span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>--output<span class="o">=</span>./Localizations/base.pot<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>--from-code<span class="o">=</span>UTF-8<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span><span class="k">$(</span>find<span class="w"> </span>./<span class="w"> </span>-name<span class="w"> </span><span class="s2">&quot;*.m&quot;</span><span class="w"> </span>-or<span class="w"> </span>-name<span class="w"> </span><span class="s2">&quot;*.c&quot;</span><span class="w"> </span>-or<span class="w"> </span>-name<span class="w"> </span><span class="s2">&quot;*.h&quot;</span><span class="k">)</span>
+</code></pre></div>
+
+<p>使用此命令，你可以从当前的 Battman 源代码生成新的 <code>base.pot</code>。</p>
+<h3 id="po">创建 PO 文件<a class="headerlink" href="#po" title="Permanent link">&para;</a></h3>
+<p>如果 Battman 尚未在 <code>Battman/Localizations</code> 下为你的语言提供 <code>.po</code> 文件，则需要此步骤。如果你要更新现有的 <code>.po</code> 文件，请参阅<strong>更新 PO 文件</strong>。</p>
+<p>在实际为所需语言创建 <code>.po</code> 文件之前，请检查其<strong>语言代码</strong>。</p>
+<p>Gettext 使用的语言代码通常由以下部分组成：</p>
+<ul>
+<li>
+<p>一个 <a href="https://www.loc.gov/standards/iso639-2/php/English_list.php">ISO 639-1</a> 两字母代码（例如 <code>en</code>、<code>fr</code>、<code>ja</code>）。</p>
+</li>
+<li>
+<p>可选的 <a href="https://www.iso.org/obp/ui/#search">ISO 3166</a> 两字母地区代码（例如 <code>_US</code>、<code>_CA</code>、<code>_DE</code>）</p>
+</li>
+</ul>
+<p>例如：</p>
+<ul>
+<li>
+<p>当你为日语创建语言文件时，语言代码是 <code>ja</code>。</p>
+</li>
+<li>
+<p>当你为英语（加拿大）创建语言文件时，语言代码应为 <code>en_CA</code>，其中 <code>en</code> 指语言本身，<code>_CA</code> 是其地区变体。</p>
+</li>
+</ul>
+<p>确认语言代码后，可以使用以下命令创建 <code>.po</code> 文件：</p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># 假设你已经在 Battman/ 目录下</span>
+<span class="c1"># 这是一个生成世界语 po 文件的示例</span>
+
+<span class="nv">loc</span><span class="o">=</span><span class="s2">&quot;eo&quot;</span><span class="w"> </span><span class="c1"># 将此更改为你的语言代码</span>
+msginit<span class="w"> </span>--input<span class="o">=</span>./Localizations/base.pot<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>--output-file<span class="o">=</span><span class="s2">&quot;./Localizations/</span><span class="nv">$loc</span><span class="s2">.po&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>--locale<span class="o">=</span><span class="s2">&quot;</span><span class="nv">$loc</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>--no-translator
+</code></pre></div>
+
+<p>之后，你将看到已创建一个新的 <code>.po</code> 文件（在此示例中为 <code>eo.po</code>）：</p>
+<div class="codehilite"><pre><span></span><code>$<span class="w"> </span>tree<span class="w"> </span>./Battman/Localizations/
+./Battman/Localizations/
+├──<span class="w"> </span>base.pot
+├──<span class="w"> </span>de.po
+├──<span class="w"> </span>en.po
+├──<span class="w"> </span>eo.po<span class="w">               </span><span class="c1"># &lt;--- 新创建的</span>
+├──<span class="w"> </span>generate_code.sh
+├──<span class="w"> </span>vi.po
+└──<span class="w"> </span>zh_CN.po
+
+<span class="m">1</span><span class="w"> </span>directory,<span class="w"> </span><span class="m">7</span><span class="w"> </span>files
+</code></pre></div>
+
+<p>然后，你可以使用你偏好的文本编辑器编辑 <code>eo.po</code>。</p>
+<h3 id="po_1">PO 文件结构<a class="headerlink" href="#po_1" title="Permanent link">&para;</a></h3>
+<p>关于 PO 文件，有<a href="https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html">官方详细文档</a>。我们在此尝试以更简单的方式描述。</p>
+<p>新创建的 PO 文件具有以下头部（此示例中的 <code>eo.po</code>）：</p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># Esperanto translations for Battman package.</span>
+<span class="c1"># Copyright (C) 2025 Torrekie &lt;me@torrekie.dev&gt;</span>
+<span class="c1"># This file is distributed under the same license as the Battman package.</span>
+<span class="c1"># Automatically generated, 2025.</span>
+<span class="c1">#</span>
+<span class="nv">msgid</span> <span class="s">&quot;&quot;</span>
+<span class="nv">msgstr</span> <span class="s">&quot;&quot;</span>
+<span class="s">&quot;</span><span class="py">Project-Id-Version:</span><span class="s"> Battman 1.0.3.1\n&quot;</span>
+<span class="s">&quot;</span><span class="py">Report-Msgid-Bugs-To:</span><span class="s"> \n&quot;</span>
+<span class="s">&quot;</span><span class="py">POT-Creation-Date:</span><span class="s"> 2025-12-02 18:25+0800\n&quot;</span>
+<span class="s">&quot;</span><span class="py">PO-Revision-Date:</span><span class="s"> 2025-12-02 18:25+0800\n&quot;</span>
+<span class="s">&quot;</span><span class="py">Last-Translator:</span><span class="s"> Automatically generated\n&quot;</span>
+<span class="s">&quot;</span><span class="py">Language-Team:</span><span class="s"> none\n&quot;</span>
+<span class="s">&quot;</span><span class="py">Language:</span><span class="s"> eo\n&quot;</span>
+<span class="s">&quot;</span><span class="py">MIME-Version:</span><span class="s"> 1.0\n&quot;</span>
+<span class="s">&quot;</span><span class="py">Content-Type:</span><span class="s"> text/plain; charset=UTF-8\n&quot;</span>
+<span class="s">&quot;</span><span class="py">Content-Transfer-Encoding:</span><span class="s"> 8bit\n&quot;</span>
+<span class="s">&quot;</span><span class="py">Plural-Forms:</span><span class="s"> nplurals=2; plural=(n != 1);\n&quot;</span>
+</code></pre></div>
+
+<p>你可能想要编辑 <code>Last-Translator</code> 字段，以标记你是最后更新此本地化文件的人：</p>
+<div class="codehilite"><pre><span></span><code><span class="ss">&quot;Last-Translator: Torrekie &lt;me@torrekie.dev&gt;\n&quot;</span>
+</code></pre></div>
+
+<p>然后你可以开始翻译所有文本，键值格式基本上是一对 <code>msgid</code> 和 <code>msgstr</code>，其中 <code>msgid</code> 是从我们的源代码中检索得来的，例如，当我们有这样的代码时：</p>
+<div class="codehilite"><pre><span></span><code><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="n">my_string</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">_C</span><span class="p">(</span><span class="s">&quot;Hello, world!&quot;</span><span class="p">);</span>
+<span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;%s&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">my_string</span><span class="p">);</span>
+</code></pre></div>
+
+<p>你生成的 <code>.po</code> 文件将包含一个片段：</p>
+<div class="codehilite"><pre><span></span><code><span class="nv">msgid</span> <span class="s">&quot;Hello, world!&quot;</span>
+<span class="nv">msgstr</span> <span class="s">&quot;&quot;</span>
+</code></pre></div>
+
+<p>你需要做的就是填写 <code>msgstr</code> 字段，它应该是翻译后的字符串。</p>
+<div class="codehilite"><pre><span></span><code><span class="nv">msgid</span> <span class="s">&quot;Hello, world!&quot;</span>
+<span class="nv">msgstr</span> <span class="s">&quot;Saluton, mondo!&quot;</span>
+</code></pre></div>
+
+<p>有时，你可能会在字符串上看到 <code>TRANSLATORS</code> 注释，这表明我们添加了关于如何处理此字符串的说明。例如，在 <code>de.po</code> 中，我们不得不将 "Benutzerdefinierter" 替换为 "…"，因为它太长了，以至于大多数屏幕不能正常显示它。</p>
+<div class="codehilite"><pre><span></span><code><span class="c1">#. TRANSLATORS: Please ensure this string won&#39;t be longer as &quot;Custom&quot;</span>
+<span class="nv">msgid</span> <span class="s">&quot;Custom&quot;</span>
+<span class="nv">msgstr</span> <span class="s">&quot;…&quot;</span>
+</code></pre></div>
+
+<p>你可以通过使用新添加的本地化构建 Battman 来测试翻译后的字符串，请参阅<strong>从源代码运行</strong>。</p>
+<h2 id="po_2">更新 PO 文件<a class="headerlink" href="#po_2" title="Permanent link">&para;</a></h2>
+<p>当你在 Battman 中添加了一些新字符串或 PO 文件看起来过于过时的时候，你可能想要更新现有的 PO 文件。</p>
+<p>更新 PO 文件的步骤是：</p>
+<ol>
+<li>从源代码重新创建 <code>base.pot</code>（请参阅<strong>更新 base.pot</strong>）。</li>
+<li>从更新的 <code>base.pot</code> 在其他位置创建骨架 PO 文件。</li>
+<li>将现有的 PO 文件与新创建的骨架合并。</li>
+<li>像往常一样翻译那些新添加的字符串。</li>
+</ol>
+<p>在 Battman.xcodeproj 中，我们这样处理：</p>
+<div class="codehilite"><pre><span></span><code><span class="nv">LOCS</span><span class="o">=</span><span class="s2">&quot;zh_CN en de vi&quot;</span>
+<span class="nv">LOC_BASE</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">PROJECT_DIR</span><span class="si">}</span><span class="s2">/</span><span class="si">${</span><span class="nv">PROJECT_NAME</span><span class="si">}</span><span class="s2">/Localizations&quot;</span>
+<span class="nv">POT_FILE</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">LOC_BASE</span><span class="si">}</span><span class="s2">/base.pot&quot;</span>
+
+<span class="k">for</span><span class="w"> </span>locs<span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="nv">$LOCS</span><span class="p">;</span><span class="w"> </span><span class="k">do</span><span class="w"> </span>msginit<span class="w"> </span>--input<span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">POT_FILE</span><span class="si">}</span><span class="s2">&quot;</span><span class="w"> </span>--output-file<span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">LOC_BASE</span><span class="si">}</span><span class="s2">/</span><span class="nv">$locs</span><span class="s2">.po.step&quot;</span><span class="w"> </span>--locale<span class="o">=</span><span class="s2">&quot;</span><span class="nv">$locs</span><span class="s2">&quot;</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>msgmerge<span class="w"> </span>--no-location<span class="w"> </span>-N<span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">LOC_BASE</span><span class="si">}</span><span class="s2">/</span><span class="nv">$locs</span><span class="s2">.po&quot;</span><span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">LOC_BASE</span><span class="si">}</span><span class="s2">/</span><span class="nv">$locs</span><span class="s2">.po.step&quot;</span><span class="w"> </span>&gt;<span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">LOC_BASE</span><span class="si">}</span><span class="s2">/</span><span class="nv">$locs</span><span class="s2">.po.new&quot;</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>mv<span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">LOC_BASE</span><span class="si">}</span><span class="s2">/</span><span class="nv">$locs</span><span class="s2">.po.new&quot;</span><span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">LOC_BASE</span><span class="si">}</span><span class="s2">/</span><span class="nv">$locs</span><span class="s2">.po&quot;</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>rm<span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">LOC_BASE</span><span class="si">}</span><span class="s2">/</span><span class="nv">$locs</span><span class="s2">.po.step&quot;</span><span class="p">;</span><span class="w"> </span><span class="k">done</span>
+</code></pre></div>
+
+<p>要分解此过程：</p>
+<div class="codehilite"><pre><span></span><code><span class="c1"># 示例：更新世界语</span>
+
+<span class="c1"># 创建新的 PO 骨架而不覆盖现有 PO</span>
+<span class="c1"># 我们应该会有一个 eo.po.step</span>
+msginit<span class="w"> </span>--input<span class="o">=</span>./Localizations/base.pot<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>--output-file<span class="o">=</span>./Localizations/eo.po.step<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>--locale<span class="o">=</span>eo
+
+<span class="c1"># 将我们现有的世界语翻译与新创建的骨架合并</span>
+<span class="c1"># 我们应该会有一个 eo.po.new</span>
+msgmerge<span class="w"> </span>--no-location<span class="w"> </span>-N<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>./Localizations/eo.po<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>./Localizations/eo.po.step<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>&gt;<span class="w"> </span>./Localizations/eo.po.new
+
+<span class="c1"># 用新创建的文件覆盖现有的旧 PO 文件</span>
+mv<span class="w"> </span>./Localizations/eo.po.new<span class="w"> </span>./Localizations/eo.po
+
+<span class="c1"># 删除骨架</span>
+rm<span class="w"> </span>./Localizations/eo.po.step
+</code></pre></div>
+
+<p><code>eo.po</code> 现在已更新为新添加的字符串，然后你可以使用你喜欢的文本编辑器翻译这些新字符串。</p>
+      </article>
+
+      
+      <aside class="bm-toc bm-squircle">
+        <div class="bm-toc-title">本页内容</div>
+        <ul class="bm-toc-list">
+          
+          <li class="bm-toc-item">
+            <a href="#_1">参与本地化</a>
+            
+            <ul class="bm-toc-sublist">
+              
+              <li class="bm-toc-subitem"><a href="#_2">目录结构</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#_3">参与应用本地化</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#po_2">更新 PO 文件</a></li>
+              
+            </ul>
+            
+          </li>
+          
+        </ul>
+      </aside>
+      
+    </main>
+
+    <footer class="bm-footer">
+      <div class="bm-footer-inner">
+        <span>© Battman 用户手册</span>
+      </div>
+    </footer>
+    <script src="../../../javascripts/apple-theme.js"></script>
+    <script src="../../../search/main.js"></script>
+  </body>
+</html>

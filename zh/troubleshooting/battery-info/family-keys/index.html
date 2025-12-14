@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>类型代码 - Battman User Manual</title>
+    <link href="../../../../stylesheets/apple-theme.css" rel="stylesheet">
+    
+    <script>var base_url = "../../../..";</script>
+    
+  </head>
+  <body class="bm-body">
+    <header class="bm-header bm-squircle">
+      <div class="bm-header-left">
+        <div class="bm-logo">⚡</div>
+        <div class="bm-title-block">
+          <div class="bm-site-name">Battman 用户手册</div>
+          <div class="bm-page-title">类型代码</div>
+        </div>
+      </div>
+      <div class="bm-header-right">
+        <button id="bm-nav-toggle" class="bm-toggle bm-nav-toggle" type="button">菜单</button>
+        <button id="bm-theme-toggle" class="bm-toggle" type="button">主题</button>
+        <select id="bm-lang-select" class="bm-select" aria-label="语言">
+          <option value="en">English</option>
+          <option value="zh">简体中文</option>
+        </select>
+        
+        <form class="bm-search" action="../../../../search.html">
+          <input id="mkdocs-search-query" type="search" name="q" placeholder="搜索" />
+        </form>
+        
+      </div>
+    </header>
+
+    <div id="bm-nav-overlay" class="bm-nav-overlay"></div>
+
+    <main class="bm-main">
+      <aside class="bm-sidebar bm-squircle">
+        <nav class="bm-nav">
+          <ul class="bm-nav-list">
+              <li class="bm-nav-item">
+              
+                <a href="../../../" class="bm-nav-link">首页</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">安装</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../installation/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../installation/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">数据</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../metrics/battery-info/" class="bm-nav-link">电池信息</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../metrics/hardware-temperature/" class="bm-nav-link">硬件温度</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../metrics/brightness/" class="bm-nav-link">亮度</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">控制</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../controls/charging-managements/" class="bm-nav-link">充电管理</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../controls/charging-limits/" class="bm-nav-link">充电限制</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../controls/thermal-tunes/" class="bm-nav-link">温控调校</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item bm-nav-item--active">
+              
+                <div class="bm-nav-section">故障排除</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item bm-nav-item--active">
+              
+                <div class="bm-nav-section">电池信息</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../warning-conditions/" class="bm-nav-link">警告条件</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../flags/" class="bm-nav-link">标示位</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../not-charging-reason/" class="bm-nav-link">未充电原因</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item bm-nav-item--active">
+              
+                <a href="./" class="bm-nav-link bm-nav-link--active">类型代码</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">温控</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../thermals/unknown-screen-temperature/" class="bm-nav-link">「未知」屏幕温度</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../thermals/thermal-notification-levels/" class="bm-nav-link">温控通知等级</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">屏幕与亮度</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../screen-brightness/nits-and-percentages/" class="bm-nav-link">Nit 与百分比</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../screen-brightness/brightness-backends/" class="bm-nav-link">亮度后端</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">设置</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../preferences/preferred-languages/" class="bm-nav-link">首选语言</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../preferences/wiping-data/" class="bm-nav-link">清除数据</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <a href="../../../uninstallation/" class="bm-nav-link">卸载</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">参与贡献</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../contributing/locales/" class="bm-nav-link">本地化</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../contributing/codes/" class="bm-nav-link">代码</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">更新</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../updating/ios/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../updating/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+          </ul>
+        </nav>
+      </aside>
+
+      <article class="bm-content bm-squircle">
+        <h1 id="_1">类型代码<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p>类型代码用于标识连接到设备的电源适配器或充电源类型。它们有助于识别所连接适配器的充电接口和功能。</p>
+<h2 id="_2">概览<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>类型代码由系统用于：
+- 确定充电能力和功率限制
+- 识别连接类型（USB、交流电源、无线等）
+- 应用适当的充电协议和安全限制
+- 在系统诊断中显示适配器信息</p>
+<h2 id="_3">代码值<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<h3 id="_4">未连接 / 不支持<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>代码</th>
+<th>十六进制值</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kIOPSFamilyCodeDisconnected</code></td>
+<td><code>0x00000000</code></td>
+<td>未连接或未检测到适配器</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeUnsupported</code></td>
+<td><code>0xE00002C7</code></td>
+<td>检测到适配器但不支持或无法识别</td>
+</tr>
+</tbody>
+</table>
+<h3 id="firewire">FireWire<a class="headerlink" href="#firewire" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>代码</th>
+<th>十六进制值</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kIOPSFamilyCodeFirewire</code></td>
+<td><code>0xE0008000</code></td>
+<td>FireWire (IEEE 1394) 电源适配器（旧款）</td>
+</tr>
+</tbody>
+</table>
+<h3 id="usb">USB 电源<a class="headerlink" href="#usb" title="Permanent link">&para;</a></h3>
+<p>USB 类型代码分组在 <code>0xE0004000</code> 基础范围内：</p>
+<table>
+<thead>
+<tr>
+<th>代码</th>
+<th>十六进制值</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kIOPSFamilyCodeUSBHost</code></td>
+<td><code>0xE0004000</code></td>
+<td>USB 接口（标准 USB 端口）</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeUSBHostSuspended</code></td>
+<td><code>0xE0004001</code></td>
+<td>USB 标准下行端口（SDP）- 低功率 USB 端口</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeUSBDevice</code></td>
+<td><code>0xE0004002</code></td>
+<td>USB 设备模式（设备作为 USB 外设）</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeUSBAdapter</code></td>
+<td><code>0xE0004003</code></td>
+<td>通用 USB 适配器</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeUSBChargingPortDedicated</code></td>
+<td><code>0xE0004004</code></td>
+<td>USB 专用充电端口（DCP）- 专用 USB 充电器</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeUSBChargingPortDownstream</code></td>
+<td><code>0xE0004005</code></td>
+<td>USB 充电下行端口（CDP）- 可在提供数据的同时充电的 USB 端口</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeUSBChargingPort</code></td>
+<td><code>0xE0004006</code></td>
+<td>USB 充电端口（CP）- 通用 USB 充电端口</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeUSBUnknown</code></td>
+<td><code>0xE0004007</code></td>
+<td>未知 USB 电源类型</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeUSBCBrick</code></td>
+<td><code>0xE0004008</code></td>
+<td>USB-C 电源砖（非 PD USB-C 充电器）</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeUSBCTypeC</code></td>
+<td><code>0xE0004009</code></td>
+<td>USB-C Type-C 端口（标准 USB-C 连接）</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeUSBCPD</code></td>
+<td><code>0xE000400A</code></td>
+<td>USB-C PD（Power Delivery）- 支持 Power Delivery 协议的 USB-C 充电器</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_5">交流电源<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>代码</th>
+<th>十六进制值</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kIOPSFamilyCodeAC</code></td>
+<td><code>0xE0024000</code></td>
+<td>交流电源适配器（传统 MacBook 电源适配器）</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_6">外部电源<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<p>外部电源代码用于专有或专用充电接口。它们从 <code>0xE0024001</code> 开始按顺序分组：</p>
+<table>
+<thead>
+<tr>
+<th>代码</th>
+<th>十六进制值</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>kIOPSFamilyCodeExternal</code></td>
+<td><code>0xE0024001</code></td>
+<td>外部电源 1 - 通用外部电源</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeExternal2</code></td>
+<td><code>0xE0024002</code></td>
+<td>外部电源 2 - 次要外部电源</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeExternal3</code></td>
+<td><code>0xE0024003</code></td>
+<td>外部电源 3 - Baseline Arca 充电接口</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeExternal4</code></td>
+<td><code>0xE0024004</code></td>
+<td>外部电源 4 - 其他外部电源</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeExternal5</code></td>
+<td><code>0xE0024005</code></td>
+<td>外部电源 5 - 其他外部电源</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeExternal6</code></td>
+<td><code>0xE0024006</code></td>
+<td>外部电源 6 - MagSafe 充电器（无线充电）</td>
+</tr>
+<tr>
+<td><code>kIOPSFamilyCodeExternal7</code></td>
+<td><code>0xE0024007</code></td>
+<td>外部电源 7 - MagSafe 配件（例如 MagSafe 外接电池）</td>
+</tr>
+</tbody>
+</table>
+<h2 id="usb_1">了解 USB 充电端口<a class="headerlink" href="#usb_1" title="Permanent link">&para;</a></h2>
+<h3 id="usb-sdp">USB SDP（标准下行端口）<a class="headerlink" href="#usb-sdp" title="Permanent link">&para;</a></h3>
+<ul>
+<li>提供最高 500mA @ 5V（2.5W）</li>
+<li>用于标准 USB 数据端口</li>
+<li>最慢的充电选项</li>
+</ul>
+<h3 id="usb-dcp">USB DCP（专用充电端口）<a class="headerlink" href="#usb-dcp" title="Permanent link">&para;</a></h3>
+<ul>
+<li>提供最高 1.5A @ 5V（7.5W）</li>
+<li>专为充电设计（无数据）</li>
+<li>常见于壁式充电器和车载充电器</li>
+</ul>
+<h3 id="usb-cdp">USB CDP（充电下行端口）<a class="headerlink" href="#usb-cdp" title="Permanent link">&para;</a></h3>
+<ul>
+<li>提供最高 1.5A @ 5V（7.5W）</li>
+<li>同时支持充电和数据传输</li>
+<li>常见于计算机和部分集线器</li>
+</ul>
+<h3 id="usb-c-power-delivery-pd">USB-C Power Delivery (PD)<a class="headerlink" href="#usb-c-power-delivery-pd" title="Permanent link">&para;</a></h3>
+<ul>
+<li>可提供可变电压和电流（根据适配器最高 100W+）</li>
+<li>动态协商功率级别</li>
+<li>在兼容设备上支持快速充电</li>
+<li>功能最强大的 USB 充电标准</li>
+</ul>
+<h2 id="_7">设备特定行为<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
+<h3 id="macbook">MacBook<a class="headerlink" href="#macbook" title="Permanent link">&para;</a></h3>
+<ul>
+<li>交流电源适配器显示为 <code>kIOPSFamilyCodeAC</code></li>
+<li>USB-C 适配器显示为 <code>kIOPSFamilyCodeUSBCPD</code> 或 <code>kIOPSFamilyCodeUSBCTypeC</code></li>
+</ul>
+<h3 id="iphone-ipad">iPhone / iPad<a class="headerlink" href="#iphone-ipad" title="Permanent link">&para;</a></h3>
+<ul>
+<li>MagSafe 充电器显示为 <code>kIOPSFamilyCodeExternal6</code></li>
+<li>MagSafe 配件（如外接电池）显示为 <code>kIOPSFamilyCodeExternal7</code></li>
+</ul>
+<h2 id="_8">故障排除<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
+<h3 id="_9">"不支持" 类型代码<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
+<p>如果您看到 <code>kIOPSFamilyCodeUnsupported</code>：
+- 适配器可能未通过 Apple 认证或不兼容 MFi
+- 适配器可能已损坏或出现故障
+- 设备可能无法识别第三方适配器
+- 尝试使用 Apple 认证的适配器</p>
+<h3 id="_10">已连接适配器但显示 "未连接"<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
+<p>如果您已连接适配器但仍看到 <code>kIOPSFamilyCodeDisconnected</code>：
+- 检查物理连接（线缆、端口）
+- 尝试使用不同的线缆或端口
+- 适配器可能未提供电源
+- 检查充电端口是否有异物</p>
+<h3 id="usb-c">USB-C 未充电<a class="headerlink" href="#usb-c" title="Permanent link">&para;</a></h3>
+<p>如果 USB-C 适配器显示类型代码但未充电：
+- 确认适配器支持 Power Delivery (PD)
+- 检查线缆是否支持充电（部分 USB-C 线缆仅支持数据传输）
+- 确保适配器为设备提供足够的功率
+- 查看<a href="../not-charging-reason">未充电原因</a>以获取具体错误代码</p>
+<h3 id="_11">无线充电问题<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
+<p>对于 MagSafe 或感应式充电：
+- 确保设备支持无线充电
+- 检查充电器是否正确对齐
+- 移除可能干扰的保护壳或配件
+- 确认充电器已通过 Apple 认证（对于 MagSafe）</p>
+      </article>
+
+      
+      <aside class="bm-toc bm-squircle">
+        <div class="bm-toc-title">本页内容</div>
+        <ul class="bm-toc-list">
+          
+          <li class="bm-toc-item">
+            <a href="#_1">类型代码</a>
+            
+            <ul class="bm-toc-sublist">
+              
+              <li class="bm-toc-subitem"><a href="#_2">概览</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#_3">代码值</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#usb_1">了解 USB 充电端口</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#_7">设备特定行为</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#_8">故障排除</a></li>
+              
+            </ul>
+            
+          </li>
+          
+        </ul>
+      </aside>
+      
+    </main>
+
+    <footer class="bm-footer">
+      <div class="bm-footer-inner">
+        <span>© Battman 用户手册</span>
+      </div>
+    </footer>
+    <script src="../../../../javascripts/apple-theme.js"></script>
+    <script src="../../../../search/main.js"></script>
+  </body>
+</html>

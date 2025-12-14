@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>标示位 - Battman User Manual</title>
+    <link href="../../../../stylesheets/apple-theme.css" rel="stylesheet">
+    
+    <script>var base_url = "../../../..";</script>
+    
+  </head>
+  <body class="bm-body">
+    <header class="bm-header bm-squircle">
+      <div class="bm-header-left">
+        <div class="bm-logo">⚡</div>
+        <div class="bm-title-block">
+          <div class="bm-site-name">Battman 用户手册</div>
+          <div class="bm-page-title">标示位</div>
+        </div>
+      </div>
+      <div class="bm-header-right">
+        <button id="bm-nav-toggle" class="bm-toggle bm-nav-toggle" type="button">菜单</button>
+        <button id="bm-theme-toggle" class="bm-toggle" type="button">主题</button>
+        <select id="bm-lang-select" class="bm-select" aria-label="语言">
+          <option value="en">English</option>
+          <option value="zh">简体中文</option>
+        </select>
+        
+        <form class="bm-search" action="../../../../search.html">
+          <input id="mkdocs-search-query" type="search" name="q" placeholder="搜索" />
+        </form>
+        
+      </div>
+    </header>
+
+    <div id="bm-nav-overlay" class="bm-nav-overlay"></div>
+
+    <main class="bm-main">
+      <aside class="bm-sidebar bm-squircle">
+        <nav class="bm-nav">
+          <ul class="bm-nav-list">
+              <li class="bm-nav-item">
+              
+                <a href="../../../" class="bm-nav-link">首页</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">安装</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../installation/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../installation/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">数据</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../metrics/battery-info/" class="bm-nav-link">电池信息</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../metrics/hardware-temperature/" class="bm-nav-link">硬件温度</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../metrics/brightness/" class="bm-nav-link">亮度</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">控制</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../controls/charging-managements/" class="bm-nav-link">充电管理</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../controls/charging-limits/" class="bm-nav-link">充电限制</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../controls/thermal-tunes/" class="bm-nav-link">温控调校</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item bm-nav-item--active">
+              
+                <div class="bm-nav-section">故障排除</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item bm-nav-item--active">
+              
+                <div class="bm-nav-section">电池信息</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../warning-conditions/" class="bm-nav-link">警告条件</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item bm-nav-item--active">
+              
+                <a href="./" class="bm-nav-link bm-nav-link--active">标示位</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../not-charging-reason/" class="bm-nav-link">未充电原因</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../family-keys/" class="bm-nav-link">类型代码</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">温控</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../thermals/unknown-screen-temperature/" class="bm-nav-link">「未知」屏幕温度</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../thermals/thermal-notification-levels/" class="bm-nav-link">温控通知等级</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">屏幕与亮度</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../screen-brightness/nits-and-percentages/" class="bm-nav-link">Nit 与百分比</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../screen-brightness/brightness-backends/" class="bm-nav-link">亮度后端</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">设置</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../preferences/preferred-languages/" class="bm-nav-link">首选语言</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../preferences/wiping-data/" class="bm-nav-link">清除数据</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <a href="../../../uninstallation/" class="bm-nav-link">卸载</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">参与贡献</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../contributing/locales/" class="bm-nav-link">本地化</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../contributing/codes/" class="bm-nav-link">代码</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">更新</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../updating/ios/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../../updating/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+          </ul>
+        </nav>
+      </aside>
+
+      <article class="bm-content bm-squircle">
+        <h1 id="_1">标示位<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p>Battman 显示由电池电量计芯片直接上报的原始标示位，这些位来自德州仪器的电量计（bq274xx、bq275xx、bq20zxx），在<strong>标示位</strong>行按高字节和低字节各一行呈现。</p>
+<h2 id="app">在 App 里你会看到<a class="headerlink" href="#app" title="Permanent link">&para;</a></h2>
+<ul>
+<li>一个十六进制数（如 <code>0x00CC</code>）表示完整的 16 位标示字。</li>
+<li>两行分段开关显示各位：上行为高字节，下行为低字节。</li>
+<li>高亮/填充的段表示该位被置位，灰色表示未置位。</li>
+</ul>
+<h2 id="battman">Battman 如何映射标示位<a class="headerlink" href="#battman" title="Permanent link">&para;</a></h2>
+<ul>
+<li>若能识别具体电量计型号（设备名或主板标识），Battman 会加载对应的布局；否则会选择最接近的布局。</li>
+<li>两行展示全部位，点亮的段即为置位。</li>
+<li>含义遵循德州仪器的数据手册，核心字段见下表。</li>
+</ul>
+<h2 id="_2">常见标示位含义<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p><strong>bq2742x（含 bq27421/25/26/27）</strong></p>
+<p>高字节（界面左→右）</p>
+<table>
+<thead>
+<tr>
+<th>位</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OT</td>
+<td>过温</td>
+</tr>
+<tr>
+<td>UT</td>
+<td>低温</td>
+</tr>
+<tr>
+<td>EEFAIL</td>
+<td>EEPROM 写入失败（仅 27425）</td>
+</tr>
+<tr>
+<td>FC</td>
+<td>检测到满电</td>
+</tr>
+<tr>
+<td>CHG</td>
+<td>允许充电</td>
+</tr>
+</tbody>
+</table>
+<p>低字节（左→右）</p>
+<table>
+<thead>
+<tr>
+<th>位</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OCVTAKEN</td>
+<td>已采集开路电压</td>
+</tr>
+<tr>
+<td>DODC</td>
+<td>放电深度校正进行中（421/426/427）</td>
+</tr>
+<tr>
+<td>ITPOR</td>
+<td>上电复位发生</td>
+</tr>
+<tr>
+<td>CFGUPMODE</td>
+<td>处于配置更新模式</td>
+</tr>
+<tr>
+<td>BAT_DET</td>
+<td>检测到电池</td>
+</tr>
+<tr>
+<td>SOC1</td>
+<td>达到低电量阈值</td>
+</tr>
+<tr>
+<td>SOCF</td>
+<td>达到危急电量阈值</td>
+</tr>
+<tr>
+<td>DSG</td>
+<td>放电中</td>
+</tr>
+</tbody>
+</table>
+<p><strong>bq2754x / 通用 bq275</strong></p>
+<p>高字节（左→右）</p>
+<table>
+<thead>
+<tr>
+<th>位</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OTC</td>
+<td>充电过温（27545）</td>
+</tr>
+<tr>
+<td>OTD</td>
+<td>放电过温（27545）</td>
+</tr>
+<tr>
+<td>BATHI</td>
+<td>电压过高</td>
+</tr>
+<tr>
+<td>BATLOW</td>
+<td>电压过低</td>
+</tr>
+<tr>
+<td>CHG_INH</td>
+<td>因温度禁止充电</td>
+</tr>
+<tr>
+<td>FC</td>
+<td>检测到满电</td>
+</tr>
+<tr>
+<td>CHG</td>
+<td>允许充电（27545）</td>
+</tr>
+</tbody>
+</table>
+<p>低字节 — 通用 bq275（左→右）</p>
+<table>
+<thead>
+<tr>
+<th>位</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CHG_SUS</td>
+<td>充电挂起</td>
+</tr>
+<tr>
+<td>IMAX</td>
+<td>Imax 变化中断</td>
+</tr>
+<tr>
+<td>CHG</td>
+<td>允许充电</td>
+</tr>
+<tr>
+<td>SOC1</td>
+<td>达到低电量阈值</td>
+</tr>
+<tr>
+<td>SOCF</td>
+<td>达到危急电量阈值</td>
+</tr>
+<tr>
+<td>DSG</td>
+<td>放电中</td>
+</tr>
+</tbody>
+</table>
+<p>低字节 — bq27545 变体（左→右）</p>
+<table>
+<thead>
+<tr>
+<th>位</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OCVTAKEN</td>
+<td>休眠开路电压采样</td>
+</tr>
+<tr>
+<td>ISD</td>
+<td>检测到内部短路</td>
+</tr>
+<tr>
+<td>TDD</td>
+<td>检测到极耳断开</td>
+</tr>
+<tr>
+<td>HW1 / HW0</td>
+<td>器件 ID 位</td>
+</tr>
+<tr>
+<td>SOC1</td>
+<td>达到低电量阈值</td>
+</tr>
+<tr>
+<td>SOCF</td>
+<td>达到危急电量阈值</td>
+</tr>
+<tr>
+<td>DSG</td>
+<td>放电中</td>
+</tr>
+</tbody>
+</table>
+<p><strong>bq20zxx（MacBook 电池状态）</strong></p>
+<p>高字节（左→右）</p>
+<table>
+<thead>
+<tr>
+<th>位</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OCA</td>
+<td>过充告警</td>
+</tr>
+<tr>
+<td>TCA</td>
+<td>终止充电告警</td>
+</tr>
+<tr>
+<td>OTA</td>
+<td>过温告警</td>
+</tr>
+<tr>
+<td>TDA</td>
+<td>终止放电告警</td>
+</tr>
+<tr>
+<td>RCA</td>
+<td>剩余容量告警</td>
+</tr>
+<tr>
+<td>RTA</td>
+<td>剩余时间告警</td>
+</tr>
+</tbody>
+</table>
+<p>低字节（左→右）</p>
+<table>
+<thead>
+<tr>
+<th>位</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>INIT</td>
+<td>电量计初始化</td>
+</tr>
+<tr>
+<td>DSG</td>
+<td>放电中</td>
+</tr>
+<tr>
+<td>FC</td>
+<td>满电</td>
+</tr>
+<tr>
+<td>FD</td>
+<td>完全放空</td>
+</tr>
+<tr>
+<td>EC3</td>
+<td>SBS 错误码位 3</td>
+</tr>
+<tr>
+<td>EC2</td>
+<td>SBS 错误码位 2</td>
+</tr>
+<tr>
+<td>EC1</td>
+<td>SBS 错误码位 1</td>
+</tr>
+<tr>
+<td>EC0</td>
+<td>SBS 错误码位 0</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_3">说明<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<ul>
+<li>标示位布局遵循 TI 文档；阈值和时序请参考对应数据手册。</li>
+<li>Battman 仅展示这些位；解读依赖充电状态与整机配置。如标示位长期与实际不符，可能是电池包或电量计上报异常。</li>
+</ul>
+      </article>
+
+      
+      <aside class="bm-toc bm-squircle">
+        <div class="bm-toc-title">本页内容</div>
+        <ul class="bm-toc-list">
+          
+          <li class="bm-toc-item">
+            <a href="#_1">标示位</a>
+            
+            <ul class="bm-toc-sublist">
+              
+              <li class="bm-toc-subitem"><a href="#app">在 App 里你会看到</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#battman">Battman 如何映射标示位</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#_2">常见标示位含义</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#_3">说明</a></li>
+              
+            </ul>
+            
+          </li>
+          
+        </ul>
+      </aside>
+      
+    </main>
+
+    <footer class="bm-footer">
+      <div class="bm-footer-inner">
+        <span>© Battman 用户手册</span>
+      </div>
+    </footer>
+    <script src="../../../../javascripts/apple-theme.js"></script>
+    <script src="../../../../search/main.js"></script>
+  </body>
+</html>

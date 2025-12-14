@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Battery Info - Battman User Manual</title>
+    <link href="../../stylesheets/apple-theme.css" rel="stylesheet">
+    
+    <script>var base_url = "../..";</script>
+    
+  </head>
+  <body class="bm-body">
+    <header class="bm-header bm-squircle">
+      <div class="bm-header-left">
+        <div class="bm-logo">⚡</div>
+        <div class="bm-title-block">
+          <div class="bm-site-name">Battman User Manual</div>
+          <div class="bm-page-title">Battery Info</div>
+        </div>
+      </div>
+      <div class="bm-header-right">
+        <button id="bm-nav-toggle" class="bm-toggle bm-nav-toggle" type="button">Menu</button>
+        <button id="bm-theme-toggle" class="bm-toggle" type="button">Theme</button>
+        <select id="bm-lang-select" class="bm-select" aria-label="Language">
+          <option value="en">English</option>
+          <option value="zh">简体中文</option>
+        </select>
+        
+        <form class="bm-search" action="../../search.html">
+          <input id="mkdocs-search-query" type="search" name="q" placeholder="Search" />
+        </form>
+        
+      </div>
+    </header>
+
+    <div id="bm-nav-overlay" class="bm-nav-overlay"></div>
+
+    <main class="bm-main">
+      <aside class="bm-sidebar bm-squircle">
+        <nav class="bm-nav">
+          <ul class="bm-nav-list">
+              <li class="bm-nav-item">
+              
+                <a href="../.." class="bm-nav-link">Home</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Installation</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../installation/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../installation/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item bm-nav-item--active">
+              
+                <div class="bm-nav-section">Metrics</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item bm-nav-item--active">
+              
+                <a href="./" class="bm-nav-link bm-nav-link--active">Battery Info</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../hardware-temperature/" class="bm-nav-link">Hardware Temperature</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../brightness/" class="bm-nav-link">Brightness</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Controls</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../controls/charging-managements/" class="bm-nav-link">Charging Managements</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../controls/charging-limits/" class="bm-nav-link">Charging Limits</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../controls/thermal-tunes/" class="bm-nav-link">Thermal Tunes</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Troubleshooting</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Battery Info</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/battery-info/warning-conditions/" class="bm-nav-link">Warning Conditions</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/battery-info/flags/" class="bm-nav-link">Flags</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/battery-info/not-charging-reason/" class="bm-nav-link">Not Charging Reason</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/battery-info/family-keys/" class="bm-nav-link">Family Codes</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Thermals</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/thermals/unknown-screen-temperature/" class="bm-nav-link">'Unknown' Screen Temperature</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/thermals/thermal-notification-levels/" class="bm-nav-link">Thermal Notification Levels</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Screen & Brightness</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/screen-brightness/nits-and-percentages/" class="bm-nav-link">Nits & Percentages</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/screen-brightness/brightness-backends/" class="bm-nav-link">Brightness Backends</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Preferences</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../preferences/preferred-languages/" class="bm-nav-link">Preferred Languages</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../preferences/wiping-data/" class="bm-nav-link">Wiping Data</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <a href="../../uninstallation/" class="bm-nav-link">Uninstallation</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Contributing</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../contributing/locales/" class="bm-nav-link">Locales</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../contributing/codes/" class="bm-nav-link">Codes</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">Updating</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../updating/ios/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../updating/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+          </ul>
+        </nav>
+      </aside>
+
+      <article class="bm-content bm-squircle">
+        <h1 id="battery-info">Battery Info<a class="headerlink" href="#battery-info" title="Permanent link">&para;</a></h1>
+<p>The <strong>Battery Info</strong> page in Battman shows detailed information read directly from the device’s battery gas-gauge and <code>IOAccessoryManager</code>.</p>
+<p>It corresponds to the <strong>Battery Info</strong> section on the Battery tab.</p>
+<h2 id="what-you-may-want-to-know">What You May Want to Know<a class="headerlink" href="#what-you-may-want-to-know" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Current charge level (%), voltage, and current</li>
+<li>Design capacity, nominal/actual full-charge capacity, and cycle count</li>
+<li>Charging state and power source (USB, adapter, wireless, MagSafe, etc.)</li>
+<li>Not-charging reasons</li>
+</ul>
+<p>Unlike other tools that are based on <code>IOPM</code>, Battman does <strong>not</strong> guess or smooth values: it exposes the deepest raw metrics that the hardware reports.</p>
+<h2 id="subsections">Subsections<a class="headerlink" href="#subsections" title="Permanent link">&para;</a></h2>
+<p>On the "Battery Info" page, you may see the following sections, depending on your device's current state:</p>
+<ul>
+<li><a href="#gas-gauge-basic">Gas Gauge (Basic)</a></li>
+<li><a href="#adapter-details">Adapter Details</a></li>
+<li><a href="#inductive-port--serial-port">Inductive Port / Serial Port</a></li>
+</ul>
+<p>Each section lists the detected metrics from different parts.</p>
+<h3 id="gas-gauge-basic">Gas Gauge (Basic)<a class="headerlink" href="#gas-gauge-basic" title="Permanent link">&para;</a></h3>
+<p>This section displays the most commonly used Gas Gauge metrics.</p>
+<h4 id="device-information">Device Information<a class="headerlink" href="#device-information" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Device Name</td>
+<td>Gas Gauge IC used by the installed battery (e.g., <code>bq20z451</code>).</td>
+</tr>
+<tr>
+<td>Battery Serial No.</td>
+<td>Serial number of the battery pack.</td>
+</tr>
+<tr>
+<td>Chemistry ID</td>
+<td>ChemID used to match battery-specific strategies shipped in the OS.</td>
+</tr>
+<tr>
+<td>Cell Count</td>
+<td>Number of cells in the pack (e.g., <code>3</code> for a 3‑cell battery).</td>
+</tr>
+</tbody>
+</table>
+<h4 id="capacity-metrics">Capacity Metrics<a class="headerlink" href="#capacity-metrics" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Full Charge Capacity</td>
+<td>Current maximum charge capacity in mAh, reported by the Gas Gauge IC.</td>
+</tr>
+<tr>
+<td>Designed Capacity</td>
+<td>Original design capacity in mAh when the battery was new.</td>
+</tr>
+<tr>
+<td>Remaining Capacity</td>
+<td>Current remaining charge capacity in mAh.</td>
+</tr>
+<tr>
+<td>Qmax</td>
+<td>Designed maximum chemical capacity of the pack.</td>
+</tr>
+<tr>
+<td>True Remaining Capacity</td>
+<td>Actual remaining capacity in mAh, reported by the BMS.</td>
+</tr>
+<tr>
+<td>Battery Uptime</td>
+<td>Time the battery has been in use since the last reset.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="discharge-metrics">Discharge Metrics<a class="headerlink" href="#discharge-metrics" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Depth of Discharge (DOD₀)</td>
+<td>Chemical depth of discharge, updated from OCV readings in a <code>relaxed</code> state.</td>
+</tr>
+<tr>
+<td>Passed Charge</td>
+<td>Cumulative capacity of the current charge/discharge cycle; resets with each DOD₀ update.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="electrical-measurements">Electrical Measurements<a class="headerlink" href="#electrical-measurements" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Voltage</td>
+<td>Average working voltage in mV (e.g., <code>11433 mV</code>).</td>
+</tr>
+<tr>
+<td>Avg. Current</td>
+<td>Average working current in mA (negative = discharging, e.g., <code>-807 mA</code>).</td>
+</tr>
+<tr>
+<td>Avg. Power</td>
+<td>Average working power in mW (negative = consumption, e.g., <code>-9226 mW</code>).</td>
+</tr>
+<tr>
+<td>OCV Current</td>
+<td>Open-circuit voltage current measurement.</td>
+</tr>
+<tr>
+<td>OCV Voltage</td>
+<td>Open-circuit voltage measurement.</td>
+</tr>
+<tr>
+<td>Max Load Current</td>
+<td>Maximum load current the battery can handle.</td>
+</tr>
+<tr>
+<td>Max Load Current 2</td>
+<td>Secondary maximum load current measurement.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="state-of-charge">State of Charge<a class="headerlink" href="#state-of-charge" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>State of Charge</td>
+<td>Battery percentage reported by the Gas Gauge IC.</td>
+</tr>
+<tr>
+<td>State of Charge (UI)</td>
+<td>SoC shown in the UI (differ from actual SoC).</td>
+</tr>
+<tr>
+<td>Daily Max SoC / Daily Min SoC</td>
+<td>Highest/lowest SoC reached in a day, reported by the BMS.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="time-estimates">Time Estimates<a class="headerlink" href="#time-estimates" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Time to Full</td>
+<td>Estimated time until the battery reaches full charge.</td>
+</tr>
+<tr>
+<td>Time to Empty</td>
+<td>Estimated time until the battery is depleted.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cycle-information">Cycle Information<a class="headerlink" href="#cycle-information" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cycle Count</td>
+<td>Charge/discharge cycles completed (e.g., <code>1145</code>).</td>
+</tr>
+<tr>
+<td>Designed Cycle Count</td>
+<td>Maximum cycles the battery is designed to handle.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="temperature">Temperature<a class="headerlink" href="#temperature" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Avg. Temperature</td>
+<td>Average working temperature reported by the Gas Gauge IC (e.g., <code>30.73 °C</code>).</td>
+</tr>
+</tbody>
+</table>
+<h4 id="advanced-metrics">Advanced Metrics<a class="headerlink" href="#advanced-metrics" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Resistance Scale</td>
+<td>Scaling factor used for resistance calculations.</td>
+</tr>
+<tr>
+<td>Flags</td>
+<td>See <a href="../../troubleshooting/battery-info/flags">Flags</a>.</td>
+</tr>
+<tr>
+<td>IT Misc Status</td>
+<td>Impedance Track miscellaneous status information.</td>
+</tr>
+<tr>
+<td>Simulation Rate</td>
+<td>Rate at which the Gas Gauge performs Impedance Track™ simulations.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="adapter-details">Adapter Details<a class="headerlink" href="#adapter-details" title="Permanent link">&para;</a></h3>
+<p>This section displays information about the current working adapter<sup>[1]</sup>.</p>
+<div class="admonition note">
+<p class="admonition-title">Working Adapter</p>
+<p>When one or multiple adapters are connected, the device will choose the best adapter as the working external power source; others will be inhibited.</p>
+</div>
+<h4 id="connection-information">Connection Information<a class="headerlink" href="#connection-information" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Port</td>
+<td>Numeric ID of the port in use. iPhone/iPad: <code>1</code> Serial (Lightning/USB-C), <code>2</code> Inductive (MagSafe/Wireless). MacBooks: <code>1</code> USB port 1, <code>2</code> USB port 2.</td>
+</tr>
+<tr>
+<td>Adapter Type</td>
+<td>Numeric ID describing the current adapter type (undocumented).</td>
+</tr>
+<tr>
+<td>Type</td>
+<td>Family code (<code>kIOPSPowerAdapterFamilyKey</code>) of the connected adapter. See <a href="../../troubleshooting/battery-info/family-keys">Family Keys</a>.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="charging-status">Charging Status<a class="headerlink" href="#charging-status" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Status</td>
+<td>Charging status: <code>Charging</code> or <code>Not Charging</code>.</td>
+</tr>
+<tr>
+<td>Reason</td>
+<td>Reason code when not charging. See <a href="../../troubleshooting/battery-info/not-charging-reason">NotChargingReason</a>.</td>
+</tr>
+<tr>
+<td>Charger Capable</td>
+<td>Adapter is identified as a compatible power source.</td>
+</tr>
+<tr>
+<td>External Connected</td>
+<td>Adapter is present and usable as a stable power source / UPS.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="power-specifications">Power Specifications<a class="headerlink" href="#power-specifications" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Current Rating / Voltage Rating</td>
+<td>Designed current/voltage the adapter provides.</td>
+</tr>
+<tr>
+<td>Input Current / Input Voltage</td>
+<td>Actual input current/voltage being received.</td>
+</tr>
+<tr>
+<td>Charging Current / Charging Voltage</td>
+<td>Final current/voltage charging the battery.</td>
+</tr>
+<tr>
+<td>PMU Configuration / Charger Configuration</td>
+<td>Charging current limit set by the PMU/charger.</td>
+</tr>
+<tr>
+<td>HVC Mode</td>
+<td>High Voltage Charging modes allowed by the adapter hardware (not user-configurable).</td>
+</tr>
+</tbody>
+</table>
+<h4 id="hardware-information">Hardware Information<a class="headerlink" href="#hardware-information" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Charger IC ID</td>
+<td>Numeric ID of the device's charger IC. <code>0xFFFFFFFF</code> on some USB‑C devices means no readable IC ID.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="adapter-identification">Adapter Identification<a class="headerlink" href="#adapter-identification" title="Permanent link">&para;</a></h4>
+<p>The following fields are only available when an adapter is designed to work with Apple devices (or emulates an Apple/MFi genuine adapter):</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Model Name</td>
+<td>Adapter model name (e.g., "61W USB-C Power Adapter").</td>
+</tr>
+<tr>
+<td>Manufacturer</td>
+<td>Vendor name (e.g., "Apple Inc.").</td>
+</tr>
+<tr>
+<td>Model</td>
+<td>Model number (e.g., <code>0x1685</code>).</td>
+</tr>
+<tr>
+<td>Firmware Version</td>
+<td>Firmware version (e.g., <code>01050029</code> → <code>1.5.0.29</code>).</td>
+</tr>
+<tr>
+<td>Hardware Version</td>
+<td>Hardware version (e.g., <code>1.0</code>).</td>
+</tr>
+<tr>
+<td>Serial No.</td>
+<td>Adapter serial (e.g., <code>C4H306600XDL4YRAD</code>).</td>
+</tr>
+<tr>
+<td>Description</td>
+<td>PMU description of the adapter type (e.g., "pd charger").</td>
+</tr>
+</tbody>
+</table>
+<h3 id="inductive-port-serial-port">Inductive Port / Serial Port<a class="headerlink" href="#inductive-port-serial-port" title="Permanent link">&para;</a></h3>
+<p>When your device is connecting to an inductive power accessory / USB accessory which providing it’s informations, this section will appear in your page.</p>
+<h4 id="identification">Identification<a class="headerlink" href="#identification" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Acc. ID</td>
+<td>Systen internally used numeric ID of the attached accessory.</td>
+</tr>
+<tr>
+<td>Digital ID</td>
+<td>(Lightning only) Chip ID of the accessory.</td>
+</tr>
+<tr>
+<td>ID Serial No.</td>
+<td>(Lightning only) Interface Device Serial Number (ID‑SN).</td>
+</tr>
+<tr>
+<td>IM Serial No.</td>
+<td>(Lightning only) Interface Module Serial Number (MSN).</td>
+</tr>
+<tr>
+<td>PPID</td>
+<td>Accessory PPID (manufacturer-provided identifier).</td>
+</tr>
+<tr>
+<td>Port Type</td>
+<td>Connecting port type, from <code>IOAccessoryManager</code>.</td>
+</tr>
+<tr>
+<td>Allowed Features</td>
+<td>Accessory feature flags (may be device-specific).</td>
+</tr>
+<tr>
+<td>Serial No.</td>
+<td>(MagSafe only) Serial number of the accessory.</td>
+</tr>
+<tr>
+<td>Manufacturer</td>
+<td>Accessory vendor.</td>
+</tr>
+<tr>
+<td>Product ID</td>
+<td>HID PID.</td>
+</tr>
+<tr>
+<td>Vendor ID</td>
+<td>HID VID.</td>
+</tr>
+<tr>
+<td>Model</td>
+<td>Accessory model (e.g., <code>A2384</code>).</td>
+</tr>
+<tr>
+<td>Name</td>
+<td>Accessory name (e.g., "MagSafe Battery Pack").</td>
+</tr>
+<tr>
+<td>Firmware Version</td>
+<td>Accessory firmware version (e.g., <code>2.7.b.0</code>).</td>
+</tr>
+<tr>
+<td>Hardware Version</td>
+<td>Accessory hardware version (e.g., <code>1.0.0</code>).</td>
+</tr>
+</tbody>
+</table>
+<h4 id="power-role">Power Role<a class="headerlink" href="#power-role" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Battery Pack</td>
+<td>Indicates if the accessory acts as a <a href="https://apple.fandom.com/wiki/Smart_Battery_Case">Smart Battery Case</a>.</td>
+</tr>
+<tr>
+<td>Providing Power</td>
+<td>Accessory is working as a power source.</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>(MagSafe only) Current accessory working status.</td>
+</tr>
+<tr>
+<td>Accepting Charge</td>
+<td>(Accessory UPS only) Accessory is accepting charge.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="accessory-battery-ups">Accessory Battery (UPS)<a class="headerlink" href="#accessory-battery-ups" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>State of Charge</td>
+<td>Accessory battery percentage.</td>
+</tr>
+<tr>
+<td>Max Capacity</td>
+<td>Accessory battery full-charge capacity.</td>
+</tr>
+<tr>
+<td>Current Capacity</td>
+<td>Accessory battery current capacity.</td>
+</tr>
+<tr>
+<td>Avg. Charging Current</td>
+<td>Average charging current when accepting charge.</td>
+</tr>
+<tr>
+<td>Charging Voltage Rating</td>
+<td>Charging voltage rating.</td>
+</tr>
+<tr>
+<td>Cell Count</td>
+<td>Battery cell count of the accessory pack.</td>
+</tr>
+<tr>
+<td>Cycle Count</td>
+<td>Cycle count of the accessory pack.</td>
+</tr>
+<tr>
+<td>Current / Voltage</td>
+<td>Real-time accessory output current/voltage.</td>
+</tr>
+<tr>
+<td>Incoming Current / Incoming Voltage</td>
+<td>Real-time current/voltage received by the device.</td>
+</tr>
+<tr>
+<td>Temperature</td>
+<td>Current accessory temperature.</td>
+</tr>
+<tr>
+<td>Acc. Time to Full / Acc. Time to Empty</td>
+<td>Time estimates from the accessory gas gauge IC.</td>
+</tr>
+<tr>
+<td>Power Mode</td>
+<td>Active power modes of the accessory.</td>
+</tr>
+<tr>
+<td>Sleep Power</td>
+<td>Sleep power modes of the accessory.</td>
+</tr>
+<tr>
+<td>Supervised Acc. Attached</td>
+<td>Whether the accessory is marked as <strong>supervised</strong>.</td>
+</tr>
+<tr>
+<td>Supervised Transports Restricted</td>
+<td>Whether supervised transports are restricted.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="usb-serial-port-only">USB (Serial Port Only)<a class="headerlink" href="#usb-serial-port-only" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USB Connect State</td>
+<td>Current USB device connect state.</td>
+</tr>
+<tr>
+<td>USB Charging Volt.</td>
+<td>Current USB device charging voltage.</td>
+</tr>
+<tr>
+<td>USB Current Config</td>
+<td>Current USB device charging current configuration.</td>
+</tr>
+</tbody>
+</table>
+      </article>
+
+      
+      <aside class="bm-toc bm-squircle">
+        <div class="bm-toc-title">On this page</div>
+        <ul class="bm-toc-list">
+          
+          <li class="bm-toc-item">
+            <a href="#battery-info">Battery Info</a>
+            
+            <ul class="bm-toc-sublist">
+              
+              <li class="bm-toc-subitem"><a href="#what-you-may-want-to-know">What You May Want to Know</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#subsections">Subsections</a></li>
+              
+            </ul>
+            
+          </li>
+          
+        </ul>
+      </aside>
+      
+    </main>
+
+    <footer class="bm-footer">
+      <div class="bm-footer-inner">
+        <span>© Battman User Manual</span>
+      </div>
+    </footer>
+    <script src="../../javascripts/apple-theme.js"></script>
+    <script src="../../search/main.js"></script>
+  </body>
+</html>

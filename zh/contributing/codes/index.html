@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>代码 - Battman User Manual</title>
+    <link href="../../../stylesheets/apple-theme.css" rel="stylesheet">
+    
+    <script>var base_url = "../../..";</script>
+    
+  </head>
+  <body class="bm-body">
+    <header class="bm-header bm-squircle">
+      <div class="bm-header-left">
+        <div class="bm-logo">⚡</div>
+        <div class="bm-title-block">
+          <div class="bm-site-name">Battman 用户手册</div>
+          <div class="bm-page-title">代码</div>
+        </div>
+      </div>
+      <div class="bm-header-right">
+        <button id="bm-nav-toggle" class="bm-toggle bm-nav-toggle" type="button">菜单</button>
+        <button id="bm-theme-toggle" class="bm-toggle" type="button">主题</button>
+        <select id="bm-lang-select" class="bm-select" aria-label="语言">
+          <option value="en">English</option>
+          <option value="zh">简体中文</option>
+        </select>
+        
+        <form class="bm-search" action="../../../search.html">
+          <input id="mkdocs-search-query" type="search" name="q" placeholder="搜索" />
+        </form>
+        
+      </div>
+    </header>
+
+    <div id="bm-nav-overlay" class="bm-nav-overlay"></div>
+
+    <main class="bm-main">
+      <aside class="bm-sidebar bm-squircle">
+        <nav class="bm-nav">
+          <ul class="bm-nav-list">
+              <li class="bm-nav-item">
+              
+                <a href="../../" class="bm-nav-link">首页</a>
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">安装</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../installation/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../installation/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">数据</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../metrics/battery-info/" class="bm-nav-link">电池信息</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../metrics/hardware-temperature/" class="bm-nav-link">硬件温度</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../metrics/brightness/" class="bm-nav-link">亮度</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">控制</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../controls/charging-managements/" class="bm-nav-link">充电管理</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../controls/charging-limits/" class="bm-nav-link">充电限制</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../controls/thermal-tunes/" class="bm-nav-link">温控调校</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">故障排除</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">电池信息</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/battery-info/warning-conditions/" class="bm-nav-link">警告条件</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/battery-info/flags/" class="bm-nav-link">标示位</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/battery-info/not-charging-reason/" class="bm-nav-link">未充电原因</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/battery-info/family-keys/" class="bm-nav-link">类型代码</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">温控</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/thermals/unknown-screen-temperature/" class="bm-nav-link">「未知」屏幕温度</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/thermals/thermal-notification-levels/" class="bm-nav-link">温控通知等级</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">屏幕与亮度</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/screen-brightness/nits-and-percentages/" class="bm-nav-link">Nit 与百分比</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../troubleshooting/screen-brightness/brightness-backends/" class="bm-nav-link">亮度后端</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">设置</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../preferences/preferred-languages/" class="bm-nav-link">首选语言</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../preferences/wiping-data/" class="bm-nav-link">清除数据</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <a href="../../uninstallation/" class="bm-nav-link">卸载</a>
+              
+            </li>
+            
+              <li class="bm-nav-item bm-nav-item--active">
+              
+                <div class="bm-nav-section">参与贡献</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../locales/" class="bm-nav-link">本地化</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item bm-nav-item--active">
+              
+                <a href="./" class="bm-nav-link bm-nav-link--active">代码</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+              <li class="bm-nav-item">
+              
+                <div class="bm-nav-section">更新</div>
+                
+                <ul class="bm-nav-children">
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../updating/ios/" class="bm-nav-link">iOS</a>
+              
+            </li>
+                  
+                  <li class="bm-nav-item">
+              
+                <a href="../../updating/macos/" class="bm-nav-link">macOS</a>
+              
+            </li>
+                  
+                </ul>
+                
+              
+            </li>
+            
+          </ul>
+        </nav>
+      </aside>
+
+      <article class="bm-content bm-squircle">
+        <h1 id="_1">参与代码贡献<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p>欢迎为 Battman 提交代码改进。</p>
+<h2 id="_2">开始之前<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<ul>
+<li>建议先阅读根目录下的 <code>README.md</code>，了解项目结构与构建依赖。</li>
+<li>准备好合适的 iOS 工具链与开发 / 测试环境。</li>
+</ul>
+<h2 id="_3">项目结构<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<p>Battman 使用 <strong>Objective-C 和 C</strong> 编写（不使用 Swift）。主要代码库组织如下：</p>
+<h3 id="_4">目录布局<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong><code>Battman/</code></strong> - 主应用程序代码</li>
+<li><strong><code>battery_utils/</code></strong> - 电池信息与硬件交互工具</li>
+<li><strong><code>hw/</code></strong> - 硬件特定接口（例如 IOMFB）</li>
+<li><strong><code>cobjc/</code></strong> - 用于 C 兼容性的自定义 Objective-C 运行时包装器</li>
+<li><strong><code>ObjCExt/</code></strong> - Objective-C 类别扩展</li>
+<li><strong><code>CGIconSet/</code></strong> - 自定义图标生成代码</li>
+<li><strong><code>brightness/</code></strong> - 亮度控制功能</li>
+<li><strong><code>scprefs/</code></strong> - 偏好设置集成</li>
+<li><strong><code>security/</code></strong> - 安全与保护代码</li>
+</ul>
+<h3 id="_5">文件命名规范<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<ul>
+<li>视图控制器：<code>*ViewController.h</code> / <code>*ViewController.m</code></li>
+<li>自定义视图：<code>*View.h</code> / <code>*View.m</code> 或 <code>*Cell.h</code> / <code>*Cell.m</code></li>
+<li>C 头文件：<code>*.h</code> 对应 <code>*.c</code> 或 <code>*.m</code> 实现文件</li>
+<li>头文件使用 <code>#pragma once</code> 或传统包含保护</li>
+</ul>
+<h2 id="_6">代码风格指南<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<h3 id="_7">语言与架构<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>主要语言</strong>：Objective-C 和 C</li>
+<li><strong>无外部依赖</strong>：不使用 CocoaPods、Swift Packages 或第三方框架</li>
+<li><strong>不使用 Storyboards 或 XIBs</strong>：UI 以编程方式构建</li>
+<li><strong>不使用 Xcode Assets</strong>：资源以编程方式生成</li>
+</ul>
+<h4 id="xcode-assets-storyboards">为什么不使用 Xcode Assets 和 Storyboards？<a class="headerlink" href="#xcode-assets-storyboards" title="Permanent link">&para;</a></h4>
+<p>Battman 不使用 Xcode Assets (.xcassets) 或 Storyboards/XIBs，原因如下：</p>
+<ul>
+<li>
+<p><strong>开源工具链兼容性</strong>：这些格式是 Apple 的私有商业格式，无法使用开源工具链构建。这会阻止项目在非 Apple 平台或使用替代构建系统上构建。</p>
+</li>
+<li>
+<p><strong>跨平台协作</strong>：我们有不使用 macOS 和 Xcode 的协作者。使用这些格式会破坏可维护性，并阻止贡献者在他们偏好的环境中工作。</p>
+</li>
+<li>
+<p><strong>编程式 UI 偏好</strong>：我们始终偏好以编程方式编写 UI，而不是在某种文件中预定义它们。这种方法提供更好的版本控制、更轻松的代码审查，以及 UI 构建的更大灵活性。</p>
+</li>
+</ul>
+<h4 id="_8">为什么不使用第三方依赖？<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h4>
+<p>Battman 有意避免第三方依赖（CocoaPods、Swift Packages、外部框架），原因如下：</p>
+<ul>
+<li>
+<p><strong>控制与可维护性</strong>：外部代码不在我们的控制之下，我们无法响应可能影响项目的潜在未来更改、破坏性更新或弃用。</p>
+</li>
+<li>
+<p><strong>协作可访问性</strong>：并非每个协作者都能在其构建系统上拉取此类依赖。避免外部依赖可确保所有贡献者无论其环境设置如何都能构建和处理项目，促进更好的协作。</p>
+</li>
+</ul>
+<p>如果您需要通常来自第三方库的功能，请直接在代码库中实现它或调整必要的代码以适合 Battman 的架构（例如，我们已完全用 Objective-C 重写了 Swift 的 <code>UberSegmentedControl</code>）。</p>
+<h4 id="swift">为什么不使用 Swift 代码？<a class="headerlink" href="#swift" title="Permanent link">&para;</a></h4>
+<p>Battman 仅使用 Objective-C 和 C，不接受 Swift 代码提交，原因如下：</p>
+<ul>
+<li>
+<p><strong>稳定性与兼容性</strong>：Swift 本身频繁更新并带有破坏性更改，并且总是试图放弃对先前系统版本的支持。这会产生维护负担和兼容性问题，与 Battman 支持 iOS 12+ 的目标相冲突。</p>
+</li>
+<li>
+<p><strong>工具链大小</strong>：Swift 工具链比常规 LLVM + Clang 大得多，这对我们现有的协作者不友好，他们可能资源有限或偏好最小化工具链安装。</p>
+</li>
+<li>
+<p><strong>不可避免的 Swift 例外</strong>：如果您的提交无法避免使用 Swift（例如，WidgetKit 仅允许 Swift），请创建一个新的子项目来包含它。否则，所有逻辑和 UI 都应使用 Objective-C 和 C 编写。</p>
+</li>
+</ul>
+<p>如果您必须使用 Swift，您的 Swift 代码必须满足以下要求：
+  - 您的 Swift 代码应在 iOS 12 或更早版本上编译和测试。
+  - 您的 Swift 代码应使用 Swift 4 或更早版本编写。
+  - 您的 Swift 代码至少应能在 iOS 上使用 Procursus 的 Swift 工具链构建。</p>
+<h3 id="c-objective-c">C / Objective-C 模式<a class="headerlink" href="#c-objective-c" title="Permanent link">&para;</a></h3>
+<h4 id="_9">单例模式<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="p">+</span> <span class="p">(</span><span class="kt">instancetype</span><span class="p">)</span><span class="nf">sharedPrefs</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">static</span><span class="w"> </span><span class="n">BattmanPrefs</span><span class="w"> </span><span class="o">*</span><span class="n">shared</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">nil</span><span class="p">;</span>
+<span class="w">    </span><span class="k">static</span><span class="w"> </span><span class="n">dispatch_once_t</span><span class="w"> </span><span class="n">onceToken</span><span class="p">;</span>
+<span class="w">    </span><span class="n">dispatch_once</span><span class="p">(</span><span class="o">&amp;</span><span class="n">onceToken</span><span class="p">,</span><span class="w"> </span><span class="o">^</span><span class="p">{</span>
+<span class="w">        </span><span class="n">shared</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[[</span><span class="nb">self</span><span class="w"> </span><span class="n">alloc</span><span class="p">]</span><span class="w"> </span><span class="n">_init</span><span class="p">];</span>
+<span class="w">    </span><span class="p">});</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">shared</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<h4 id="ios">iOS 版本检查<a class="headerlink" href="#ios" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="k">if</span><span class="w"> </span><span class="p">(@</span><span class="n">available</span><span class="p">(</span><span class="n">iOS</span><span class="w"> </span><span class="mf">13.0</span><span class="p">,</span><span class="w"> </span><span class="o">*</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="c1">// iOS 13+ 代码</span>
+<span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="c1">// 回退代码</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<div class="codehilite"><pre><span></span><code><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">__builtin_available</span><span class="p">(</span><span class="n">iOS</span><span class="w"> </span><span class="mf">13.0</span><span class="p">,</span><span class="w"> </span><span class="o">*</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="c1">// iOS 13+ 代码</span>
+<span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="c1">// 回退代码</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<h4 id="_10">调试日志<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="c1">// DBGLOG 基于 NSLog()</span>
+<span class="n">DBGLOG</span><span class="p">(</span><span class="n">CFSTR</span><span class="p">(</span><span class="s">&quot;调试消息: %@&quot;</span><span class="p">),</span><span class="w"> </span><span class="n">value</span><span class="p">);</span>
+</code></pre></div>
+
+<div class="codehilite"><pre><span></span><code><span class="c1">// DBGLOG 基于 NSLog()</span>
+<span class="n">DBGLOG</span><span class="p">(</span><span class="s">@&quot;调试消息: %@&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">value</span><span class="p">);</span>
+</code></pre></div>
+
+<h4 id="_11">本地化<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="c1">// 对于 NSString</span>
+<span class="n">NSString</span><span class="w"> </span><span class="o">*</span><span class="n">localized</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">_</span><span class="p">(</span><span class="s">&quot;String to localize&quot;</span><span class="p">);</span>
+
+<span class="c1">// 对于 C 字符串</span>
+<span class="k">const</span><span class="w"> </span><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="n">localized</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">_C</span><span class="p">(</span><span class="s">&quot;String to localize&quot;</span><span class="p">);</span>
+</code></pre></div>
+
+<h4 id="_12">静态初始化<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="k">static</span><span class="w"> </span><span class="n">dispatch_once_t</span><span class="w"> </span><span class="n">onceToken</span><span class="p">;</span>
+<span class="k">static</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="n">value</span><span class="p">;</span>
+
+<span class="n">dispatch_once</span><span class="p">(</span><span class="o">&amp;</span><span class="n">onceToken</span><span class="p">,</span><span class="w"> </span><span class="o">^</span><span class="p">{</span>
+<span class="w">    </span><span class="c1">// 一次性初始化</span>
+<span class="w">    </span><span class="n">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">compute_value</span><span class="p">();</span>
+<span class="p">});</span>
+</code></pre></div>
+
+<h3 id="_13">错误处理<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h3>
+<ul>
+<li>检查系统调用的返回值</li>
+<li>对错误条件使用 <code>os_log_error</code></li>
+<li>尽可能提供回退路径</li>
+<li>避免在可恢复的错误上崩溃</li>
+</ul>
+<h3 id="_14">内存管理<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Objective-C 代码使用 ARC</li>
+<li>C 代码使用手动内存管理（malloc 的要用 free）</li>
+<li>小心处理 CF 类型 - 适当使用 <code>CFRelease</code></li>
+</ul>
+<h3 id="_15">构建系统<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h3>
+<p>Battman 可以使用以下方式构建：
+- <strong>Xcode</strong>：标准 Xcode 项目
+- <strong>Makefile</strong>：位于 <code>Battman/Makefile</code>，支持 Linux 构建</p>
+<p>关键构建参数：
+- <code>-fobjc-arc</code>：自动引用计数
+- <code>-target arm64-apple-ios12.0</code>：iOS 12+ 部署目标
+- <code>-DDEBUG</code>：调试构建
+- <code>-DUSE_GETTEXT</code>：可选的 gettext 本地化支持</p>
+<h2 id="_16">推荐工作流程<a class="headerlink" href="#_16" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Fork 本仓库，并基于此创建功能分支。</li>
+<li>使用清晰、聚焦的提交（commit）逐步完成修改。</li>
+<li>尽量将 PR 控制在易于审阅的规模，而不是一次性包含大量无关改动。</li>
+<li>在尽可能多的相关 iOS 版本 / 设备上进行测试。</li>
+<li>提交 Pull Request，并在说明中写明：</li>
+<li>具体改动内容；</li>
+<li>测试方式与结果；</li>
+<li>对用户可见行为的任何影响。</li>
+</ol>
+<h2 id="_17">代码审查指南<a class="headerlink" href="#_17" title="Permanent link">&para;</a></h2>
+<ul>
+<li>遵循现有的代码风格和模式</li>
+<li>保持与 iOS 12+ 的兼容性</li>
+<li>尽可能在模拟器和真实设备上测试</li>
+<li>使用适当的日志记录（调试使用 DBGLOG，生产使用 os_log）</li>
+<li>确保正确的内存管理</li>
+<li>为复杂逻辑或硬件特定代码添加注释</li>
+<li>如果行为发生变化，请更新相关文档</li>
+</ul>
+<p>请勿将个人证书、密钥等私密信息加入仓库或构建脚本中。</p>
+      </article>
+
+      
+      <aside class="bm-toc bm-squircle">
+        <div class="bm-toc-title">本页内容</div>
+        <ul class="bm-toc-list">
+          
+          <li class="bm-toc-item">
+            <a href="#_1">参与代码贡献</a>
+            
+            <ul class="bm-toc-sublist">
+              
+              <li class="bm-toc-subitem"><a href="#_2">开始之前</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#_3">项目结构</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#_6">代码风格指南</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#_16">推荐工作流程</a></li>
+              
+              <li class="bm-toc-subitem"><a href="#_17">代码审查指南</a></li>
+              
+            </ul>
+            
+          </li>
+          
+        </ul>
+      </aside>
+      
+    </main>
+
+    <footer class="bm-footer">
+      <div class="bm-footer-inner">
+        <span>© Battman 用户手册</span>
+      </div>
+    </footer>
+    <script src="../../../javascripts/apple-theme.js"></script>
+    <script src="../../../search/main.js"></script>
+  </body>
+</html>

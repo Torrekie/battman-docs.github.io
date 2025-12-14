@@ -1,0 +1,969 @@
+{
+  "config": {
+    "indexing": "full",
+    "lang": [
+      "en",
+      "zh"
+    ],
+    "min_search_length": 3,
+    "prebuild_index": false,
+    "separator": "[\\s\\-]+"
+  },
+  "docs": [
+    {
+      "location": "zh/",
+      "text": "Battman ¶ 欢迎使用 Battman 用户手册。 Battman 是一款面向 AppleSMC 设备的电源管理工具。通过直接访问系统管理控制器（SMC），Battman 可以提供专业级的电池健康、充电循环、温度与功耗指标。借助深入的硬件集成，你可以自定义充电行为、设置电量阈值以延长电池寿命，并在单一界面中实时监控状态。 主要特性 ¶ 专业级数据：查看电压、电流、容量、循环次数、温度等详细信息。 自定义充电策略：定义开始 / 停止充电的电量百分比，从而在长期使用中保护电池。 实时监控：实时观察电源与温度变化情况，并可按需记录日志。 轻量且开源：占用资源小，源码开放，便于审阅与贡献。 无论你是开发者、普通用户，还是 IT 管理员，Battman 都能帮助你做出更聪明、更高效的用电决策。 请使用导航栏前往： 安装 故障排除 本网站支持浅色 / 深色 / 自动模式以及多语言界面，你可以通过右上角的控件切换主题与语言。",
+      "title": "首页"
+    },
+    {
+      "location": "zh/#battman",
+      "text": "欢迎使用 Battman 用户手册。 Battman 是一款面向 AppleSMC 设备的电源管理工具。通过直接访问系统管理控制器（SMC），Battman 可以提供专业级的电池健康、充电循环、温度与功耗指标。借助深入的硬件集成，你可以自定义充电行为、设置电量阈值以延长电池寿命，并在单一界面中实时监控状态。",
+      "title": "Battman"
+    },
+    {
+      "location": "zh/#_1",
+      "text": "专业级数据：查看电压、电流、容量、循环次数、温度等详细信息。 自定义充电策略：定义开始 / 停止充电的电量百分比，从而在长期使用中保护电池。 实时监控：实时观察电源与温度变化情况，并可按需记录日志。 轻量且开源：占用资源小，源码开放，便于审阅与贡献。 无论你是开发者、普通用户，还是 IT 管理员，Battman 都能帮助你做出更聪明、更高效的用电决策。 请使用导航栏前往： 安装 故障排除 本网站支持浅色 / 深色 / 自动模式以及多语言界面，你可以通过右上角的控件切换主题与语言。",
+      "title": "主要特性"
+    },
+    {
+      "location": "zh/theme-test/",
+      "text": "主题测试 ¶ 本页面用于测试 Battman 文档主题的各项效果。 标题 ¶ 三级标题 ¶ 四级标题 ¶ 文本样式 ¶ 普通文本、 加粗文本 、 斜体文本 和 行内代码 。 列表 ¶ 无序列表 1 无序列表 2 嵌套项 A 嵌套项 B 有序列表 1 有序列表 2 提示框（Admonition） ¶ Note 这里是说明性质的提示。 Warning 这里是警告性质的提示。 Tip 这里是技巧性质的提示。 代码块 ¶ // 示例 C 代码 #include <stdio.h> int main ( void ) { printf ( \"Hello, Battman! \\n \" ); return 0 ; } # 示例命令 mkdocs serve 表格 ¶ 功能 是否支持 浅色模式 是 深色模式 是 自动模式 是 多语言 是 链接与图片 ¶ 返回首页 引用 ¶ Battman 帮助你更好地了解设备电池情况。 多级嵌套 ¶ 项目 子项目 子子项目 以上即为主题测试页面内容。",
+      "title": "主题测试"
+    },
+    {
+      "location": "zh/theme-test/#_1",
+      "text": "本页面用于测试 Battman 文档主题的各项效果。",
+      "title": "主题测试"
+    },
+    {
+      "location": "zh/theme-test/#_2",
+      "text": "",
+      "title": "标题"
+    },
+    {
+      "location": "zh/theme-test/#_3",
+      "text": "",
+      "title": "三级标题"
+    },
+    {
+      "location": "zh/theme-test/#_4",
+      "text": "",
+      "title": "四级标题"
+    },
+    {
+      "location": "zh/theme-test/#_5",
+      "text": "普通文本、 加粗文本 、 斜体文本 和 行内代码 。",
+      "title": "文本样式"
+    },
+    {
+      "location": "zh/theme-test/#_6",
+      "text": "无序列表 1 无序列表 2 嵌套项 A 嵌套项 B 有序列表 1 有序列表 2",
+      "title": "列表"
+    },
+    {
+      "location": "zh/theme-test/#admonition",
+      "text": "Note 这里是说明性质的提示。 Warning 这里是警告性质的提示。 Tip 这里是技巧性质的提示。",
+      "title": "提示框（Admonition）"
+    },
+    {
+      "location": "zh/theme-test/#_7",
+      "text": "// 示例 C 代码 #include <stdio.h> int main ( void ) { printf ( \"Hello, Battman! \\n \" ); return 0 ; } # 示例命令 mkdocs serve",
+      "title": "代码块"
+    },
+    {
+      "location": "zh/theme-test/#_8",
+      "text": "功能 是否支持 浅色模式 是 深色模式 是 自动模式 是 多语言 是",
+      "title": "表格"
+    },
+    {
+      "location": "zh/theme-test/#_9",
+      "text": "返回首页",
+      "title": "链接与图片"
+    },
+    {
+      "location": "zh/theme-test/#_10",
+      "text": "Battman 帮助你更好地了解设备电池情况。",
+      "title": "引用"
+    },
+    {
+      "location": "zh/theme-test/#_11",
+      "text": "项目 子项目 子子项目 以上即为主题测试页面内容。",
+      "title": "多级嵌套"
+    },
+    {
+      "location": "zh/uninstallation/",
+      "text": "卸载 ¶ 本页介绍从设备上移除 Battman 的一般方法。 注意 如果您之前进行了系统级更改（温控调校等），请尽可能在卸载前将它们配置为默认值。 通过 TrollStore 安装 ¶ 打开 TrollStore 找到并点击 \"Battman\" 点击 \"Uninstall App\" 以卸载 Battman 通过包管理器安装 ¶ 如果 Battman 是通过包管理器安装的（例如，在越狱设备上）： 首先打开 Battman 并清除 Battman 数据（请参阅 清除数据 ）。 打开您的包管理器（Cydia、Sileo、Zebra 等）。 按名称找到 Battman 软件包。 使用标准的 移除 / 卸载 操作。",
+      "title": "卸载"
+    },
+    {
+      "location": "zh/uninstallation/#_1",
+      "text": "本页介绍从设备上移除 Battman 的一般方法。 注意 如果您之前进行了系统级更改（温控调校等），请尽可能在卸载前将它们配置为默认值。",
+      "title": "卸载"
+    },
+    {
+      "location": "zh/uninstallation/#trollstore",
+      "text": "打开 TrollStore 找到并点击 \"Battman\" 点击 \"Uninstall App\" 以卸载 Battman",
+      "title": "通过 TrollStore 安装"
+    },
+    {
+      "location": "zh/uninstallation/#_2",
+      "text": "如果 Battman 是通过包管理器安装的（例如，在越狱设备上）： 首先打开 Battman 并清除 Battman 数据（请参阅 清除数据 ）。 打开您的包管理器（Cydia、Sileo、Zebra 等）。 按名称找到 Battman 软件包。 使用标准的 移除 / 卸载 操作。",
+      "title": "通过包管理器安装"
+    },
+    {
+      "location": "zh/contributing/codes/",
+      "text": "参与代码贡献 ¶ 欢迎为 Battman 提交代码改进。 开始之前 ¶ 建议先阅读根目录下的 README.md ，了解项目结构与构建依赖。 准备好合适的 iOS 工具链与开发 / 测试环境。 项目结构 ¶ Battman 使用 Objective-C 和 C 编写（不使用 Swift）。主要代码库组织如下： 目录布局 ¶ Battman/ - 主应用程序代码 battery_utils/ - 电池信息与硬件交互工具 hw/ - 硬件特定接口（例如 IOMFB） cobjc/ - 用于 C 兼容性的自定义 Objective-C 运行时包装器 ObjCExt/ - Objective-C 类别扩展 CGIconSet/ - 自定义图标生成代码 brightness/ - 亮度控制功能 scprefs/ - 偏好设置集成 security/ - 安全与保护代码 文件命名规范 ¶ 视图控制器： *ViewController.h / *ViewController.m 自定义视图： *View.h / *View.m 或 *Cell.h / *Cell.m C 头文件： *.h 对应 *.c 或 *.m 实现文件 头文件使用 #pragma once 或传统包含保护 代码风格指南 ¶ 语言与架构 ¶ 主要语言 ：Objective-C 和 C 无外部依赖 ：不使用 CocoaPods、Swift Packages 或第三方框架 不使用 Storyboards 或 XIBs ：UI 以编程方式构建 不使用 Xcode Assets ：资源以编程方式生成 为什么不使用 Xcode Assets 和 Storyboards？ ¶ Battman 不使用 Xcode Assets (.xcassets) 或 Storyboards/XIBs，原因如下： 开源工具链兼容性 ：这些格式是 Apple 的私有商业格式，无法使用开源工具链构建。这会阻止项目在非 Apple 平台或使用替代构建系统上构建。 跨平台协作 ：我们有不使用 macOS 和 Xcode 的协作者。使用这些格式会破坏可维护性，并阻止贡献者在他们偏好的环境中工作。 编程式 UI 偏好 ：我们始终偏好以编程方式编写 UI，而不是在某种文件中预定义它们。这种方法提供更好的版本控制、更轻松的代码审查，以及 UI 构建的更大灵活性。 为什么不使用第三方依赖？ ¶ Battman 有意避免第三方依赖（CocoaPods、Swift Packages、外部框架），原因如下： 控制与可维护性 ：外部代码不在我们的控制之下，我们无法响应可能影响项目的潜在未来更改、破坏性更新或弃用。 协作可访问性 ：并非每个协作者都能在其构建系统上拉取此类依赖。避免外部依赖可确保所有贡献者无论其环境设置如何都能构建和处理项目，促进更好的协作。 如果您需要通常来自第三方库的功能，请直接在代码库中实现它或调整必要的代码以适合 Battman 的架构（例如，我们已完全用 Objective-C 重写了 Swift 的 UberSegmentedControl ）。 为什么不使用 Swift 代码？ ¶ Battman 仅使用 Objective-C 和 C，不接受 Swift 代码提交，原因如下： 稳定性与兼容性 ：Swift 本身频繁更新并带有破坏性更改，并且总是试图放弃对先前系统版本的支持。这会产生维护负担和兼容性问题，与 Battman 支持 iOS 12+ 的目标相冲突。 工具链大小 ：Swift 工具链比常规 LLVM + Clang 大得多，这对我们现有的协作者不友好，他们可能资源有限或偏好最小化工具链安装。 不可避免的 Swift 例外 ：如果您的提交无法避免使用 Swift（例如，WidgetKit 仅允许 Swift），请创建一个新的子项目来包含它。否则，所有逻辑和 UI 都应使用 Objective-C 和 C 编写。 如果您必须使用 Swift，您的 Swift 代码必须满足以下要求： - 您的 Swift 代码应在 iOS 12 或更早版本上编译和测试。 - 您的 Swift 代码应使用 Swift 4 或更早版本编写。 - 您的 Swift 代码至少应能在 iOS 上使用 Procursus 的 Swift 工具链构建。 C / Objective-C 模式 ¶ 单例模式 ¶ + ( instancetype ) sharedPrefs { static BattmanPrefs * shared = nil ; static dispatch_once_t onceToken ; dispatch_once ( & onceToken , ^ { shared = [[ self alloc ] _init ]; }); return shared ; } iOS 版本检查 ¶ if (@ available ( iOS 13.0 , * )) { // iOS 13+ 代码 } else { // 回退代码 } if ( __builtin_available ( iOS 13.0 , * )) { // iOS 13+ 代码 } else { // 回退代码 } 调试日志 ¶ // DBGLOG 基于 NSLog() DBGLOG ( CFSTR ( \"调试消息: %@\" ), value ); // DBGLOG 基于 NSLog() DBGLOG ( @\"调试消息: %@\" , value ); 本地化 ¶ // 对于 NSString NSString * localized = _ ( \"String to localize\" ); // 对于 C 字符串 const char * localized = _C ( \"String to localize\" ); 静态初始化 ¶ static dispatch_once_t onceToken ; static bool value ; dispatch_once ( & onceToken , ^ { // 一次性初始化 value = compute_value (); }); 错误处理 ¶ 检查系统调用的返回值 对错误条件使用 os_log_error 尽可能提供回退路径 避免在可恢复的错误上崩溃 内存管理 ¶ Objective-C 代码使用 ARC C 代码使用手动内存管理（malloc 的要用 free） 小心处理 CF 类型 - 适当使用 CFRelease 构建系统 ¶ Battman 可以使用以下方式构建： - Xcode ：标准 Xcode 项目 - Makefile ：位于 Battman/Makefile ，支持 Linux 构建 关键构建参数： - -fobjc-arc ：自动引用计数 - -target arm64-apple-ios12.0 ：iOS 12+ 部署目标 - -DDEBUG ：调试构建 - -DUSE_GETTEXT ：可选的 gettext 本地化支持 推荐工作流程 ¶ Fork 本仓库，并基于此创建功能分支。 使用清晰、聚焦的提交（commit）逐步完成修改。 尽量将 PR 控制在易于审阅的规模，而不是一次性包含大量无关改动。 在尽可能多的相关 iOS 版本 / 设备上进行测试。 提交 Pull Request，并在说明中写明： 具体改动内容； 测试方式与结果； 对用户可见行为的任何影响。 代码审查指南 ¶ 遵循现有的代码风格和模式 保持与 iOS 12+ 的兼容性 尽可能在模拟器和真实设备上测试 使用适当的日志记录（调试使用 DBGLOG，生产使用 os_log） 确保正确的内存管理 为复杂逻辑或硬件特定代码添加注释 如果行为发生变化，请更新相关文档 请勿将个人证书、密钥等私密信息加入仓库或构建脚本中。",
+      "title": "代码"
+    },
+    {
+      "location": "zh/contributing/codes/#_1",
+      "text": "欢迎为 Battman 提交代码改进。",
+      "title": "参与代码贡献"
+    },
+    {
+      "location": "zh/contributing/codes/#_2",
+      "text": "建议先阅读根目录下的 README.md ，了解项目结构与构建依赖。 准备好合适的 iOS 工具链与开发 / 测试环境。",
+      "title": "开始之前"
+    },
+    {
+      "location": "zh/contributing/codes/#_3",
+      "text": "Battman 使用 Objective-C 和 C 编写（不使用 Swift）。主要代码库组织如下：",
+      "title": "项目结构"
+    },
+    {
+      "location": "zh/contributing/codes/#_4",
+      "text": "Battman/ - 主应用程序代码 battery_utils/ - 电池信息与硬件交互工具 hw/ - 硬件特定接口（例如 IOMFB） cobjc/ - 用于 C 兼容性的自定义 Objective-C 运行时包装器 ObjCExt/ - Objective-C 类别扩展 CGIconSet/ - 自定义图标生成代码 brightness/ - 亮度控制功能 scprefs/ - 偏好设置集成 security/ - 安全与保护代码",
+      "title": "目录布局"
+    },
+    {
+      "location": "zh/contributing/codes/#_5",
+      "text": "视图控制器： *ViewController.h / *ViewController.m 自定义视图： *View.h / *View.m 或 *Cell.h / *Cell.m C 头文件： *.h 对应 *.c 或 *.m 实现文件 头文件使用 #pragma once 或传统包含保护",
+      "title": "文件命名规范"
+    },
+    {
+      "location": "zh/contributing/codes/#_6",
+      "text": "",
+      "title": "代码风格指南"
+    },
+    {
+      "location": "zh/contributing/codes/#_7",
+      "text": "主要语言 ：Objective-C 和 C 无外部依赖 ：不使用 CocoaPods、Swift Packages 或第三方框架 不使用 Storyboards 或 XIBs ：UI 以编程方式构建 不使用 Xcode Assets ：资源以编程方式生成",
+      "title": "语言与架构"
+    },
+    {
+      "location": "zh/contributing/codes/#xcode-assets-storyboards",
+      "text": "Battman 不使用 Xcode Assets (.xcassets) 或 Storyboards/XIBs，原因如下： 开源工具链兼容性 ：这些格式是 Apple 的私有商业格式，无法使用开源工具链构建。这会阻止项目在非 Apple 平台或使用替代构建系统上构建。 跨平台协作 ：我们有不使用 macOS 和 Xcode 的协作者。使用这些格式会破坏可维护性，并阻止贡献者在他们偏好的环境中工作。 编程式 UI 偏好 ：我们始终偏好以编程方式编写 UI，而不是在某种文件中预定义它们。这种方法提供更好的版本控制、更轻松的代码审查，以及 UI 构建的更大灵活性。",
+      "title": "为什么不使用 Xcode Assets 和 Storyboards？"
+    },
+    {
+      "location": "zh/contributing/codes/#_8",
+      "text": "Battman 有意避免第三方依赖（CocoaPods、Swift Packages、外部框架），原因如下： 控制与可维护性 ：外部代码不在我们的控制之下，我们无法响应可能影响项目的潜在未来更改、破坏性更新或弃用。 协作可访问性 ：并非每个协作者都能在其构建系统上拉取此类依赖。避免外部依赖可确保所有贡献者无论其环境设置如何都能构建和处理项目，促进更好的协作。 如果您需要通常来自第三方库的功能，请直接在代码库中实现它或调整必要的代码以适合 Battman 的架构（例如，我们已完全用 Objective-C 重写了 Swift 的 UberSegmentedControl ）。",
+      "title": "为什么不使用第三方依赖？"
+    },
+    {
+      "location": "zh/contributing/codes/#swift",
+      "text": "Battman 仅使用 Objective-C 和 C，不接受 Swift 代码提交，原因如下： 稳定性与兼容性 ：Swift 本身频繁更新并带有破坏性更改，并且总是试图放弃对先前系统版本的支持。这会产生维护负担和兼容性问题，与 Battman 支持 iOS 12+ 的目标相冲突。 工具链大小 ：Swift 工具链比常规 LLVM + Clang 大得多，这对我们现有的协作者不友好，他们可能资源有限或偏好最小化工具链安装。 不可避免的 Swift 例外 ：如果您的提交无法避免使用 Swift（例如，WidgetKit 仅允许 Swift），请创建一个新的子项目来包含它。否则，所有逻辑和 UI 都应使用 Objective-C 和 C 编写。 如果您必须使用 Swift，您的 Swift 代码必须满足以下要求： - 您的 Swift 代码应在 iOS 12 或更早版本上编译和测试。 - 您的 Swift 代码应使用 Swift 4 或更早版本编写。 - 您的 Swift 代码至少应能在 iOS 上使用 Procursus 的 Swift 工具链构建。",
+      "title": "为什么不使用 Swift 代码？"
+    },
+    {
+      "location": "zh/contributing/codes/#c-objective-c",
+      "text": "",
+      "title": "C / Objective-C 模式"
+    },
+    {
+      "location": "zh/contributing/codes/#_9",
+      "text": "+ ( instancetype ) sharedPrefs { static BattmanPrefs * shared = nil ; static dispatch_once_t onceToken ; dispatch_once ( & onceToken , ^ { shared = [[ self alloc ] _init ]; }); return shared ; }",
+      "title": "单例模式"
+    },
+    {
+      "location": "zh/contributing/codes/#ios",
+      "text": "if (@ available ( iOS 13.0 , * )) { // iOS 13+ 代码 } else { // 回退代码 } if ( __builtin_available ( iOS 13.0 , * )) { // iOS 13+ 代码 } else { // 回退代码 }",
+      "title": "iOS 版本检查"
+    },
+    {
+      "location": "zh/contributing/codes/#_10",
+      "text": "// DBGLOG 基于 NSLog() DBGLOG ( CFSTR ( \"调试消息: %@\" ), value ); // DBGLOG 基于 NSLog() DBGLOG ( @\"调试消息: %@\" , value );",
+      "title": "调试日志"
+    },
+    {
+      "location": "zh/contributing/codes/#_11",
+      "text": "// 对于 NSString NSString * localized = _ ( \"String to localize\" ); // 对于 C 字符串 const char * localized = _C ( \"String to localize\" );",
+      "title": "本地化"
+    },
+    {
+      "location": "zh/contributing/codes/#_12",
+      "text": "static dispatch_once_t onceToken ; static bool value ; dispatch_once ( & onceToken , ^ { // 一次性初始化 value = compute_value (); });",
+      "title": "静态初始化"
+    },
+    {
+      "location": "zh/contributing/codes/#_13",
+      "text": "检查系统调用的返回值 对错误条件使用 os_log_error 尽可能提供回退路径 避免在可恢复的错误上崩溃",
+      "title": "错误处理"
+    },
+    {
+      "location": "zh/contributing/codes/#_14",
+      "text": "Objective-C 代码使用 ARC C 代码使用手动内存管理（malloc 的要用 free） 小心处理 CF 类型 - 适当使用 CFRelease",
+      "title": "内存管理"
+    },
+    {
+      "location": "zh/contributing/codes/#_15",
+      "text": "Battman 可以使用以下方式构建： - Xcode ：标准 Xcode 项目 - Makefile ：位于 Battman/Makefile ，支持 Linux 构建 关键构建参数： - -fobjc-arc ：自动引用计数 - -target arm64-apple-ios12.0 ：iOS 12+ 部署目标 - -DDEBUG ：调试构建 - -DUSE_GETTEXT ：可选的 gettext 本地化支持",
+      "title": "构建系统"
+    },
+    {
+      "location": "zh/contributing/codes/#_16",
+      "text": "Fork 本仓库，并基于此创建功能分支。 使用清晰、聚焦的提交（commit）逐步完成修改。 尽量将 PR 控制在易于审阅的规模，而不是一次性包含大量无关改动。 在尽可能多的相关 iOS 版本 / 设备上进行测试。 提交 Pull Request，并在说明中写明： 具体改动内容； 测试方式与结果； 对用户可见行为的任何影响。",
+      "title": "推荐工作流程"
+    },
+    {
+      "location": "zh/contributing/codes/#_17",
+      "text": "遵循现有的代码风格和模式 保持与 iOS 12+ 的兼容性 尽可能在模拟器和真实设备上测试 使用适当的日志记录（调试使用 DBGLOG，生产使用 os_log） 确保正确的内存管理 为复杂逻辑或硬件特定代码添加注释 如果行为发生变化，请更新相关文档 请勿将个人证书、密钥等私密信息加入仓库或构建脚本中。",
+      "title": "代码审查指南"
+    },
+    {
+      "location": "zh/contributing/locales/",
+      "text": "参与本地化 ¶ Battman 使用标准的 gettext .po 文件进行本地化管理。 目录结构 ¶ 项目级的 .po 和 .pot 文件位于 Localizations 目录下。 文档站点通过带语言后缀的 Markdown 文件区分语言（例如 page.md 和 page.zh.md ）。 Battman ├── Battman │ └── Localizations │ ├── base.pot │ ├── de.po │ ├── en.po │ ├── generate_code.sh │ ├── zh_CN.po │ └── ... └── docs └── battman-user-manuals ├── docs │ ├── index.md │ ├── index.zh.md │ └── ... └── mkdocs.yml 参与应用本地化 ¶ 安装依赖 ¶ 首先，确保你的设备上已安装 GNU Gettext 工具，如果没有，请从你的发行源安装。 # macOS Homebrew brew install gettext # macOS MacPorts sudo port install gettext # Debian 衍生 / iOS 越狱设备 sudo apt install gettext 安装完成后，你应该可以使用 xgettext 和 msgfmt ： $ xgettext --version xgettext ( GNU gettext-tools ) 0 .22.4 Copyright ( C ) 1995 -2023 Free Software Foundation, Inc. License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html> This is free software: you are free to change and redistribute it. There is NO WARRANTY, to the extent permitted by law. Written by Ulrich Drepper. 更新 base.pot ¶ .pot 文件是所有 .po 文件的模板文件，在创建本地化文件之前，请确保你始终拥有最新的模板。 # 在 Battman 中，我们使用： # _: 用于 Objective-C NSStrings # _C: 用于 C 字符串 # cond_localize_c: _C() 实际调用的函数 cd Battman/ && \\ rm -f ./Localizations/base.pot && \\ xgettext -v \\ --keyword = _ \\ --keyword = cond_localize_c \\ --keyword = _C \\ --add-comments = TRANSLATORS \\ --no-location \\ --copyright-holder = \"Torrekie <me@torrekie.dev>\" \\ --package-name = \"Battman\" \\ --package-version = \" $( cat ./VERSION ) \" \\ --output = ./Localizations/base.pot \\ --from-code = UTF-8 \\ $( find ./ -name \"*.m\" -or -name \"*.c\" -or -name \"*.h\" ) 使用此命令，你可以从当前的 Battman 源代码生成新的 base.pot 。 创建 PO 文件 ¶ 如果 Battman 尚未在 Battman/Localizations 下为你的语言提供 .po 文件，则需要此步骤。如果你要更新现有的 .po 文件，请参阅 更新 PO 文件 。 在实际为所需语言创建 .po 文件之前，请检查其 语言代码 。 Gettext 使用的语言代码通常由以下部分组成： 一个 ISO 639-1 两字母代码（例如 en 、 fr 、 ja ）。 可选的 ISO 3166 两字母地区代码（例如 _US 、 _CA 、 _DE ） 例如： 当你为日语创建语言文件时，语言代码是 ja 。 当你为英语（加拿大）创建语言文件时，语言代码应为 en_CA ，其中 en 指语言本身， _CA 是其地区变体。 确认语言代码后，可以使用以下命令创建 .po 文件： # 假设你已经在 Battman/ 目录下 # 这是一个生成世界语 po 文件的示例 loc = \"eo\" # 将此更改为你的语言代码 msginit --input = ./Localizations/base.pot \\ --output-file = \"./Localizations/ $loc .po\" \\ --locale = \" $loc \" \\ --no-translator 之后，你将看到已创建一个新的 .po 文件（在此示例中为 eo.po ）： $ tree ./Battman/Localizations/ ./Battman/Localizations/ ├── base.pot ├── de.po ├── en.po ├── eo.po # <--- 新创建的 ├── generate_code.sh ├── vi.po └── zh_CN.po 1 directory, 7 files 然后，你可以使用你偏好的文本编辑器编辑 eo.po 。 PO 文件结构 ¶ 关于 PO 文件，有 官方详细文档 。我们在此尝试以更简单的方式描述。 新创建的 PO 文件具有以下头部（此示例中的 eo.po ）： # Esperanto translations for Battman package. # Copyright (C) 2025 Torrekie <me@torrekie.dev> # This file is distributed under the same license as the Battman package. # Automatically generated, 2025. # msgid \"\" msgstr \"\" \" Project-Id-Version: Battman 1.0.3.1\\n\" \" Report-Msgid-Bugs-To: \\n\" \" POT-Creation-Date: 2025-12-02 18:25+0800\\n\" \" PO-Revision-Date: 2025-12-02 18:25+0800\\n\" \" Last-Translator: Automatically generated\\n\" \" Language-Team: none\\n\" \" Language: eo\\n\" \" MIME-Version: 1.0\\n\" \" Content-Type: text/plain; charset=UTF-8\\n\" \" Content-Transfer-Encoding: 8bit\\n\" \" Plural-Forms: nplurals=2; plural=(n != 1);\\n\" 你可能想要编辑 Last-Translator 字段，以标记你是最后更新此本地化文件的人： \"Last-Translator: Torrekie <me@torrekie.dev>\\n\" 然后你可以开始翻译所有文本，键值格式基本上是一对 msgid 和 msgstr ，其中 msgid 是从我们的源代码中检索得来的，例如，当我们有这样的代码时： char * my_string = _C ( \"Hello, world!\" ); ( void ) printf ( \"%s\" , my_string ); 你生成的 .po 文件将包含一个片段： msgid \"Hello, world!\" msgstr \"\" 你需要做的就是填写 msgstr 字段，它应该是翻译后的字符串。 msgid \"Hello, world!\" msgstr \"Saluton, mondo!\" 有时，你可能会在字符串上看到 TRANSLATORS 注释，这表明我们添加了关于如何处理此字符串的说明。例如，在 de.po 中，我们不得不将 \"Benutzerdefinierter\" 替换为 \"…\"，因为它太长了，以至于大多数屏幕不能正常显示它。 #. TRANSLATORS: Please ensure this string won't be longer as \"Custom\" msgid \"Custom\" msgstr \"…\" 你可以通过使用新添加的本地化构建 Battman 来测试翻译后的字符串，请参阅 从源代码运行 。 更新 PO 文件 ¶ 当你在 Battman 中添加了一些新字符串或 PO 文件看起来过于过时的时候，你可能想要更新现有的 PO 文件。 更新 PO 文件的步骤是： 从源代码重新创建 base.pot （请参阅 更新 base.pot ）。 从更新的 base.pot 在其他位置创建骨架 PO 文件。 将现有的 PO 文件与新创建的骨架合并。 像往常一样翻译那些新添加的字符串。 在 Battman.xcodeproj 中，我们这样处理： LOCS = \"zh_CN en de vi\" LOC_BASE = \" ${ PROJECT_DIR } / ${ PROJECT_NAME } /Localizations\" POT_FILE = \" ${ LOC_BASE } /base.pot\" for locs in $LOCS ; do msginit --input = \" ${ POT_FILE } \" --output-file = \" ${ LOC_BASE } / $locs .po.step\" --locale = \" $locs \" && msgmerge --no-location -N \" ${ LOC_BASE } / $locs .po\" \" ${ LOC_BASE } / $locs .po.step\" > \" ${ LOC_BASE } / $locs .po.new\" && mv \" ${ LOC_BASE } / $locs .po.new\" \" ${ LOC_BASE } / $locs .po\" && rm \" ${ LOC_BASE } / $locs .po.step\" ; done 要分解此过程： # 示例：更新世界语 # 创建新的 PO 骨架而不覆盖现有 PO # 我们应该会有一个 eo.po.step msginit --input = ./Localizations/base.pot \\ --output-file = ./Localizations/eo.po.step \\ --locale = eo # 将我们现有的世界语翻译与新创建的骨架合并 # 我们应该会有一个 eo.po.new msgmerge --no-location -N \\ ./Localizations/eo.po \\ ./Localizations/eo.po.step \\ > ./Localizations/eo.po.new # 用新创建的文件覆盖现有的旧 PO 文件 mv ./Localizations/eo.po.new ./Localizations/eo.po # 删除骨架 rm ./Localizations/eo.po.step eo.po 现在已更新为新添加的字符串，然后你可以使用你喜欢的文本编辑器翻译这些新字符串。",
+      "title": "本地化"
+    },
+    {
+      "location": "zh/contributing/locales/#_1",
+      "text": "Battman 使用标准的 gettext .po 文件进行本地化管理。",
+      "title": "参与本地化"
+    },
+    {
+      "location": "zh/contributing/locales/#_2",
+      "text": "项目级的 .po 和 .pot 文件位于 Localizations 目录下。 文档站点通过带语言后缀的 Markdown 文件区分语言（例如 page.md 和 page.zh.md ）。 Battman ├── Battman │ └── Localizations │ ├── base.pot │ ├── de.po │ ├── en.po │ ├── generate_code.sh │ ├── zh_CN.po │ └── ... └── docs └── battman-user-manuals ├── docs │ ├── index.md │ ├── index.zh.md │ └── ... └── mkdocs.yml",
+      "title": "目录结构"
+    },
+    {
+      "location": "zh/contributing/locales/#_3",
+      "text": "",
+      "title": "参与应用本地化"
+    },
+    {
+      "location": "zh/contributing/locales/#_4",
+      "text": "首先，确保你的设备上已安装 GNU Gettext 工具，如果没有，请从你的发行源安装。 # macOS Homebrew brew install gettext # macOS MacPorts sudo port install gettext # Debian 衍生 / iOS 越狱设备 sudo apt install gettext 安装完成后，你应该可以使用 xgettext 和 msgfmt ： $ xgettext --version xgettext ( GNU gettext-tools ) 0 .22.4 Copyright ( C ) 1995 -2023 Free Software Foundation, Inc. License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html> This is free software: you are free to change and redistribute it. There is NO WARRANTY, to the extent permitted by law. Written by Ulrich Drepper.",
+      "title": "安装依赖"
+    },
+    {
+      "location": "zh/contributing/locales/#basepot",
+      "text": ".pot 文件是所有 .po 文件的模板文件，在创建本地化文件之前，请确保你始终拥有最新的模板。 # 在 Battman 中，我们使用： # _: 用于 Objective-C NSStrings # _C: 用于 C 字符串 # cond_localize_c: _C() 实际调用的函数 cd Battman/ && \\ rm -f ./Localizations/base.pot && \\ xgettext -v \\ --keyword = _ \\ --keyword = cond_localize_c \\ --keyword = _C \\ --add-comments = TRANSLATORS \\ --no-location \\ --copyright-holder = \"Torrekie <me@torrekie.dev>\" \\ --package-name = \"Battman\" \\ --package-version = \" $( cat ./VERSION ) \" \\ --output = ./Localizations/base.pot \\ --from-code = UTF-8 \\ $( find ./ -name \"*.m\" -or -name \"*.c\" -or -name \"*.h\" ) 使用此命令，你可以从当前的 Battman 源代码生成新的 base.pot 。",
+      "title": "更新 base.pot"
+    },
+    {
+      "location": "zh/contributing/locales/#po",
+      "text": "如果 Battman 尚未在 Battman/Localizations 下为你的语言提供 .po 文件，则需要此步骤。如果你要更新现有的 .po 文件，请参阅 更新 PO 文件 。 在实际为所需语言创建 .po 文件之前，请检查其 语言代码 。 Gettext 使用的语言代码通常由以下部分组成： 一个 ISO 639-1 两字母代码（例如 en 、 fr 、 ja ）。 可选的 ISO 3166 两字母地区代码（例如 _US 、 _CA 、 _DE ） 例如： 当你为日语创建语言文件时，语言代码是 ja 。 当你为英语（加拿大）创建语言文件时，语言代码应为 en_CA ，其中 en 指语言本身， _CA 是其地区变体。 确认语言代码后，可以使用以下命令创建 .po 文件： # 假设你已经在 Battman/ 目录下 # 这是一个生成世界语 po 文件的示例 loc = \"eo\" # 将此更改为你的语言代码 msginit --input = ./Localizations/base.pot \\ --output-file = \"./Localizations/ $loc .po\" \\ --locale = \" $loc \" \\ --no-translator 之后，你将看到已创建一个新的 .po 文件（在此示例中为 eo.po ）： $ tree ./Battman/Localizations/ ./Battman/Localizations/ ├── base.pot ├── de.po ├── en.po ├── eo.po # <--- 新创建的 ├── generate_code.sh ├── vi.po └── zh_CN.po 1 directory, 7 files 然后，你可以使用你偏好的文本编辑器编辑 eo.po 。",
+      "title": "创建 PO 文件"
+    },
+    {
+      "location": "zh/contributing/locales/#po_1",
+      "text": "关于 PO 文件，有 官方详细文档 。我们在此尝试以更简单的方式描述。 新创建的 PO 文件具有以下头部（此示例中的 eo.po ）： # Esperanto translations for Battman package. # Copyright (C) 2025 Torrekie <me@torrekie.dev> # This file is distributed under the same license as the Battman package. # Automatically generated, 2025. # msgid \"\" msgstr \"\" \" Project-Id-Version: Battman 1.0.3.1\\n\" \" Report-Msgid-Bugs-To: \\n\" \" POT-Creation-Date: 2025-12-02 18:25+0800\\n\" \" PO-Revision-Date: 2025-12-02 18:25+0800\\n\" \" Last-Translator: Automatically generated\\n\" \" Language-Team: none\\n\" \" Language: eo\\n\" \" MIME-Version: 1.0\\n\" \" Content-Type: text/plain; charset=UTF-8\\n\" \" Content-Transfer-Encoding: 8bit\\n\" \" Plural-Forms: nplurals=2; plural=(n != 1);\\n\" 你可能想要编辑 Last-Translator 字段，以标记你是最后更新此本地化文件的人： \"Last-Translator: Torrekie <me@torrekie.dev>\\n\" 然后你可以开始翻译所有文本，键值格式基本上是一对 msgid 和 msgstr ，其中 msgid 是从我们的源代码中检索得来的，例如，当我们有这样的代码时： char * my_string = _C ( \"Hello, world!\" ); ( void ) printf ( \"%s\" , my_string ); 你生成的 .po 文件将包含一个片段： msgid \"Hello, world!\" msgstr \"\" 你需要做的就是填写 msgstr 字段，它应该是翻译后的字符串。 msgid \"Hello, world!\" msgstr \"Saluton, mondo!\" 有时，你可能会在字符串上看到 TRANSLATORS 注释，这表明我们添加了关于如何处理此字符串的说明。例如，在 de.po 中，我们不得不将 \"Benutzerdefinierter\" 替换为 \"…\"，因为它太长了，以至于大多数屏幕不能正常显示它。 #. TRANSLATORS: Please ensure this string won't be longer as \"Custom\" msgid \"Custom\" msgstr \"…\" 你可以通过使用新添加的本地化构建 Battman 来测试翻译后的字符串，请参阅 从源代码运行 。",
+      "title": "PO 文件结构"
+    },
+    {
+      "location": "zh/contributing/locales/#po_2",
+      "text": "当你在 Battman 中添加了一些新字符串或 PO 文件看起来过于过时的时候，你可能想要更新现有的 PO 文件。 更新 PO 文件的步骤是： 从源代码重新创建 base.pot （请参阅 更新 base.pot ）。 从更新的 base.pot 在其他位置创建骨架 PO 文件。 将现有的 PO 文件与新创建的骨架合并。 像往常一样翻译那些新添加的字符串。 在 Battman.xcodeproj 中，我们这样处理： LOCS = \"zh_CN en de vi\" LOC_BASE = \" ${ PROJECT_DIR } / ${ PROJECT_NAME } /Localizations\" POT_FILE = \" ${ LOC_BASE } /base.pot\" for locs in $LOCS ; do msginit --input = \" ${ POT_FILE } \" --output-file = \" ${ LOC_BASE } / $locs .po.step\" --locale = \" $locs \" && msgmerge --no-location -N \" ${ LOC_BASE } / $locs .po\" \" ${ LOC_BASE } / $locs .po.step\" > \" ${ LOC_BASE } / $locs .po.new\" && mv \" ${ LOC_BASE } / $locs .po.new\" \" ${ LOC_BASE } / $locs .po\" && rm \" ${ LOC_BASE } / $locs .po.step\" ; done 要分解此过程： # 示例：更新世界语 # 创建新的 PO 骨架而不覆盖现有 PO # 我们应该会有一个 eo.po.step msginit --input = ./Localizations/base.pot \\ --output-file = ./Localizations/eo.po.step \\ --locale = eo # 将我们现有的世界语翻译与新创建的骨架合并 # 我们应该会有一个 eo.po.new msgmerge --no-location -N \\ ./Localizations/eo.po \\ ./Localizations/eo.po.step \\ > ./Localizations/eo.po.new # 用新创建的文件覆盖现有的旧 PO 文件 mv ./Localizations/eo.po.new ./Localizations/eo.po # 删除骨架 rm ./Localizations/eo.po.step eo.po 现在已更新为新添加的字符串，然后你可以使用你喜欢的文本编辑器翻译这些新字符串。",
+      "title": "更新 PO 文件"
+    },
+    {
+      "location": "zh/controls/charging-limits/",
+      "text": "充电限制 ¶ 充电限制 页面用于配置一个实验性的后台守护进程，使电池电量保持在指定区间内。 核心概念 ¶ 限制电量 设定电池充到多少百分比时停止充电。 恢复电量 （可选）设定在低于该百分比后重新允许充电。 放电模式 决定在放电阶段是保留外部供电，还是阻断外部供电而强制使用电池。 覆盖优化电池充电 在 Battman 接管充电逻辑时，可选择是否覆盖系统的“优化电池充电”行为。 工作状态 ¶ 允许充电 — 值守进程运行中，允许电量继续上升至预设上限。 阻断充电 — 值守进程运行中，在抵达上限时保持不再充电。 无外部电源 — 未检测到适配器，无法执行限制。 有适配器但无供电 — 连接了适配器但未输出电流（如线材 / 协议问题或计划任务）。 优化电池充电接管 — 在未覆盖“优化电池充电”的软模式下，系统“优化电池充电”可能忽略 Battman 的请求。需要 Battman 优先时，请先启用“循环时覆盖‘优化电池充电’”再启动值守进程。 风险提示 ¶ 此功能仍在测试阶段，可能无法在所有设备上正常工作。 此功能会直接写入系统电源相关接口，并长时间运行后台代码。 当前 Battman 值守进程作为常规后台进程运行，未使用系统 LaunchDaemons 。设备重启或执行 ldrestart 后需要手动重新启动值守进程才能生效。",
+      "title": "充电限制"
+    },
+    {
+      "location": "zh/controls/charging-limits/#_1",
+      "text": "充电限制 页面用于配置一个实验性的后台守护进程，使电池电量保持在指定区间内。",
+      "title": "充电限制"
+    },
+    {
+      "location": "zh/controls/charging-limits/#_2",
+      "text": "限制电量 设定电池充到多少百分比时停止充电。 恢复电量 （可选）设定在低于该百分比后重新允许充电。 放电模式 决定在放电阶段是保留外部供电，还是阻断外部供电而强制使用电池。 覆盖优化电池充电 在 Battman 接管充电逻辑时，可选择是否覆盖系统的“优化电池充电”行为。",
+      "title": "核心概念"
+    },
+    {
+      "location": "zh/controls/charging-limits/#_3",
+      "text": "允许充电 — 值守进程运行中，允许电量继续上升至预设上限。 阻断充电 — 值守进程运行中，在抵达上限时保持不再充电。 无外部电源 — 未检测到适配器，无法执行限制。 有适配器但无供电 — 连接了适配器但未输出电流（如线材 / 协议问题或计划任务）。 优化电池充电接管 — 在未覆盖“优化电池充电”的软模式下，系统“优化电池充电”可能忽略 Battman 的请求。需要 Battman 优先时，请先启用“循环时覆盖‘优化电池充电’”再启动值守进程。",
+      "title": "工作状态"
+    },
+    {
+      "location": "zh/controls/charging-limits/#_4",
+      "text": "此功能仍在测试阶段，可能无法在所有设备上正常工作。 此功能会直接写入系统电源相关接口，并长时间运行后台代码。 当前 Battman 值守进程作为常规后台进程运行，未使用系统 LaunchDaemons 。设备重启或执行 ldrestart 后需要手动重新启动值守进程才能生效。",
+      "title": "风险提示"
+    },
+    {
+      "location": "zh/controls/charging-managements/",
+      "text": "充电管理 ¶ 充电管理 页面用于调节系统的充电行为以及低电量模式的自动化逻辑。 功能概览 ¶ 阻止充电 通过访问电量计 / SMC 寄存器，停止对电池充电，同时继续使用外接电源为设备供电。 阻止外部供电 即便连接电源，也强制优先从电池放电，便于进行受控的循环充放电。 优化电池充电 与 PowerUI 集成，可安排优化充电时段（起始和结束时间）。 低电量模式 打开 / 关闭低电量模式，并根据插电状态和电量阈值自动退出，可选择隐藏系统低电量提示。 说明 ¶ 通过 Battman 修改 低电量模式 配置会直接改写系统的全局低电量模式设置。iOS 会将这些设置视为用户数据，备份时会被保存；如果将备份恢复到另一台设备，同样的低电量模式设置也会随之应用。",
+      "title": "充电管理"
+    },
+    {
+      "location": "zh/controls/charging-managements/#_1",
+      "text": "充电管理 页面用于调节系统的充电行为以及低电量模式的自动化逻辑。",
+      "title": "充电管理"
+    },
+    {
+      "location": "zh/controls/charging-managements/#_2",
+      "text": "阻止充电 通过访问电量计 / SMC 寄存器，停止对电池充电，同时继续使用外接电源为设备供电。 阻止外部供电 即便连接电源，也强制优先从电池放电，便于进行受控的循环充放电。 优化电池充电 与 PowerUI 集成，可安排优化充电时段（起始和结束时间）。 低电量模式 打开 / 关闭低电量模式，并根据插电状态和电量阈值自动退出，可选择隐藏系统低电量提示。",
+      "title": "功能概览"
+    },
+    {
+      "location": "zh/controls/charging-managements/#_3",
+      "text": "通过 Battman 修改 低电量模式 配置会直接改写系统的全局低电量模式设置。iOS 会将这些设置视为用户数据，备份时会被保存；如果将备份恢复到另一台设备，同样的低电量模式设置也会随之应用。",
+      "title": "说明"
+    },
+    {
+      "location": "zh/controls/thermal-tunes/",
+      "text": "温控调校 ¶ 温控调校 页面公开了一些通常不会向用户展示的底层温控管理开关。 分区说明 ¶ 通用 控制应用是否接收热状态更新，以及系统在发热时是否主动降低功耗。 口袋高温模式（HIP） 在支持的 iPhone 上，控制屏幕熄灭且设备放入口袋时的温控策略。 阳光暴晒 在自动检测与手动模式之间切换，并展示当前的阳光暴露状态。 温控等级 展示并允许手动调整当前的温控压力与通知等级，通过彩色分段条进行控制。 开关说明 ¶ 🔒锁定图标 ：阻止 thermalmonitord 将该设置恢复为默认值。当你需要让自定义值在重启或系统调整后继续生效时开启。 ✅勾选开关 ：功能本身的开/关状态。根据需要而启用或关闭具体行为。 安全提示 ¶ 修改这些设置可能会： 提升机身与电池温度； 影响充电、背光、手电筒与多媒体行为。 如非充分了解风险，请谨慎使用。 说明 ¶ 通过 Battman 修改 温控调校 配置会直接更改系统的全局温控设置。iOS 会将这些设置视为用户数据，备份时会被保存；如果将备份恢复到另一台设备，同样的温控设置也会随之应用。",
+      "title": "温控调校"
+    },
+    {
+      "location": "zh/controls/thermal-tunes/#_1",
+      "text": "温控调校 页面公开了一些通常不会向用户展示的底层温控管理开关。",
+      "title": "温控调校"
+    },
+    {
+      "location": "zh/controls/thermal-tunes/#_2",
+      "text": "通用 控制应用是否接收热状态更新，以及系统在发热时是否主动降低功耗。 口袋高温模式（HIP） 在支持的 iPhone 上，控制屏幕熄灭且设备放入口袋时的温控策略。 阳光暴晒 在自动检测与手动模式之间切换，并展示当前的阳光暴露状态。 温控等级 展示并允许手动调整当前的温控压力与通知等级，通过彩色分段条进行控制。",
+      "title": "分区说明"
+    },
+    {
+      "location": "zh/controls/thermal-tunes/#_3",
+      "text": "🔒锁定图标 ：阻止 thermalmonitord 将该设置恢复为默认值。当你需要让自定义值在重启或系统调整后继续生效时开启。 ✅勾选开关 ：功能本身的开/关状态。根据需要而启用或关闭具体行为。",
+      "title": "开关说明"
+    },
+    {
+      "location": "zh/controls/thermal-tunes/#_4",
+      "text": "修改这些设置可能会： 提升机身与电池温度； 影响充电、背光、手电筒与多媒体行为。 如非充分了解风险，请谨慎使用。",
+      "title": "安全提示"
+    },
+    {
+      "location": "zh/controls/thermal-tunes/#_5",
+      "text": "通过 Battman 修改 温控调校 配置会直接更改系统的全局温控设置。iOS 会将这些设置视为用户数据，备份时会被保存；如果将备份恢复到另一台设备，同样的温控设置也会随之应用。",
+      "title": "说明"
+    },
+    {
+      "location": "zh/installation/",
+      "text": "安装 ¶ 本页介绍如何安装和配置 Battman。 环境要求 ¶ A11 及以上设备。 iOS 12 及以上系统。 设备已越狱，或已安装 TrollStore。 Battman 目前仅提供 TrollStore 版本和越狱版。其他安装方式不受支持，且无法成功安装。这是因为 Battman 严重依赖 iOS/macOS 私有 API。 如果你仍想用证书/描述文件来安装，请确保你的开发配置描述文件允许使用 Battman 的 entitlements 。（这真的可行吗？） 安装（TrollStore，iOS 14+） ¶ 如果你的设备尚未安装 TrollStore，请参阅 ios.cfw.guide 的教程。 下载最新的 Battman.tipa ，或从 Releases 页面选择所需版本。 长按（或点击“共享”）下载的 Battman.tipa ，选择“分享”，然后点击“TrollStore”。 在 TrollStore 弹出的窗口中点击“Install”完成安装。 越狱安装（rooted，iOS 12+） ¶ 打开包管理器（Cydia、Sileo、Zebra 等），从 bootstrap 源（Elucubratus 或 Procursus）安装 libintl8 。 从 Releases 页面下载最新的 com.torrekie.battman_<version>_iphoneos-arm.deb ，请务必选择 iphoneos-arm 版本。当前最新版本为 1.0.3.1（点击下载） 。 长按下载的 deb，点击“共享”，选择包管理器（或 Filza）进行安装（或使用你偏好的 deb 安装方式）。 越狱安装（rootless，iOS 15+） ¶ 打开包管理器（Cydia、Sileo、Zebra 等），从 bootstrap 源（Elucubratus 或 Procursus）安装 libintl8 。 从 Releases 页面下载最新的 com.torrekie.battman_<version>_iphoneos-arm.deb ，请务必选择 iphoneos-arm64 版本。当前最新版本为 1.0.3.1（点击下载） 。 长按下载的 deb，点击“共享”，选择包管理器（或 Filza）进行安装（或使用你偏好的 deb 安装方式）。 后续步骤 ¶ 如果安装失败，请查看「故障排除」章节。 安装完成后，可以从首页了解更多功能。",
+      "title": "iOS"
+    },
+    {
+      "location": "zh/installation/#_1",
+      "text": "本页介绍如何安装和配置 Battman。",
+      "title": "安装"
+    },
+    {
+      "location": "zh/installation/#_2",
+      "text": "A11 及以上设备。 iOS 12 及以上系统。 设备已越狱，或已安装 TrollStore。 Battman 目前仅提供 TrollStore 版本和越狱版。其他安装方式不受支持，且无法成功安装。这是因为 Battman 严重依赖 iOS/macOS 私有 API。 如果你仍想用证书/描述文件来安装，请确保你的开发配置描述文件允许使用 Battman 的 entitlements 。（这真的可行吗？）",
+      "title": "环境要求"
+    },
+    {
+      "location": "zh/installation/#trollstoreios-14",
+      "text": "如果你的设备尚未安装 TrollStore，请参阅 ios.cfw.guide 的教程。 下载最新的 Battman.tipa ，或从 Releases 页面选择所需版本。 长按（或点击“共享”）下载的 Battman.tipa ，选择“分享”，然后点击“TrollStore”。 在 TrollStore 弹出的窗口中点击“Install”完成安装。",
+      "title": "安装（TrollStore，iOS 14+）"
+    },
+    {
+      "location": "zh/installation/#rootedios-12",
+      "text": "打开包管理器（Cydia、Sileo、Zebra 等），从 bootstrap 源（Elucubratus 或 Procursus）安装 libintl8 。 从 Releases 页面下载最新的 com.torrekie.battman_<version>_iphoneos-arm.deb ，请务必选择 iphoneos-arm 版本。当前最新版本为 1.0.3.1（点击下载） 。 长按下载的 deb，点击“共享”，选择包管理器（或 Filza）进行安装（或使用你偏好的 deb 安装方式）。",
+      "title": "越狱安装（rooted，iOS 12+）"
+    },
+    {
+      "location": "zh/installation/#rootlessios-15",
+      "text": "打开包管理器（Cydia、Sileo、Zebra 等），从 bootstrap 源（Elucubratus 或 Procursus）安装 libintl8 。 从 Releases 页面下载最新的 com.torrekie.battman_<version>_iphoneos-arm.deb ，请务必选择 iphoneos-arm64 版本。当前最新版本为 1.0.3.1（点击下载） 。 长按下载的 deb，点击“共享”，选择包管理器（或 Filza）进行安装（或使用你偏好的 deb 安装方式）。",
+      "title": "越狱安装（rootless，iOS 15+）"
+    },
+    {
+      "location": "zh/installation/#_3",
+      "text": "如果安装失败，请查看「故障排除」章节。 安装完成后，可以从首页了解更多功能。",
+      "title": "后续步骤"
+    },
+    {
+      "location": "zh/installation/macos/",
+      "text": "在 macOS 上安装 ¶ 目前 尚未提供 Battman 的 macOS 原生界面 ，macOS 支持仍在规划中。 当前 Battman 主要面向越狱设备或通过 TrollStore 安装的 iOS 设备。一些底层组件和库可以在 macOS / Apple 芯片 Mac 上编译用于开发和调试，但暂时没有面向普通用户的 macOS 图形界面应用。 当前状态 ¶ 暂无官方的 macOS 应用包或安装器。 某些核心库可以在 macOS 11+ 上编译，仅供开发使用。 与电池、温度相关的 macOS API 仍在调研中。 当 macOS 版本准备就绪时 ¶ 本页将补充说明： 系统要求（支持的 macOS 版本与机型）。 如何获取并安装 Battman for macOS（下载、校验与运行方式）。 沙盒、权限与数据目录的注意事项。 在此之前，如需实际使用，请参考 iOS 安装章节。",
+      "title": "macOS"
+    },
+    {
+      "location": "zh/installation/macos/#macos",
+      "text": "目前 尚未提供 Battman 的 macOS 原生界面 ，macOS 支持仍在规划中。 当前 Battman 主要面向越狱设备或通过 TrollStore 安装的 iOS 设备。一些底层组件和库可以在 macOS / Apple 芯片 Mac 上编译用于开发和调试，但暂时没有面向普通用户的 macOS 图形界面应用。",
+      "title": "在 macOS 上安装"
+    },
+    {
+      "location": "zh/installation/macos/#_1",
+      "text": "暂无官方的 macOS 应用包或安装器。 某些核心库可以在 macOS 11+ 上编译，仅供开发使用。 与电池、温度相关的 macOS API 仍在调研中。",
+      "title": "当前状态"
+    },
+    {
+      "location": "zh/installation/macos/#macos_1",
+      "text": "本页将补充说明： 系统要求（支持的 macOS 版本与机型）。 如何获取并安装 Battman for macOS（下载、校验与运行方式）。 沙盒、权限与数据目录的注意事项。 在此之前，如需实际使用，请参考 iOS 安装章节。",
+      "title": "当 macOS 版本准备就绪时"
+    },
+    {
+      "location": "zh/metrics/battery-info/",
+      "text": "电池信息 ¶ 电池信息 页面展示的是直接从电量监测计（Gas Gauge）和 IOAccessoryManager 读取的详细数据。 它对应「电池」标签的 电池信息 区域。 你可以看到 ¶ 当前电量百分比、电压、电流 设计容量、标称/实际满充容量以及循环次数 充电状态与电源类型（USB、适配器、无线、MagSafe 等） 未充电原因 与依赖 IOPM 的其他工具不同，Battman 不会 猜测或美化数值：它尽量原样呈现硬件报告的最底层原始数据。 板块 ¶ 在「电池信息」页面上，你可能会看到以下部分（取决于设备当前状态）： 电量监测计（基本） 适配器信息 非接触式端口 / 串行接口 每个部分会列出来自不同模块的已检测指标。 电量监测计（基本） ¶ 此部分展示最常用的电量监测计数据。 设备信息 ¶ 字段 说明 设备名称 已安装电池使用的电量计 IC（如 bq20z451 ）。 电池序列号 电池的序列号。 化学 ID 用于匹配系统中电池特定策略的 ChemID。 电芯数量 电池的电芯数量（例如 3 表示三芯电池）。 容量指标 ¶ 字段 说明 满充容量 当前由电量计 IC 报告的最大可充容量（mAh）。 设计容量 电池出厂时的原始设计容量（mAh）。 剩余容量 当前剩余可用容量（mAh）。 最大化学容量 电池设计的最大化学容量（Qmax）。 真实剩余容量 电池管理系统（BMS）报告的实际剩余容量（mAh）。 电池运行时间 自上次复位以来电池已工作时间。 放电指标 ¶ 字段 说明 放电深度 (DOD₀) 处于 relaxed 状态时由开路电压更新的化学放电深度。 充放累积 当前充放电周期的累积容量；每次 DOD₀ 更新时重置。 电气测量 ¶ 字段 说明 电压 平均工作电压，单位 mV（如 11433 mV ）。 平均电流 平均工作电流，单位 mA（负值=放电，如 -807 mA ）。 平均功率 平均工作功率，单位 mW（负值=消耗，如 -9226 mW ）。 开路电流 开路（OCV）电压电流测量值。 开路电压 开路（OCV）电压测量值。 最大负荷电流 电池可承受的最大负载电流。 最大负荷电流2 第二组最大负载电流测量。 电量状态 ¶ 字段 说明 充电状态 电量计芯片报告的电池百分比。 充电状态（UI） UI 显示的 SoC（与实际 SoC 不同）。 单日最大/最小余量 电池管理系统报告的一天内达到的最高/最低电量百分比。 时间预估 ¶ 字段 说明 满充时间 预计达到满电所需时间。 耗尽时间 预计耗尽所需时间。 循环信息 ¶ 字段 说明 循环计数 已完成的充放电循环次数（如 1145 ）。 设计循环次数 电池设计可承受的最大循环次数。 温度 ¶ 字段 说明 平均温度 电量计芯片报告的平均工作温度（如 30.73 °C ）。 高级指标 ¶ 字段 说明 阻抗系数 用于电阻计算的缩放因子。 标示位 参见 标示位 。 IT 杂项数据 Impedance Track 的其他状态信息。 模拟频率 电量计芯片执行 Impedance Track™ 模拟的速率。 适配器信息 ¶ 此部分展示当前工作适配器 [1] 的信息。 当前工作适配器 当连接一个或多个适配器时，设备会选择最佳的适配器作为工作电源；其他适配器将被抑制。 连接信息 ¶ 字段 说明 端口 正在使用的端口 ID。iPhone/iPad： 1 串行接口（Lightning/USB‑C）， 2 非接触式（MagSafe/无线）。MacBook： 1 USB 端口 1， 2 USB 端口 2。 适配器类型 描述当前适配器类型的数值 ID（未公开文档）。 类型 已连接适配器的类型代码（ kIOPSPowerAdapterFamilyKey ）。参见 类型代码 。 充电状态 ¶ 字段 说明 状态 充电状态： 正在充电 或 不在充电 。 原因 未充电时的原因代码。参见 未充电原因 。 充电器兼容 适配器被识别为兼容的电源。 已连接电源 适配器存在且可作为稳定电源使用。 电力规格 ¶ 字段 说明 额定电流 / 额定电压 适配器提供的设计电流/电压。 输入电流 / 输入电压 实际接收到的输入电流/电压。 充电电流 / 充电电压 实际给电池充电的电流/电压。 PMU 配置 / 充电器配置 PMU/充电器设置的充电电流上限。 高压充电模式 适配器硬件支持的高压充电模式（但用户不可配置）。 硬件信息 ¶ 字段 说明 充电芯片ID 设备充电芯片的数值 ID。一些 USB‑C 设备上 0xFFFFFFFF 表示无法读取ID。 适配器识别 ¶ 以下字段仅在适配器为苹果设备设计（或模拟 Apple/MFi 原装适配器）时可用： 字段 说明 型号名称 适配器型号名称（如 “61W USB-C Power Adapter”）。 生产企业 厂商名称（如 “Apple Inc.”）。 型号号码 型号号码（如 0x1685 ）。 固件版本 固件版本（如 01050029 → 1.5.0.29 ）。 硬件版本 硬件版本（如 1.0 ）。 序列号 适配器序列号（如 C4H306600XDL4YRAD ）。 描述 电源管理单元（PMU）对适配器类型的描述（如 “pd charger”）。 非接触式端口 / 串行接口 ¶ 当设备连接到提供信息的非接触式电源配件 / USB 配件时，本板块会出现。 识别信息 ¶ 字段 说明 配件ID 系统内部使用的已连接配件的数值 ID。 数字ID （仅 Lightning）配件的芯片 ID。 设备序列号 （仅 Lightning）接口设备序列号（ID‑SN）。 模块序列号 （仅 Lightning）接口模块序列号（MSN）。 PPID 配件 PPID（厂商提供的标识符）。 端口类型 来自 IOAccessoryManager 的连接端口类型。 允许的特性 配件功能标示位（可能因设备而异）。 序列号 （仅 MagSafe）配件序列号。 生产企业 配件厂商。 产品ID HID PID。 厂商ID HID VID。 型号 配件型号（如 A2384 ）。 名称 配件名称（如 “MagSafe Battery Pack”）。 固件版本 配件固件版本（如 2.7.b.0 ）。 硬件版本 配件硬件版本（如 1.0.0 ）。 供电角色 ¶ 字段 说明 外接电池 指示配件是否作为 Smart Battery Case 。 正在提供电源 配件正作为电源工作。 状态 （仅 MagSafe）当前配件工作状态。 正在接受充电 （仅配件电池）配件是否正在接受充电。 配件电池（UPS） ¶ 字段 说明 剩余容量 配件电池百分比。 满充容量 配件电池满充容量。 当前容量 配件电池当前容量。 平均充电电流 接受充电时的平均充电电流。 额定充电电压 充电额定电压。 电芯数量 配件电池的电芯数量。 循环计数 配件电池的循环次数。 电流 / 电压 配件当前输出电流/电压。 输入电流 / 输入电压 设备接收到的实时电流/电压。 温度 当前配件温度。 配件满充时间 / 配件耗尽时间 配件电量计估算的时间。 电源模式 配件的活动电源模式。 睡眠电源 配件的休眠电源模式。 受监管配件已连接 配件是否被标记为 受监管配件 。 监管传输已受限 受监管传输是否受限制。 USB（串行接口） ¶ 字段 说明 USB 连接状态 当前 USB 设备连接状态。 USB 充电电压 当前 USB 设备充电电压。 USB 电流配置 当前 USB 设备充电电流配置。",
+      "title": "电池信息"
+    },
+    {
+      "location": "zh/metrics/battery-info/#_1",
+      "text": "电池信息 页面展示的是直接从电量监测计（Gas Gauge）和 IOAccessoryManager 读取的详细数据。 它对应「电池」标签的 电池信息 区域。",
+      "title": "电池信息"
+    },
+    {
+      "location": "zh/metrics/battery-info/#_2",
+      "text": "当前电量百分比、电压、电流 设计容量、标称/实际满充容量以及循环次数 充电状态与电源类型（USB、适配器、无线、MagSafe 等） 未充电原因 与依赖 IOPM 的其他工具不同，Battman 不会 猜测或美化数值：它尽量原样呈现硬件报告的最底层原始数据。",
+      "title": "你可以看到"
+    },
+    {
+      "location": "zh/metrics/battery-info/#_3",
+      "text": "在「电池信息」页面上，你可能会看到以下部分（取决于设备当前状态）： 电量监测计（基本） 适配器信息 非接触式端口 / 串行接口 每个部分会列出来自不同模块的已检测指标。",
+      "title": "板块"
+    },
+    {
+      "location": "zh/metrics/battery-info/#_4",
+      "text": "此部分展示最常用的电量监测计数据。",
+      "title": "电量监测计（基本）"
+    },
+    {
+      "location": "zh/metrics/battery-info/#_5",
+      "text": "字段 说明 设备名称 已安装电池使用的电量计 IC（如 bq20z451 ）。 电池序列号 电池的序列号。 化学 ID 用于匹配系统中电池特定策略的 ChemID。 电芯数量 电池的电芯数量（例如 3 表示三芯电池）。",
+      "title": "设备信息"
+    },
+    {
+      "location": "zh/metrics/battery-info/#_6",
+      "text": "字段 说明 满充容量 当前由电量计 IC 报告的最大可充容量（mAh）。 设计容量 电池出厂时的原始设计容量（mAh）。 剩余容量 当前剩余可用容量（mAh）。 最大化学容量 电池设计的最大化学容量（Qmax）。 真实剩余容量 电池管理系统（BMS）报告的实际剩余容量（mAh）。 电池运行时间 自上次复位以来电池已工作时间。",
+      "title": "容量指标"
+    },
+    {
+      "location": "zh/metrics/battery-info/#_7",
+      "text": "字段 说明 放电深度 (DOD₀) 处于 relaxed 状态时由开路电压更新的化学放电深度。 充放累积 当前充放电周期的累积容量；每次 DOD₀ 更新时重置。",
+      "title": "放电指标"
+    },
+    {
+      "location": "zh/metrics/battery-info/#_8",
+      "text": "字段 说明 电压 平均工作电压，单位 mV（如 11433 mV ）。 平均电流 平均工作电流，单位 mA（负值=放电，如 -807 mA ）。 平均功率 平均工作功率，单位 mW（负值=消耗，如 -9226 mW ）。 开路电流 开路（OCV）电压电流测量值。 开路电压 开路（OCV）电压测量值。 最大负荷电流 电池可承受的最大负载电流。 最大负荷电流2 第二组最大负载电流测量。",
+      "title": "电气测量"
+    },
+    {
+      "location": "zh/metrics/battery-info/#_9",
+      "text": "字段 说明 充电状态 电量计芯片报告的电池百分比。 充电状态（UI） UI 显示的 SoC（与实际 SoC 不同）。 单日最大/最小余量 电池管理系统报告的一天内达到的最高/最低电量百分比。",
+      "title": "电量状态"
+    },
+    {
+      "location": "zh/metrics/battery-info/#_10",
+      "text": "字段 说明 满充时间 预计达到满电所需时间。 耗尽时间 预计耗尽所需时间。",
+      "title": "时间预估"
+    },
+    {
+      "location": "zh/metrics/battery-info/#_11",
+      "text": "字段 说明 循环计数 已完成的充放电循环次数（如 1145 ）。 设计循环次数 电池设计可承受的最大循环次数。",
+      "title": "循环信息"
+    },
+    {
+      "location": "zh/metrics/battery-info/#_12",
+      "text": "字段 说明 平均温度 电量计芯片报告的平均工作温度（如 30.73 °C ）。",
+      "title": "温度"
+    },
+    {
+      "location": "zh/metrics/battery-info/#_13",
+      "text": "字段 说明 阻抗系数 用于电阻计算的缩放因子。 标示位 参见 标示位 。 IT 杂项数据 Impedance Track 的其他状态信息。 模拟频率 电量计芯片执行 Impedance Track™ 模拟的速率。",
+      "title": "高级指标"
+    },
+    {
+      "location": "zh/metrics/battery-info/#_14",
+      "text": "此部分展示当前工作适配器 [1] 的信息。 当前工作适配器 当连接一个或多个适配器时，设备会选择最佳的适配器作为工作电源；其他适配器将被抑制。",
+      "title": "适配器信息"
+    },
+    {
+      "location": "zh/metrics/battery-info/#_15",
+      "text": "字段 说明 端口 正在使用的端口 ID。iPhone/iPad： 1 串行接口（Lightning/USB‑C）， 2 非接触式（MagSafe/无线）。MacBook： 1 USB 端口 1， 2 USB 端口 2。 适配器类型 描述当前适配器类型的数值 ID（未公开文档）。 类型 已连接适配器的类型代码（ kIOPSPowerAdapterFamilyKey ）。参见 类型代码 。",
+      "title": "连接信息"
+    },
+    {
+      "location": "zh/metrics/battery-info/#_16",
+      "text": "字段 说明 状态 充电状态： 正在充电 或 不在充电 。 原因 未充电时的原因代码。参见 未充电原因 。 充电器兼容 适配器被识别为兼容的电源。 已连接电源 适配器存在且可作为稳定电源使用。",
+      "title": "充电状态"
+    },
+    {
+      "location": "zh/metrics/battery-info/#_17",
+      "text": "字段 说明 额定电流 / 额定电压 适配器提供的设计电流/电压。 输入电流 / 输入电压 实际接收到的输入电流/电压。 充电电流 / 充电电压 实际给电池充电的电流/电压。 PMU 配置 / 充电器配置 PMU/充电器设置的充电电流上限。 高压充电模式 适配器硬件支持的高压充电模式（但用户不可配置）。",
+      "title": "电力规格"
+    },
+    {
+      "location": "zh/metrics/battery-info/#_18",
+      "text": "字段 说明 充电芯片ID 设备充电芯片的数值 ID。一些 USB‑C 设备上 0xFFFFFFFF 表示无法读取ID。",
+      "title": "硬件信息"
+    },
+    {
+      "location": "zh/metrics/battery-info/#_19",
+      "text": "以下字段仅在适配器为苹果设备设计（或模拟 Apple/MFi 原装适配器）时可用： 字段 说明 型号名称 适配器型号名称（如 “61W USB-C Power Adapter”）。 生产企业 厂商名称（如 “Apple Inc.”）。 型号号码 型号号码（如 0x1685 ）。 固件版本 固件版本（如 01050029 → 1.5.0.29 ）。 硬件版本 硬件版本（如 1.0 ）。 序列号 适配器序列号（如 C4H306600XDL4YRAD ）。 描述 电源管理单元（PMU）对适配器类型的描述（如 “pd charger”）。",
+      "title": "适配器识别"
+    },
+    {
+      "location": "zh/metrics/battery-info/#_20",
+      "text": "当设备连接到提供信息的非接触式电源配件 / USB 配件时，本板块会出现。",
+      "title": "非接触式端口 / 串行接口"
+    },
+    {
+      "location": "zh/metrics/battery-info/#_21",
+      "text": "字段 说明 配件ID 系统内部使用的已连接配件的数值 ID。 数字ID （仅 Lightning）配件的芯片 ID。 设备序列号 （仅 Lightning）接口设备序列号（ID‑SN）。 模块序列号 （仅 Lightning）接口模块序列号（MSN）。 PPID 配件 PPID（厂商提供的标识符）。 端口类型 来自 IOAccessoryManager 的连接端口类型。 允许的特性 配件功能标示位（可能因设备而异）。 序列号 （仅 MagSafe）配件序列号。 生产企业 配件厂商。 产品ID HID PID。 厂商ID HID VID。 型号 配件型号（如 A2384 ）。 名称 配件名称（如 “MagSafe Battery Pack”）。 固件版本 配件固件版本（如 2.7.b.0 ）。 硬件版本 配件硬件版本（如 1.0.0 ）。",
+      "title": "识别信息"
+    },
+    {
+      "location": "zh/metrics/battery-info/#_22",
+      "text": "字段 说明 外接电池 指示配件是否作为 Smart Battery Case 。 正在提供电源 配件正作为电源工作。 状态 （仅 MagSafe）当前配件工作状态。 正在接受充电 （仅配件电池）配件是否正在接受充电。",
+      "title": "供电角色"
+    },
+    {
+      "location": "zh/metrics/battery-info/#ups",
+      "text": "字段 说明 剩余容量 配件电池百分比。 满充容量 配件电池满充容量。 当前容量 配件电池当前容量。 平均充电电流 接受充电时的平均充电电流。 额定充电电压 充电额定电压。 电芯数量 配件电池的电芯数量。 循环计数 配件电池的循环次数。 电流 / 电压 配件当前输出电流/电压。 输入电流 / 输入电压 设备接收到的实时电流/电压。 温度 当前配件温度。 配件满充时间 / 配件耗尽时间 配件电量计估算的时间。 电源模式 配件的活动电源模式。 睡眠电源 配件的休眠电源模式。 受监管配件已连接 配件是否被标记为 受监管配件 。 监管传输已受限 受监管传输是否受限制。",
+      "title": "配件电池（UPS）"
+    },
+    {
+      "location": "zh/metrics/battery-info/#usb",
+      "text": "字段 说明 USB 连接状态 当前 USB 设备连接状态。 USB 充电电压 当前 USB 设备充电电压。 USB 电流配置 当前 USB 设备充电电流配置。",
+      "title": "USB（串行接口）"
+    },
+    {
+      "location": "zh/metrics/brightness/",
+      "text": "亮度 ¶ 亮度 页面会读取并展示屏幕亮度数据。 它对应「电池」标签中的 亮度 区域。 显示内容 ¶ 当前亮度（以 用户百分比 表示）。 nits 亮度上下限（硬件与用户可访问值）。 屏幕特性：分辨率、色域（sRGB / P3）、刷新率、色彩深度等。 百分比与尼特并非线性对应 ¶ iOS 会用感知（类似 gamma）的曲线把用户滑块映射到面板输出，而不是直线。 该函数大致为指数型： f(百分比) ≠ 最大nits * 百分比 。 例如，在 650nit 面板上，50% 的用户亮度通常只有 ~150 nit，而不是 ~325。 这种曲线让低/中亮度对人眼更舒适。",
+      "title": "亮度"
+    },
+    {
+      "location": "zh/metrics/brightness/#_1",
+      "text": "亮度 页面会读取并展示屏幕亮度数据。 它对应「电池」标签中的 亮度 区域。",
+      "title": "亮度"
+    },
+    {
+      "location": "zh/metrics/brightness/#_2",
+      "text": "当前亮度（以 用户百分比 表示）。 nits 亮度上下限（硬件与用户可访问值）。 屏幕特性：分辨率、色域（sRGB / P3）、刷新率、色彩深度等。",
+      "title": "显示内容"
+    },
+    {
+      "location": "zh/metrics/brightness/#_3",
+      "text": "iOS 会用感知（类似 gamma）的曲线把用户滑块映射到面板输出，而不是直线。 该函数大致为指数型： f(百分比) ≠ 最大nits * 百分比 。 例如，在 650nit 面板上，50% 的用户亮度通常只有 ~150 nit，而不是 ~325。 这种曲线让低/中亮度对人眼更舒适。",
+      "title": "百分比与尼特并非线性对应"
+    },
+    {
+      "location": "zh/metrics/hardware-temperature/",
+      "text": "硬件温度 ¶ 硬件温度 页面展示设备各类温度传感器的实时读数。 它对应「电池」标签中的 硬件温度 区域。 分区 ¶ Battman 会将温度数据分为以下板块： 系统温控状态 显示系统温控值守进程 thermalmonitord 的状态。 温控信息 上层热指标：温控压力等级、 温控通知等级 、最大触发温度、阳光暴晒状态。 设备传感器 系统报告的逐个传感器读数（如 SoC、机身、电池模组、摄像头模组）。 HID / HID 原始数据 来自多个硬件传感器的底层 HID 温度。 使用说明 ¶ 部分传感器可能不会实时更新，或只返回占位值。 热行为可在 温控调校 中调整；本页专注只读监控。",
+      "title": "硬件温度"
+    },
+    {
+      "location": "zh/metrics/hardware-temperature/#_1",
+      "text": "硬件温度 页面展示设备各类温度传感器的实时读数。 它对应「电池」标签中的 硬件温度 区域。",
+      "title": "硬件温度"
+    },
+    {
+      "location": "zh/metrics/hardware-temperature/#_2",
+      "text": "Battman 会将温度数据分为以下板块： 系统温控状态 显示系统温控值守进程 thermalmonitord 的状态。 温控信息 上层热指标：温控压力等级、 温控通知等级 、最大触发温度、阳光暴晒状态。 设备传感器 系统报告的逐个传感器读数（如 SoC、机身、电池模组、摄像头模组）。 HID / HID 原始数据 来自多个硬件传感器的底层 HID 温度。",
+      "title": "分区"
+    },
+    {
+      "location": "zh/metrics/hardware-temperature/#_3",
+      "text": "部分传感器可能不会实时更新，或只返回占位值。 热行为可在 温控调校 中调整；本页专注只读监控。",
+      "title": "使用说明"
+    },
+    {
+      "location": "zh/preferences/preferred-languages/",
+      "text": "首选语言 ¶ Battman 应用和本用户手册都设计为支持 多语言 。 应用界面 ¶ 默认情况下，Battman 跟随 iOS 的系统语言优先级。 如果项目的 Localizations 目录中提供了对应翻译，iOS 会自动选择最合适的语言资源。 文档站点 ¶ 可以通过右上角的语言切换器切换文档语言，而无需修改系统语言设置。 如果你发现某些界面或文档在你的语言中缺失，欢迎参考 参与贡献 → 本地化 章节参与翻译。",
+      "title": "首选语言"
+    },
+    {
+      "location": "zh/preferences/preferred-languages/#_1",
+      "text": "Battman 应用和本用户手册都设计为支持 多语言 。",
+      "title": "首选语言"
+    },
+    {
+      "location": "zh/preferences/preferred-languages/#_2",
+      "text": "默认情况下，Battman 跟随 iOS 的系统语言优先级。 如果项目的 Localizations 目录中提供了对应翻译，iOS 会自动选择最合适的语言资源。",
+      "title": "应用界面"
+    },
+    {
+      "location": "zh/preferences/preferred-languages/#_3",
+      "text": "可以通过右上角的语言切换器切换文档语言，而无需修改系统语言设置。 如果你发现某些界面或文档在你的语言中缺失，欢迎参考 参与贡献 → 本地化 章节参与翻译。",
+      "title": "文档站点"
+    },
+    {
+      "location": "zh/preferences/wiping-data/",
+      "text": "清除数据 ¶ 本页说明如何清除 Battman 的本地数据与设置。 这里的「数据」包括什么 ¶ Battman 自身的偏好设置（存储在应用容器或系统设置中）。 应用创建的缓存日志或临时文件。 重要 Battman 出于稳定性考虑，不会重置系统级配置（温控调校等），请尽可能自行备份。 清除数据的步骤 ¶ 打开 Battman 点击「更多」标签页。 点击「设置」。 滚动到底部，您将看到 抹除全部 Battman 数据 。 点击它并确认以清除所有 Battman 数据。 如需卸载 Battman，请参阅 卸载 。",
+      "title": "清除数据"
+    },
+    {
+      "location": "zh/preferences/wiping-data/#_1",
+      "text": "本页说明如何清除 Battman 的本地数据与设置。",
+      "title": "清除数据"
+    },
+    {
+      "location": "zh/preferences/wiping-data/#_2",
+      "text": "Battman 自身的偏好设置（存储在应用容器或系统设置中）。 应用创建的缓存日志或临时文件。 重要 Battman 出于稳定性考虑，不会重置系统级配置（温控调校等），请尽可能自行备份。",
+      "title": "这里的「数据」包括什么"
+    },
+    {
+      "location": "zh/preferences/wiping-data/#_3",
+      "text": "打开 Battman 点击「更多」标签页。 点击「设置」。 滚动到底部，您将看到 抹除全部 Battman 数据 。 点击它并确认以清除所有 Battman 数据。 如需卸载 Battman，请参阅 卸载 。",
+      "title": "清除数据的步骤"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/family-keys/",
+      "text": "类型代码 ¶ 类型代码用于标识连接到设备的电源适配器或充电源类型。它们有助于识别所连接适配器的充电接口和功能。 概览 ¶ 类型代码由系统用于： - 确定充电能力和功率限制 - 识别连接类型（USB、交流电源、无线等） - 应用适当的充电协议和安全限制 - 在系统诊断中显示适配器信息 代码值 ¶ 未连接 / 不支持 ¶ 代码 十六进制值 说明 kIOPSFamilyCodeDisconnected 0x00000000 未连接或未检测到适配器 kIOPSFamilyCodeUnsupported 0xE00002C7 检测到适配器但不支持或无法识别 FireWire ¶ 代码 十六进制值 说明 kIOPSFamilyCodeFirewire 0xE0008000 FireWire (IEEE 1394) 电源适配器（旧款） USB 电源 ¶ USB 类型代码分组在 0xE0004000 基础范围内： 代码 十六进制值 说明 kIOPSFamilyCodeUSBHost 0xE0004000 USB 接口（标准 USB 端口） kIOPSFamilyCodeUSBHostSuspended 0xE0004001 USB 标准下行端口（SDP）- 低功率 USB 端口 kIOPSFamilyCodeUSBDevice 0xE0004002 USB 设备模式（设备作为 USB 外设） kIOPSFamilyCodeUSBAdapter 0xE0004003 通用 USB 适配器 kIOPSFamilyCodeUSBChargingPortDedicated 0xE0004004 USB 专用充电端口（DCP）- 专用 USB 充电器 kIOPSFamilyCodeUSBChargingPortDownstream 0xE0004005 USB 充电下行端口（CDP）- 可在提供数据的同时充电的 USB 端口 kIOPSFamilyCodeUSBChargingPort 0xE0004006 USB 充电端口（CP）- 通用 USB 充电端口 kIOPSFamilyCodeUSBUnknown 0xE0004007 未知 USB 电源类型 kIOPSFamilyCodeUSBCBrick 0xE0004008 USB-C 电源砖（非 PD USB-C 充电器） kIOPSFamilyCodeUSBCTypeC 0xE0004009 USB-C Type-C 端口（标准 USB-C 连接） kIOPSFamilyCodeUSBCPD 0xE000400A USB-C PD（Power Delivery）- 支持 Power Delivery 协议的 USB-C 充电器 交流电源 ¶ 代码 十六进制值 说明 kIOPSFamilyCodeAC 0xE0024000 交流电源适配器（传统 MacBook 电源适配器） 外部电源 ¶ 外部电源代码用于专有或专用充电接口。它们从 0xE0024001 开始按顺序分组： 代码 十六进制值 说明 kIOPSFamilyCodeExternal 0xE0024001 外部电源 1 - 通用外部电源 kIOPSFamilyCodeExternal2 0xE0024002 外部电源 2 - 次要外部电源 kIOPSFamilyCodeExternal3 0xE0024003 外部电源 3 - Baseline Arca 充电接口 kIOPSFamilyCodeExternal4 0xE0024004 外部电源 4 - 其他外部电源 kIOPSFamilyCodeExternal5 0xE0024005 外部电源 5 - 其他外部电源 kIOPSFamilyCodeExternal6 0xE0024006 外部电源 6 - MagSafe 充电器（无线充电） kIOPSFamilyCodeExternal7 0xE0024007 外部电源 7 - MagSafe 配件（例如 MagSafe 外接电池） 了解 USB 充电端口 ¶ USB SDP（标准下行端口） ¶ 提供最高 500mA @ 5V（2.5W） 用于标准 USB 数据端口 最慢的充电选项 USB DCP（专用充电端口） ¶ 提供最高 1.5A @ 5V（7.5W） 专为充电设计（无数据） 常见于壁式充电器和车载充电器 USB CDP（充电下行端口） ¶ 提供最高 1.5A @ 5V（7.5W） 同时支持充电和数据传输 常见于计算机和部分集线器 USB-C Power Delivery (PD) ¶ 可提供可变电压和电流（根据适配器最高 100W+） 动态协商功率级别 在兼容设备上支持快速充电 功能最强大的 USB 充电标准 设备特定行为 ¶ MacBook ¶ 交流电源适配器显示为 kIOPSFamilyCodeAC USB-C 适配器显示为 kIOPSFamilyCodeUSBCPD 或 kIOPSFamilyCodeUSBCTypeC iPhone / iPad ¶ MagSafe 充电器显示为 kIOPSFamilyCodeExternal6 MagSafe 配件（如外接电池）显示为 kIOPSFamilyCodeExternal7 故障排除 ¶ \"不支持\" 类型代码 ¶ 如果您看到 kIOPSFamilyCodeUnsupported ： - 适配器可能未通过 Apple 认证或不兼容 MFi - 适配器可能已损坏或出现故障 - 设备可能无法识别第三方适配器 - 尝试使用 Apple 认证的适配器 已连接适配器但显示 \"未连接\" ¶ 如果您已连接适配器但仍看到 kIOPSFamilyCodeDisconnected ： - 检查物理连接（线缆、端口） - 尝试使用不同的线缆或端口 - 适配器可能未提供电源 - 检查充电端口是否有异物 USB-C 未充电 ¶ 如果 USB-C 适配器显示类型代码但未充电： - 确认适配器支持 Power Delivery (PD) - 检查线缆是否支持充电（部分 USB-C 线缆仅支持数据传输） - 确保适配器为设备提供足够的功率 - 查看 未充电原因 以获取具体错误代码 无线充电问题 ¶ 对于 MagSafe 或感应式充电： - 确保设备支持无线充电 - 检查充电器是否正确对齐 - 移除可能干扰的保护壳或配件 - 确认充电器已通过 Apple 认证（对于 MagSafe）",
+      "title": "类型代码"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/family-keys/#_1",
+      "text": "类型代码用于标识连接到设备的电源适配器或充电源类型。它们有助于识别所连接适配器的充电接口和功能。",
+      "title": "类型代码"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/family-keys/#_2",
+      "text": "类型代码由系统用于： - 确定充电能力和功率限制 - 识别连接类型（USB、交流电源、无线等） - 应用适当的充电协议和安全限制 - 在系统诊断中显示适配器信息",
+      "title": "概览"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/family-keys/#_3",
+      "text": "",
+      "title": "代码值"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/family-keys/#_4",
+      "text": "代码 十六进制值 说明 kIOPSFamilyCodeDisconnected 0x00000000 未连接或未检测到适配器 kIOPSFamilyCodeUnsupported 0xE00002C7 检测到适配器但不支持或无法识别",
+      "title": "未连接 / 不支持"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/family-keys/#firewire",
+      "text": "代码 十六进制值 说明 kIOPSFamilyCodeFirewire 0xE0008000 FireWire (IEEE 1394) 电源适配器（旧款）",
+      "title": "FireWire"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/family-keys/#usb",
+      "text": "USB 类型代码分组在 0xE0004000 基础范围内： 代码 十六进制值 说明 kIOPSFamilyCodeUSBHost 0xE0004000 USB 接口（标准 USB 端口） kIOPSFamilyCodeUSBHostSuspended 0xE0004001 USB 标准下行端口（SDP）- 低功率 USB 端口 kIOPSFamilyCodeUSBDevice 0xE0004002 USB 设备模式（设备作为 USB 外设） kIOPSFamilyCodeUSBAdapter 0xE0004003 通用 USB 适配器 kIOPSFamilyCodeUSBChargingPortDedicated 0xE0004004 USB 专用充电端口（DCP）- 专用 USB 充电器 kIOPSFamilyCodeUSBChargingPortDownstream 0xE0004005 USB 充电下行端口（CDP）- 可在提供数据的同时充电的 USB 端口 kIOPSFamilyCodeUSBChargingPort 0xE0004006 USB 充电端口（CP）- 通用 USB 充电端口 kIOPSFamilyCodeUSBUnknown 0xE0004007 未知 USB 电源类型 kIOPSFamilyCodeUSBCBrick 0xE0004008 USB-C 电源砖（非 PD USB-C 充电器） kIOPSFamilyCodeUSBCTypeC 0xE0004009 USB-C Type-C 端口（标准 USB-C 连接） kIOPSFamilyCodeUSBCPD 0xE000400A USB-C PD（Power Delivery）- 支持 Power Delivery 协议的 USB-C 充电器",
+      "title": "USB 电源"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/family-keys/#_5",
+      "text": "代码 十六进制值 说明 kIOPSFamilyCodeAC 0xE0024000 交流电源适配器（传统 MacBook 电源适配器）",
+      "title": "交流电源"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/family-keys/#_6",
+      "text": "外部电源代码用于专有或专用充电接口。它们从 0xE0024001 开始按顺序分组： 代码 十六进制值 说明 kIOPSFamilyCodeExternal 0xE0024001 外部电源 1 - 通用外部电源 kIOPSFamilyCodeExternal2 0xE0024002 外部电源 2 - 次要外部电源 kIOPSFamilyCodeExternal3 0xE0024003 外部电源 3 - Baseline Arca 充电接口 kIOPSFamilyCodeExternal4 0xE0024004 外部电源 4 - 其他外部电源 kIOPSFamilyCodeExternal5 0xE0024005 外部电源 5 - 其他外部电源 kIOPSFamilyCodeExternal6 0xE0024006 外部电源 6 - MagSafe 充电器（无线充电） kIOPSFamilyCodeExternal7 0xE0024007 外部电源 7 - MagSafe 配件（例如 MagSafe 外接电池）",
+      "title": "外部电源"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/family-keys/#usb_1",
+      "text": "",
+      "title": "了解 USB 充电端口"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/family-keys/#usb-sdp",
+      "text": "提供最高 500mA @ 5V（2.5W） 用于标准 USB 数据端口 最慢的充电选项",
+      "title": "USB SDP（标准下行端口）"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/family-keys/#usb-dcp",
+      "text": "提供最高 1.5A @ 5V（7.5W） 专为充电设计（无数据） 常见于壁式充电器和车载充电器",
+      "title": "USB DCP（专用充电端口）"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/family-keys/#usb-cdp",
+      "text": "提供最高 1.5A @ 5V（7.5W） 同时支持充电和数据传输 常见于计算机和部分集线器",
+      "title": "USB CDP（充电下行端口）"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/family-keys/#usb-c-power-delivery-pd",
+      "text": "可提供可变电压和电流（根据适配器最高 100W+） 动态协商功率级别 在兼容设备上支持快速充电 功能最强大的 USB 充电标准",
+      "title": "USB-C Power Delivery (PD)"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/family-keys/#_7",
+      "text": "",
+      "title": "设备特定行为"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/family-keys/#macbook",
+      "text": "交流电源适配器显示为 kIOPSFamilyCodeAC USB-C 适配器显示为 kIOPSFamilyCodeUSBCPD 或 kIOPSFamilyCodeUSBCTypeC",
+      "title": "MacBook"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/family-keys/#iphone-ipad",
+      "text": "MagSafe 充电器显示为 kIOPSFamilyCodeExternal6 MagSafe 配件（如外接电池）显示为 kIOPSFamilyCodeExternal7",
+      "title": "iPhone / iPad"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/family-keys/#_8",
+      "text": "",
+      "title": "故障排除"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/family-keys/#_9",
+      "text": "如果您看到 kIOPSFamilyCodeUnsupported ： - 适配器可能未通过 Apple 认证或不兼容 MFi - 适配器可能已损坏或出现故障 - 设备可能无法识别第三方适配器 - 尝试使用 Apple 认证的适配器",
+      "title": "\"不支持\" 类型代码"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/family-keys/#_10",
+      "text": "如果您已连接适配器但仍看到 kIOPSFamilyCodeDisconnected ： - 检查物理连接（线缆、端口） - 尝试使用不同的线缆或端口 - 适配器可能未提供电源 - 检查充电端口是否有异物",
+      "title": "已连接适配器但显示 \"未连接\""
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/family-keys/#usb-c",
+      "text": "如果 USB-C 适配器显示类型代码但未充电： - 确认适配器支持 Power Delivery (PD) - 检查线缆是否支持充电（部分 USB-C 线缆仅支持数据传输） - 确保适配器为设备提供足够的功率 - 查看 未充电原因 以获取具体错误代码",
+      "title": "USB-C 未充电"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/family-keys/#_11",
+      "text": "对于 MagSafe 或感应式充电： - 确保设备支持无线充电 - 检查充电器是否正确对齐 - 移除可能干扰的保护壳或配件 - 确认充电器已通过 Apple 认证（对于 MagSafe）",
+      "title": "无线充电问题"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/flags/",
+      "text": "标示位 ¶ Battman 显示由电池电量计芯片直接上报的原始标示位，这些位来自德州仪器的电量计（bq274xx、bq275xx、bq20zxx），在 标示位 行按高字节和低字节各一行呈现。 在 App 里你会看到 ¶ 一个十六进制数（如 0x00CC ）表示完整的 16 位标示字。 两行分段开关显示各位：上行为高字节，下行为低字节。 高亮/填充的段表示该位被置位，灰色表示未置位。 Battman 如何映射标示位 ¶ 若能识别具体电量计型号（设备名或主板标识），Battman 会加载对应的布局；否则会选择最接近的布局。 两行展示全部位，点亮的段即为置位。 含义遵循德州仪器的数据手册，核心字段见下表。 常见标示位含义 ¶ bq2742x（含 bq27421/25/26/27） 高字节（界面左→右） 位 含义 OT 过温 UT 低温 EEFAIL EEPROM 写入失败（仅 27425） FC 检测到满电 CHG 允许充电 低字节（左→右） 位 含义 OCVTAKEN 已采集开路电压 DODC 放电深度校正进行中（421/426/427） ITPOR 上电复位发生 CFGUPMODE 处于配置更新模式 BAT_DET 检测到电池 SOC1 达到低电量阈值 SOCF 达到危急电量阈值 DSG 放电中 bq2754x / 通用 bq275 高字节（左→右） 位 含义 OTC 充电过温（27545） OTD 放电过温（27545） BATHI 电压过高 BATLOW 电压过低 CHG_INH 因温度禁止充电 FC 检测到满电 CHG 允许充电（27545） 低字节 — 通用 bq275（左→右） 位 含义 CHG_SUS 充电挂起 IMAX Imax 变化中断 CHG 允许充电 SOC1 达到低电量阈值 SOCF 达到危急电量阈值 DSG 放电中 低字节 — bq27545 变体（左→右） 位 含义 OCVTAKEN 休眠开路电压采样 ISD 检测到内部短路 TDD 检测到极耳断开 HW1 / HW0 器件 ID 位 SOC1 达到低电量阈值 SOCF 达到危急电量阈值 DSG 放电中 bq20zxx（MacBook 电池状态） 高字节（左→右） 位 含义 OCA 过充告警 TCA 终止充电告警 OTA 过温告警 TDA 终止放电告警 RCA 剩余容量告警 RTA 剩余时间告警 低字节（左→右） 位 含义 INIT 电量计初始化 DSG 放电中 FC 满电 FD 完全放空 EC3 SBS 错误码位 3 EC2 SBS 错误码位 2 EC1 SBS 错误码位 1 EC0 SBS 错误码位 0 说明 ¶ 标示位布局遵循 TI 文档；阈值和时序请参考对应数据手册。 Battman 仅展示这些位；解读依赖充电状态与整机配置。如标示位长期与实际不符，可能是电池包或电量计上报异常。",
+      "title": "标示位"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/flags/#_1",
+      "text": "Battman 显示由电池电量计芯片直接上报的原始标示位，这些位来自德州仪器的电量计（bq274xx、bq275xx、bq20zxx），在 标示位 行按高字节和低字节各一行呈现。",
+      "title": "标示位"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/flags/#app",
+      "text": "一个十六进制数（如 0x00CC ）表示完整的 16 位标示字。 两行分段开关显示各位：上行为高字节，下行为低字节。 高亮/填充的段表示该位被置位，灰色表示未置位。",
+      "title": "在 App 里你会看到"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/flags/#battman",
+      "text": "若能识别具体电量计型号（设备名或主板标识），Battman 会加载对应的布局；否则会选择最接近的布局。 两行展示全部位，点亮的段即为置位。 含义遵循德州仪器的数据手册，核心字段见下表。",
+      "title": "Battman 如何映射标示位"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/flags/#_2",
+      "text": "bq2742x（含 bq27421/25/26/27） 高字节（界面左→右） 位 含义 OT 过温 UT 低温 EEFAIL EEPROM 写入失败（仅 27425） FC 检测到满电 CHG 允许充电 低字节（左→右） 位 含义 OCVTAKEN 已采集开路电压 DODC 放电深度校正进行中（421/426/427） ITPOR 上电复位发生 CFGUPMODE 处于配置更新模式 BAT_DET 检测到电池 SOC1 达到低电量阈值 SOCF 达到危急电量阈值 DSG 放电中 bq2754x / 通用 bq275 高字节（左→右） 位 含义 OTC 充电过温（27545） OTD 放电过温（27545） BATHI 电压过高 BATLOW 电压过低 CHG_INH 因温度禁止充电 FC 检测到满电 CHG 允许充电（27545） 低字节 — 通用 bq275（左→右） 位 含义 CHG_SUS 充电挂起 IMAX Imax 变化中断 CHG 允许充电 SOC1 达到低电量阈值 SOCF 达到危急电量阈值 DSG 放电中 低字节 — bq27545 变体（左→右） 位 含义 OCVTAKEN 休眠开路电压采样 ISD 检测到内部短路 TDD 检测到极耳断开 HW1 / HW0 器件 ID 位 SOC1 达到低电量阈值 SOCF 达到危急电量阈值 DSG 放电中 bq20zxx（MacBook 电池状态） 高字节（左→右） 位 含义 OCA 过充告警 TCA 终止充电告警 OTA 过温告警 TDA 终止放电告警 RCA 剩余容量告警 RTA 剩余时间告警 低字节（左→右） 位 含义 INIT 电量计初始化 DSG 放电中 FC 满电 FD 完全放空 EC3 SBS 错误码位 3 EC2 SBS 错误码位 2 EC1 SBS 错误码位 1 EC0 SBS 错误码位 0",
+      "title": "常见标示位含义"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/flags/#_3",
+      "text": "标示位布局遵循 TI 文档；阈值和时序请参考对应数据手册。 Battman 仅展示这些位；解读依赖充电状态与整机配置。如标示位长期与实际不符，可能是电池包或电量计上报异常。",
+      "title": "说明"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/not-charging-reason/",
+      "text": "未充电原因 ¶ “未充电原因”用于诊断在已连接充电器时设备为何没有充电。该信息来自 Apple SMC（系统管理控制器），有助于定位充电异常的根因。 概览 ¶ 未充电原因存放在 SMC 键 CHNC （Charger Not Charging）中，不同设备代际使用不同格式： 版本 0（NonSMC） ：无 SMC 支持的早期设备 版本 1（Gibraltar/BNCR） ：枚举格式，部分 Intel Mac 机型使用 版本 2（SMC/CHNC） ：位掩码格式，Apple Silicon 及绝大多数现代设备使用 通过读取 SMC 键 RGEN （Reason Generation）确定版本。 版本 2（SMC/CHNC）— 现代设备 ¶ 版本 2 采用位掩码，可同时包含多个原因。这是 2025 年起 Apple Silicon 与多数设备的主流格式。 常见原因 ¶ 原因 说明 已充满电 电池容量已达 100% 温度过低 电池温度低于停止充电阈值 温度过高 电池温度高于停止充电阈值 温度过低，无法开始 电池温度过低，无法开始充电 温度过高，无法开始 电池温度过高，无法开始充电 检测与存在问题 ¶ 原因 说明 充电器超时 充电超过 15 小时或触发超时标志 未检测到电池 系统未检测到电池 未检测到总线供电 USB 供电总线上无电源 充电抑制条件 ¶ 原因 说明 电量与温度高而停止 因高电量且温度高而停止充电 传感器交互失败 与电池管理传感器通信失败 系统模式 ¶ 原因 说明 正在连接配件 IOAccessoryManager 正在管理配件连接 展示模式 设备处于展示/亭模式，可能抑制充电 CoreMotion CoreMotion 框架控制充电行为 正在连接 USB-PD USB-PD 协商进行中 充电控制 ¶ 原因 说明 setbatt 控制 由 setbatt 工具或系统组件控制充电 优化电池充电 系统执行预测/优化充电以保护电池健康 无线充电控制 无线/感应式充电器接管充电流程 电量计固件正在升级 电量计（Gas Gauge）固件更新中（常见于 MagSafe） 不支持电池充电流抑制 电池硬件不支持软件层抑制充电流 PCTM Power Control Thermal Management 活动中 抑制客户端适配器 客户端适配器充电被抑制 电芯电压过高 一个或多个电芯电压超出安全阈值 电池未请求充电 电池管理系统未请求充电 相机流式传输 连续互联相机/摄像头串流占用（macOS 13 / iOS 16+） 系统控制 ¶ 原因 说明 VACTFB 电压/电流反馈控制充电 诊断 设备处于现场诊断模式 电流抑制 系统显式抑制了充电流入 测试运输模式 设备处于运营商测试模式 永久性故障 ¶ 出现以下情况通常意味着硬件或固件严重故障，可能需要送修： 原因 说明 充电时间过长 充电持续时间异常过长 电池电压故障 检测到电池电压故障 电池电流故障 检测到电池电流下限故障 充电器交互失败 与充电器通信失败 电芯检查失败 电芯完整性检查失败 当检测到任何永久性故障时，系统可能会以“电池永久故障”作为主提示。 版本 1（Gibraltar/BNCR）— Intel Mac 机型 ¶ 版本 1 使用枚举格式，任一时刻仅有一个原因生效，适用于部分 Intel Mac： J132, J137, J140, J152, J213, J214, J215, J680, J780 常见原因 ¶ 值 原因 说明 NO_REASON 无 正常充电 NO_AC 无交流电源 未检测到交流电适配器 NO_BATTERY 无电池 未检测到电池 BAD_BATTERY 电池故障 电池健康检查失败 BATTERY_FC 已充满电 电池已满 BATTERY_NO_CHG_REQ 电池未请求充电 电池管理系统未请求充电 AC_INSERT 正在使用交流电源 仅使用外接电源运行 G3 G3 设备休眠 处于 G3 电源状态 ADAPTER_DISABLED 适配器未启用 适配器被禁用 ADAPTER_UNKNOWN 未知适配器 适配器无法识别 ADAPTER_NOT_ALLOW_CHARGING 不受允许的适配器 适配器未获授权充电 CALIBRATION 校准中 正在校准电池 B0LI_0 充电已关闭 充电被禁用 OS_NO_CHG 系统充电已关闭 操作系统禁用充电 BCLM_REACHED 达到充电限制 已达到充电上限 UPSTREAM_NO_CHG 上行充电已关闭 上游控制禁用充电 PM_NO_CHG 电源管理充电已关闭 电源管理禁用充电 TB0T_OVER_50 电池温度大于50℃ 电池温度超过 50℃ TB0T_OVER_45 电池温度大于45℃ 电池温度超过 45℃ TEMP_GRADIENT_TOO_HIGH 温度梯度过高 电池温度变化过快 TEMP_NOT_ATV_VLD TEMP_NOT_ATV_VLD 温度读数无效 BATTERY_TCA BATTERY_TCA 电池热控制激活 OW_TDM_LINK_ACTIVE OW_TDM_LINK_ACTIVE 单线通信激活 CELL_VOLTAGE_TOO_HIGH 电芯电压过高 电芯电压超出安全范围 OBC_NO_CHG 优化电池充电 优化电池充电生效 VACTFB_NO_CHG VACTFB_NO_CHG 电压/电流反馈阻止充电 OBC_NO_INFLOW 优化电池充电（输入） 优化电池充电阻止电流流入 版本 0（NonSMC）— 早期设备 ¶ 版本 0 用于不具备 SMC 的老设备，已知包括： D10, D11 J71, J72, J73, J81, J82, J85, J86, J87, J96, J97, J98, J99, J120, J121, J127, J128, J171, J172, J207, J208 N27, N28, N61, N66, N69, N71, N74, N75, N111, N121 NonSMC 专用原因 ¶ 原因 说明 POSM Mode 自检/开机模式 Display 显示相关的充电控制 温度过低 电池温度过低 温度过高 电池温度过高 完成 充电完成 时间过长 充电时长超限 CHG_WD 充电器 watchdog 超时 读数解读 ¶ 未充电原因通常以十六进制展示（如 0x00000001 ）。在版本 2（位掩码）中可同时置多位，表示多个原因并存。 示例 ¶ 0x00000001 - 已充满电 0x00000002 - 温度过低 0x00000004 - 温度过高 0x00000003 - 已充满电且温度过低（两位同时置位） 故障排查提示 ¶ 温度问题 ：出现“温度过低/过高”时，让设备回到 0–35℃ 的正常工作温度范围。 优化电池充电 ：显示“优化电池充电”属正常行为，系统在学习使用模式以延长电池寿命。 固件更新 ：出现“电量计固件正在升级”为暂时状态，完成更新后会恢复。 永久故障 ：若出现任何永久性故障提示，电池或充电系统可能需要检修。 多重原因 ：版本 2 可同时触发多条原因，请结合全部列出的原因判断当前充电状态。 技术说明 ¶ 未充电原因来自 SMC 键 CHNC （多数设备 8 字节，移动设备 64 字节） 版本/代际由 SMC 键 RGEN 确定",
+      "title": "未充电原因"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/not-charging-reason/#_1",
+      "text": "“未充电原因”用于诊断在已连接充电器时设备为何没有充电。该信息来自 Apple SMC（系统管理控制器），有助于定位充电异常的根因。",
+      "title": "未充电原因"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/not-charging-reason/#_2",
+      "text": "未充电原因存放在 SMC 键 CHNC （Charger Not Charging）中，不同设备代际使用不同格式： 版本 0（NonSMC） ：无 SMC 支持的早期设备 版本 1（Gibraltar/BNCR） ：枚举格式，部分 Intel Mac 机型使用 版本 2（SMC/CHNC） ：位掩码格式，Apple Silicon 及绝大多数现代设备使用 通过读取 SMC 键 RGEN （Reason Generation）确定版本。",
+      "title": "概览"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/not-charging-reason/#2smcchnc",
+      "text": "版本 2 采用位掩码，可同时包含多个原因。这是 2025 年起 Apple Silicon 与多数设备的主流格式。",
+      "title": "版本 2（SMC/CHNC）— 现代设备"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/not-charging-reason/#_3",
+      "text": "原因 说明 已充满电 电池容量已达 100% 温度过低 电池温度低于停止充电阈值 温度过高 电池温度高于停止充电阈值 温度过低，无法开始 电池温度过低，无法开始充电 温度过高，无法开始 电池温度过高，无法开始充电",
+      "title": "常见原因"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/not-charging-reason/#_4",
+      "text": "原因 说明 充电器超时 充电超过 15 小时或触发超时标志 未检测到电池 系统未检测到电池 未检测到总线供电 USB 供电总线上无电源",
+      "title": "检测与存在问题"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/not-charging-reason/#_5",
+      "text": "原因 说明 电量与温度高而停止 因高电量且温度高而停止充电 传感器交互失败 与电池管理传感器通信失败",
+      "title": "充电抑制条件"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/not-charging-reason/#_6",
+      "text": "原因 说明 正在连接配件 IOAccessoryManager 正在管理配件连接 展示模式 设备处于展示/亭模式，可能抑制充电 CoreMotion CoreMotion 框架控制充电行为 正在连接 USB-PD USB-PD 协商进行中",
+      "title": "系统模式"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/not-charging-reason/#_7",
+      "text": "原因 说明 setbatt 控制 由 setbatt 工具或系统组件控制充电 优化电池充电 系统执行预测/优化充电以保护电池健康 无线充电控制 无线/感应式充电器接管充电流程 电量计固件正在升级 电量计（Gas Gauge）固件更新中（常见于 MagSafe） 不支持电池充电流抑制 电池硬件不支持软件层抑制充电流 PCTM Power Control Thermal Management 活动中 抑制客户端适配器 客户端适配器充电被抑制 电芯电压过高 一个或多个电芯电压超出安全阈值 电池未请求充电 电池管理系统未请求充电 相机流式传输 连续互联相机/摄像头串流占用（macOS 13 / iOS 16+）",
+      "title": "充电控制"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/not-charging-reason/#_8",
+      "text": "原因 说明 VACTFB 电压/电流反馈控制充电 诊断 设备处于现场诊断模式 电流抑制 系统显式抑制了充电流入 测试运输模式 设备处于运营商测试模式",
+      "title": "系统控制"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/not-charging-reason/#_9",
+      "text": "出现以下情况通常意味着硬件或固件严重故障，可能需要送修： 原因 说明 充电时间过长 充电持续时间异常过长 电池电压故障 检测到电池电压故障 电池电流故障 检测到电池电流下限故障 充电器交互失败 与充电器通信失败 电芯检查失败 电芯完整性检查失败 当检测到任何永久性故障时，系统可能会以“电池永久故障”作为主提示。",
+      "title": "永久性故障"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/not-charging-reason/#1gibraltarbncr-intel-mac",
+      "text": "版本 1 使用枚举格式，任一时刻仅有一个原因生效，适用于部分 Intel Mac： J132, J137, J140, J152, J213, J214, J215, J680, J780",
+      "title": "版本 1（Gibraltar/BNCR）— Intel Mac 机型"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/not-charging-reason/#_10",
+      "text": "值 原因 说明 NO_REASON 无 正常充电 NO_AC 无交流电源 未检测到交流电适配器 NO_BATTERY 无电池 未检测到电池 BAD_BATTERY 电池故障 电池健康检查失败 BATTERY_FC 已充满电 电池已满 BATTERY_NO_CHG_REQ 电池未请求充电 电池管理系统未请求充电 AC_INSERT 正在使用交流电源 仅使用外接电源运行 G3 G3 设备休眠 处于 G3 电源状态 ADAPTER_DISABLED 适配器未启用 适配器被禁用 ADAPTER_UNKNOWN 未知适配器 适配器无法识别 ADAPTER_NOT_ALLOW_CHARGING 不受允许的适配器 适配器未获授权充电 CALIBRATION 校准中 正在校准电池 B0LI_0 充电已关闭 充电被禁用 OS_NO_CHG 系统充电已关闭 操作系统禁用充电 BCLM_REACHED 达到充电限制 已达到充电上限 UPSTREAM_NO_CHG 上行充电已关闭 上游控制禁用充电 PM_NO_CHG 电源管理充电已关闭 电源管理禁用充电 TB0T_OVER_50 电池温度大于50℃ 电池温度超过 50℃ TB0T_OVER_45 电池温度大于45℃ 电池温度超过 45℃ TEMP_GRADIENT_TOO_HIGH 温度梯度过高 电池温度变化过快 TEMP_NOT_ATV_VLD TEMP_NOT_ATV_VLD 温度读数无效 BATTERY_TCA BATTERY_TCA 电池热控制激活 OW_TDM_LINK_ACTIVE OW_TDM_LINK_ACTIVE 单线通信激活 CELL_VOLTAGE_TOO_HIGH 电芯电压过高 电芯电压超出安全范围 OBC_NO_CHG 优化电池充电 优化电池充电生效 VACTFB_NO_CHG VACTFB_NO_CHG 电压/电流反馈阻止充电 OBC_NO_INFLOW 优化电池充电（输入） 优化电池充电阻止电流流入",
+      "title": "常见原因"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/not-charging-reason/#0nonsmc",
+      "text": "版本 0 用于不具备 SMC 的老设备，已知包括： D10, D11 J71, J72, J73, J81, J82, J85, J86, J87, J96, J97, J98, J99, J120, J121, J127, J128, J171, J172, J207, J208 N27, N28, N61, N66, N69, N71, N74, N75, N111, N121",
+      "title": "版本 0（NonSMC）— 早期设备"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/not-charging-reason/#nonsmc",
+      "text": "原因 说明 POSM Mode 自检/开机模式 Display 显示相关的充电控制 温度过低 电池温度过低 温度过高 电池温度过高 完成 充电完成 时间过长 充电时长超限 CHG_WD 充电器 watchdog 超时",
+      "title": "NonSMC 专用原因"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/not-charging-reason/#_11",
+      "text": "未充电原因通常以十六进制展示（如 0x00000001 ）。在版本 2（位掩码）中可同时置多位，表示多个原因并存。",
+      "title": "读数解读"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/not-charging-reason/#_12",
+      "text": "0x00000001 - 已充满电 0x00000002 - 温度过低 0x00000004 - 温度过高 0x00000003 - 已充满电且温度过低（两位同时置位）",
+      "title": "示例"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/not-charging-reason/#_13",
+      "text": "温度问题 ：出现“温度过低/过高”时，让设备回到 0–35℃ 的正常工作温度范围。 优化电池充电 ：显示“优化电池充电”属正常行为，系统在学习使用模式以延长电池寿命。 固件更新 ：出现“电量计固件正在升级”为暂时状态，完成更新后会恢复。 永久故障 ：若出现任何永久性故障提示，电池或充电系统可能需要检修。 多重原因 ：版本 2 可同时触发多条原因，请结合全部列出的原因判断当前充电状态。",
+      "title": "故障排查提示"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/not-charging-reason/#_14",
+      "text": "未充电原因来自 SMC 键 CHNC （多数设备 8 字节，移动设备 64 字节） 版本/代际由 SMC 键 RGEN 确定",
+      "title": "技术说明"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/warning-conditions/",
+      "text": "警告条件 ¶ 本页说明 Battman 基于电池与系统报告的数据而发出警告的条件。 电池信息 中的数据警告 ¶ Battman 会标出可疑或丢失的 电池信息 监测数据，并在此列的侧边显示一个“警告”图标，轻按图标可以显示如下之一的详细信息。 剩余容量 当其报告数据超过了“满充容量”，或者比设备计算的“真实剩余容量”多出大于 10 mAh 时，报告异常数据信息：“电池剩余容量数据异常，使用的可能是未经认证的电池部件。”，并且在其超过“满充容量”时，警告信息中会显示一个基于现有数据计算的“预估剩余”。 当数据丢失时，触发“未获取到剩余容量。” 循环计数 当“循环计数”超出“设计循环次数”时警告；当电量计未提供“设计循环次数”时，Battman 将会根据 Apple 官方文档进行推测（iPhone 15 之前：500；之后的 iPhone 与 iPad、Watch、MacBook: 1000；iPod：400）。警告信息：“已循环超过设计标准的周期次数，建议更换原厂电池组件。” 耗尽时间 当设备不在充电时，Battman 将报告的“耗尽时间”与理想预估（容量 ÷ 耗电电流）进行对比。如果报告的“耗尽时间”比理想预估多出了 1.5 倍，则警告“电池耗尽时间异常，使用的可能是未经认证的电池部件”。 放电深度 当“放电深度”比 3 倍的“化学最大容量”还要大时，数据被认为不典型（即便一直在充电），警告“电池化学放电深度异常，使用的可能是未经认证的电池部件。” 警告标题视特定条件可能为其中之一：“错误的数据”、“异常的数据”、“过大的数据”或者“空数据”。 如果你持续遇到这些警告，请考虑寻求专业硬件诊断。",
+      "title": "警告条件"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/warning-conditions/#_1",
+      "text": "本页说明 Battman 基于电池与系统报告的数据而发出警告的条件。",
+      "title": "警告条件"
+    },
+    {
+      "location": "zh/troubleshooting/battery-info/warning-conditions/#_2",
+      "text": "Battman 会标出可疑或丢失的 电池信息 监测数据，并在此列的侧边显示一个“警告”图标，轻按图标可以显示如下之一的详细信息。 剩余容量 当其报告数据超过了“满充容量”，或者比设备计算的“真实剩余容量”多出大于 10 mAh 时，报告异常数据信息：“电池剩余容量数据异常，使用的可能是未经认证的电池部件。”，并且在其超过“满充容量”时，警告信息中会显示一个基于现有数据计算的“预估剩余”。 当数据丢失时，触发“未获取到剩余容量。” 循环计数 当“循环计数”超出“设计循环次数”时警告；当电量计未提供“设计循环次数”时，Battman 将会根据 Apple 官方文档进行推测（iPhone 15 之前：500；之后的 iPhone 与 iPad、Watch、MacBook: 1000；iPod：400）。警告信息：“已循环超过设计标准的周期次数，建议更换原厂电池组件。” 耗尽时间 当设备不在充电时，Battman 将报告的“耗尽时间”与理想预估（容量 ÷ 耗电电流）进行对比。如果报告的“耗尽时间”比理想预估多出了 1.5 倍，则警告“电池耗尽时间异常，使用的可能是未经认证的电池部件”。 放电深度 当“放电深度”比 3 倍的“化学最大容量”还要大时，数据被认为不典型（即便一直在充电），警告“电池化学放电深度异常，使用的可能是未经认证的电池部件。” 警告标题视特定条件可能为其中之一：“错误的数据”、“异常的数据”、“过大的数据”或者“空数据”。 如果你持续遇到这些警告，请考虑寻求专业硬件诊断。",
+      "title": "电池信息中的数据警告"
+    },
+    {
+      "location": "zh/troubleshooting/screen-brightness/brightness-backends/",
+      "text": "亮度后端 ¶ Battman 会区分系统显示中使用的不同 亮度控制后端 。 标准 – 传统的背光控制路径，多见于早期或结构较简单的设备。 DCP – 基于 Display Co‑Processor（显示协处理器）的管线，用于较新的（A14 或更高）、面板控制更复杂的设备。 这意味着什么 ¶ 不同后端暴露的亮度上限、变化曲线以及响应延迟可能不同。 某些高级特性（如 HDR、更高刷新率）往往依赖 DCP 管线。 部分缺陷或奇怪行为可能仅在特定后端上出现，了解当前后端有助于问题排查。 此字段仅供参考，Battman 本身不会切换亮度后端。",
+      "title": "亮度后端"
+    },
+    {
+      "location": "zh/troubleshooting/screen-brightness/brightness-backends/#_1",
+      "text": "Battman 会区分系统显示中使用的不同 亮度控制后端 。 标准 – 传统的背光控制路径，多见于早期或结构较简单的设备。 DCP – 基于 Display Co‑Processor（显示协处理器）的管线，用于较新的（A14 或更高）、面板控制更复杂的设备。",
+      "title": "亮度后端"
+    },
+    {
+      "location": "zh/troubleshooting/screen-brightness/brightness-backends/#_2",
+      "text": "不同后端暴露的亮度上限、变化曲线以及响应延迟可能不同。 某些高级特性（如 HDR、更高刷新率）往往依赖 DCP 管线。 部分缺陷或奇怪行为可能仅在特定后端上出现，了解当前后端有助于问题排查。 此字段仅供参考，Battman 本身不会切换亮度后端。",
+      "title": "这意味着什么"
+    },
+    {
+      "location": "zh/troubleshooting/screen-brightness/nits-and-percentages/",
+      "text": "尼特（nits）与百分比 ¶ Battman 会同时以 百分比 与尽可能接近的 尼特（nits） 显示屏幕亮度。 两者为何不同 ¶ 系统亮度滑块在物理亮度上并非线性，同一百分比在不同面板上对应的尼特值可能不同。 实际亮度受机型、HDR 状态以及是否触发阳光增强模式等因素影响。 自动亮度、夜览（Night Shift）、原彩显示（True Tone）等功能会改变实际观感亮度。 在 Battman 中 ¶ 亮度 指标页展示当前百分比以及已知的硬件亮度限制信息。",
+      "title": "Nit 与百分比"
+    },
+    {
+      "location": "zh/troubleshooting/screen-brightness/nits-and-percentages/#nits",
+      "text": "Battman 会同时以 百分比 与尽可能接近的 尼特（nits） 显示屏幕亮度。",
+      "title": "尼特（nits）与百分比"
+    },
+    {
+      "location": "zh/troubleshooting/screen-brightness/nits-and-percentages/#_1",
+      "text": "系统亮度滑块在物理亮度上并非线性，同一百分比在不同面板上对应的尼特值可能不同。 实际亮度受机型、HDR 状态以及是否触发阳光增强模式等因素影响。 自动亮度、夜览（Night Shift）、原彩显示（True Tone）等功能会改变实际观感亮度。",
+      "title": "两者为何不同"
+    },
+    {
+      "location": "zh/troubleshooting/screen-brightness/nits-and-percentages/#battman",
+      "text": "亮度 指标页展示当前百分比以及已知的硬件亮度限制信息。",
+      "title": "在 Battman 中"
+    },
+    {
+      "location": "zh/troubleshooting/thermals/thermal-notification-levels/",
+      "text": "温控通知等级 ¶ 已弃用功能 此功能已被 iOS 弃用，在 iOS 16 或更高版本中不再可用。 Battman 会展示系统的 温控通知等级 ，用于描述 iOS 在发热时会采取多激进的限制措施。 等级 ¶ 热通知系统使用一系列渐进的行为等级，每个等级代表越来越激进的热缓解措施。下方显示的数字是 行为索引 （0-10），而非实际的系统通知等级 ID。 正常 — 正常工作状态，无热限制。 闪光灯衰减至70% — 手电筒（闪光灯）亮度降至 70%。 背光衰减至70% — 显示屏背光降至 70%。 闪光灯衰减至50% — 手电筒亮度进一步降至 50%。 背光衰减至50% — 显示屏背光降至 50%。 闪光灯已禁用 — 手电筒完全禁用。 背光衰减至25% — 激进的背光降低至 25%。 地图指南针已禁用 — 禁用地图指南针等视觉效果。 App 终止运行 — 可能会终止应用程序以降低热负载。 设备重新启动 — 极端热条件可能触发设备重启。 已准备好 — 热表已准备好（内部状态）。 实现细节 ¶ 重要： 实际的系统通知等级 ID 由 iOS 动态分配 ，并非固定值。上方显示的行为索引（0-10）只是不同热缓解行为的标识符。 这种动态映射使 Battman 即使在 iOS 为相同的热行为分配不同数字 ID 时也能正常工作。 在 Battman 中 ¶ 温控调校 页面会展示当前的通知等级，并允许有限的覆盖。 硬件温度 页面可帮助你将这些等级与具体传感器读数对应起来。 如果设备经常处于较高的通知等级，建议降低负载、改善散热，或在温控调校中采用更保守的设置。",
+      "title": "温控通知等级"
+    },
+    {
+      "location": "zh/troubleshooting/thermals/thermal-notification-levels/#_1",
+      "text": "已弃用功能 此功能已被 iOS 弃用，在 iOS 16 或更高版本中不再可用。 Battman 会展示系统的 温控通知等级 ，用于描述 iOS 在发热时会采取多激进的限制措施。",
+      "title": "温控通知等级"
+    },
+    {
+      "location": "zh/troubleshooting/thermals/thermal-notification-levels/#_2",
+      "text": "热通知系统使用一系列渐进的行为等级，每个等级代表越来越激进的热缓解措施。下方显示的数字是 行为索引 （0-10），而非实际的系统通知等级 ID。 正常 — 正常工作状态，无热限制。 闪光灯衰减至70% — 手电筒（闪光灯）亮度降至 70%。 背光衰减至70% — 显示屏背光降至 70%。 闪光灯衰减至50% — 手电筒亮度进一步降至 50%。 背光衰减至50% — 显示屏背光降至 50%。 闪光灯已禁用 — 手电筒完全禁用。 背光衰减至25% — 激进的背光降低至 25%。 地图指南针已禁用 — 禁用地图指南针等视觉效果。 App 终止运行 — 可能会终止应用程序以降低热负载。 设备重新启动 — 极端热条件可能触发设备重启。 已准备好 — 热表已准备好（内部状态）。",
+      "title": "等级"
+    },
+    {
+      "location": "zh/troubleshooting/thermals/thermal-notification-levels/#_3",
+      "text": "重要： 实际的系统通知等级 ID 由 iOS 动态分配 ，并非固定值。上方显示的行为索引（0-10）只是不同热缓解行为的标识符。 这种动态映射使 Battman 即使在 iOS 为相同的热行为分配不同数字 ID 时也能正常工作。",
+      "title": "实现细节"
+    },
+    {
+      "location": "zh/troubleshooting/thermals/thermal-notification-levels/#battman",
+      "text": "温控调校 页面会展示当前的通知等级，并允许有限的覆盖。 硬件温度 页面可帮助你将这些等级与具体传感器读数对应起来。 如果设备经常处于较高的通知等级，建议降低负载、改善散热，或在温控调校中采用更保守的设置。",
+      "title": "在 Battman 中"
+    },
+    {
+      "location": "zh/troubleshooting/thermals/unknown-screen-temperature/",
+      "text": "「未知」屏幕温度 ¶ 有时 Battman 无法将系统的读数映射到有意义的屏幕或面板温度。在这种情况下，界面可能会在屏幕温度处显示 “未知” ，或者完全省略该数值。 可能原因 ¶ 设备固件并未提供单独的面板温度传感器。 当前 iOS 版本隐藏或聚合了相关传感器。 Battman 运行在模拟器或不受支持的平台（例如某些 Mac）。 Battman 尚未支持读取您设备的面板温度。 可以怎么处理 ¶ 使用 硬件温度 页面查看其他可用传感器。 检查异常的热压或降频现象，而不是依赖单一的屏幕温度数值。 保持 Battman 为最新版本；可能会随着时间的推移添加对更多传感器的支持。",
+      "title": "「未知」屏幕温度"
+    },
+    {
+      "location": "zh/troubleshooting/thermals/unknown-screen-temperature/#_1",
+      "text": "有时 Battman 无法将系统的读数映射到有意义的屏幕或面板温度。在这种情况下，界面可能会在屏幕温度处显示 “未知” ，或者完全省略该数值。",
+      "title": "「未知」屏幕温度"
+    },
+    {
+      "location": "zh/troubleshooting/thermals/unknown-screen-temperature/#_2",
+      "text": "设备固件并未提供单独的面板温度传感器。 当前 iOS 版本隐藏或聚合了相关传感器。 Battman 运行在模拟器或不受支持的平台（例如某些 Mac）。 Battman 尚未支持读取您设备的面板温度。",
+      "title": "可能原因"
+    },
+    {
+      "location": "zh/troubleshooting/thermals/unknown-screen-temperature/#_3",
+      "text": "使用 硬件温度 页面查看其他可用传感器。 检查异常的热压或降频现象，而不是依赖单一的屏幕温度数值。 保持 Battman 为最新版本；可能会随着时间的推移添加对更多传感器的支持。",
+      "title": "可以怎么处理"
+    },
+    {
+      "location": "zh/updating/ios/",
+      "text": "在 iOS 上更新 Battman ¶ 在 iOS 上更新 Battman 的方式取决于你最初是如何安装它的。 通过 TrollStore 安装的 ¶ 按照与首次安装相同的方式安装新版。 通过包管理器安装的 ¶ 打开使用的包管理器（如 Cydia、Sileo、Zebra 等）。 刷新软件源。 若有新的 Battman 版本，可直接使用 升级/更新 操作。",
+      "title": "iOS"
+    },
+    {
+      "location": "zh/updating/ios/#ios-battman",
+      "text": "在 iOS 上更新 Battman 的方式取决于你最初是如何安装它的。",
+      "title": "在 iOS 上更新 Battman"
+    },
+    {
+      "location": "zh/updating/ios/#trollstore",
+      "text": "按照与首次安装相同的方式安装新版。",
+      "title": "通过 TrollStore 安装的"
+    },
+    {
+      "location": "zh/updating/ios/#_1",
+      "text": "打开使用的包管理器（如 Cydia、Sileo、Zebra 等）。 刷新软件源。 若有新的 Battman 版本，可直接使用 升级/更新 操作。",
+      "title": "通过包管理器安装的"
+    },
+    {
+      "location": "zh/updating/macos/",
+      "text": "在 macOS 上更新 Battman ¶ 目前尚未发布 Battman 的原生 macOS 版本，因此本页主要说明未来预期的行为。 预期行为 ¶ macOS 版 Battman 可能会以签名应用包或通过包管理器的形式分发。 更新方式大概率会遵循常见 macOS 应用模式（替换 /Applications 中的应用，或使用包管理器的更新命令）。 在 macOS 版本正式发布之前，本页无实际更新步骤可供执行；如需更新，请参见 更新 → iOS ，该平台目前已得到正式支持。",
+      "title": "macOS"
+    },
+    {
+      "location": "zh/updating/macos/#macos-battman",
+      "text": "目前尚未发布 Battman 的原生 macOS 版本，因此本页主要说明未来预期的行为。",
+      "title": "在 macOS 上更新 Battman"
+    },
+    {
+      "location": "zh/updating/macos/#_1",
+      "text": "macOS 版 Battman 可能会以签名应用包或通过包管理器的形式分发。 更新方式大概率会遵循常见 macOS 应用模式（替换 /Applications 中的应用，或使用包管理器的更新命令）。 在 macOS 版本正式发布之前，本页无实际更新步骤可供执行；如需更新，请参见 更新 → iOS ，该平台目前已得到正式支持。",
+      "title": "预期行为"
+    }
+  ]
+}
